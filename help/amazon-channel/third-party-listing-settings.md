@@ -1,11 +1,11 @@
 ---
 title: 타사 목록
 description: 타사 목록 설정을 업데이트하여 상거래 카탈로그가 기존 Amazon Seller Central 목록에서 제품을 가져오는지 결정합니다.
-redirect_from: /sales-channels/asc/ob-third-party-listings.html: 
+redirect_from: /sales-channels/asc/ob-third-party-listings.html
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 519
+source-wordcount: '519'
 ht-degree: 0%
 
 ---

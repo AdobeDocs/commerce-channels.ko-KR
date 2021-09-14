@@ -1,11 +1,11 @@
 ---
 title: 제품 목록 작업
 description: 제품 목록 작업 설정을 사용하여 상거래 카탈로그가 Amazon과 상호 작용하는 방법을 정의합니다.
-redirect_from: /sales-channels/asc/ob-product-listing-actions.html: 
+redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 568
+source-wordcount: '568'
 ht-degree: 0%
 
 ---

@@ -1,11 +1,11 @@
 ---
 title: 가격책정 규칙 일반 설정
 description: 가격 규칙 일반 설정을 사용하여 목록 가격 규칙의 주요 특성을 정의합니다.
-redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-general-settings.html
 exl-id: 915b3eed-997e-4f94-a23f-0553a9dfe30c
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 711
+source-wordcount: '711'
 ht-degree: 0%
 
 ---

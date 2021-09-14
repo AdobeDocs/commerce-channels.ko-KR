@@ -1,11 +1,11 @@
 ---
 title: 주식/수량
-description: '상거래 저장소에서  [!DNL Amazon Seller Central] 계정으로 제품 수량 세부 정보의 동기화를 제어하려면 주식/수량 설정을 업데이트하십시오.'
-redirect_from: /sales-channels/asc/ob-stock-quantity.html: 
+description: 상거래 저장소에서  [!DNL Amazon Seller Central] 계정으로 제품 수량 세부 정보의 동기화를 제어하려면 주식/수량 설정을 업데이트하십시오.
+redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 771
+source-wordcount: '771'
 ht-degree: 0%
 
 ---

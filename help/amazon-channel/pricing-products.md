@@ -1,11 +1,11 @@
 ---
 title: Amazon 가격 관리
 description: 가격 규칙을 사용하여 Amazon 목록과 COmbox 스토어에 대한 가격을 설정할 수 있습니다.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules.html
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 865
+source-wordcount: '865'
 ht-degree: 0%
 
 ---

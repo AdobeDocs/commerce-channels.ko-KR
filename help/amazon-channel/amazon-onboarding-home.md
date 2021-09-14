@@ -1,11 +1,11 @@
 ---
 title: 온보드 Amazon Sales Channel
-description: 'Adobe 상거래 및 Magento Open Source에서 사전 설정 작업, 온보딩 단계 및 Amazon이 Amazon Sales Channel과 작동하는 방식에 대해 알아봅니다.'
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html: 
+description: Adobe 상거래 및 Magento Open Source에서 사전 설정 작업, 온보딩 단계 및 Amazon이 Amazon Sales Channel과 작동하는 방식에 대해 알아봅니다.
+redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 418
+source-wordcount: '418'
 ht-degree: 0%
 
 ---

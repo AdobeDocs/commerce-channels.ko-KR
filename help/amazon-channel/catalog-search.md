@@ -1,11 +1,11 @@
 ---
 title: 카탈로그 검색
 description: 적합한 상거래 카탈로그 제품을 Amazon 목록에 매핑하는 데 도움이 되는 속성 일치를 설정하려면 카탈로그 검색 설정을 업데이트하십시오.
-redirect_from: /sales-channels/asc/ob-catalog-search.html: 
+redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 981
+source-wordcount: '981'
 ht-degree: 0%
 
 ---

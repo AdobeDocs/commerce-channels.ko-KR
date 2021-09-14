@@ -1,11 +1,11 @@
 ---
 title: 가격 규칙 작업
 description: 가격 규칙 조치를 사용하여 가격 출처에 적용되는 조정 계산을 정의하여 Amazon 목록 가격을 결정합니다.
-redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html: 
+redirect_from: /sales-channels/asc/ob-pricing-rules-actions.html
 exl-id: c46bd5c2-7994-45b4-ae0c-9e473372c73a
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 632157839130461869345724bdfc03b306a4f613
 workflow-type: tm+mt
-source-wordcount: 211
+source-wordcount: '211'
 ht-degree: 0%
 
 ---
