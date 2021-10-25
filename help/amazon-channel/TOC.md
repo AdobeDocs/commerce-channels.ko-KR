@@ -1,6 +1,6 @@
 ---
 user-guide-title: Amazon Sales Channel 사용 안내서
-user-guide-description: Adobe Commerce 또는 Magento Open Source을  [!DNL Amazon Seller Central] 계정과 통합하여 Amazon을 통해 매출을 생성합니다.
+user-guide-description: Adobe Commerce 또는 Magento Open Source을 와 통합하여 Amazon을 통해 판매 생성 [!DNL Amazon Seller Central] 계정이 필요합니다.
 breadcrumb-title: 상거래 채널 관리자
 source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
 workflow-type: tm+mt
@@ -10,7 +10,7 @@ ht-degree: 0%
 ---
 
 
-# Amazon 영업 채널 - Adobe 상거래의 경우 [!DNL channel manager] {#amazon}
+# Amazon 영업 채널 - [!DNL channel manager] Adobe Commerce {#amazon}
 
 - [Amazon 영업 채널](overview.md)
 - 시작하기 {#getting-started}
@@ -19,15 +19,15 @@ ht-degree: 0%
    - [Amazon 및 전자 상거래 카탈로그 정보](about-listings-and-catalog.md)
    - [우수 사례 및 제한 사항](amazon-best-practices.md)
    - [확장 설치](install.md)
-- {#onboarding} 온보딩
+- 온보딩 {#onboarding}
    - [온보드 Amazon 영업 채널](amazon-onboarding-home.md)
    - [사전 설정 작업](amazon-pre-setup-tasks.md)
-   - [Amazon용  [!DNL Commerce] 특성 만들기](ob-creating-magento-attributes.md)
+   - [만들기 [!DNL Commerce] Amazon 속성](ob-creating-magento-attributes.md)
    - [Amazon API 키 확인](amazon-verify-api-key.md)
    - [스토어 통합](store-integration.md)
    - [목록 규칙 만들기](ob-create-listing-rule.md)
    - [기본 저장소 설정](default-store-settings.md)
-- 영업 채널 {#manage} 관리
+- 영업 채널 관리 {#manage}
    - [홈 페이지](amazon-sales-channel-home.md)
    - [Amazon 스토어](managing-stores.md)
    - [작업 공간 컨트롤](workspace-controls.md)

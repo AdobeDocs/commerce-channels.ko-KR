@@ -16,20 +16,20 @@ ht-degree: 0%
 
 ## 표준 가격 규칙
 
-[표준 가격 규칙](./standard-price-rules.md)을 사용하면 [!DNL Commerce] 카탈로그 가격(또는 가격 소스)에 대해 특정 백분율 또는 고정 달러 금액만큼 Amazon 목록 가격을 늘리거나 줄일 수 있습니다.
+A [표준 가격 규칙](./standard-price-rules.md) 을(를) 통해 특정 백분율 또는 고정 달러 금액만큼 Amazon 목록 가격을 늘리거나 줄일 수 있습니다 [!DNL Commerce] 카탈로그 가격(또는 가격 출처)
 
 | 섹션 | 설명 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 규칙 유형을 `Standard price rule`(으)로 설정합니다. |
+| [[!UICONTROL Select Rule Type]](./standard-price-rules.md) | 규칙 유형을 로 설정합니다. `Standard price rule`. |
 | [[!UICONTROL Price Adjustment]](./standard-price-rules.md) | 가격 출처에 적용되는 조정 계산을 정의하여 목록 가격을 결정합니다 |
 
 ## 지능형 가격 조정 규칙
 
-[지능형 가격 조정 규칙](./intelligent-repricing-rules.md)은 Amazon 경쟁사의 가격을 사용하여 목록 가격을 결정합니다. 경쟁 업체는 Amazon에서 나열하는 동일한 제품을 나열하는 다른 판매자입니다.
+An [지능형 가격 조정 규칙](./intelligent-repricing-rules.md) Amazon 경쟁사의 가격을 사용하여 정가를 결정합니다. 경쟁 업체는 Amazon에서 나열하는 동일한 제품을 나열하는 다른 판매자입니다.
 
 | 섹션 | 설명 |
 |--- |--- |
-| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 경쟁업체 가격 소스 및 피드백 요구 사항과 함께 규칙 유형을 `Intelligent repricing rule` 로 설정합니다. |
+| [[!UICONTROL Select Rule Type]](./intelligent-repricing-rules.md) | 규칙 유형을 로 설정합니다. `Intelligent repricing rule` 경쟁업체 가격 소스 및 피드백 요구 사항과 함께 제공됩니다. |
 | [[!UICONTROL Competitor Conditional Variances]](./competitor-conditional-variances.md) | 경쟁사가 판매하는 동일한 제품의 조건에 대한 차이를 정의합니다. |
 | [[!UICONTROL Price Adjustment]](./price-adjustment.md) | 가격 출처에 적용되는 조정 계산을 정의하여 목록 가격을 결정합니다 |
 | [[!UICONTROL Floor Price]](./floor-price.md) | 여러 가격책정 규칙이 목록 가격을 너무 낮게 설정하지 못하도록 제품에 대한 가장 낮은 가격을 정의합니다. |

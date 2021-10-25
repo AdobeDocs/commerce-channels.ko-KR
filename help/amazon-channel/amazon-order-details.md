@@ -1,6 +1,6 @@
 ---
 title: Amazon 주문 세부 사항
-description: Adobe 상거래 또는 Magento Open Source 관리자에서 Amazon Marketplace 주문에 대한 세부 정보를 볼 수 있습니다.
+description: Adobe Commerce 또는 Magento Open Source 관리자에서 Amazon Marketplace 주문에 대한 세부 정보를 볼 수 있습니다.
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ## Amazon 주문 세부 사항 보기
 
-1. 스토어 카드에서 **[!UICONTROL View Store]** 을 클릭합니다.
+1. 클릭 **[!UICONTROL View Store]** 매장 카드 위에
 
-1. _[!UICONTROL Recent Orders]_섹션에서 주문 번호를 클릭합니다.
+1. 에서 _[!UICONTROL Recent Orders]_섹션에서 주문 번호를 클릭합니다.
 
-   _[!UICONTROL Amazon Order Details]_페이지가 열립니다.
+   다음 _[!UICONTROL Amazon Order Details]_페이지가 열립니다.
 
 >[!NOTE]
 >
->[주문 설정](./order-settings.md)에 주문 가져오기를 활성화했으며 주문이 Amazon(FBA)](./fulfilled-by.md)에 의해 이행된 [인 경우 주문 세부 사항에 일부 필드에 대한 더미 데이터가 표시될 수 있습니다. Amazon은 FBA 주문에 대해 다음 데이터를 전송하지 않습니다.
+>에서 주문 임포트를 사용하도록 설정한 경우 [주문 설정](./order-settings.md) 순서는 [Amazon(FBA)에 의해 처리됨](./fulfilled-by.md)를 입력하면 순서 세부 정보에 일부 필드에 대한 더미 데이터가 표시될 수 있습니다. Amazon은 FBA 주문에 대해 다음 데이터를 전송하지 않습니다.
 >
 > - `AddressType`
 > - `AddressLine1`
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 ### 주문 및 운송 상세내역 탭
 
-_[!UICONTROL Order and Shipping Details]_탭에는 Amazon에서 받은 대로 자세한 주문 정보가 표시됩니다.
+다음 _[!UICONTROL Order and Shipping Details]_탭에는 Amazon에서 받은 대로 자세한 주문 정보가 표시됩니다.
 
 >[!IMPORTANT]
 >
@@ -54,18 +54,18 @@ _[!UICONTROL Order and Shipping Details]_탭에는 Amazon에서 받은 대로 �
 >- `Shipping country`
 
 >
->편집 후 **주문 저장**&#x200B;을 클릭하는 것을 잊지 마십시오.
+>클릭을 잊지 마십시오 **주문 저장** 편집한 후
 
 ![주문 및 배송 세부 정보](assets/amazon-order-details.png)
 
 ### 주문 품목 탭
 
-_[!UICONTROL Order Items]_탭에는 Amazon에서 받은 대로 Amazon 주문과 연관된 모든 항목이 표시됩니다.
+다음 _[!UICONTROL Order Items]_탭에는 Amazon에서 받은 대로 Amazon 주문과 연관된 모든 항목이 표시됩니다.
 
 ![주문 품목 세부 정보](assets/amazon-order-item-details.png)
 
 ### 추적 탭
 
-_[!UICONTROL Tracking]_탭에는 Amazon 주문과 연관된 추적 정보가 표시됩니다.
+다음 _[!UICONTROL Tracking]_탭에는 Amazon 순서와 연관된 추적 정보가 표시됩니다.
 
 ![추적 세부 사항](assets/amazon-order-tracking-details.png)

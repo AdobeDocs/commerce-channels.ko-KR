@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 경쟁력 분석
 
-경쟁 제품 가격 분석 보고서는 마켓플레이스별 Amazon 목록을 각각의 [Buy Box](./buy-box-competitor-pricing.md) 가격과 [가장 낮은 경쟁업체](./lowest-competitor-pricing.md) 가격 값으로 보여줍니다. 로그에 사용할 수 있는 작업이 없습니다. 이것은 리뷰 전용 기능입니다.
+경쟁 제품 가격 분석 보고서는 마켓플레이스당 각각의 Amazon 목록을 보여줍니다 [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [최저 경쟁사](./lowest-competitor-pricing.md) 가격 값. 로그에 사용할 수 있는 작업이 없습니다. 이것은 리뷰 전용 기능입니다.
 
 ![경쟁업체 가격 분석 보고서](assets/amazon-competitive-price-analysis.png)
 
@@ -25,6 +25,6 @@ ht-degree: 0%
 | [!UICONTROL Your Landed Price] | 귀사의 제품 목록 가격과 배송가격 |
 | [!UICONTROL Lowest Landed Price] | Amazon 경쟁업체로부터 가장 낮은 도입 가격(가격 및 배송 가격 포함)입니다. |
 | [!UICONTROL Condition (lowest price)] | 최저 가격으로 나열된 제품의 조건입니다. |
-| [!UICONTROL Buy Box Landed Price] | [Buy Box](./buy-box-competitor-pricing.md) 위치 목록의 랜딩 가격(가격 및 배송 가격 포함)입니다. |
+| [!UICONTROL Buy Box Landed Price] | Adobe Analytics Mobile Apps 또는 Analytics Premium이 2010년 8월 출시할 예정이다. [Buy Box](./buy-box-competitor-pricing.md) 위치 목록. |
 | [!UICONTROL Is Seller (Buy Box)] | 목록에 대한 Buy Box 위치에 성공했는지 여부를 나타냅니다(NA: 목록에 대한 Buy Box 가격이 없음을 의미합니다.). |
 | 조건(Buy Box) | Buy Box 위치 목록의 조건입니다. |

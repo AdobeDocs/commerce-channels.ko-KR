@@ -1,6 +1,6 @@
 ---
 title: 가장 낮은 경쟁업체 가격
-description: '[!UICONTROL Amazon Sales Channel] 은 Amazon에서 경쟁사의 가격 결정을 이해하는 데 도움이 되는 [!UICONTROL Lowest Competitor Pricing] 탭을 제공합니다.'
+description: 다음 [!UICONTROL Amazon Sales Channel] 은 [!UICONTROL Lowest Competitor Pricing] Amazon에서 경쟁업체의 가격 결정을 이해하는 데 도움이 되는 탭입니다.
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
 source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
 workflow-type: tm+mt
@@ -11,30 +11,30 @@ ht-degree: 0%
 
 # 가장 낮은 경쟁업체 가격
 
-_[!UICONTROL Product Listing Details]_페이지의_[!UICONTROL Lowest Competitor Pricing]_ 탭은 가장 낮은 최종 랜딩 가격을 표시하지만 배송 가격과 목록 가격으로 분류됩니다. 이 정보는 Amazon에서 경쟁 업체의 가격 결정을 이해하는 데 사용할 수 있습니다.
+다음 _[!UICONTROL Lowest Competitor Pricing]_탭에서 다음을 수행합니다._[!UICONTROL Product Listing Details]_ 페이지에는 최종 최종 랜딩 가격이 가장 낮지만, 배송 가격과 목록 가격으로 분류됩니다. 이 정보는 Amazon에서 경쟁 업체의 가격 결정을 이해하는 데 사용할 수 있습니다.
 
-[지능형 가격 ](./intelligent-repricing-rules.md) 조정 규칙은 경쟁업체 가격에 따라 가격을 조정하도록 구성할 수 있습니다.
+[지능형 가격 조정 규칙](./intelligent-repricing-rules.md) 경쟁사 가격을 기준으로 가격을 조정하도록 구성할 수 있습니다.
 
 ![가장 낮은 경쟁업체 가격](assets/amazon-listing-details-lowest-comp.png)
 
 ## 가장 낮은 경쟁업체 가격 정보 액세스
 
-1. 저장소 대시보드에서 **[!UICONTROL Manage Listings]** 을 클릭합니다.
+1. 클릭 **[!UICONTROL Manage Listings]** 저장 대시보드에서
 
-   [_[!UICONTROL Product Listing]_](./managing-product-listings.md) 페이지가 열립니다.
+   다음 [_[!UICONTROL Product Listing]_](./managing-product-listings.md) 페이지가 열립니다.
 
 1. 목록 상태 탭에서 목록의 제품 목록 이름을 클릭합니다.
 
-   _[!UICONTROL Product Listing Details]_페이지가 열립니다.
+   다음 _[!UICONTROL Product Listing Details]_페이지가 열립니다.
 
-1. **[!UICONTROL Lowest Competitor Pricing]** 탭을 클릭합니다.
+1. 을(를) 클릭합니다. **[!UICONTROL Lowest Competitor Pricing]** 탭.
 
    Amazon과 해당 가격 책정 관련 상인 목록을 표시합니다.
 
 | 열 | 설명 |
 |---|---|
 | [!UICONTROL ASIN] | 항목을 식별하는 10자 및/또는 숫자로 된 고유한 블록입니다.<br><br>장부의 경우 ASIN은 ISBN 번호와 동일하지만 다른 모든 제품의 경우 항목이 카탈로그에 업로드되면 새 ASIN이 생성됩니다. 제품 세부 정보 페이지에서 항목의 ASIN과 항목에 대한 추가 세부 정보(예: 크기, 페이지 수 또는 디스크 수)를 찾을 수 있습니다. |
-| [!UICONTROL Condition] | 제품의 [조건](./product-listing-condition.md)입니다. |
+| [!UICONTROL Condition] | 다음 [조건](./product-listing-condition.md) Analytics Premium이 있어야 합니다. |
 | [!UICONTROL Fulfillment Channel] | 이행 방법입니다. |
 | [!UICONTROL Listing Price] | Amazon 목록에 사용된 가격입니다. |
 | [!UICONTROL Shipping Price] | 제품을 출하하는 비용. |

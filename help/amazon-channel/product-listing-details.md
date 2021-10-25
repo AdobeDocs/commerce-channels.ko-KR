@@ -11,14 +11,14 @@ ht-degree: 0%
 
 # 목록 세부 사항 보기
 
-_[!UICONTROL Product Listing Details]_페이지에는 개별 SKU/제품의 변경 사항을 보여주는 활동 로그 나열 등 활성 제품 목록에 대한 추가 정보가 표시됩니다. 이 정보는 제품과 개별 SKU/제품 변경 사항에 대한 경쟁업체 지표를 이해하는 데 도움이 됩니다. 이 페이지의 추가 정보에는 다음이 포함됩니다.
+다음 _[!UICONTROL Product Listing Details]_개별 SKU/제품에 대한 변경 사항을 표시하는 활동 로그 나열 등 활성 제품 목록에 대한 추가 정보가 페이지에 표시됩니다. 이 정보는 제품과 개별 SKU/제품 변경 사항에 대한 경쟁업체 지표를 이해하는 데 도움이 됩니다. 이 페이지의 추가 정보에는 다음이 포함됩니다.
 
 - **[!UICONTROL Listing Details]** - 이름 및 Amazon 판매자 SKU를 포함한 제품 세부 사항
 - **[!UICONTROL Listing Activity Log]** - 가격 책정 및 수량/재고 변경과 같이 이 목록에 대해 발생한 모든 변경 사항의 기록 추가 작업은 필요하지 않습니다. 이 로그는 변경 내용을 이해할 수 있도록 제공됩니다.
-- **[!UICONTROL Buy Box Competitor Pricing]** - Amazon의  [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 상태 및 경쟁업체 가격 데이터
+- **[!UICONTROL Buy Box Competitor Pricing]** - Amazon 데이터 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 상태 및 경쟁업체 가격 책정
 - **[!UICONTROL Lowest Competitor Pricing]** - 가장 낮은 Amazon 경쟁업체의 가격 및 피드백 정보에 대한 정보
 
-Amazon 판매 채널 홈 페이지는 표시되는 데이터를 사용자 지정할 수 있는 몇 가지 일반적인 [작업 공간 컨트롤](./workspace-controls.md)을 공유합니다.
+Amazon 영업 채널 홈 페이지는 다음과 같은 몇 가지 일반적인 [작업 영역 컨트롤](./workspace-controls.md) 표시되는 데이터를 사용자 지정할 수 있습니다.
 
 ## 목록 세부 정보
 
@@ -45,10 +45,10 @@ __
 
 ## Buy Box 경쟁업체 가격 책정 {#buy-box-competitor-pricing}
 
-이 탭에는 목록의 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 위치를 가진 Amazon 머천트에 대한 정보가 표시됩니다. 이 정보는 Amazon에서 경쟁 업체의 가격 결정을 이해하는 데 사용할 수 있습니다. 표시되는 정보는 다음과 같습니다.
+이 탭에는 [[!DNL Buy Box]](./buy-box-competitor-pricing.md) 목록의 위치입니다. 이 정보는 Amazon에서 경쟁 업체의 가격 결정을 이해하는 데 사용할 수 있습니다. 표시되는 정보는 다음과 같습니다.
 
 - ASIN: 10자리 Amazon 제품 식별자입니다.
-- 판매자임: [!DNL Buy Box] 판매자인지 식별합니다. 옵션 예 / 아니오.
+- 판매자임: 본인 여부를 식별합니다 [!DNL Buy Box] 판매자. 옵션 예 / 아니오.
 - 조건: 목록에 대해 정의된 조건을 식별합니다.
 - 목록 가격: 목록이 게시된 가격을 식별합니다.
 - 배송 가격: 목록에 추가된 운송 가격을 식별합니다.
@@ -59,7 +59,7 @@ __
 
 ## 가장 낮은 경쟁업체 가격 {#lowest-competitor-pricing}
 
-이 탭에는 동일한 목록에 대한 Amazon 경쟁 제품에 대한 정보가 표시됩니다. 이 정보는 가격 포지셔닝 및 [가장 낮은 경쟁업체 가격](./lowest-competitor-pricing.md)을 이해하는 데 사용할 수 있습니다. 표시되는 정보는 다음과 같습니다.
+이 탭에는 동일한 목록에 대한 Amazon 경쟁 제품에 대한 정보가 표시됩니다. 이 정보는 가격 결정 및 [최저 가격 가격](./lowest-competitor-pricing.md). 표시되는 정보는 다음과 같습니다.
 
 - ASIN: 10자리 Amazon 제품 식별자입니다.
 - 조건: 목록에 대해 정의된 조건을 식별합니다.

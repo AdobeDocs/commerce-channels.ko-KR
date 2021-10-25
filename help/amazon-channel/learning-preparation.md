@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # 학습 및 준비
 
-_[!UICONTROL Learning and Preparation]_보기는 Amazon 저장소를 통합하기 전에 권장되는 사전 설정 작업 목록을 보여줍니다. 다음과 같은 학습 자료에 대한 링크도 제공합니다.
+다음 _[!UICONTROL Learning and Preparation]_보기는 Amazon 저장소를 통합하기 전에 권장되는 사전 설정 작업 목록을 보여줍니다. 다음과 같은 학습 자료에 대한 링크도 제공합니다.
 
 - 이 [사용 안내서](./overview.md)
 - 비디오 자습서
