@@ -1,10 +1,10 @@
 ---
 title: 확장 설치
-description: 를 통합하려면 [!DNL Commerce] catalog with [!DNL Amazon Seller Accounts] 그리고 [!DNL Amazon Marketplace]Amazon Sales Channel 확장을 다운로드하여 설치합니다.
+description: 를 통합하려면 [!DNL Commerce] 카탈로그 [!DNL Amazon Seller Accounts] 그리고 [!DNL Amazon Marketplace]Amazon Sales Channel 확장을 다운로드하여 설치합니다.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: 8d12a839bbdf77f27c732507b5b776729e252a9f
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 >
 >전용 [!DNL Amazon Sales Channel] 확장 4.0 이상 버전은 Adobe Commerce 및 Magento Open Source 2.4.x 버전에서 지원됩니다. 2.3.x 버전을 실행하는 경우 [호환 가능한 Amazon 판매 채널 릴리스](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target=&quot;_blank&quot;}. 버전 호환성에 대한 자세한 내용은 [사용 가능](https://devdocs.magento.com/release/availability.html)개발자 설명서의 {target=&quot;_blank&quot;} 페이지입니다.
 
-다음 [!UICONTROL Amazon Sales Channel] extension에서 Commerce 카탈로그를 와 통합하는 기능을 설치하고 추가합니다. [!DNL Amazon Seller Accounts] 팔다 [!DNL Amazon Marketplace]. 추가 정보를 검토하려면 [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) 페이지 [!DNL Commerce Marketplace] 그리고 [릴리스 노트](https://devdocs.magento.com/extensions/amazon-sales/release-notes/) 개발자 설명서에서 를 참조하십시오.
+다음 [!UICONTROL Amazon Sales Channel] extension에서 Commerce 카탈로그를 와 통합하는 기능을 설치하고 추가합니다. [!DNL Amazon Seller Accounts] 팔다 [!DNL Amazon Marketplace]. 추가 정보를 검토하려면 [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) 페이지 [!DNL Commerce Marketplace] 그리고 [릴리스 노트](release-notes.md).
 
 ## 요구 사항
 

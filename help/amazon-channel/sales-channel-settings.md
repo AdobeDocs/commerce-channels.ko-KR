@@ -2,9 +2,9 @@
 title: Sales Channel 설정
 description: Amazon 영업 채널 기능에 대한 로깅, 로그온 소스 및 동기화를 관리하려면 상거래 구성을 업데이트하십시오.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: 5508fe6e6b2193eaaebc78f485aae972504554cc
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,16 @@ ht-degree: 0%
 1. 대상 **[!UICONTROL Enable Debug Logging]**, 선택 `Enabled` 문제 해결 시 추가 동기화 데이터를 수집하려면
 
    Amazon 영업 채널 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 파일 및에서 볼 수 있습니다. [개발자 모드](https://docs.magento.com/user-guide/magento/installation-modes.html){target=&quot;_blank&quot;}. 로깅은 `Enabled` 문제 해결 중 및에 대해 `Disabled` 문제 해결이 완료되면
+
+1. 대상 **[!UICONTROL Read-Only Mode]**, 선택 `Enabled` 나가는 상태 변경 API 요청을 모두 차단하려면 다음을 수행하십시오.
+
+   이 설정을 사용하면 잠재적인 변경 사항이 저장되지만 전송되지 않는 한 [!UICONTROL Read-Only Mode] 이 비활성화되어 있습니다. 읽기 전용 모드를 사용하려면 구성 캐시를 지워야 합니다. 데이터 전송을 다시 시작하려면 다음을 선택합니다 `Disabled`.
+
+   >[!IMPORTANT]
+   >
+   >[!UICONTROL Read-Only Mode] 는 스테이징 또는 QA와 같은 프로덕션 인스턴스의 사본을 위해 설계되었으며, 프로덕션 인스턴스에서 사용해서는 안 됩니다.
+   >
+   >데이터베이스가 인스턴스의 새 복사본으로 마이그레이션되면(구성에서 저장소의 URL이 변경될 때 감지) [!UICONTROL Read-Only Mode] 이 자동으로 활성화되어 있습니다.
 
 1. 클릭 **[!UICONTROL Save Config]**.
 

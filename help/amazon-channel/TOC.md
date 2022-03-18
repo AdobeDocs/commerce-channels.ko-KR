@@ -1,18 +1,20 @@
 ---
 user-guide-title: Amazon Sales Channel 사용 안내서
 user-guide-description: Adobe Commerce 또는 Magento Open Source을 와 통합하여 Amazon을 통해 판매 생성 [!DNL Amazon Seller Central] 계정이 필요합니다.
-breadcrumb-title: 상거래 채널 관리자
-source-git-commit: 52f2dd0f5a722af337be72a5d556f3780aad6548
+breadcrumb-title: Amazon Sales Channel
+source-git-commit: e20e377fdef565ca526e6f67cca126c36b450e75
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 0%
+source-wordcount: '317'
+ht-degree: 2%
 
 ---
 
 
 # Amazon 영업 채널 - [!DNL channel manager] Adobe Commerce {#amazon}
 
-- [Amazon 영업 채널](overview.md)
+- [안내서 개요](guide-overview.md)
+- [Amazon 영업 채널 소개](overview.md)
+- [릴리스 노트](release-notes.md)
 - 시작하기 {#getting-started}
    - [Amazon 판매 채널 기본 정보](about-amazon-sales-channel.md)
    - [Amazon Marketplace에 대하여](about-amazon-marketplace.md)
