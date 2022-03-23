@@ -2,9 +2,9 @@
 title: '''[!DNL Amazon Sales Channel] 릴리스 정보'''
 description: 모든 정보에 대해서는 릴리스 노트 를 검토하십시오 [!DNL Amazon Sales Channel] 릴리스.
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 19424bf0deebf2b5464f973edad48f63d6042463
+source-git-commit: adf86495e7de53f9ee7bc916b2a7398f04e7cbd4
 workflow-type: tm+mt
-source-wordcount: '2090'
+source-wordcount: '2130'
 ht-degree: 0%
 
 ---
@@ -25,9 +25,17 @@ ht-degree: 0%
 
 자세한 내용은 [예정된 릴리스](https://devdocs.magento.com/release/)버전 관리, 지원 및 호환성을 위한 {target=&quot;_blank&quot;}.
 
+## v4.4.3
+
+[!DNL Amazon sales channel]  4.4.3은 Adobe Commerce 버전 2.3.x 및 2.4.0과 호환되지만, 클라우드 인프라에서 Magento Open Source, Adobe Commerce 및 Adobe Commerce 버전 2.4.1 이상에서만 지원됩니다.
+
+이 버전의 [!DNL Amazon sales channel] 다음 수정 사항을 포함합니다.
+
+![수정](../assets/fix.svg) Adobe Commerce 2.4.4에 대한 지원이 추가되었습니다.
+
 ## v4.4.2
 
-[!DNL Amazon sales channel]  4.4.2는 Adobe Commerce 버전 2.3.x 및 2.4.0과 호환되지만, 클라우드 인프라에서 Magento Open Source, Adobe Commerce 및 Adobe Commerce 버전 2.4.1 이상에서 만 지원됩니다
+[!DNL Amazon sales channel]  4.4.2는 Adobe Commerce 버전 2.3.x 및 2.4.0과 호환되지만, 클라우드 인프라에서 Magento Open Source, Adobe Commerce 및 Adobe Commerce 버전 2.4.1 이상에서만 지원됩니다.
 
 이 버전의 [!DNL Amazon sales channel] 다음 수정 사항을 포함합니다.
 
