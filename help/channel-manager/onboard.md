@@ -1,0 +1,67 @@
+---
+title: '"온보드 [!DNL Channel Manager]"'
+description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.
+role: User
+level: Intermediate
+source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 0%
+
+---
+
+# 온보드 [!DNL Channel Manager]
+
+온보딩된 채널 관리자에서 [!DNL Commerce] 상거래 인스턴스와 Walmart Marketplace 간에 통신 및 데이터 동기화를 사용하도록 API 연결을 인스턴스 및 구성합니다.
+
+온보딩을 완료하면 [!UICONTROL Channel Manager] 옵션 [!UICONTROL Commerce Admin Marketing] 메뉴 아래의 제품에서 사용할 수 있습니다.
+
+![[!DNL Channel Manager] 관리자 보기의 옵션](assets/channel-manager-admin-view.png)
+
+## 온보딩 개요
+
+1. [설치 [!DNL Channel Manager] 확장](install.md).
+
+1. [구성 [!DNL Commerce Services Connector]](connect.md) 채널 관리자를 Commerce 인스턴스 및 기타 지원 서비스와 통합합니다.
+
+1. [연결 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace]](connect.md).
+
+## 전제 조건
+
+- Walmart Marketplace에서 판매하기 위한 Walmart Marketplace 판매자 AccountWalmart 요구 사항이 있는지 확인합니다
+
+- **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 에는 ID와 자격 증명이 필요합니다. [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}( [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
+
+   - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 를 사용하여 Adobe Mobile Services 내의 [!UICONTROL My Account - Magento settings]. 에 등록하려면 이 ID가 필요합니다 [!DNL Channel Manager] 서비스 베타 프로그램입니다.
+
+      ![[!DNL MAGEID] 전자 상거래 계정 설정에서](assets/mageid-my-commerce-account.png)
+
+   - **액세스 키-** 상거래 작성기 저장소에서 상거래 확장을 다운로드하려면 인증 키를 가져옵니다([!DNL repo.magento.com]).
+
+      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
+
+      Adobe Commerce 및 Magento Open Source 프로젝트에서 소유자는 [공유 액세스](https://docs.magento.com/user-guide/magento/magento-account-share.html) 를 사용하여 신뢰할 수 있는 직원 및 서비스 공급자가 소유자 또는 라이선스 소유자 계정의 자격 증명을 사용하여 확장을 다운로드할 수 있습니다.
+
+      설정 [!DNL Adobe Commerce] 클라우드 인프라 프로젝트에서 사용자에게는 다음 권한이 있어야 [!DNL Commerce] 인스턴스:
+
+      - 클라우드 프로젝트에 대한 슈퍼 사용자 액세스 권한
+      - 특정 환경에 대한 관리자 액세스 권한
+      - an [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 작성기 리포지토리에 액세스할 수 있는 권한이 있는 계정입니다. 자세한 내용은 [사용자 액세스 관리](https://devdocs.magento.com/cloud/project/user-admin.html).
+
+- **채널 관리자 작성기 패키지 다운로드 인증**-서비스를 관리하는 데 사용되는 상거래 계정의 이미지 ID를 조직에 대해 베타 프로그램을 조정하는 Adobe 담당자에게 제공합니다.
+- **작성기 및 를 사용한 경험[!DNL Commerce CLI]** -참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;} 를 참조하십시오[!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
+- Amazon Sales Channel이 설치된 Commerce 인스턴스의 경우 [Amazon Sales Channel 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html) 이 설치되어 있어야 합니다.
+
+
+### 요구 사항
+
+- [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
+- [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
+- [Composer 1.x 이상](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
+
+
+### 지원되는 플랫폼
+
+- Adobe Commerce on Cloud (ECE) : 2.4.x
+- Adobe Commerce 온-프레미스(EE) : 2.4.x
+- Magento Open Source 2.4.x
