@@ -1,12 +1,14 @@
 ---
-title: 'Sales Channel 연결 대상 [!DNL Walmart Marketplace] '
+title: Sales Channel 연결 대상 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
+
 
 # 연결 대상 [!DNL Walmart Marketplace]
 
@@ -56,7 +58,7 @@ ht-degree: 0%
 
       >[!NOTE]
       >
-      >표시되지 않으면 [!DNL Adobe Inc] Developer Portal에서 **[!UICONTROL Add New Key for a Solution Provider]** 권한을 구성하고 키를 생성하기 위해 구성에 대한 자세한 내용은 [생성 [!DNL Walmart Marketplace API Key]](overview.md#generate-a-walmart-marketplace-api-key).
+      >만약 [!DNL Adobe Inc] 키가 Developer Portal에 나열되지 않은 경우 **[!UICONTROL Add New Key for a Solution Provider]** 권한을 구성하고 키를 생성하기 위해 구성에 대한 자세한 내용은 [생성 [!DNL Walmart Marketplace API Key]](walmart-prerequisites.md#generate-a-walmart-marketplace-api-key).
 
    - 로 돌아가기 [!DNL Channel Manager] 자격 증명을 **[!UICONTROL Walmart Connection]** 정보.
 
@@ -75,29 +77,6 @@ Walmart와의 연결이 실패하면 [Walmart Marketplace FAQ](https://developer
 
 - 에서 [!DNL Walmart Developer Portal]에서 프로덕션 API 키에 대한 올바른 자격 증명을 복사했는지 확인합니다. [!UICONTROL Adobe Inc.]
 
-- Walmart Adobe API 키에 대한 액세스 구성에 올바른 권한이 있는지 확인합니다. 자세한 내용은 [월마트 사전 요구 사항](overview.md#walmart-prerequisites).
+- Walmart Adobe API 키에 대한 액세스 구성에 올바른 권한이 있는지 확인합니다. 자세한 내용은 [월마트 사전 요구 사항](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - Walmart API 서비스가 [Walmart API 상태 페이지](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-
-## 저장소 설정 완료
-
-상거래 스토어를 [!DNL Walmart Marketplace]를 입력하면 [!DNL Channel Manager Stores] 보기.
-
-저장소 설정을 완료하려면
-
-1. 관리자에서 **[!UICONTROL Marketing** > **채널 관리자**].
-
-   ![[!DNL Walmart Marketplace API key] 구성 페이지](assets/connect-commerce-store-config.png)
-
-1. 저장소 항목 행에서 연필 아이콘을 선택하여 연결된 판매 채널을 엽니다.
-
-1. 영업 채널 작업을 시작합니다.
-
-   - 상거래 카탈로그의 제품을 채널 관리자에 추가합니다
-
-   - 제품 일치를 사용하여 Walmart에 제품 게시
-
-   - 재고 및 가격 보기 및 관리
-
-   - 상거래 관리자에서 Walmart 주문을 보고 관리합니다

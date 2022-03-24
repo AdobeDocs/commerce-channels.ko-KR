@@ -1,13 +1,13 @@
 ---
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
-source-git-commit: 517cafd3ccf8e3cfb38ec9a279efa2218e84694f
+exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
-
 
 # 채널 관리자 설치
 
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 ## 확장 설치
 
-설치 지침은 온프레미스 또는 클라우드 상거래 인스턴스에 채널 관리자를 설치하는지 여부에 따라 다릅니다.
+채널 관리자 설치 지침은 Adobe Commerce 또는 Magento Open Source이 온프레미스 또는 클라우드 인프라에 배포되는지 여부에 따라 다릅니다.
 
 - 설치 [온-프레미스 인스턴스](#install-on-an-on-premises-instance).
 
@@ -126,12 +126,13 @@ ht-degree: 0%
 
 분기 사용에 대한 자세한 내용은 [분기 만들기 시작](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce 개발자 설명서의 {target=&quot;_blank&quot;}.
 
-확장을 설치할 때 확장 이름(&lt;vendorname>\_&lt;componentname>)이 자동으로 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} 파일입니다. 파일을 직접 편집할 필요는 없습니다.
+설치하는 동안 확장 이름(`&lt;VendorName>\_&lt;ComponentName>`)이 자동으로 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} 파일입니다. 파일을 직접 편집할 필요는 없습니다.
 
 1. 로컬 워크스테이션에서 클라우드 프로젝트 루트 디렉토리로 변경합니다.
 
-1. 개발 분기를 만들거나 체크 아웃합니다. 자세한 내용은 [분기](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
-1. 작성기 이름을 사용하여 확장을 `require` composer.json 파일의 섹션을 참조하십시오.
+1. 개발 만들기 또는 체크아웃 [분기](https://devdocs-beta.magento.com/cloud/env/environments-start.html#getstarted){target=&quot;_blank&quot;}.
+
+1. 작성기 이름을 사용하여 확장을 `require` 섹션 `composer.json` 파일.
 
    ```bash
    $ composer require magento/channel-manager --no-update
@@ -148,7 +149,7 @@ ht-degree: 0%
    ```
 
    ```bash
-   $ git push origin &lt;branch-name>
+   $ git push origin <branch-name>
    ```
 
 1. 빌드 및 배포가 완료되면 SSH를 사용하여 원격 환경에 로그인하고 확장이 올바르게 설치되었는지 확인하십시오.
@@ -197,7 +198,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
    $ cat /path/to/auth.json
    ```
 
-1. auth.json의 자격 증명이 일치하는지 확인합니다[ 이미지 ID와 연결된 키](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)채널 관리자 서비스에 등록하는 데 사용되는 {target=&quot;_blank&quot;}입니다.
+1. auth.json의 자격 증명이 일치하는지 확인합니다 [이미지 ID와 연결된 키](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)채널 관리자 서비스에 등록하는 데 사용되는 {target=&quot;_blank&quot;}입니다.
 
 ### PHP에 메모리가 부족합니다.
 
@@ -223,6 +224,14 @@ Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocat
    $ php-d memory_limit=-1 vendor/bin/composer require magento/channel-manager
    ```
 
+### 보기 누락
+
+실종에 대한 오류가 발생하면 `process_catalog_exporter_view` 채널 관리자를 설치하는 동안 [인덱서 새로 고침](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-index.html#config-cli-subcommands-index-reindex){target=&quot;_blank&quot;}.
+
+```bash
+php bin/magento indexer:refresh
+```
+
 ### 클라우드 배포 오류
 
-클라우드에 확장을 배포하는 데 문제가 있는 경우 다음을 참조하십시오.[확장 배포 실패](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.
+클라우드에 확장을 배포하는 데 문제가 있는 경우 다음을 참조하십시오. [확장 배포 실패](https://devdocs.magento.com/cloud/trouble/trouble_comp-deploy-fail.html){target=&quot;_blank&quot;}.

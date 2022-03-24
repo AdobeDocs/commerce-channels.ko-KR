@@ -1,15 +1,15 @@
 ---
-title: '"소개 [!DNL Channel Manager]"'
+title: 정보 [!DNL Channel Manager]
 description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source 스토어를 타사 마켓플레이스와 통합하고 판매 채널을 만들어 마켓플레이스 목록, 가격, 인벤토리 및 매출을 상거래 관리자와 원활하게 관리할 수 있습니다.
 role: User
 level: Intermediate
-source-git-commit: ff87f31fec7a689385a93b8cab260fd93ff15f90
+exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
-
 
 # 개요
 
@@ -65,7 +65,7 @@ Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보�
 
    * 솔루션 공급자로 Adobe 를 선택합니다.
 
-   * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 _Walmart Marketplace 판매자 도움말_.
+   * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 *Walmart Marketplace 판매자 도움말*.
 
 |    **Walmart에 대한 Adobe API 키 구성**
 | **권한** | **설정** | |—|—| | 컨텐츠 | 전체 액세스 | | 피드 가져오기 | 보기 전용 | | 인벤토리 | 전체 액세스 | | 항목 | 전체 액세스 | | 지연 시간 | 전체 액세스 | | 순서 | 전체 액세스 | | 가격 | 전체 액세스 | | 보고서 | 보기 전용 | | 반환 | 전체 액세스 | | 규칙 | 전체 액세스 | | 배송 | 전체 액세스 |

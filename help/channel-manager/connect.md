@@ -3,9 +3,10 @@ title: Commerce Services에 연결
 description: 채널 관리자 인스턴스를 [!DNL Commerce services] 상거래 인스턴스, 채널 관리자 및 기타 지원 서비스 간에 데이터 동기화 및 통신을 사용하도록 설정하려면 다음을 수행하십시오.
 role: User
 level: Intermediate
-source-git-commit: ec950579a9b2220f9ec106b616779fc3503f3add
+exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
+source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
@@ -14,13 +15,15 @@ ht-degree: 0%
 
 Commerce Services Connector는 채널 관리자 서비스를 Adobe Commerce 및 Magento Open Source 인스턴스와 통합합니다. 커넥터를 사용하면 [!DNL Commerce] 인스턴스, [!DNL Channel Manager], 및 기타 지원 서비스.
 
-Commerce Services 커넥터 설정은 Adobe을 사용하는 데 필요한 일회성 프로세스입니다 [Commerce SaaS 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)다음과 같은 {target=&quot;_blank&quot;} [!DNL Channel Manager], [!DNL Live Search], 및 [!DNL Product Recommendations]. 다른 서비스에 대한 커넥터를 이미 구성한 경우 이 단계를 건너뛸 수 있습니다.
+Commerce Services 커넥터 설정은 Adobe을 사용하는 데 필요한 일회성 프로세스입니다 [Commerce SaaS 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)다음과 같은 {target=&quot;_blank&quot;} [!DNL Channel Manager], [!DNL Live Search], 및 [!DNL Product Recommendations]. 다른 서비스에 대한 커넥터를 이미 구성한 경우 이 단계를 건너뜁니다.
 
 ## 전제 조건
 
-- **전자 상거래 계정 [관리자 액세스](https://docs.magento.com/user-guide/stores/admin.html){target=&quot;_blank&quot;}** 전자 상거래 인스턴스로** 계정 소유자 및 관리자 사용자는 상거래 인스턴스 또는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
+- **상거래 계정**-상거래 인스턴스에 소프트웨어를 설치하려면 상거래 플랫폼에 대한 소유자 또는 관리자 액세스 권한이 있는 계정이 있어야 합니다.
 
-- **Adobe Commerce [프로덕션 API 키](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;}**- 채널 관리자에 필요한 서비스에 대한 API 액세스 활성화
+   계정 소유자 및 관리자 사용자는 상거래 인스턴스 또는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
+
+- **Adobe Commerce 프로덕션 API 키**-이것 [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} 채널 관리자에서 필요한 서비스에 대한 API 액세스를 사용할 수 있습니다. 이 키에 대한 공개 및 개인 자격 증명이 필요합니다.
 
    자격 증명을 제공하기 위해 전자 상거래 라이선스 소유자 또는 계정 소유자는 다음 옵션을 사용할 수 있습니다
    [공유 액세스](https://docs.magento.com/user-guide/magento/magento-account-share.html){target=&quot;_blank&quot;} 또는 [API 키](https://docs.magento.com/user-guide/system/saas.html#apikey)신뢰할 수 있는 개발자에 대한 {target=&quot;_blank&quot;} 자격 증명.
@@ -29,13 +32,13 @@ Commerce Services 커넥터 설정은 Adobe을 사용하는 데 필요한 일회
 
 1. 저장소 서비스 구성을 엽니다.
 
-   - 관리자에서 을(를) 선택합니다. [!UICONTROL Stores].
+   - 관리자에서 을(를) 선택합니다. **[!UICONTROL Stores]**.
 
-   - 아래 *설정*, 선택 [!UICONTROL Configuration].
+   - 아래 *설정*, 선택 **[!UICONTROL Configuration]**.
 
-   - 설정 [!UICONTROL Configuration] 페이지, 확장 [!UICONTROL Services] 을(를) 선택합니다. [!UICONTROL Commerce Services Connector].
+   - 확장 **[!UICONTROL Services]** 을(를) 선택합니다. **[!UICONTROL Commerce Services Connector]**.
 
-1. Adobe Commerce 계정에서 프로덕션 API 키를 추가합니다.
+1. Adobe Commerce 계정에서 프로덕션 API 키 자격 증명을 추가합니다.
 
    ![[!DNL Commerce Service Connector] 의 서비스 [!DNL Admin] 보기](assets/commerce-services-connector-admin-service-view.png)
 
