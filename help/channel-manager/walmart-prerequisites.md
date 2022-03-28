@@ -1,13 +1,13 @@
 ---
 title: 월마트 사전 요구 사항
 description: Channel Manager와 통합하기 위해 필요한 Walmart Marketplace 정보 및 리소스가 있는지 확인합니다.
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
+source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%
 
 ---
-
 
 # 월마트의 사전 요구 사항
 
@@ -34,8 +34,21 @@ ht-degree: 0%
 
    * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 _Walmart Marketplace 판매자 도움말_.
 
-|    **Walmart에 대한 Adobe API 키 구성**
-| **권한** | **설정** | |—|—| | 컨텐츠 | 전체 액세스 | | 피드 가져오기 | 보기 전용 | | 인벤토리 | 전체 액세스 | | 항목 | 전체 액세스 | | 지연 시간 | 전체 액세스 | | 순서 | 전체 액세스 | | 가격 | 전체 액세스 | | 보고서 | 보기 전용 | | 반환 | 전체 액세스 | | 규칙 | 전체 액세스 | | 배송 | 전체 액세스 |
+   **Walmart에 대한 Adobe API 키 구성**
+
+   | **권한** | **설정** |
+   |----------------|-------------|
+   | 컨텐츠 | 전체 액세스 |
+   | 피드 가져오기 | 보기 전용 |
+   | 인벤토리 | 전체 액세스 |
+   | 항목 | 전체 액세스 |
+   | 지연 시간 | 전체 액세스 |
+   | 주문 | 전체 액세스 |
+   | 가격 | 전체 액세스 |
+   | 보고서 | 보기 전용 |
+   | 반환 | 전체 액세스 |
+   | 규칙 | 전체 액세스 |
+   | 배송 | 전체 액세스 |
 
 ## Walmart Marketplace 스토어 상태
 
