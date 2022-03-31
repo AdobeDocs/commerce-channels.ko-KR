@@ -4,9 +4,9 @@ description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe 
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 7412a3d5b78e206521a048fb56edacd8f11ddb58
+source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '705'
 ht-degree: 0%
 
 ---
@@ -75,8 +75,21 @@ Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보�
 
    * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 *Walmart Marketplace 판매자 도움말*.
 
-&#x200B;|    **Walmart에 대한 Adobe API 키 구성**
-&#x200B;| **권한** | **설정** | |—|—| | 컨텐츠 | 전체 액세스 | | 피드 가져오기 | 보기 전용 | | 인벤토리 | 전체 액세스 | | 항목 | 전체 액세스 | | 지연 시간 | 전체 액세스 | | 순서 | 전체 액세스 | | 가격 | 전체 액세스 | | 보고서 | 보기 전용 | | 반환 | 전체 액세스 | | 규칙 | 전체 액세스 | | 배송 | 전체 액세스 |
+   **Walmart에 대한 Adobe API 키 구성**
+
+   | **권한** | **설정** |
+   |----------------|-------------|
+   | 컨텐츠 | 전체 액세스 |
+   | 피드 가져오기 | 보기 전용 |
+   | 인벤토리 | 전체 액세스 |
+   | 항목 | 전체 액세스 |
+   | 지연 시간 | 전체 액세스 |
+   | 주문 | 전체 액세스 |
+   | 가격 | 전체 액세스 |
+   | 보고서 | 보기 전용 |
+   | 반환 | 전체 액세스 |
+   | 규칙 | 전체 액세스 |
+   | 배송 | 전체 액세스 |
 
 ## Walmart Marketplace 스토어 상태
 
