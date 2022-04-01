@@ -2,7 +2,7 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 8f07b215c20cc28aa9a6862bcb2b00da30a1ed84
+source-git-commit: 4509528d1b084c9a91fd6be0d0a863782edb3bdd
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -178,7 +178,6 @@ ht-degree: 0%
 ### 잘못된 작성기 키
 
 만약 [액세스 키](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html)작성기 리포지토리를 인증하는 데 사용된 {target=&quot;_blank&quot;}이 잘못되었거나 작성기 리포지토리에 연결되어 있지 않습니다 [!DNL MAGE ID] 등록 [!DNL Channel Manager] 서비스, 다음 오류가 표시됩니다.
-
 
 ```terminal
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
