@@ -1,17 +1,18 @@
 ---
 title: 정보 [!DNL Channel Manager]
-description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source 스토어를 타사 마켓플레이스와 통합하고 판매 채널을 만들어 마켓플레이스 목록, 가격, 인벤토리 및 매출을 상거래 관리자와 원활하게 관리할 수 있습니다.
+description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source 스토어를 타사 마켓플레이스와 통합하고 판매 채널을 만들어 마켓플레이스 목록, 가격, 인벤토리 및 판매를 상거래 관리자와 원활하게 관리할 수 있습니다.
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ac084bf968a262dd4e7f6b6040aea2e6dc6197c2
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---
 
-# 개요
+
+# 정보 [!DNL Channel Manager]
 
 Adobe Commerce 및 Magento Open Source용 채널 관리자는 Walmart, Amazon, eBay와 같은 타사 마켓플레이스에서 채널 판매를 관리할 수 있도록 관리자가 편리한 작업 공간을 제공합니다. 상거래 관리자로부터 영업 채널 운영을 원활하게 관리하면서 매출을 늘리고 신규 시장으로 확장할 수 있습니다.
 
@@ -19,7 +20,7 @@ Adobe Commerce 및 Magento Open Source용 채널 관리자는 Walmart, Amazon, e
 
 ## 베타 릴리스 개요
 
-Channel Manager 베타 릴리스는 Walmart Marketplace에서 제품을 제공하려는 Adobe Commerce 또는 Magento Open Source 판매자를 지원합니다.
+Channel Manager 베타 릴리스는 판매하려는 Adobe Commerce 또는 Magento Open Source 판매자를 지원합니다 [!DNL Walmart Marketplace].
 
 이 릴리즈는 영업 채널 작업을 관리하는 다음과 같은 기능을 지원합니다.
 
@@ -27,7 +28,7 @@ Channel Manager 베타 릴리스는 Walmart Marketplace에서 제품을 제공�
 
 * 제품 일치 기능을 사용하여 Channel Manager의 제품을 Walmart에 게시합니다
 
-* 예를 들어 채널 관리자에서 제품 목록 상태 보기 *초안*, *처리*, *일치함*, *오류*.
+* 제품 목록 관리 및 상태 추적
 
 * Commerce에서 Walmart로 대응 제품에 대한 재고 수량 동기화
 
@@ -45,7 +46,7 @@ Channel Manager 베타 릴리스는 Walmart Marketplace에서 제품을 제공�
 |--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | 채널 관리자에 제품 추가 | 상거래 제품 카탈로그에서 제품을 선택하고 채널 관리자로 가져옵니다. | **최대 5분**-전체 제품 카탈로그와 같이 제품을 많이 선택하면 가져오기 프로세스가 길어집니다. |
 | Walmart Marketplace에서 제품 일치 | 채널 관리자에서 제품 목록을 선택하고 매칭하려면 Walmart로 보내십시오. | **최대 30분**-여러 제품을 선택하면 선택한 수량에 따라 대응 프로세스가 더 길어집니다. |
-| 인벤토리 업데이트 | 상거래에 재고 수량이 변경되는 경우. 채널 관리자가 Walmart에 대한 업데이트를 동기화합니다. | **최대 10분** |
+| 인벤토리 업데이트 | 상거래에 재고 수량이 변경되면 [!DNL Channel Manager] Walmart에 업데이트를 동기화합니다. | **최대 10분** |
 | 가격 업데이트 | 제품 가격이 변경되면 Channel Manager 는 업데이트를 Walmart로 동기화합니다. | **최대 5분** |
 | Walmart에서 Commerce로 주문 동기화 | 고객은 Walmart Marketplace에서 상거래 제품을 주문합니다. Walmart가 채널 관리자에게 주문을 보냅니다. 순서는 주문 대시보드에 표시됩니다. | **최대 30분** |
 | Commerce Order Management에서 만든 순서 | 채널 관리자는 Mart 주문에서 상거래 주문을 만들고 상거래 주문 번호를 포함하도록 주문 대시보드를 업데이트합니다. | **최대 5분** |
@@ -62,7 +63,7 @@ Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보�
 
 ### Marketplace 판매자 계정 설정
 
-1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 2. 월마트의 승인을 받은 후에 [Walmart Seller 계정 설정](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ### Walmart Marketplace API 키 생성
@@ -73,7 +74,7 @@ Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보�
 
    * 솔루션 공급자로 Adobe 를 선택합니다.
 
-   * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 *Walmart Marketplace 판매자 도움말*.
+   * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 *[!DNL Walmart Marketplace]판매자 도움말*.
 
    **Walmart에 대한 Adobe API 키 구성**
 
@@ -95,9 +96,9 @@ Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보�
 
 Walmart Marketplace에 제품을 게시할 때 사용 가능 여부는 Walmart Marketplace 저장소의 상태에 따라 다릅니다.
 
-* 라이브 스토어의 경우, 제품 오퍼가 나열되며 일치 작업이 완료되는 즉시 판매 가능합니다.
+* 라이브 스토어의 경우, 제품 오퍼가 나열되며 일치 작업이 완료되면 판매 가능합니다.
 
-* 라이브 상태가 아닌 저장소의 경우 제품 오퍼가 스테이징되어 고객에게 표시되지 않습니다. 스토어가 작동하면 준비된 목록이 자동으로 라이브 스토어에 푸시됩니다.
+* 라이브 상태가 아닌 저장소의 경우 제품 오퍼가 스테이징되어 고객에게 표시되지 않습니다. 스토어가 라이브로 전환되면 준비된 목록이 라이브 스토어에 자동으로 푸시됩니다.
 
 
 ![[!DNL Walmart Seller Central] 준비된 제품](assets/walmart-seller-central-staged.png)

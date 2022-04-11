@@ -2,25 +2,25 @@
 title: Walmart에 목록 게시
 description: 판매를 시작하려면 Walmart Marketplace에 상거래 제품 목록을 게시하십시오.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Walmart에 목록 게시
 
-다른 시장들과 마찬가지로, 월마트는 서드파티 판매자들이 다른 사람들이 파는 품목들을 나열하도록 허락한다.
+다른 시장들과 마찬가지로 [!DNL Walmart] 타사 판매자가 다른 사람이 판매하는 항목을 나열할 수 있도록 허용합니다.
 
-플랫폼은 UPC 및 GTIN과 같은 제품 식별자를 사용하여 이미 판매 중인 항목을 일치시킵니다.
-일치하는 제품의 경우 기존 Walmart Marketplace에서 Commerce 제품 오퍼를 포함하도록 업데이트를 나열합니다.
+플랫폼은 UPC 및 GTIN과 같은 제품 식별자를 사용하여 기존 제품 식별자를 일치시킵니다 [!DNL Walmart Marketplace] 목록.
+일치하는 제품의 경우 Walmart Marketplace에서 제품을 게시할 때 Commerce 제품 오퍼를 포함하도록 업데이트를 나열합니다 [!DNL Channel Manager].
 
-가격이 가장 낮은 제품이 우선 결과에 나오지만 평가 등 다른 요소들도 배치에 영향을 미친다.
+일반적으로 가격이 가장 낮은 제품 오퍼는 [!DNL Walmart Marketplace] 목록에 추가되지만, 검토와 같은 다른 요소들도 배치에 영향을 줍니다.
 
 ## 제품 일치
 
-제품에 일치하면 Channel Manager는 제품 데이터를 Walmart Marketplace에 보내 매핑된 Commerce 제품 속성과 일치하는 속성 값으로 기존 목록을 검색합니다. 일치 기준은 [속성 매핑 구성](map-product-attributes-for-matching.md) 저장소 채널에 사용할 수 있습니다.
+제품과 일치하면 채널 관리자가 제품 데이터를에 보냅니다 [!DNL Walmart Marketplace] 매핑된 Commerce 제품 속성과 일치하는 속성 값으로 기존 목록을 검색하려면 다음을 수행하십시오. 일치 기준은 [속성 매핑 구성](map-product-attributes-for-matching.md) 저장소 채널에 사용할 수 있습니다.
 
 일치하는 항목이 있으면 기존 제품 목록이 업데이트되어 오퍼를 추가합니다.
 

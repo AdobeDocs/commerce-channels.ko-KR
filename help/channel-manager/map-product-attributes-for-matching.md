@@ -1,9 +1,10 @@
 ---
 title: 제품 일치 구성
 description: 기존 Walmart Marketplace 목록에 전자 상거래 제품을 일치시키기 위한 특성을 매핑합니다
-source-git-commit: 2a9bd2f8f91e672786c36f5e132f99bcab59dd00
+exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +29,7 @@ Walmart Marketplace에 목록을 게시하기 전에 제품 카탈로그 속성�
 
 ## 제품 속성 설정 구성
 
-1. 연결된 영업 채널의 제품 목록 페이지에서 *초안* 상태.
+1. 설정 [!UICONTROL Listings] 연결된 영업 채널의 페이지에서 *초안* 상태.
 
 1. 선택 **[!UICONTROL Settings]**.
 

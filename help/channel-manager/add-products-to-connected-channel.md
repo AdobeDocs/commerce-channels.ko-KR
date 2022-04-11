@@ -1,37 +1,34 @@
 ---
-title: 채널 저장소에 제품 추가
+title: 연결된 채널에 제품 추가
 description: 카탈로그의 제품을 판매 채널에 추가하여 Marketplace 판매에 대한 제품 분류를 만듭니다
-source-git-commit: 905bedaf1eacdc45b2b7f222e7703e1f7b3dfd9c
+exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 
-# 채널 저장소에 제품 추가
+# 연결된 채널에 제품 추가
 
-채널 관리자에서 [!DNL Commerce] 월마트 마켓플레이스 판매 카탈로그
-
-제품을 판매 채널에 동기화하려면 선택한 제품에 다음 속성 구성이 있어야 합니다.
+제품을 Walmart Marketplace 판매 채널에 동기화하려면 [!DNL Commerce] 제품 카탈로그를 사용하여 채널 관리자로 가져옵니다. 선택한 제품에는 다음 속성 구성이 있어야 합니다.
 
 - **[!UICONTROL Publish to Channel Manager]** 속성이 활성화됨
 
 - 하나 이상의 제품 특성이 [필수 Walmart Marketplace 특성](map-product-attributes-for-matching.md)-GTIN, ISBN, ISN, UPC, EAN
 
-선택 사항을 저장하면 채널 관리자는 제품 데이터를 채널로 가져옵니다. 이 프로세스는 최대 30분이 걸릴 수 있습니다.
+제품을 가져오는 프로세스 [!DNL Commerce] 채널 관리자까지는 선택한 제품 수에 따라 최대 30분 이상이 걸릴 수 있습니다.
 
 ## 영업 채널에 제품 추가
 
-1. 채널 관리자 스토어와 연결된 제품 카탈로그를 엽니다.
-
-   연결된 영업 채널 저장소에서 **제품 추가**.
+1. 연결된 영업 채널 저장소에서 **제품 추가** 를 클릭하여 제품 카탈로그를 엽니다.
 
    ![연결된 채널에 제품 추가](assets/add-initial-products-to-connected-channel.png)
 
    카탈로그가 새 탭에 열립니다.
 
-1. 카탈로그 제품 그리드에서 Walmart Marketplace에서 판매할 제품을 선택합니다.
+1. 카탈로그 제품 그리드에서 판매할 제품을 선택합니다 [!DNL Walmart Marketplace].
 
    ![연결된 채널로 제품 보내기](assets/select-products-from-catalog.png)
 
@@ -57,6 +54,9 @@ ht-degree: 0%
 
 1. 에서 연결된 영업 채널로 돌아갑니다. [!DNL Channel Manager].
 
-   가져오기 작업이 완료되면, **[!UICONTROL Listings]**. 처음에는 제품이 *초안* 상태. 선택 [!UICONTROL Refresh products]**를 사용하여 테이블을 업데이트합니다.
+1. 가져오기 작업이 완료되면, **[!UICONTROL Listings]**.
 
    ![연결된 영업 채널에 가져온 제품](assets/products-in-marketplace-sales-channel.png)
+
+   처음에는 제품이 *초안* 상태. 선택 **[!UICONTROL Refresh products]** 를 눌러 테이블을 업데이트합니다.
+

@@ -3,9 +3,9 @@ user-guide-title: '"[!DNL Channel Manager] 안내서"'
 user-guide-description: Adobe Commerce 또는 Magento Open Source을 와 통합하여 매출을 증대하고 고객 기반을 확장합니다. [!DNL Walmart Marketplace Seller Central] 계정이 필요합니다.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
 hide: true
-source-git-commit: a10ab3f7fa7049e48d83a942f6c5441d8147b12c
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '70'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

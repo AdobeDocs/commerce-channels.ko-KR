@@ -2,14 +2,15 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 50c5a3b5987f0e5227d9c4f4999caab8bf6b3fd8
+source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 채널 관리자 설치
+
+# 설치 [!DNL Channel Manager]
 
 를 검토합니다. [전제 조건](onboard.md#prerequisites) 채널 관리자를 설치하기 전에 필요한 정보를 수집합니다.
 
@@ -42,7 +43,7 @@ ht-degree: 0%
 
 ### 온-프레미스 인스턴스에 설치
 
-다음 지침에 따라 Adobe Commerce 및 Magento Open Source 플랫폼에 설치합니다.
+다음 지침에 따라 설치합니다 [!DNL Channel Manager] 온-프레미스 인스턴스에 Magento Open Source 및 Adobe Commerce에 있는 문제를 해결했습니다.
 
 1. 에 로그인합니다. [!DNL Commerce] 서버로 [권한이 있는 사용자](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/file-system-perms.html){target=&quot;_blank&quot;} - 쓰기 [!DNL Commerce] 파일 시스템.
 
@@ -126,7 +127,7 @@ ht-degree: 0%
 
 분기 사용에 대한 자세한 내용은 [분기 만들기 시작](https://devdocs.magento.com/cloud/env/environments-start.html#getstarted)Adobe Commerce 개발자 설명서의 {target=&quot;_blank&quot;}.
 
-설치하는 동안 확장 이름(`&lt;VendorName>\_&lt;ComponentName>`)이 자동으로 [app/etc/config.php](https://devdocs-beta.magento.com/guides/v2.3/config-guide/config/config-php.html){target=&quot;_blank&quot;} 파일입니다. 파일을 직접 편집할 필요는 없습니다.
+설치하는 동안 확장 이름(`magento\channel-manager`)이 자동으로 [app/etc/config.php](https://devdocs.magento.com/cloud/live/sens-data-over.html#configuration-data){target=&quot;_blank&quot;} 파일입니다. 파일을 직접 편집할 필요는 없습니다.
 
 1. 로컬 워크스테이션에서 클라우드 프로젝트 루트 디렉토리로 변경합니다.
 
@@ -158,7 +159,7 @@ ht-degree: 0%
    $ git push origin <branch-name>
    ```
 
-1. 빌드 및 배포가 완료되면 SSH를 사용하여 원격 환경에 로그인하고 확장이 올바르게 설치되었는지 확인하십시오.
+1. 빌드 및 배포 프로세스가 완료되면 SSH를 사용하여 원격 환경에 로그인하고 확장이 올바르게 설치되었는지 확인하십시오.
 
    ```bash
    $ bin/magento module:status channel-manager
@@ -170,7 +171,7 @@ ht-degree: 0%
    Module is enabled
    ```
 
-1. 설치가 성공적으로 완료되면 [!UICONTROL Admin] to [commerce Services 커넥터 구성](connect.md).
+1. 확장을 성공적으로 설치한 후에 [!UICONTROL Admin] to [commerce Services 커넥터 구성](connect.md).
 
    >[!NOTE]
    >

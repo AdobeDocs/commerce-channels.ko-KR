@@ -4,16 +4,17 @@ description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: f57c6db4c0314272d10bb5483d2c8a0ae396a9fc
+source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
+
 # 온보드 [!DNL Channel Manager]
 
-온보딩된 채널 관리자에서 [!DNL Commerce] 인스턴스 및 API 연결 구성. 이러한 연결을 통해 Commerce 인스턴스와 Walmart Marketplace 간에 통신 및 데이터 동기화를 수행할 수 있습니다.
+온보딩된 채널 관리자에서 [!DNL Commerce] 인스턴스 및 API 연결 구성. 이러한 연결을 통해 전자 상거래 인스턴스와 데이터 동기화 간에 통신이 가능합니다 [!DNL Walmart Marketplace].
 
 온보딩을 완료하면 [!UICONTROL Channel Manager] 옵션 [!UICONTROL Commerce Admin Marketing] 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -45,19 +46,18 @@ ht-degree: 0%
 
       Adobe Commerce 및 Magento Open Source 프로젝트에서 소유자는 [공유 액세스](https://docs.magento.com/user-guide/magento/magento-account-share.html) 를 사용하여 신뢰할 수 있는 직원 및 서비스 공급자가 소유자 또는 라이선스 소유자 계정의 자격 증명을 사용하여 확장을 다운로드할 수 있습니다.
 
-      설정 [!DNL Adobe Commerce] 클라우드 인프라 프로젝트에서 소프트웨어 설치 관리자는 다음 액세스 권한이 있어야 합니다. [!DNL Commerce] 인스턴스:
+      대상 [!DNL Adobe Commerce] 클라우드 인프라 프로젝트에서 소프트웨어 설치 관리자는 [!DNL Commerce] 인스턴스:
 
       - 클라우드 프로젝트에 대한 슈퍼 사용자 액세스 권한
       - 특정 환경에 대한 관리자 액세스 권한
-      - an [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 작성기 리포지토리에 액세스할 수 있는 권한이 있는 계정입니다.
+      - an [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 작성기 리포지토리에 액세스할 수 있는 권한이 있는 계정
 
       자세한 내용은 [사용자 액세스 관리](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **채널 관리자 작성기 패키지 다운로드 인증**-서비스를 관리하는 데 사용되는 상거래 계정의 이미지 ID를 조직에 대해 베타 프로그램을 조정하는 Adobe 담당자에게 제공합니다.
+- **채널 관리자 작성기 패키지 다운로드 인증**- Adobe 채널의 베타 코디네이터에 [!DNL Commerce] 조직의 서비스를 관리하는 데 사용되는 계정입니다.
 - **작성기 및 를 사용한 경험[!DNL Commerce CLI]** -참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/)다음 도구를 사용하여 확장을 설치 및 관리하는 방법에 대한 자세한 내용은 target=&quot;_blank&quot;} 를 참조하십시오. [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
-- **[Amazon Sales Channel 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-상거래 사이트에 대해 Amazon Sales Channel을 활성화한 경우 채널 관리자를 설치하기 전에 상거래 플랫폼 버전 4.42가 설치되어 있는지 확인하십시오.
-
+- [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.42가 설치되어 있습니다. [!DNL Channel Manager].
 
 ### 요구 사항
 

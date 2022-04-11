@@ -2,9 +2,9 @@
 title: 월마트 사전 요구 사항
 description: Channel Manager와 통합하기 위해 필요한 Walmart Marketplace 정보 및 리소스가 있는지 확인합니다.
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 1f493dd40e23d459645704e5a52f9cc5edf4629f
+source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,10 +21,10 @@ ht-degree: 0%
 
 ## Marketplace 판매자 계정 설정
 
-1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI)
+1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. 월마트의 승인을 받은 후에 [Walmart Seller 계정 설정](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
-## Walmart Marketplace API 키 생성
+## Walmart Marketplace Production API 키 생성
 
 1. Walmart Marketplace로 이동하여 [Adobe용 솔루션 공급자 프로덕션 API 키](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
