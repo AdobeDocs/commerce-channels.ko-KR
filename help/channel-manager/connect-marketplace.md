@@ -2,7 +2,7 @@
 title: 영업 채널을 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 0%
@@ -100,4 +100,4 @@ Walmart와의 연결이 실패하면 [Walmart Marketplace FAQ](https://developer
 
    - [재고 및 가격 보기 및 관리](inventory-and-price-updates.md)
 
-   - 상거래 관리자에서 Walmart 주문을 보고 관리합니다
+   - [상거래 관리자에서 Walmart 주문을 보고 관리합니다](manage-orders.md)

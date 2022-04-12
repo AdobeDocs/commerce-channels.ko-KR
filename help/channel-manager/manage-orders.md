@@ -1,13 +1,13 @@
 ---
 title: Walmart Marketplace 주문 관리
 description: 보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.
-source-git-commit: c6c204fa5f72a68c814f48163cb037f558a41de4
+exl-id: c2779c72-4793-445c-858a-867ea8389662
+source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
 
 ---
-
 
 # Walmart Marketplace 주문 관리
 
@@ -44,8 +44,8 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. [!UICONTROL
 
 **열 설명**
 
-| **필드** | **설명** |
-|------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 필드 | 설명 |
+|------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL  Walmart Order Number] | 주문에서 주문에 지정된 구매 발주 번호 [!DNL Walmart Marketplace]. 처음에 주문을 로 가져오는 경우 [!DNL Channel Manager]를 채울 때는 월마트의 주문 번호만 표시됩니다. 이 [!DNL Commerce] 주문이 생성되면 [!DNL Walmart] 주문 번호는 [!UICONTROL External ID] 제품 속성입니다. |
 | [!DNL Commerce]  주문 번호 | 에 지정된 번호 [!DNL Commerce]  주문 [!DNL Walmart Marketplace] 주문. |
 | 항목 | 주문된 항목 수 [!DNL Walmart Marketplace]. |
@@ -70,10 +70,10 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. [!UICONTROL
 
    주문 취소가 완료되면 [!DNL Commerce] 반환된 품목을 반영하도록 재고 수량 업데이트. 그럼, [!DNL Channel Manager] 업데이트를에 동기화 [!DNL Walmart Marketplace].
 
-   * **[!UICONTROL Refunded]**&quot;주문에서 환불된 주문 [!DNL Commerce] 저장.
+* **[!UICONTROL Refunded]**&quot;주문에서 환불된 주문 [!DNL Commerce] 저장.
+
    환불이 완료되면 [!DNL Commerce] 주식 수량이 갱신되어 환급된 품목이 반영됩니다. 그럼, [!DNL Channel Manager] 업데이트를에 동기화 [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Error]**- 정보 누락 또는 기타 문제로 인해 주문 저장소로 가져오지 않은 주문
 
    오류 메시지 세부 사항을 보려면 마우스를 *[!UICONTROL Error]* 상태 표시기입니다. 오류를 해결하면 현재 정보와 상태를 표시하도록 주문이 자동으로 업데이트됩니다.
-

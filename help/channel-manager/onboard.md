@@ -4,9 +4,9 @@ description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,9 @@ ht-degree: 0%
 - **채널 관리자 작성기 패키지 다운로드 인증**- Adobe 채널의 베타 코디네이터에 [!DNL Commerce] 조직의 서비스를 관리하는 데 사용되는 계정입니다.
 - **작성기 및 를 사용한 경험[!DNL Commerce CLI]** -참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/)다음 도구를 사용하여 확장을 설치 및 관리하는 방법에 대한 자세한 내용은 target=&quot;_blank&quot;} 를 참조하십시오. [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
 - [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.42가 설치되어 있습니다. [!DNL Channel Manager].
+- [!DNL Inventory Management] Adobe Commerce 및 Magento Open Source 확장
+
+   재고 및 Order Management에 채널 관리자를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce 및 Magento Open Source 2.3.x 이상에서 기본적으로 설치 및 활성화됩니다. 자세한 내용은 [Inventory management 설치](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce 개발자 설명서).
 
 ### 요구 사항
 
@@ -66,7 +69,6 @@ ht-degree: 0%
 - [Composer 1.x 이상](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
 - [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.42가 설치되어 있습니다. [!DNL Channel Manager].
 - [!DNL Inventory Management]
-
 
 ### 지원되는 플랫폼
 
