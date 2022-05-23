@@ -2,9 +2,9 @@
 title: Walmart에 목록 게시
 description: 판매를 시작하려면 Walmart Marketplace에 상거래 제품 목록을 게시하십시오.
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: e6368d30e16ccffcb1dfc64bdd56561116934b54
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 전제 조건
 
-제품에 일치하기 전에 제품 카탈로그 속성 값이 Mart 요구 사항을 충족하는지 확인하고 속성 설정을 구성합니다. 자세한 내용은 [제품 일치 구성](map-product-attributes-for-matching.md)
+제품에 일치하기 전에 제품 카탈로그 속성 값이 Mart 요구 사항을 충족하는지 확인하고 속성 설정을 구성합니다. 자세한 내용은 [제품 일치 구성](map-product-attributes-for-matching.md).
 
 #### 제품 선택 및 일치
 
@@ -40,27 +40,29 @@ ht-degree: 0%
 
    메시지를 통해 일치를 위해 전송된 제품 수를 나타냅니다.
 
-   ![연결된 영업 채널로 제품 전송](assets/products-submit-for-matching.png)
+   ![연결된 영업 채널로 제품 전송](assets/products-submitted-for-matching.png)
 
    선택한 제품의 상태가 [!UICONTROL *처리 중*] 일치 작업이 완료될 때까지. Walmart Marketplace에서 일치 작업을 완료하는 데 최대 30분이 걸릴 수 있습니다.
 
 ### 일치 상태 확인
 
-1. 선택 **제품 새로 고침** 최신 제품 상태를 업데이트하려면
+1. 선택 **제품 새로 고침** 를 클릭하여 현재 제품 상태를 확인합니다.
 
 1. 제품 상태를 확인합니다.
 
-   일치가 완료되면 상태를 확인할 수 있습니다 *일치* 또는 *오류*.
+일치가 완료되면 상태를 확인할 수 있습니다 *일치* 또는 *오류*.
 
-   * **[!UICONTROL Match]** 제품이 일치했음을 나타냅니다. 제품 오퍼가 기존 Walmart Marketplace 목록에 게시되었습니다.
+* **[!UICONTROL Match]** 제품이 일치했음을 나타냅니다. 제품 오퍼가 기존 Walmart Marketplace 목록에 게시되었습니다. 만약 [마켓플레이스 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 에 표시됩니다. *[!UICONTROL Status detail]* 열.
 
-   * **[!UICONTROL Error]** 다음 중 하나를 나타냅니다.
+만약 [[!DNL Walmart Marketplace] 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status), *상태 세부 정보* 열은 제품이 *일치 준비 완료*. 준비된 제품은 [!DNL Walmart Marketplace] 저장소가 활성화되었습니다.
 
-      * 오류가 발생하여 일치 작업이 실패했습니다.
+* **[!UICONTROL Error]** 다음 중 하나를 나타냅니다.
 
-      * 일치하는 항목이 없습니다.
+   * 오류가 발생하여 일치 작업이 실패했습니다.
 
-      * 일치하는 항목이 있지만 [마켓플레이스 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status).
+   * 일치하는 항목이 없습니다.
+
+   * 일치하는 항목이 있지만 Walmart 마켓플레이스에서 반환된 오류로 인해 목록을 게시할 수 없습니다.  속성이 없거나 [마켓플레이스 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status).
 
 ### 월마트 목록 확인
 
@@ -68,9 +70,9 @@ ht-degree: 0%
 
 ### 제품 일치 오류 문제 해결
 
-제품 일치 작업이 실패하면 Walmart Marketplace에서 오류 코드를 반환하고 Channel Manager가 제품 목록 정보에 오류 상태를 표시합니다.
+제품 일치 작업이 오류로 인해 실패하면 오류 메시지가 *[!UICONTROL Status detail]* 열 [!UICONTROL Channel Manager] 제품 목록.
 
-마우스로 를 가리키면 오류 메시지 세부 정보를 볼 수 있습니다. **오류** 상태 레이블입니다. 반환된 일반적인 오류는 올바른 형식의 제품 ID 값이나 필수 속성이 누락되었습니다.
+반환된 일반적인 오류는 올바른 형식의 제품 ID 값이나 필수 속성이 누락되었습니다.
 
 #### 제품 ID 값 수정
 

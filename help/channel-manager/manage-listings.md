@@ -2,22 +2,30 @@
 title: 목록 관리
 description: 에 대한 영업 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 41a6afec60edbb23492627bd8e80632d3c952caf
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---
 
 # 목록 관리
 
-연결된 채널에 대한 제품 목록을 [!UICONTROL Listings] 채널 저장소 보기에서 다음을 수행합니다.
+에 대한 제품 목록 관리 [!DNL Walmart Marketplace] 판매 채널 [!UICONTROL Listings] 채널 저장소 보기에서 다음을 수행합니다. 개별 목록의 상태는 제품이 있는 위치를 나타냅니다 [!DNL Channel Manager] 워크플로우에서 다음 단계를 결정하고 오류를 해결할 수 있습니다.
 
-를 사용하십시오 *[!UICONTROL Listings]* 관리할 작업 공간 [!DNL Commerce] 월마트 마켓플레이스에서 판매된 상품들. 개별 목록의 상태는 제품이 있는 위치를 나타냅니다 [!DNL Channel Manager] 워크플로우에서 다음 단계를 결정하고 오류를 해결할 수 있습니다.
+개별 목록의 상태는 제품이 있는 위치를 나타냅니다 [!DNL Channel Manager] 워크플로우에서 다음 단계를 결정하고 오류를 해결할 수 있습니다.
 
-![연결된 영업 채널에 대한 목록 페이지](assets/products-submit-for-matching.png)
+![연결된 영업 채널에 대한 목록 페이지](assets/product-listing-landing.png)
 
-## 목록 보기
+목록 보기에서 다음 작업을 완료할 수 있습니다.
+
+* 현재 목록 보기
+* 목록 정렬 및 필터링
+* 제품 추가
+* 제품 일치
+* 목록 상태 추적
+
+## 제품 목록 보기
 
 1. 관리자에서 로 이동합니다. [!UICONTROL **마케팅** > 채널 > **채널 관리자**].
 
@@ -25,9 +33,15 @@ ht-degree: 0%
 
 1. 선택 [!UICONTROL **목록**].
 
+1. 정렬 *목록* 보기 *목록* 테이블.
+
+1. 필터 *목록* 상태 카운트 카드 중 하나를 선택하여 봅니다.
+
+1. 정렬 순서를 재설정하고 선택 **제품 새로 고침**.
+
 ## 채널 관리자에 상거래 제품 추가
 
-다음 작업을 완료하여 Walmart Marketplace 채널에 대한 제품 컬렉션을 만듭니다.
+다음 작업을 완료하여 Walmart Marketplace 채널에 대한 제품 섹션을 만듭니다.
 
 * [상거래 제품 카탈로그의 제품을 채널 관리자에 추가합니다](add-products-to-connected-channel.md)
 
@@ -49,9 +63,11 @@ ht-degree: 0%
 
 | **제어** | **설명** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Refresh products] | 디스플레이가 최신 목록 및 상태로 업데이트됩니다. |
 | [!UICONTROL Add Products] | 를 엽니다. [!UICONTROL Admin Product Catalog] 페이지에 추가할 제품을 선택하는 페이지 [!DNL Walmart Marketplace] Walmart Marketplace 목록 요구 사항을 충족하도록 제품 특성을 분류하거나 업데이트합니다. |
 | [!UICONTROL Match products on Walmart] | 초안 상태에서 하나 이상의 제품을 선택한 후 Mart에서 제품 일치 를 선택하여 기존 제품에 추가할 수 있는 제품 오퍼를 확인합니다 [!DNL Walmart Marketplace] 목록. |
+| [!UICONTROL Refresh products] | 디스플레이를 최신 목록 및 상태로 업데이트합니다. 또한 이 컨트롤은 목록 보기를 기본 정렬 순서로 재설정하고 필터를 제거합니다. |
+| [!UICONTROL Filter by *상태*] | 목록 테이블 위에 있는 상태 카운트 카드 중 하나를 선택하여 특정 상태의 목록만 표시합니다. 를 사용하십시오 *제품 새로 고침* 필터를 제거합니다. |
+| [!UICONTROL Sort products] | 열 헤더를 선택하여 나열할 정렬 순서를 변경합니다. |
 
 
 **열 설명**
@@ -63,7 +79,7 @@ ht-degree: 0%
 | [!UICONTROL  Quantity] | Adobe Commerce 또는 Magento Open Source에서 사용할 수 있는 재고량. |
 | [!UICONTROL Price] | 제품 가격은 [!DNL Commerce] 카탈로그를 저장합니다. 카탈로그 가격 업데이트는 채널 관리자에 동기화된 다음 [!DNL Walmart Marketplace]  따라서 나열된 항목들은 현재 가격을 보여줍니다. |
 | [!UICONTROL Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 에 제품을 성공적으로 추가하면 상태가 업데이트됩니다 [!DNL Channel Manager] 및 를 사용하여 시장에서 제품을 일치시킬 수 있습니다. 작업이 실패하면 목록에 오류 상태가 표시됩니다. 오류를 수정한 후 [!DNL Channel Manager] 작업을 다시 시도하고 상태를 업데이트합니다. |
-
+| [!UICONTROL Status Detail] | 다음을 사용하는 제품에 대한 추가 정보를 제공합니다. *오류* 또는 *일치* 상태. |
 
 ### 목록 상태 정보
 
@@ -79,9 +95,8 @@ ht-degree: 0%
 
    을(를) 확인합니다. [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 대시보드 를 사용하여 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인합니다.
 
+* **[!UICONTROL Match - Match in Stage]**-에 대응되는 제품 식별 [!DNL Walmart] 게시할 때까지 [!DNL Walmart Marketplace] 스토어는 라이브입니다. 이 상태가 있는 제품은 [!DNL Walmart Marketplace] 가게 라이브로
 
 * **[!UICONTROL Error]**-기존 제품과 일치하지 않는 제품을 식별합니다 [!DNL Walmart Marketplace] 목록. 마우스로 를 가리키면 오류 세부 정보가 표시됩니다. *오류* 상태 레이블입니다.
 
-   오류를 해결한 후 일치하는 제품을 다시 제출합니다. 자세한 내용은 [제품 일치 오류 문제 해결](https://docs.google.com/document/d/1bEbCyVLXJQQsbZvEwetJvZKWQJOKoiw5Ia1uB4Bs4uo/edit#heading=h.sz6eji8z9vzy).
-
-* **[!UICONTROL Error - Match in Stage]**-에 대응되는 제품 식별 [!DNL Walmart] 게시할 때까지 [!DNL Walmart Marketplace] 스토어는 라이브입니다. 이 상태가 있는 제품은 [!DNL Walmart Marketplace] 가게 라이브로
+   오류를 해결한 후 일치하는 제품을 다시 제출합니다. 자세한 내용은 [제품 일치 오류 문제 해결](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

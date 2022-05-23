@@ -2,9 +2,9 @@
 title: 영업 채널을 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 06affb78c30086e11dd9ead70e6538ef3d1ff95b
+source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,7 @@ ht-degree: 0%
 
    - Admin에서 **[!UICONTROL Marketing** > _채널&#x200B;_> **채널 관리자]**.
 
-   - 선택 **[!UICONTROL Connect New Store]**.
-
-      ![전자 상거래 스토어에 연결 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/connect-commerce-store-to-marketplace.png)
-
-1. 의 채널 관리자 홈 페이지에서 [!UICONTROL Marketplaces available to connect] 섹션, [!UICONTROL Get Started].
+1. 에서 **[!UICONTROL Marketplaces available to connect]** 섹션, **[!UICONTROL Get Started]**.
 
    ![새 Walmart 스토어에 연결 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
@@ -39,9 +35,9 @@ ht-degree: 0%
 
    - 선택 **[!UICONTROL Add Credentials]**.
 
-      ![상거래 및 연결 구성 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+   - 설정 [!UICONTROL Connect New Walmart Store] 양식에서 상거래 스토어 보기를 선택하여 마켓플레이스에 연결합니다.
 
-   - 마켓플레이스에 연결하려면 상거래 스토어 보기를 선택합니다.
+      ![상거래 및 연결 구성 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 고유 항목 입력 **[!UICONTROL store name]**.
 
@@ -73,7 +69,7 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Save Store]** 구성을 적용하고 [!DNL Walmart marketplace].
 
-연결 후 채널을 **[!UICONTROL Channel Manager > Marketplace Stores]**.
+1. 연결 후 [저장소 설정 완료](complete-store-setup.md) 에서 **[!UICONTROL Channel Manager]** 목록 저장 페이지.
 
 ![첫 번째 저장소 설정](assets/channel-manager-setup-first-store.png)
 
@@ -86,25 +82,3 @@ Walmart와의 연결이 실패하면 [Walmart Marketplace FAQ](https://developer
 - Walmart Adobe API 키에 대한 액세스 구성에 올바른 권한이 있는지 확인합니다. 자세한 내용은 [월마트 사전 요구 사항](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - 에서 [!DNL Walmart API] 서비스는 [Walmart API 상태 페이지](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
-
-## 저장소 설정 완료
-
-상거래 스토어를 [!DNL Walmart Marketplace]를 입력하면 [!DNL Channel Manager Stores] 보기.
-
-저장소 설정을 완료하려면
-
-1. 관리자에서 **[!UICONTROL Marketing** > **채널 관리자**].
-
-   ![첫 번째 저장소 설정](assets/channel-manager-setup-first-store.png)
-
-1. 맨 오른쪽 열에 있는 눈 아이콘을 클릭하여 스토어를 엽니다.
-
-1. 영업 채널 작업을 시작합니다.
-
-   - [상거래 카탈로그의 제품을 채널 관리자에 추가합니다](add-products-to-connected-channel.md)
-
-   - [제품 일치를 사용하여 Walmart에 제품 게시](publish-listings-to-marketplace.md)
-
-   - [재고 및 가격 보기 및 관리](inventory-and-price-updates.md)
-
-   - [상거래 관리자에서 Walmart 주문을 보고 관리합니다](manage-orders.md)

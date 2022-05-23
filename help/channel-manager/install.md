@@ -2,9 +2,9 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 1b018a23fdeebc52539b67adb8f2cd3bb00904ff
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->설치 도움말 [!DNL Commerce] CLI를 사용하는 소프트웨어 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
+>설치 관련 도움말 [!DNL Commerce] CLI를 사용하는 소프트웨어 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/){target=&quot;_blank&quot;}.
 
 ### 온-프레미스 인스턴스에 설치
 

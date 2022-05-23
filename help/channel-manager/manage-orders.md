@@ -2,7 +2,7 @@
 title: Walmart Marketplace 주문 관리
 description: 보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 70f8b5487cf1c6507ce8e3cbaec91f4fc883d683
+source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 0%
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 마켓플레이스에서 주문을 받고 Adobe Commerce 또는 Magento Open Source으로 가져온 후에는 [!DNL Commerce] 주문 ID를 사용하여 Adobe Commerce에서 순서를 봅니다.
 
-From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. [!UICONTROL Commerce Order Number] 열다 [!DNL Commerce]  주문 세부 사항.
+From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Commerce Order Number]** 열다 [!DNL Commerce] 주문 세부 사항.
 
 ![Walmart Marketplace 주문에 대한 상거래 주문 세부 사항 보기](assets/order-detail-with-external-order-id.png)
 
