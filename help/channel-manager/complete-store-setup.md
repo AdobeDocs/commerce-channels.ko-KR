@@ -2,7 +2,7 @@
 title: 영업 채널 설정 완료
 description: 연결된 판매 채널로 이동하여 제품 목록, 재고 및 가격 업데이트를 보고 관리하고 주문을 추적합니다
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 76aa7451c9df83fbb7ea808fc14ef2d306235da2
+source-git-commit: ee103895e1035e04a4601857032caa172d493a31
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 영업 채널 작업을 시작합니다.
 
-   - [에서 제품 추가 [!DNL Commerce Catalog] 채널 관리자](add-products-to-connected-channel.md)
+   - [에서 제품 추가 [!DNL Commerce Catalog] 채널 관리자](add-products-to-channel-store.md)
 
    - [제품 목록을에 게시 [!DNL Walmart] 제품 일치 사용](publish-listings-to-marketplace.md)
 

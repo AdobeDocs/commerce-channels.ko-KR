@@ -2,9 +2,9 @@
 title: 영업 채널을 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7a400bf0b09e65d5375dc15c6a1e004d0fef0592
+source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,7 @@ ht-degree: 0%
 
 ## 영업 채널 만들기
 
-1. 열기 [!DNL Channel Manager].
-
-   - Admin에서 **[!UICONTROL Marketing** > _채널&#x200B;_> **채널 관리자]**.
+1. 관리자에서 [!DNL Channel Manager] 선택 **[!UICONTROL Marketing** > _채널&#x200B;_> **채널 관리자]**.
 
 1. 에서 **[!UICONTROL Marketplaces available to connect]** 섹션, **[!UICONTROL Get Started]**.
 
@@ -35,7 +33,7 @@ ht-degree: 0%
 
    - 선택 **[!UICONTROL Add Credentials]**.
 
-   - 설정 [!UICONTROL Connect New Walmart Store] 양식에서 상거래 스토어 보기를 선택하여 마켓플레이스에 연결합니다.
+   - 을(를) 선택합니다 [!DNL Commerce] 마켓플레이스에 연결하려면 보기를 저장합니다.
 
       ![상거래 및 연결 구성 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
@@ -49,9 +47,9 @@ ht-degree: 0%
 
    - 에 대한 자격 증명을 추가합니다. [[!DNL Walmart Marketplace Adobe Production API key]](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 다음 [!DNL Walmart Marketplace Seller] 계정이 필요합니다.
 
-   - 자격 증명이 없는 경우 **[!UICONTROL Get API credentials]** 그들을 [!DNL Walmart Marketplace Developer Portal].
+   - 자격 증명이 없는 경우 [!DNL Walmart Marketplace Developer Portal] 선택 **[!UICONTROL Get API credentials]**.
 
-      메시지가 표시되면 지역(미국 및 캐나다)을 선택한 다음 로그인합니다.
+      개발자 포털에서 지역(미국 및 캐나다)을 선택한 다음 로그인합니다.
 
       ![[!DNL Walmart Marketplace] 계정 로그인](assets/walmart-marketplace-login-page.png)
 
@@ -65,11 +63,11 @@ ht-degree: 0%
 
    - 로 돌아가기 [!DNL Channel Manager] 자격 증명을 **[!UICONTROL Walmart Connection]** 정보.
 
-      자격 증명을 추가할 때 [!DNL Channel Manager]에서는 Adobe이 클라이언트 암호를 숨기고 보안 저장소에 값을 저장합니다.
+      자격 증명을 추가할 때 Adobe은 클라이언트 암호를 숨겨 보안 저장소에 값을 저장합니다.
 
 1. 선택 **[!UICONTROL Save Store]** 구성을 적용하고 [!DNL Walmart marketplace].
 
-1. 연결 후 [저장소 설정 완료](complete-store-setup.md) 에서 **[!UICONTROL Channel Manager]** 목록 저장 페이지.
+1. 연결 후 [저장소 설정 완료](complete-store-setup.md) 에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
 
 ![첫 번째 저장소 설정](assets/channel-manager-setup-first-store.png)
 

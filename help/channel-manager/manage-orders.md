@@ -2,9 +2,9 @@
 title: Walmart Marketplace 주문 관리
 description: 보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->한 번에 최대 35분이 소요될 수 있습니다 [!DNL Walmart Marketplace] 에 표시할 순서 [!DNL Channel Manager] 주문 목록. [!DNL Walmart] 수신되는 주문을 처리하고 전송하려면 약 30분이 필요합니다 [!DNL Channel Manager].  채널 관리자가 주문을 받으면 5분 더 걸려서 Adobe Commerce 또는 Magento Open Source에서 순서를 만들고 표시할 수 있습니다.
+>한 번에 최대 35분이 소요될 수 있습니다 [!DNL Walmart Marketplace] 에 표시할 순서 [!DNL Channel Manager] 주문 목록. [!DNL Walmart] 수신되는 주문을 처리하고 전송하려면 약 30분이 필요합니다 [!DNL Channel Manager]. 채널 관리자가 주문을 받으면 5분 정도 더 걸려서 Adobe Commerce 또는 Magento Open Source에서 순서를 만들고 표시할 수 있습니다.
 
 ## 주문 검토
 
@@ -26,6 +26,8 @@ ht-degree: 0%
 1. 저장소 항목 행에서 연필 아이콘을 선택하여 저장소 보기를 엽니다.
 
 1. 주문 정보를 보려면 *를 선택합니다.[!UICONTROL *Orders]**.
+
+1. 주문에 대한 정보를 확인하고 **[상태](#about-order-status)** 열을 사용하여 주문에 대한 정보를 얻습니다.
 
 ## 주문 세부 사항 보기
 
@@ -54,6 +56,8 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTR
 | [!UICONTROL Ship By Date] | 주문을 발송해야 하는 일자 [!DNL Walmart Marketplace] 요구 사항. |
 | [!UICONTROL Order Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 에 제품을 성공적으로 추가하면 상태가 업데이트됩니다 [!DNL Channel Manager] 및 [!DNL Walmart Marketplace]. 작업이 실패하면 목록에 오류 상태가 표시됩니다. 오류를 수정한 후 [!DNL Channel Manager] 작업을 다시 시도하고 상태를 업데이트합니다. |
 
+| [!UICONTROL Error description]    | 를 사용하여 주문에 대한 자세한 정보를 제공합니다. *오류* 상태|
+
 ### 주문 상태 정보
 
 [!UICONTROL Order Status] 의 현재 상태에 대한 정보를 제공합니다. [!DNL Walmart Marketplace] Adobe Commerce 또는 Magento Open Source에서 관리되는 주문. 주문 상태 업데이트는 [!DNL Channel Manager] 다음 중 하나에서 업데이트된 주문 정보를 받습니다. [!DNL Walmart Marketplace] 또는 [!DNL Commerce] 주문 시스템. 주문에는 다음 상태가 있을 수 있습니다.
@@ -74,6 +78,6 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTR
 
    환불이 완료되면 [!DNL Commerce] 주식 수량이 갱신되어 환급된 품목이 반영됩니다. 그럼, [!DNL Channel Manager] 업데이트를에 동기화 [!DNL Walmart Marketplace].
 
-* **[!UICONTROL Error]**- 정보 누락 또는 기타 문제로 인해 주문 저장소로 가져오지 않은 주문
+* **[!UICONTROL Error]**- 오류가 있는 주문. 주문 업데이트 작업이 실패할 경우 오류가 발생할 수 있습니다. 예를 들어 다음 경우 오류가 발생합니다 [!DNL Channel Manager] 월마트로부터 새 주문을 받을 수 없습니다. 이러한 매개 변수는 [!DNL Channel Manager] 주문 선적 또는 취소 갱신을 [!DNL Walmart Marketplace].
 
-   오류 메시지 세부 사항을 보려면 마우스를 *[!UICONTROL Error]* 상태 표시기입니다. 오류를 해결하면 현재 정보와 상태를 표시하도록 주문이 자동으로 업데이트됩니다.
+* **[!UICONTROL Error description]**-누락된 정보 또는 잘못된 값, 잘못된 납품 상세내역 또는 주문 취소 실패와 같은 문제로 인해 발생하는 주문 오류에 대한 자세한 정보를 제공합니다. 설명은 오류 발생 여부를 확인하는 데 도움이 됩니다 [!DNL Commerce] 인스턴스 또는 [!DNL Walmart Marketplace].
