@@ -4,9 +4,9 @@ description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe 
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: ef4c1362424285d4969fe173a0790809fccff80b
+source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '475'
 ht-degree: 0%
 
 ---
@@ -49,54 +49,3 @@ ht-degree: 0%
 | Walmart에서 Commerce로 주문 동기화 | 고객은 Walmart Marketplace에서 상거래 제품을 주문합니다. Walmart가 채널 관리자에게 주문을 보냅니다. 순서는 주문 대시보드에 표시됩니다. | **최대 30분** |
 | Commerce Order Management에서 만든 순서 | 채널 관리자는 Mart 주문에서 상거래 주문을 만들고 상거래 주문 번호를 포함하도록 주문 대시보드를 업데이트합니다. | **최대 5분** |
 
-## 월마트의 사전 요구 사항
-
-Commerce를 Walmart Marketplace와 통합하려면 Walmart에서 다음 정보가 필요합니다.
-
-* 등록된 Marketplace 판매자 계정에 로그인할 수 있는 자격 증명과 Walmart에서 판매할 승인
-
-* Adobe Commerce 또는 Magento Open Source을 Walmart Marketplace에 연결하기 위한 API 키
-
-   Walmart Marketplace API 키를 사용하면 Adobe Commerce 또는 Magento Open Source용 채널 관리자와 Walmart Marketplace를 통합할 수 있습니다. Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
-
-### Marketplace 판매자 계정 설정
-
-1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-2. 월마트의 승인을 받은 후에 [Walmart Seller 계정 설정](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
-
-### Walmart Marketplace API 키 생성
-
-1. Walmart Marketplace로 이동하여 [Adobe용 솔루션 공급자 프로덕션 API 키](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
-
-1. 키 만들기 및 권한 구성:
-
-   * 솔루션 공급자로 Adobe 를 선택합니다.
-
-   * 다음 표에 표시된 대로 권한을 설정합니다. 자세한 내용은 [API 자격 증명](https://sellerhelp.walmart.com/seller/s/guide?article=000006422) 에서 *[!DNL Walmart Marketplace]판매자 도움말*.
-
-   **Walmart에 대한 Adobe API 키 구성**
-
-   | **권한** | **설정** |
-   |----------------|-------------|
-   | 컨텐츠 | 전체 액세스 |
-   | 피드 가져오기 | 보기 전용 |
-   | 인벤토리 | 전체 액세스 |
-   | 항목 | 전체 액세스 |
-   | 지연 시간 | 전체 액세스 |
-   | 주문 | 전체 액세스 |
-   | 가격 | 전체 액세스 |
-   | 보고서 | 보기 전용 |
-   | 반환 | 전체 액세스 |
-   | 규칙 | 전체 액세스 |
-   | 배송 | 전체 액세스 |
-
-## Walmart Marketplace 스토어 상태
-
-Walmart Marketplace에 제품을 게시할 때 사용 가능 여부는 Walmart Marketplace 저장소의 상태에 따라 다릅니다.
-
-* 라이브 스토어의 경우, 제품 오퍼가 나열되며 일치 작업이 완료되면 판매 가능합니다.
-
-* 라이브 상태가 아닌 저장소의 경우 제품 오퍼가 스테이징되어 고객에게 표시되지 않습니다. 스토어가 라이브로 전환되면 준비된 목록이 라이브 스토어에 자동으로 푸시됩니다.
-
-
-![[!DNL Walmart Seller Central] 준비된 제품](assets/walmart-seller-central-staged.png)
