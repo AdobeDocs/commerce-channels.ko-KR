@@ -1,17 +1,17 @@
 ---
 title: 설정 개요
 description: 에 대해 알아보기 [!DNL Channel Manager settings] 인증을 구성하고 제품 카탈로그 속성 및 운송 회사를 매핑하기 위해 [!DNL Commerce] 그리고 [!DNL Walmart Marketplace].
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
+source-git-commit: fac4bbd3985e07b919f986c877b8584da797e6fe
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-
 # 설정 개요
 
-영업 채널 설정을 통해 통신 및 데이터 동기화를 수행할 수 있습니다 [!DNL Commerce] 및 [!DNL Walmart Marketplace] Walmart Marketplace 판매 작업을 [!DNL Commerce] 관리자:
+영업 채널 설정을 통해 통신 및 데이터 동기화를 수행할 수 있습니다 [!DNL Commerce] 및 [!DNL Walmart Marketplace] Walmart Marketplace 판매 작업을 [!DNL Commerce] 관리자.
 
 in [!DNL Channel Manager], 온보딩 프로세스 중에 일부 판매 채널 설정을 구성합니다. 온보딩 후에는 *설정* 페이지.
 

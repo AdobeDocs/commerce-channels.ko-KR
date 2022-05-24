@@ -2,9 +2,9 @@
 title: 운송 회사 매핑
 description: 일치하는 [DNL! 기존 제품에 대한 상거래 [!DNL Walmart Marketplace] 목록 및 데이터 동기화 [!DNL Channel Manager] 및 [!DNL Walmart].
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: e8c3fdc912b1e7ee4960a9a6ff66a2c9968f34f0
+source-git-commit: aff38e59771fb973b789450b1a7b9552a7a809ff
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 0%
 
 1. 설정 [!UICONTROL Listings] 영업 채널 저장소 페이지에서 **[!UICONTROL Settings]**.
 
-1. *[!UICONTROL Map Attributes], ** 선택[!UICONTROL Shipping Carriers].
+1. From **[!UICONTROL Map Attributes]**, 선택 **[!UICONTROL Shipping Carriers]**.
 
    ![운송 회사 매핑](assets/map-shipping-carriers.png)
 
