@@ -2,9 +2,9 @@
 title: 목록 관리
 description: 에 대한 영업 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
@@ -49,11 +49,11 @@ ht-degree: 0%
 
 ## Walmart에 제품 게시
 
-제품 일치 기능을 사용하거나 새 제품에 대한 제품 목록을 수동으로 업로드하여 Walmart Marketplace에서 제품 오퍼를 만들 수 있습니다. 자세한 내용은 [Walmart Marketplace에 목록 게시](publish-listings-to-marketplace.md) 다음 항목에 설명되어 있습니다.
+제품 일치 기능을 사용하거나 새 제품에 대한 제품 목록을 수동으로 업로드하여 Walmart Marketplace에서 제품 오퍼를 만들 수 있습니다.
 
-* **[Walmart에서 제품 일치](publish-listings-to-marketplace.md)**-채널에서 다음으로 제품 목록 게시 [!DNL Walmart Marketplace] 동일한 제품을 판매하는 기존 목록을 업데이트하여 일치 기준은 [속성 매핑 구성](map-catalog-attributes.md) 채널용.
+* **[Walmart에서 제품 일치](publish-listings-to-marketplace.md)**—채널에서 로 제품 목록을 게시합니다. [!DNL Walmart Marketplace] 동일한 제품을 판매하는 기존 목록을 업데이트하여 일치 기준은 [속성 매핑 구성](map-catalog-attributes.md) 채널용.
 
-* **[수동으로 새 목록 업로드](publish-listings-to-marketplace.md#upload-new-product-listings)-**-Walmart Marketplace의 기존 목록과 일치하지 않는 제품의 경우 Walmart 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드하십시오.
+* **[수동으로 새 목록 업로드](publish-listings-to-marketplace.md#upload-new-product-listings)**- Walmart Marketplace의 기존 목록과 일치하지 않는 제품의 경우 Walmart 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드하십시오.
 
 ## 목록 컨트롤 및 열 설명
 
@@ -87,18 +87,18 @@ ht-degree: 0%
 
 * **[!UICONTROL Draft]**-이전부터 사용하지 않은 제품을 식별합니다 [제출됨 [!DNL Walmart] 일치하는 항목](publish-listings-to-marketplace.md#match-products).
 
-* **[!UICONTROL Processing]**-에서 일치하기 위해 제출된 제품을 식별합니다 [!DNL Walmart Marketplace]. 제품이 다음 위치에 남아 있음 *처리 중* 상태 [!DNL Walmart] 일치 성공 여부 또는 오류 여부를 나타내는 HTTP 상태 메시지를 반환합니다. 에서 일치 작업을 완료하는 데 최대 30분이 걸릴 수 있습니다. [!DNL Walmart Marketplace].
+* **[!UICONTROL Processing]**—에서 일치하기 위해 제출된 제품을 식별합니다. [!DNL Walmart Marketplace]. 제품이 다음 위치에 남아 있음 *처리 중* 상태 [!DNL Walmart] 일치 성공 여부 또는 오류 여부를 나타내는 HTTP 상태 메시지를 반환합니다. 에서 일치 작업을 완료하는 데 최대 30분이 걸릴 수 있습니다. [!DNL Walmart Marketplace].
 
 * **[!UICONTROL Match]**-에 대해 일치하는 제품을 식별합니다 [!DNL Walmart].
 
-   일례와 같은 제품 속성 값-UPC 코드가 기존[!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 Walmart 목록에 추가됩니다.
+   제품 속성 값(예: UPC 코드)이 기존[!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 Walmart 목록에 추가됩니다.
 
    을(를) 확인합니다. [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 대시보드 를 사용하여 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인합니다.
 
-* **[!UICONTROL Match - Match in Stage]**-에 대응되는 제품 식별 [!DNL Walmart] 게시할 때까지 [!DNL Walmart Marketplace] 스토어는 라이브입니다. 이 상태가 있는 제품은 [!DNL Walmart Marketplace] 가게 라이브로
+* **[!UICONTROL Match - Match in Stage]**- 일치하는 제품을 식별합니다. [!DNL Walmart] 게시할 때까지 [!DNL Walmart Marketplace] 스토어는 라이브입니다. 이 상태가 있는 제품은 [!DNL Walmart Marketplace] 가게 라이브로
 
-* **[!UICONTROL Error]**-기존 제품과 일치하지 않는 제품을 식별합니다 [!DNL Walmart Marketplace] 목록.
+* **[!UICONTROL Error]**- 기존 제품과 일치하지 않는 제품을 식별합니다. [!DNL Walmart Marketplace] 목록.
 
-* **[!UICONTROL Error description]**-목록 오류에 대한 자세한 정보를 제공합니다.
+* **[!UICONTROL Error description]**- 목록 오류에 대한 자세한 정보를 제공합니다.
 
    오류를 해결한 후 일치하는 제품을 다시 제출합니다. 자세한 내용은 [제품 일치 오류 문제 해결](publish-listings-to-marketplace.md#troubleshoot-product-match-errors).

@@ -2,9 +2,9 @@
 title: Walmart Marketplace 주문 관리
 description: 보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: ec85dc2496c22cd8173c550ca35f2bd207501c19
+source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,9 +54,10 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTR
 | [!UICONTROL Order Value] | 주문 품목의 총 원가. |
 | [!UICONTROL Date Created] | 주문이 생성된 날짜입니다. [!DNL Walmart Marketplace]. |
 | [!UICONTROL Ship By Date] | 주문을 발송해야 하는 일자 [!DNL Walmart Marketplace] 요구 사항. |
-| [!UICONTROL Order Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 에 제품을 성공적으로 추가하면 상태가 업데이트됩니다 [!DNL Channel Manager] 및 [!DNL Walmart Marketplace]. 작업이 실패하면 목록에 오류 상태가 표시됩니다. 오류를 수정한 후 [!DNL Channel Manager] 작업을 다시 시도하고 상태를 업데이트합니다. |
-
-| [!UICONTROL Error description]    | 를 사용하여 주문에 대한 자세한 정보를 제공합니다. *오류* 상태|
+| [!UICONTROL Deliver By Date] | 고객이 충족하기 위해 주문을 고객에게 전달해야 하는 일자 [!DNL Walmart Marketplace] 요구 사항. |
+| [!UICONTROL Last Update At] | 주문 데이터가 마지막으로 업데이트된 시간을 나타내는 타임스탬프 [!DNL Channel Manager] |
+| [!UICONTROL Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 에 제품을 성공적으로 추가하면 상태가 업데이트됩니다 [!DNL Channel Manager] 및 [!DNL Walmart Marketplace]. 작업이 실패하면 목록에 오류 상태가 표시됩니다. 오류를 수정한 후 [!DNL Channel Manager] 작업을 다시 시도하고 상태를 업데이트합니다. |
+| [!UICONTROL Error Description] | 를 사용하여 주문에 대한 자세한 정보를 제공합니다. *오류* 상태. |
 
 ### 주문 상태 정보
 
