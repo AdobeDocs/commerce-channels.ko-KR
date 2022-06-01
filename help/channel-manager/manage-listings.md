@@ -2,9 +2,9 @@
 title: 목록 관리
 description: 에 대한 영업 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '788'
 ht-degree: 0%
 
 ---
@@ -41,19 +41,19 @@ ht-degree: 0%
 
 ## 채널 관리자에 상거래 제품 추가
 
-다음 작업을 완료하여 Walmart Marketplace 채널에 대한 제품 섹션을 만듭니다.
+에 대한 제품 컬렉션을 만듭니다 [!DNL Walmart Marketplace] 다음 작업을 완료하여 채널을 지정합니다.
 
-* [상거래 제품 카탈로그의 제품을 채널 관리자에 추가합니다](add-products-to-channel-store.md)
+* [에서 제품 추가 [!DNL Commerce] 제품 카탈로그를 로 [!DNL Channel Manager]](add-products-to-channel-store.md)
 
 * [카탈로그 속성 매핑](map-catalog-attributes.md#configure-product-attribute-settings)
 
-## Walmart에 제품 게시
+## 에 제품 게시 [!DNL Walmart]
 
-제품 일치 기능을 사용하거나 새 제품에 대한 제품 목록을 수동으로 업로드하여 Walmart Marketplace에서 제품 오퍼를 만들 수 있습니다.
+에서 제품 오퍼를 만들 수 있습니다 [!DNL Walmart Marketplace] 제품 일치 사용 또는 새 제품에 대한 제품 목록을 수동으로 업로드하십시오.
 
 * **[Walmart에서 제품 일치](publish-listings-to-marketplace.md)**—채널에서 로 제품 목록을 게시합니다. [!DNL Walmart Marketplace] 동일한 제품을 판매하는 기존 목록을 업데이트하여 일치 기준은 [속성 매핑 구성](map-catalog-attributes.md) 채널용.
 
-* **[수동으로 새 목록 업로드](publish-listings-to-marketplace.md#upload-new-product-listings)**- Walmart Marketplace의 기존 목록과 일치하지 않는 제품의 경우 Walmart 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드하십시오.
+* **[수동으로 새 목록 업로드](publish-listings-to-marketplace.md#upload-new-product-listings)**- 의 기존 목록과 일치하지 않는 제품의 경우 [!DNL Walmart Marketplace]를 사용하려면 [!DNL Walmart] 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드할 수 있습니다.
 
 ## 목록 컨트롤 및 열 설명
 
@@ -64,7 +64,7 @@ ht-degree: 0%
 | **제어** | **설명** |
 |----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | 를 엽니다. [!UICONTROL Admin Product Catalog] 페이지에 추가할 제품을 선택하는 페이지 [!DNL Walmart Marketplace] Walmart Marketplace 목록 요구 사항을 충족하도록 제품 특성을 분류하거나 업데이트합니다. |
-| [!UICONTROL Match products on Walmart] | 초안 상태에서 하나 이상의 제품을 선택한 후 Mart에서 제품 일치 를 선택하여 기존 제품에 추가할 수 있는 제품 오퍼를 확인합니다 [!DNL Walmart Marketplace] 목록. |
+| [!UICONTROL Match products on Walmart] | 초안 상태에서 하나 이상의 제품을 선택한 후 [제품 일치]를 선택합니다 [!DNL Walmart] 기존 [!DNL Walmart Marketplace] 목록. |
 | [!UICONTROL Refresh products] | 디스플레이를 최신 목록 및 상태로 업데이트합니다. 또한 이 컨트롤은 목록 보기를 기본 정렬 순서로 재설정하고 필터를 제거합니다. |
 | [!UICONTROL Filter by *상태*] | 목록 테이블 위에 있는 상태 카운트 카드 중 하나를 선택하여 특정 상태의 목록만 표시합니다. 를 사용하십시오 *제품 새로 고침* 필터를 제거합니다. |
 | [!UICONTROL Sort products] | 열 헤더를 선택하여 나열할 정렬 순서를 변경합니다. |
@@ -91,7 +91,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]**-에 대해 일치하는 제품을 식별합니다 [!DNL Walmart].
 
-   제품 속성 값(예: UPC 코드)이 기존[!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 Walmart 목록에 추가됩니다.
+   제품 속성 값(예: UPC 코드)이 기존[!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 오퍼에 추가됩니다 [!DNL Walmart] 목록.
 
    을(를) 확인합니다. [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 대시보드 를 사용하여 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인합니다.
 

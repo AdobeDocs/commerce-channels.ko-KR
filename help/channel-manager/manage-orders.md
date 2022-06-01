@@ -1,19 +1,19 @@
 ---
-title: Walmart Marketplace 주문 관리
-description: 보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.
+title: '"관리 [!DNL Walmart Marketplace] 주문"'
+description: '"보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우"'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: d5bb7d6cc43620a33a705c085918e80a1cfa1593
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
 
-# Walmart Marketplace 주문 관리
+# 관리 [!DNL Walmart Marketplace] 주문
 
-[!DNL Walmart Marketplace] 주문 [!DNL Commerce] 제품 목록 동기화 [!DNL Channel Manager] Walmart가 주문을 처리한 후에. 동기화가 완료되면, **[!UICONTROL Orders]** 연결된 채널 저장소 보기에서 [!DNL Channel Manager].
+[!DNL Walmart Marketplace] 주문 [!DNL Commerce] 제품 목록 동기화 [!DNL Channel Manager] after [!DNL Walmart] 순서를 처리합니다. 동기화가 완료되면, **[!UICONTROL Orders]** 연결된 채널 저장소 보기에서 [!DNL Channel Manager].
 
-![Channel Manager 주문 보기를 통해 Walmart Marketplace 주문을 관리할 수 있습니다](assets/orders-dashboard-view.png)
+![채널 관리자 주문 보기 를 통해 관리 [!DNL Walmart Marketplace] 주문](assets/orders-dashboard-view.png)
 
 >[!NOTE]
 >
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Commerce Order Number]** 열다 [!DNL Commerce] 주문 세부 사항.
 
-![Walmart Marketplace 주문에 대한 상거래 주문 세부 사항 보기](assets/order-detail-with-external-order-id.png)
+![전자 상거래 주문 세부 사항 보기 [!DNL Walmart Marketplace] 주문](assets/order-detail-with-external-order-id.png)
 
 ### 주문 통제 및 열 설명
 
@@ -48,7 +48,7 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTR
 
 | 필드 | 설명 |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL  Walmart Order Number] | 주문에서 주문에 지정된 구매 발주 번호 [!DNL Walmart Marketplace]. 처음에 주문을 로 가져오는 경우 [!DNL Channel Manager]를 채울 때는 월마트의 주문 번호만 표시됩니다. 이 [!DNL Commerce] 주문이 생성되면 [!DNL Walmart] 주문 번호는 [!UICONTROL External ID] 제품 속성입니다. |
+| [!UICONTROL  Walmart Order Number] | 주문에서 주문에 지정된 구매 발주 번호 [!DNL Walmart Marketplace]. 처음에 주문을 로 가져오는 경우 [!DNL Channel Manager], 만 [!DNL Walmart] 주문 번호가 표시됩니다. 이 [!DNL Commerce] 주문이 생성되면 [!DNL Walmart] 주문 번호는 [!UICONTROL External ID] 제품 속성입니다. |
 | [!DNL Commerce]  주문 번호 | 에 지정된 번호 [!DNL Commerce]  주문 [!DNL Walmart Marketplace] 주문. |
 | 항목 | 주문된 항목 수 [!DNL Walmart Marketplace]. |
 | [!UICONTROL Order Value] | 주문 품목의 총 원가. |
@@ -60,6 +60,7 @@ From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTR
 | [!UICONTROL Error Description] | 를 사용하여 주문에 대한 자세한 정보를 제공합니다. *오류* 상태. |
 
 ### 주문 상태 정보
+
 
 [!UICONTROL Order Status] 의 현재 상태에 대한 정보를 제공합니다. [!DNL Walmart Marketplace] Adobe Commerce 또는 Magento Open Source에서 관리되는 주문. 주문 상태 업데이트는 [!DNL Channel Manager] 다음 중 하나에서 업데이트된 주문 정보를 받습니다. [!DNL Walmart Marketplace] 또는 [!DNL Commerce] 주문 시스템. 주문에는 다음 상태가 있을 수 있습니다.
 

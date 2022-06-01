@@ -2,22 +2,22 @@
 title: 영업 채널을 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 7349dd92c2166ff6ae83b705416993e48aa5f954
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '344'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
 
 # 영업 채널을 [!DNL Walmart Marketplace]
 
-에 채널 관리자를 설치한 후 [!DNL Commerce] 예를 들어 Commerce store를 Walmart Marketplace에 연결합니다.
+에 채널 관리자를 설치한 후 [!DNL Commerce] 인스턴스, 연결 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace].
 
 1. [영업 채널 만들기](#create-the-sales-channel) 제품 목록에 대해 상거래 저장소를 선택하여 기본 설정을 지정합니다.
 
-1. [채널을 [!DNL Walmart Marketplace] Walmart API 자격 증명을 추가하여](#connect-the-channel-to-walmart-marketplace).
+1. [채널을 [!DNL Walmart Marketplace] 추가 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [영업 채널 설정 완료](#complete-store-setup) Walmart Marketplace 제품에 대한 목록, 재고, 가격 및 주문을 관리하려면
+1. [영업 채널 설정 완료](#complete-store-setup) 목록, 재고, 가격 및 주문을 관리하려면 [!DNL Walmart Marketplace] 상품.
 
 ## 영업 채널 만들기
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 1. 에서 **[!UICONTROL Marketplaces available to connect]** 섹션, **[!UICONTROL Get Started]**.
 
-   ![새 Walmart 스토어에 연결 [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![새 연결 [!DNL Walmart] 저장 위치 [!DNL Channel Manager]](assets/channel-manager-home.png)
 
-1. 필요한 경우 Walmart Marketplace 판매자 계정을 설정합니다.
+1. 필요한 경우 [!DNL Walmart Marketplace Seller] 계정이 필요합니다.
 
 1. 저장소 및 연결을 구성합니다.
 
@@ -73,10 +73,10 @@ ht-degree: 0%
 
 ### 연결 문제 해결
 
-Walmart와의 연결이 실패하면 [Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/)문제 해결 팁은 {target=&quot;_blank&quot;} 입니다.
+에 연결된 경우 [!DNL Walmart] 실패, 다음을 참조하십시오 [Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/)문제 해결 팁은 {target=&quot;_blank&quot;} 입니다.
 
 - 에서 [!DNL Walmart Developer Portal]에서 프로덕션 API 키에 대한 올바른 자격 증명을 복사했는지 확인합니다. [!UICONTROL Adobe Inc.]
 
-- Walmart Adobe API 키에 대한 액세스 구성에 올바른 권한이 있는지 확인합니다. 자세한 내용은 [월마트 사전 요구 사항](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
+- 에 대한 액세스 구성을 확인합니다. [!UICONTROL Walmart Adobe API key] 에는 올바른 권한이 있습니다. 자세한 내용은 [[!DNL Walmart Prerequisites]](walmart-prerequisites.md##generate-a-walmart-marketplace-api-key).
 
 - 에서 [!DNL Walmart API] 서비스는 [Walmart API 상태 페이지](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.

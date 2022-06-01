@@ -1,10 +1,10 @@
 ---
 title: Walmart에 목록 게시
-description: 판매를 시작하려면 Walmart Marketplace에 상거래 제품 목록을 게시하십시오.
+description: 에 전자 상거래 제품 목록 게시 [!DNL Walmart Marketplace]판매를 시작하려고요
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: dfe56db25bb569ad70fb1036d539797bbb126dd5
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1136'
 ht-degree: 0%
 
 ---

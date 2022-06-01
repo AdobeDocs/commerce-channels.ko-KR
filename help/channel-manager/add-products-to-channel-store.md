@@ -2,9 +2,9 @@
 title: 영업 채널 저장소에 제품 추가
 description: 에 대한 제품 조합 만들기 [!DNL Walmart Marketplace] 카탈로그의 제품을 판매 채널에 추가하여 판매
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: ee103895e1035e04a4601857032caa172d493a31
+source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '247'
 ht-degree: 0%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 # 영업 채널 저장소에 제품 추가
 
-제품을 Walmart Marketplace 판매 채널에 동기화하려면 [!DNL Commerce] 제품 카탈로그를 사용하여 채널 관리자로 가져옵니다. 선택한 제품에는 다음 속성 구성이 있어야 합니다.
+제품에 동기화하려면 [!DNL Walmart Marketplace] 영업 채널인 경우, [!DNL Commerce] 제품 카탈로그를 사용하여 채널 관리자로 가져옵니다. 선택한 제품에는 다음 속성 구성이 있어야 합니다.
 
 - **[!UICONTROL Publish to Channel Manager]** 속성이 활성화됨
 
-- 하나 이상의 제품 특성이 [필수 Walmart Marketplace 특성](map-catalog-attributes.md)-GTIN, ISBN, ISN, UPC, EAN
+- 하나 이상의 제품 특성이 [필수 [!DNL Walmart Marketplace] 속성](map-catalog-attributes.md)-GTIN, ISBN, ISN, UPC, EAN
 
 제품을 가져오는 프로세스 [!DNL Commerce] 채널 관리자까지는 선택한 제품 수에 따라 최대 30분 이상이 걸릴 수 있습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 0%
 
    - 로 스크롤합니다. **[!UICONTROL Publish to Channel Manager]** 속성을 설정하고 활성화합니다.
 
-   - 제품 속성에 필요한 Walmart 제품 ID 중 하나 이상이 포함되어 있는지 확인합니다.
+   - 제품 속성에 필요한 항목 중 하나 이상이 포함되어 있는지 확인합니다 [!DNL Walmart Product IDs].
 
    - 선택 **[!UICONTROL Save]**.
 

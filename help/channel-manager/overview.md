@@ -1,12 +1,12 @@
 ---
-title: 정보 [!DNL Channel Manager]
-description: 설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source 스토어를 타사 마켓플레이스와 통합하고 판매 채널을 만들어 마켓플레이스 목록, 가격, 인벤토리 및 판매를 상거래 관리자와 원활하게 관리할 수 있습니다.
+title: '"정보 [!DNL Channel Manager]"'
+description: '"설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source 스토어를 타사 마켓플레이스와 통합하고 판매 채널을 만들어 마켓플레이스 목록, 가격, 인벤토리 및 매출을 상거래 관리자와 원활하게 관리할 수 있습니다."'
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: 9ccd205ccd4f4b3f4e6b9fed2c4d16893f4b0da8
+source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '468'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 0%
 
 ![[!DNL Channel Manager] 확장 관리자 보기](assets/channel-manager-home.png)
 
-채널 관리자는 Walmart Marketplace에서 판매하려는 Adobe Commerce 또는 Magento Open Source 판매자를 지원합니다.
+채널 관리자는 판매하려는 Adobe Commerce 또는 Magento Open Source 판매자를 지원합니다 [!DNL Walmart Marketplace].
 
 설치 및 구성 후 [!DNL Channel Manager], [!DNL Commerce] 관리자가 확장되어 관리할 수 있습니다 [!DNL Walmart Marketplace] 상거래 환경에서 원활하게 영업 운영 수행
 
-* **목록 관리**-전자 상거래 카탈로그의 제품을 기존 Walmart Marketplace 목록에 일치시켜 제품 목록을 쉽게 게시합니다.
+* **목록 관리**-에서 제품을 일치시켜 제품 목록을 쉽게 게시 [!DNL Commerce] 기존 [!DNL Walmart Marketplace] 목록.
 
 * **Inventory management**-머천트의 마켓플레이스 판매자 계정의 항목은 정확한 재고 수준을 보장하기 위해 상거래에서 자동으로 동기화되고 업데이트됩니다.
 
@@ -41,9 +41,9 @@ ht-degree: 0%
 **채널 관리자 작업의 예상 지연**
 
 | **작업** | **설명** | **예상 지연** |
-|--------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | 채널 관리자에 제품 추가 | 상거래 제품 카탈로그에서 제품을 선택하고 채널 관리자로 가져옵니다. | **최대 5분**-전체 제품 카탈로그와 같이 제품을 많이 선택하면 가져오기 프로세스가 길어집니다. |
-| Walmart Marketplace에서 제품 일치 | 채널 관리자에서 제품 목록을 선택하고 매칭하려면 Walmart로 보내십시오. | **최대 30분**-여러 제품을 선택하면 선택한 수량에 따라 대응 프로세스가 더 길어집니다. |
+| 제품 일치[!DNL Walmart Marketplace] | 채널 관리자에서 제품 목록을 선택하고 매칭하려면 Walmart로 보내십시오. | **최대 30분**-여러 제품을 선택하면 선택한 수량에 따라 대응 프로세스가 더 길어집니다. |
 | 인벤토리 업데이트 | 상거래에 재고 수량이 변경되면 [!DNL Channel Manager] Walmart에 업데이트를 동기화합니다. | **최대 10분** |
 | 가격 업데이트 | 제품 가격이 변경되면 Channel Manager 는 업데이트를 Walmart로 동기화합니다. | **최대 5분** |
 | Walmart에서 Commerce로 주문 동기화 | 고객은 Walmart Marketplace에서 상거래 제품을 주문합니다. Walmart가 채널 관리자에게 주문을 보냅니다. 순서는 주문 대시보드에 표시됩니다. | **최대 30분** |
