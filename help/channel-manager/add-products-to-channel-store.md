@@ -2,9 +2,9 @@
 title: 영업 채널 저장소에 제품 추가
 description: 에 대한 제품 조합 만들기 [!DNL Walmart Marketplace] 카탈로그의 제품을 판매 채널에 추가하여 판매
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: e3b12c9ce1ad4b5be17284e98956a773d7ccca24
+source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '328'
 ht-degree: 0%
 
 ---
@@ -12,13 +12,30 @@ ht-degree: 0%
 
 # 영업 채널 저장소에 제품 추가
 
-제품에 동기화하려면 [!DNL Walmart Marketplace] 영업 채널인 경우, [!DNL Commerce] 제품 카탈로그를 사용하여 채널 관리자로 가져옵니다. 선택한 제품에는 다음 속성 구성이 있어야 합니다.
+에 제품을 추가합니다 [!DNL Walmart Marketplace] 판매 채널에서 제품을 선택하여 [!DNL Commerce] 제품 카탈로그를 로 가져와서 [!DNL Channel Manager].
+선택한 제품 수에 따라 가져오기 프로세스가 최대 30분 이상 걸릴 수 있습니다.
+
+## 전제 조건
+
+**[카탈로그 속성 매핑](map-catalog-attributes.md)**- [!DNL Channel Settings] 구성, 적어도 한 개의 속성을 매핑합니다 [!DNL Commerce] 필수 Walmart 제품 식별자 —-GTIN, ISBN, ISN, UPC, EAN에 대한 제품 카탈로그
+
+## 목록 요구 사항
+
+[!DNL Commerce] 제품 목록에는 다음 필수 속성 구성이 있어야 합니다.
 
 - **[!UICONTROL Publish to Channel Manager]** 속성이 활성화됨
 
-- 하나 이상의 제품 특성이 [필수 [!DNL Walmart Marketplace] 속성](map-catalog-attributes.md)-GTIN, ISBN, ISN, UPC, EAN
+- 필수 Walmart 속성에 유효한 값을 제공합니다.
 
-제품을 가져오는 프로세스 [!DNL Commerce] 채널 관리자까지는 선택한 제품 수에 따라 최대 30분 이상이 걸릴 수 있습니다.
+   - 필수 속성 중 하나와 일치하는 제품 속성이 하나 이상 있습니다 [!DNL Walmart Marketplace] 제품 식별자-GTIN, ISBN, ISN, UPC, EAN.
+
+   - 예를 들어 최대 2개의 소수 자리까지 지정된 제품 가격 `9.99`
+
+   - 예를 들어 최대 소수점 이하 두 자리로 지정된 제품 가중치 `1.25`
+
+>[!TIP]
+>
+>판매 채널에 대한 목록 최적화에 대한 자세한 내용은 [Walmart Marketplace 목록 품질 최적화 안내서](https://marketplace.walmart.com/wp-content/uploads/2020/09/WMP_listing_quality_optimization_guide.pdf).
 
 ## 제품 추가
 
