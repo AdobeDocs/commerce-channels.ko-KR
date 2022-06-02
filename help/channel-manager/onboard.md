@@ -4,17 +4,15 @@ description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: e0b7f971f8eb4bc0827a7792ef94d88766adf82e
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 
 # 온보드 [!DNL Channel Manager]
-
-온보딩된 채널 관리자에서 [!DNL Commerce] 인스턴스 및 API 연결 구성. 이러한 연결을 통해 전자 상거래 인스턴스와 데이터 동기화 간에 통신이 가능합니다 [!DNL Walmart Marketplace].
 
 온보딩을 완료하면 [!UICONTROL Channel Manager] 옵션 [!UICONTROL Commerce Admin Marketing] 메뉴 아래의 제품에서 사용할 수 있습니다.
 
@@ -30,9 +28,9 @@ ht-degree: 0%
 
 1. [저장소 설정 완료](complete-store-setup.md).
 
-## 전제 조건
+## 요구 사항
 
-- 필요한 가 있는지 확인합니다. [Walmart Marketplace 사전 요구 사항](walmart-prerequisites.md) 를 채널 관리자와 통합합니다.
+- 을(를) 충족하는지 확인합니다. [Walmart Marketplace 요구 사항](walmart-requirements.md) 를 채널 관리자와 통합합니다.
 
 - **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 를 사용하려면 [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. 에 대한 소유자 또는 관리자 액세스 권한이 있는 계정 ID 및 자격 증명이 필요합니다 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
 
@@ -62,7 +60,7 @@ ht-degree: 0%
 
    재고 및 Order Management에 채널 관리자를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce 및 Magento Open Source 2.3.x 이상에서 기본적으로 설치 및 활성화됩니다. 자세한 내용은 [Inventory management 설치](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce 개발자 설명서).
 
-### 요구 사항
+### 시스템 요구 사항
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)

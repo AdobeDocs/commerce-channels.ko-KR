@@ -2,9 +2,9 @@
 title: Walmart에 목록 게시
 description: 에 전자 상거래 제품 목록 게시 [!DNL Walmart Marketplace]판매를 시작하려고요
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: ae3d95fd0da6ee5013a19d7ac7ed5ef87e4a1325
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ### 전제 조건
 
-제품에 일치하기 전에 제품 카탈로그 속성 값이 Mart 요구 사항을 충족하는지 확인하고 속성 설정을 구성합니다. 자세한 내용은 [카탈로그 속성 매핑](map-catalog-attributes.md).
+제품에 일치하기 전에 제품 카탈로그 속성 값이 Mart 요구 사항을 충족하는지 확인하고 제품 속성 설정을 구성합니다. 자세한 내용은 [카탈로그 속성 매핑](map-catalog-attributes.md).
 
 #### 제품 선택 및 일치
 
@@ -52,9 +52,7 @@ ht-degree: 0%
 
 일치가 완료되면 상태를 확인할 수 있습니다 *일치* 또는 *오류*.
 
-* **[!UICONTROL Match]** 제품이 일치했음을 나타냅니다. 제품 오퍼가 기존 Walmart Marketplace 목록에 게시되었습니다. 만약 [마켓플레이스 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 에 표시됩니다. *[!UICONTROL Status detail]* 열.
-
-만약 [[!DNL Walmart Marketplace] 저장소가 활성 상태가 아닙니다.](walmart-prerequisites.md#walmart-marketplace-store-status), *상태 세부 정보* 열은 제품이 *일치 준비 완료*. 준비된 제품은 [!DNL Walmart Marketplace] 저장소가 활성화되었습니다.
+* **[!UICONTROL Match]** 제품이 일치했음을 나타냅니다. 제품 오퍼가 기존 Walmart Marketplace 목록에 게시되었습니다. 만약 [마켓플레이스 저장소가 활성 상태가 아닙니다.](walmart-requirements.md#walmart-marketplace-store-status), *[!UICONTROL Staged for Match]* 에 표시됩니다. *[!UICONTROL Status detail]* 열. 준비된 제품은 [!DNL Walmart Marketplace] 저장소가 활성화되었습니다.
 
 * **[!UICONTROL Error]** 다음 문제 중 하나로 인해 일치 작업이 실패했음을 나타냅니다.
 
@@ -116,7 +114,7 @@ Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카�
 
 ### 전제 조건
 
-* 을(를) 충족하는지 확인합니다. [월마트의 사전 요구 사항](walmart-prerequisites.md).
+* 을(를) 충족하는지 확인합니다. [월마트 요구 사항](walmart-requirements.md).
 
 * Commerce 제품 카탈로그에서 Walmart Marketplace에 나열된 제품에 대한 카탈로그 구성에 모든 필수 특성이 있으며 Walmart Marketplace 콘텐츠 지침을 충족하는지 확인합니다.
 

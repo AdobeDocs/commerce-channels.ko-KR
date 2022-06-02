@@ -2,9 +2,9 @@
 title: 설정 개요
 description: 에 대해 알아보기 [!DNL Channel Manager settings] 인증을 구성하고 제품 카탈로그 속성 및 운송 회사를 매핑하기 위해 [!DNL Commerce] 그리고 [!DNL Walmart Marketplace].
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '169'
+source-wordcount: '167'
 ht-degree: 0%
 
 ---
@@ -19,4 +19,4 @@ in [!DNL Channel Manager], 온보딩 프로세스 중에 일부 판매 채널 �
 
 * **[운송 회사 매핑](map-shipping-carriers.md)**-처리 전에 [!DNL Walmart Marketplace] 주문 [!DNL Commerce]에서 운송 회사를 매핑해야 합니다 [!DNL Commerce] 의 해당 통신사에 대한 인스턴스 [!DNL Walmart Marketplace].
 
-* **Walmart API 자격 증명**-다음 기간 동안 [!DNL Channel Manager] 온보딩 프로세스에서는 [Walmart API 자격 증명](walmart-prerequisites.md#generate-a-walmart-marketplace-production-api-key) 다음[!DNL Walmart Marketplace] 연결할 판매자 계정 [!DNL Commerce] to [!DNL Walmart Marketplace] 통신 및 데이터 동기화를 위한 것입니다. 필요한 경우 *설정* 페이지.
+* **Walmart API 자격 증명**-다음 기간 동안 [!DNL Channel Manager] 온보딩 프로세스, [API 자격 증명](walmart-requirements.md#generate-a-walmart-marketplace-production-api-key) 다음 [!DNL Walmart Marketplace] 연결할 판매자 계정 [!DNL Commerce] to [!DNL Walmart Marketplace] 통신 및 데이터 동기화를 위한 것입니다. 필요한 경우 *설정* 페이지.

@@ -4,9 +4,9 @@ description: 채널 관리자를 다음으로 연결 [!DNL Commerce] 서비스 �
 role: User
 level: Intermediate
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: 30495c4e47f15c821206f7b0252b868b4e27d62d
+source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,11 @@ Commerce Services Connector는 채널 관리자 서비스를 Adobe Commerce 및 
 
 Commerce Services 커넥터 설정은 Adobe을 사용하는 데 필요한 일회성 프로세스입니다 [Commerce SaaS 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html)다음과 같은 {target=&quot;_blank&quot;} [!DNL Channel Manager], [!DNL Live Search], 및 [!DNL Product Recommendations]. 다른 서비스에 대한 커넥터를 이미 구성한 경우 이 단계를 건너뜁니다.
 
-## 전제 조건
+## 요구 사항
 
 - **상거래 계정**-상거래 인스턴스에 소프트웨어를 설치하려면 상거래 플랫폼에 대한 소유자 또는 관리자 액세스 권한이 있는 계정이 있어야 합니다.
 
-   계정 소유자 및 관리자 사용자는 상거래 인스턴스 또는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
+   계정 소유자 및 슈퍼 사용자는 상거래 인스턴스 또는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
 
 - **Adobe Commerce 프로덕션 API 키**-이것 [key](https://docs.magento.com/user-guide/system/saas.html#apikey){target=&quot;_blank&quot;} 채널 관리자에서 필요한 서비스에 대한 API 액세스를 사용할 수 있습니다. 이 키에 대한 공개 및 개인 자격 증명이 필요합니다.
 

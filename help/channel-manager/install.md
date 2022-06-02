@@ -2,9 +2,9 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 61d72e655a9f9eaefddd7561e0bc5fe36da69577
+source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # 설치 [!DNL Channel Manager]
 
-를 검토합니다. [전제 조건](onboard.md#prerequisites) 채널 관리자를 설치하기 전에 필요한 정보를 수집합니다.
+를 검토합니다. [요구 사항](onboard.md#requirements) 채널 관리자를 설치하기 전에 필요한 정보를 수집합니다.
 
 ## 최소 안정성 설정 업데이트
 
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 에서 [!DNL Commerce] 프로젝트 루트 디렉토리, 채널 관리자를 추가합니다. `composer.json`.
 
    ```bash
-    $ composer require magento/channel-manager --no-update
+    composer require magento/module-sales-channels-extension --no-update
    ```
 
 1. 메시지가 표시되면 [!DNL Commerce] 계정이 필요합니다.
@@ -66,59 +66,55 @@ ht-degree: 0%
 1. 종속성을 업데이트하고 확장을 설치합니다.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
 
-   다음 `composer update` 명령은 모든 종속성을 업데이트합니다. 채널 관리자와 관련된 종속성만 업데이트하려면 대신 이 명령을 사용하십시오. `composer update magento/channel-manager`.
+   다음 `composer update` 명령은에 필요한 종속성만 업데이트합니다. [!DNL Channel Manager]. 모든 종속성을 업데이트하려면 대신 이 명령을 사용하십시오. `composer update`.
 
 1. 작성기가 프로젝트 종속성 업데이트를 완료하고 오류를 해결할 때까지 기다립니다.
 
-1. 설치 확인
+1. 모듈 설치를 확인합니다.
+
+   - 모듈 상태를 확인합니다.
+
+      ```bash
+      bin/magento module:status Magento_SalesChannels
+      ```
+
+      샘플 응답:
+
+      ```terminal
+      Module is enabled
+      ```
+
+   - 모듈이 활성화되어 있지 않으면 활성화합니다.
 
    ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   샘플 응답:
-
-   ```terminal
-   Module is disabled
+   bin/magento module:enable Magento_SalesChannels
    ```
 
 1. 확장을 등록합니다.
 
    ```bash
-   $ bin/magento setup:upgrade
+   bin/magento setup:upgrade
    ```
 
 1. 메시지가 표시되면 다시 컴파일하십시오 [!DNL Commerce] 프로젝트.
 
    ```bash
-   $ bin/magento setup:di:compile
-   ```
-
-1. 확장이 활성화되어 있는지 확인합니다.
-
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
-
-   샘플 응답:
-
-   ```bash
-   Module is enabled
+   bin/magento setup:di:compile
    ```
 
 1. 캐시를 지웁니다.
 
    ```bash
-   $ bin/magento cache:clean
+   bin/magento cache:clean
    ```
 
 1. 유지 관리 모드를 비활성화합니다.
 
    ```bash
-    $ bin/magento maintenance:disable
+   bin/magento maintenance:disable
    ```
 
 ### 클라우드 인프라 인스턴스에 Adobe Commerce 설치
@@ -136,14 +132,16 @@ ht-degree: 0%
 1. 작성기 이름을 사용하여 확장을 `require` 섹션 `composer.json` 파일.
 
    ```bash
-   $ composer require magento/channel-manager --no-update
+   composer require require magento/module-sales-channels-extension --no-update
    ```
 
-1. 프로젝트 종속성을 업데이트합니다.
+1. 종속성을 업데이트하고 확장을 설치합니다.
 
    ```bash
-   $ composer update
+   composer update magento/module-sales-channels-extension
    ```
+
+   다음 `composer update` 명령은에 필요한 종속성만 업데이트합니다. [!DNL Channel Manager]. 모든 종속성을 업데이트하려면 대신 이 명령을 사용하십시오. `composer update`.
 
 1. 코드 변경 사항을 추가, 커밋 및 푸시할 때 변경 사항을 `composer.lock` 및 `composer.json` 파일.
 
@@ -161,15 +159,18 @@ ht-degree: 0%
 
 1. 빌드 및 배포 프로세스가 완료되면 SSH를 사용하여 원격 환경에 로그인하고 확장이 올바르게 설치되었는지 확인하십시오.
 
-   ```bash
-   $ bin/magento module:status channel-manager
-   ```
+```bash
+   bin/magento module:status Magento_SalesChannels
+```
 
-   샘플 응답:
+샘플 응답:
 
-   ```terminal
-   Module is enabled
-   ```
+```terminal
+Module is enabled
+```
+
+모듈이 비활성화되어 있으면, [로컬 환경에서 활성화](https://devdocs.magento.com/cloud/howtos/install-components.html#manage-extensions) 변경 사항을 배포합니다.
+
 
 1. 확장을 성공적으로 설치한 후에 [!UICONTROL Admin] to [commerce Services 커넥터 구성](connect.md).
 
