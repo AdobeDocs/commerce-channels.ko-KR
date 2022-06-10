@@ -2,7 +2,7 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 0%
@@ -56,7 +56,7 @@ ht-degree: 0%
 1. 에서 [!DNL Commerce] 프로젝트 루트 디렉토리, 채널 관리자를 추가합니다. `composer.json`.
 
    ```bash
-    composer require magento/module-sales-channels-extension --no-update
+    composer require magento/channel-manager --no-update
    ```
 
 1. 메시지가 표시되면 [!DNL Commerce] 계정이 필요합니다.
@@ -66,7 +66,7 @@ ht-degree: 0%
 1. 종속성을 업데이트하고 확장을 설치합니다.
 
    ```bash
-   composer update magento/module-sales-channels-extension
+   composer update magento/channel-manager
    ```
 
    다음 `composer update` 명령은에 필요한 종속성만 업데이트합니다. [!DNL Channel Manager]. 모든 종속성을 업데이트하려면 대신 이 명령을 사용하십시오. `composer update`.
