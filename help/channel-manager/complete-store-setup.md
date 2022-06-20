@@ -2,9 +2,9 @@
 title: 영업 채널 설정 완료
 description: 연결된 판매 채널로 이동하여 제품 목록, 재고 및 가격 업데이트를 보고 관리하고 주문을 추적합니다
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: c2d5961526e6c5ff7f1efa86dc7e831fa096f924
+source-git-commit: 174c4fa6da5f2b907a8dd1f96d9ca379770f848d
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 영업 채널 작업을 시작합니다.
 
-   - [제품 식별자 및 운송 회사에 대한 채널 설정 구성](configure-channel-settings.md)
+   - [제품 식별자 및 운송 회사에 대한 채널 설정 구성](settings-overview.md)
 
    - [에서 제품 추가 [!DNL Commerce Catalog] 채널 관리자](add-products-to-channel-store.md)
 
