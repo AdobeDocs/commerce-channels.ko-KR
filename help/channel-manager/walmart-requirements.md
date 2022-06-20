@@ -2,9 +2,9 @@
 title: '"[!DNL Walmart] 요구 사항"'
 description: '"필요한 항목이 있는지 확인합니다[!DNL Walmart Marketplace]Channel Manager 와 통합할 정보 및 리소스 "'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 0%
 
    다음 [!DNL Walmart Marketplace] API 키를 사용하면 두 API 간에 통합할 수 있습니다 [!DNL Channel Manager] Adobe Commerce 또는 Magento Open Source 및 Walmart Marketplace용 Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
 
-## Marketplace 판매자 계정 설정
+## 설정 [!DNL Walmart Seller] account
 
 1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
 1. 승인을 받은 후 [!DNL Walmart], [Walmart Seller 계정 설정](https://sellerhelp.walmart.com/seller/s/guide?article=000008219).
 
 ## 생성 [!DNL Walmart Marketplace] 프로덕션 API 키
 
-1. 이동 [!DNL Walmart Marketplace]생성하다 [Adobe용 솔루션 공급자 프로덕션 API 키](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
+1. 이동 [!DNL Walmart Marketplace] 생성하다 [Adobe용 솔루션 공급자 프로덕션 API 키](https://developer.walmart.com/#preloginModal?redirectUri=https%3A%2F%2Fdeveloper.walmart.com%2Faccount%2FgenerateKey).
 
 1. 키 만들기 및 권한 구성:
 
@@ -52,10 +52,15 @@ ht-degree: 0%
 
 ## [!DNL Walmart Marketplace] 저장 상태
 
-제품을 마켓플레이스에 게시할 때 사용 가능 여부는 사용자의 상태에 따라 다릅니다 [!DNL Walmart Marketplace] 저장소:
+제품을 마켓플레이스에 연결할 때 사용 가능 여부는 사용자의 상태에 따라 다릅니다 [!DNL Walmart Marketplace] 저장소:
 
 * 라이브 스토어의 경우, 제품 오퍼가 나열되며 일치 작업이 완료되면 판매 가능합니다.
 
 * 라이브 상태가 아닌 저장소의 경우 제품 오퍼가 스테이징되어 고객에게 표시되지 않습니다. 이 [!DNL Walmart Marketplace] 스토어가 라이브로 전환되고 준비된 목록이 라이브 스토어에 자동으로 푸시됩니다.
 
 ![[!DNL Walmart Seller Central] 준비된 제품](assets/walmart-seller-central-staged.png)
+
+>[!IMPORTANT]
+>
+>후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격, 주문 업데이트가 자동으로 동기화됩니다. 제품 및 주문 데이터를 업데이트하는 다른 통합을 비활성화하고 상거래 업데이트를 동기화할 준비가 될 때까지 채널 관리자를 live Mart Marketplace에 연결하지 마십시오 [!DNL Walmart Marketplace].
+

@@ -4,9 +4,9 @@ description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 0%
 
 - **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 를 사용하려면 [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. 에 대한 소유자 또는 관리자 액세스 권한이 있는 계정 ID 및 자격 증명이 필요합니다 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
 
-   - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 를 사용하여 Adobe Mobile Services 내의 **[!UICONTROL My Account - Magento settings]**. 에 등록하려면 이 ID가 필요합니다 [!DNL Channel Manager] 서비스 베타 프로그램입니다.
+   - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 를 사용하여 Adobe Mobile Services 내의 **[!UICONTROL My Account - Magento settings]**.
 
       ![[!DNL MAGEID] 전자 상거래 계정 설정에서](assets/mageid-my-commerce-account.png)
 
@@ -53,20 +53,23 @@ ht-degree: 0%
       자세한 내용은 [사용자 액세스 관리](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **채널 관리자 작성기 패키지 다운로드 인증**- Adobe 채널의 베타 코디네이터에 [!DNL Commerce] 조직의 서비스를 관리하는 데 사용되는 계정입니다.
 - **작성기 및 를 사용한 경험[!DNL Commerce CLI]** -참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/)다음 도구를 사용하여 확장을 설치 및 관리하는 방법에 대한 자세한 내용은 target=&quot;_blank&quot;} 를 참조하십시오. [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
-- [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.42가 설치되어 있습니다. [!DNL Channel Manager].
+
+- [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.4.2가 설치되어 있습니다. [!DNL Channel Manager].
+
 - [!DNL Inventory Management] Adobe Commerce 및 Magento Open Source 확장
 
-   재고 및 Order Management에 채널 관리자를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce 및 Magento Open Source 2.3.x 이상에서 기본적으로 설치 및 활성화됩니다. 자세한 내용은 [Inventory management 설치](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce 개발자 설명서).
+   재고 및 Order Management에 채널 관리자를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce 및 Magento Open Source 2.3.x 이상에서 기본적으로 설치 및 활성화됩니다.
+
+   Commerce를 2.2.x에서 업그레이드했거나 Inventory management을 비활성화한 경우 필수 모듈을 포함하도록 설치를 업데이트해야 합니다. 자세한 내용은 [Inventory management 설치](https://devdocs.magento.com/extensions/inventory-management/) ( Adobe Commerce 개발자 설명서).
 
 ### 시스템 요구 사항
 
 - [Adobe Commerce 2.4.x](https://devdocs.magento.com/release/released-versions.html)
 - [PHP 7.3 / 7.4](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/php-settings.html)
 - [Composer 1.x 이상](https://devdocs.magento.com/cloud/reference/cloud-composer.html)
-- [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.42가 설치되어 있습니다. [!DNL Channel Manager].
-- [!DNL Inventory Management]
+- [[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에 버전 4.4.2가 설치되어 있습니다. [!DNL Channel Manager].
+- [[!DNL Inventory Management]](https://devdocs.magento.com/extensions/inventory-management/)
 
 ### 지원되는 플랫폼
 

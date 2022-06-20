@@ -2,19 +2,18 @@
 title: 카탈로그 속성 매핑
 description: 일치하는 [DNL! 기존 제품에 대한 상거래 [!DNL Walmart Marketplace] 목록 및 데이터 동기화 [!DNL Channel Manager] 및 [!DNL Walmart].
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: f1c37111df2f566b9673946bb9b2b282506f990c
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
 
 # 카탈로그 속성 매핑
 
-목록 게시 전 [!DNL Commerce] to [!DNL Walmart Marketplace]를 설정하는 경우, [!DNL Commerce] 카탈로그에서 Walmart의 해당 식별자로 가져옵니다.
-이 단계는 일치해야 합니다 [!DNL Commerce] 기존 [!DNL Walmart] 목록 및 제품 데이터 동기화 [!DNL Commerce] 및 [!DNL Walmart].
+목록을 연결하기 전에 [!DNL Commerce] to [!DNL Walmart Marketplace]를 설정하는 경우, [!DNL Commerce] 카탈로그에서 Walmart의 해당 식별자로 가져옵니다.
 
-제품 일치의 경우 [!DNL Commerce] 제품에는 에 필요한 다음 제품 식별자(제품 ID) 중 하나와 일치하는 제품 속성이 하나 이상 있어야 합니다. [!DNL Walmart].
+이 단계는 일치해야 합니다 [!DNL Commerce] 기존 [!DNL Walmart] 목록 및 제품 데이터 동기화 [!DNL Commerce] 및 [!DNL Walmart]. 다음 [!DNL Commerce] 제품에는 에 필요한 다음 제품 식별자(제품 ID) 중 하나와 일치하는 제품 속성이 하나 이상 있어야 합니다. [!DNL Walmart].
 
 **필수 여부 [!DNL Walmart] 제품 ID**
 
@@ -29,7 +28,9 @@ ht-degree: 0%
 
 ## 고유 식별자 매핑
 
-1. 설정 [!UICONTROL Listings] 영업 채널 저장소 페이지에서 **[!UICONTROL Settings]**.
+1. 에서 **[!UICONTROL Listings]** 또는 **[!UICONTROL Orders]** 영업 채널 저장소 페이지에서 **[!UICONTROL Channel Settings]**.
+
+1. 설정 **[!UICONTROL Channel Settings]**, 선택 **[!UICONTROL Shipping Carriers]**.
 
    - 를 찾습니다. [!DNL Walmart Marketplace] 매핑할 속성입니다.
 
@@ -37,17 +38,7 @@ ht-degree: 0%
 
       다음 예는 를 매핑합니다 [!UICONTROL Walmart Marketplace UPC] 속성을 제품 카탈로그의 UPC 속성에 추가합니다.
    ![제품 일치 기준에 대한 특성 매핑](assets/products-map-attributes-for-match.png)
-   - 원할 경우 여러 속성을 매핑하여 일치 항목을 늘릴 수 있습니다. 두 개 이상의 속성을 매핑하는 경우 하나를 로 선택합니다 **기본 식별자**. 이
 
    - 선택 **[!UICONTROL Save]**.
 
 
-## 매핑된 특성 구성 업데이트
-
-매핑된 특성 설정을 업데이트하여 일치하는 제품에 대한 Commerce 제품 식별자를 변경합니다.
-
-예를 들어 Commerce UPC 제품 속성 코드를 기반으로 하는 제품을 일치시키는 대신 SKU를 기반으로 일치시킬 수 있습니다. 또는 추가 속성을 매핑하여 일치를 개선합니다.
-
-1. 에서 **[!UICONTROL Listings]**, 선택 **[!UICONTROL Settings]**.
-
-1. 맵 속성 양식에서 필요에 따라 매핑된 속성 구성을 변경합니다.

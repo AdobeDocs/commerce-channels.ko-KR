@@ -2,9 +2,9 @@
 title: 영업 채널을 [!DNL Walmart Marketplace]
 description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aaab7aa7feb05264c24386e62193564dc5ae8fe3
+source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '351'
 ht-degree: 0%
 
 ---
@@ -12,6 +12,10 @@ ht-degree: 0%
 # 영업 채널을 [!DNL Walmart Marketplace]
 
 에 채널 관리자를 설치한 후 [!DNL Commerce] 인스턴스, 연결 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace].
+
+>[!NOTE]
+>
+>채널 관리자를 사용하려면 Walmart 계정과 상거래 스토어 보기 간에 일대일 연결이 필요합니다. 동일한 스토어 보기를 여러 Walmart 계정에 연결할 수 없습니다.
 
 1. [영업 채널 만들기](#create-the-sales-channel) 제품 목록에 대해 상거래 저장소를 선택하여 기본 설정을 지정합니다.
 

@@ -2,10 +2,9 @@
 user-guide-title: '"[!DNL Channel Manager] 안내서"'
 user-guide-description: Adobe Commerce 또는 Magento Open Source을 와 통합하여 매출을 증대하고 고객 기반을 확장합니다. [!DNL Walmart Marketplace]Seller Central] 계정이 필요합니다.
 breadcrumb-title: '"[!DNL Channel Manager Guide]"'
-hide: true
-source-git-commit: fffbdac54443b7b9bed8854eba8341446e78cc80
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '85'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -24,13 +23,14 @@ ht-degree: 0%
    - [연결 대상 [!DNL Walmart Marketplace]](connect-marketplace.md)
    - [채널 설정 완료](complete-store-setup.md)
 - 설정 구성 {#configure-settings}
-   - [설정 개요](settings-overview.md)
+   - [채널 설정 개요](settings-overview.md)
    - [카탈로그 속성 매핑](map-catalog-attributes.md)
    - [운송 회사 매핑](map-shipping-carriers.md)
+   - [Walmart 연결 관리](manage-wmt-connection.md)
 - 제품 나열 {#list-products}
    - [목록 관리](manage-listings.md)
    - [채널 저장소에 제품 추가](add-products-to-channel-store.md)
-   - [Walmart에 목록 게시](publish-listings-to-marketplace.md)
+   - [Walmart에 목록 연결](connect-listings-to-marketplace.md)
 - 재고 및 가격 책정 {#inventory-pricing}
    - [재고 및 가격 업데이트](inventory-and-price-updates.md)
 - 주문 관리 {#manage-orders}

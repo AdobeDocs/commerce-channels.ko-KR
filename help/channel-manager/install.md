@@ -2,9 +2,9 @@
 title: 설치 [!DNL Channel Manager]
 description: 채널 관리자 확장을 설치합니다.
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4242115d178a4e4a21a271f2ea47fcd8ad9250ed
+source-git-commit: f3b4392824e5682cec2f7071445111373188808e
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -13,19 +13,6 @@ ht-degree: 0%
 # 설치 [!DNL Channel Manager]
 
 를 검토합니다. [요구 사항](onboard.md#requirements) 채널 관리자를 설치하기 전에 필요한 정보를 수집합니다.
-
-## 최소 안정성 설정 업데이트
-
-확장을 설치하기 전에 `minimum-stability` 요구 사항 `composer.json` 파일을 만들면 Composer를 사용하여 채널 관리자의 이전 버전을 설치할 수 있습니다.
-
-구성을 업데이트하려면 다음 줄을 `composer.json` 파일.
-
-```json
-{
-   "minimum-stability": "alpha",
-   "prefer-stable": true
-}
-```
 
 ## 확장 설치
 

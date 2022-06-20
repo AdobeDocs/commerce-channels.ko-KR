@@ -2,17 +2,17 @@
 title: 영업 채널 저장소에 제품 추가
 description: 에 대한 제품 조합 만들기 [!DNL Walmart Marketplace] 카탈로그의 제품을 판매 채널에 추가하여 판매
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 0acf063aeadd464824d1d0fce9eed1532d638c12
+source-git-commit: d9b39984fc7401c42fc431f35cf5649f86f4f2f9
 workflow-type: tm+mt
-source-wordcount: '328'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 
-# 영업 채널 저장소에 제품 추가
+# 에 제품 추가 [!DNL Channel Manager]
 
-에 제품을 추가합니다 [!DNL Walmart Marketplace] 판매 채널에서 제품을 선택하여 [!DNL Commerce] 제품 카탈로그를 로 가져와서 [!DNL Channel Manager].
+에 제품을 추가하려면 [!DNL Walmart Marketplace] 영업 채널에서 선택 [!DNL Commerce] 제품 카탈로그를 로 가져와 [!DNL Channel Manager].
 선택한 제품 수에 따라 가져오기 프로세스가 최대 30분 이상 걸릴 수 있습니다.
 
 ## 전제 조건
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 [!DNL Commerce] 제품 목록에는 다음 필수 속성 구성이 있어야 합니다.
 
-- **[!UICONTROL Publish to Channel Manager]** 속성이 활성화됨
+- **[!UICONTROL Connect to Channel Manager]** 속성이 활성화됨
 
 - 필수 Walmart 속성에 유효한 값을 제공합니다.
 
@@ -49,11 +49,11 @@ ht-degree: 0%
 
    ![판매 채널 스토어로 제품 전송](assets/select-products-from-catalog.png)
 
-1. 를 활성화합니다 **[!UICONTROL Publish to Channel Manager]** 선택한 항목에 대한 속성입니다.
+1. 를 활성화합니다 **[!UICONTROL Connect to Channel Manager]** 선택한 항목에 대한 속성입니다.
 
    - From **[!UICONTROL Actions]**, 선택 **[!UICONTROL Update attributes]**.
 
-   - 로 스크롤합니다. **[!UICONTROL Publish to Channel Manager]** 속성을 설정하고 활성화합니다.
+   - 로 스크롤합니다. **[!UICONTROL Connect to Channel Manager]** 속성을 설정하고 활성화합니다.
 
    - 제품 속성에 필요한 항목 중 하나 이상이 포함되어 있는지 확인합니다 [!DNL Walmart Product IDs].
 

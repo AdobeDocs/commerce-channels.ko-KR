@@ -2,20 +2,26 @@
 title: 재고 및 가격 업데이트
 description: '`[!DNL Channel Manager] 상거래 스토어와 가격 업데이트 동기화 [!DNL Walmart Marketplace] Commerce Admin에서 영업 채널 작업을 관리할 수 있습니다.'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 71ad5e3bc9ff6b909943a161472e4db7d375683f
+source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
 
 # 재고 및 가격 업데이트
 
-[!DNL Channel Manager] 의 제품에 대한 인벤토리 및 가격 추적 [!DNL Commerce] 제품 카탈로그 및 동기화는 연결된 영업 채널 및 [!DNL Walmart Marketplace]. 동기화는 제품 목록에 현재 재고 수량 및 가격이 반영되도록 합니다.
+[!DNL Channel Manager] 의 제품에 대한 인벤토리 및 가격 추적 [!DNL Commerce] 제품 카탈로그 및 연결된 판매 채널에 대한 업데이트 동기화 및 [!DNL Walmart Marketplace]. 동기화 작업은 제품 목록이 현재 재고 수량 및 가격을 반영하도록 합니다.
+
+
+>[!IMPORTANT]
+>
+>후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격 및 주문 업데이트가 자동으로 동기화됩니다. Walmart Marketplace에서 직접 또는 다른 통합을 통해 이미 판매하는 경우 이전 통합을 비활성화하고 Commerce Store의 재고 수준 및 가격이 정확한지 확인하고 의 데이터와 일치하는지 확인하십시오 [!DNL Walmart Marketplace] 연결하기 전에 [!DNL Channel Manager] 를 추가합니다.
+
 
 ## 인벤토리 업데이트
 
-제품 재고 수준이 [!DNL Commerce], [!DNL Channel Manager] 영업 채널 및 [!DNL Walmart Marketplace]. 판매 채널 간에 인벤토리 업데이트를 동기화하려면 최대 10분이 걸릴 수 있습니다 [!DNL Walmart marketplace].
+제품 재고 수준이 [!DNL Commerce], [!DNL Channel Manager] 동기화 업데이트 [!DNL Walmart Marketplace]. 판매 채널 간에 인벤토리 업데이트를 동기화하려면 최대 10분이 걸릴 수 있습니다 [!DNL Walmart marketplace].
 
 * **제품 카탈로그의 재고 수량에 대한 업데이트**- When [!DNL Commerce] 다음 이유로 인해 재고 수량 변경 [수동 재고 수량 변경](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), 환불 또는 취소, [!DNL Channel Manager] 연결된 채널 및 [!DNL Walmart Marketplace].
 
@@ -29,7 +35,7 @@ ht-degree: 0%
 
 제품 가격이 [!DNL Commerce], [!DNL Channel Manager] 업데이트를에 동기화 [!DNL Walmart Marketplace]. 가격 변경이에 표시되는 데 최대 5분이 걸릴 수 있습니다 [!DNL Walmart Marketplace] 목록.
 
-### 게시된 제품에 대한 가격 관리
+### 연결된 제품에 대한 가격 관리
 
 1. 에서 [!UICONTROL Admin], 선택 **[!UICONTROL Catalog > Products]**.
 1. 제품 그리드에서 업데이트할 제품을 찾아 선택합니다 **[!UICONTROL Edit]**.
