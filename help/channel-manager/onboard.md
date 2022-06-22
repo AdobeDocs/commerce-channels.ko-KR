@@ -1,12 +1,12 @@
 ---
 title: 온보드 [!DNL Channel Manager]
-description: 인스턴스에 연결 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.
+description: '''인스턴스를 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.'''
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,11 @@ ht-degree: 0%
 
 - **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 를 사용하려면 [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. 에 대한 소유자 또는 관리자 액세스 권한이 있는 계정 ID 및 자격 증명이 필요합니다 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
 
-   - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 를 사용하여 Adobe Mobile Services 내의 **[!UICONTROL My Account - Magento settings]**.
+   - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 변환 후 [!DNL Commerce] 계정이 있어야 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 전자 상거래 계정 설정에서](assets/mageid-my-commerce-account.png)
+      ![[!DNL MAGEID] on [!DNL Commerce] 계정 설정](assets/mageid-my-commerce-account.png)
 
-   - **액세스 키-** 상거래 작성기 저장소에서 상거래 확장을 다운로드할 인증 키 가져오기 `([!DNL repo.magento.com]`).
+   - **액세스 키-** 다운로드할 인증 키 가져오기 [!DNL Commerce] 확장 프로그램 [!DNL Commerce] 작성기 저장소 `([!DNL repo.magento.com]`).
 
       ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png)
 

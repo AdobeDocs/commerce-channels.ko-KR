@@ -1,10 +1,10 @@
 ---
 title: 주문 처리
-description: '운송 및 취소에 대한 지침 [!DNL Walmart Marketplace] 주문: Adobe Commerce 및 Magento Open Source.'
+description: '''배송 및 취소 지침 [!DNL Walmart Marketplace] Adobe Commerce 및 Magento Open Source의 주문.'''
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: aeb3e4883a92f8dbd1725a70102401ad733ee391
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 후 [!DNL Walmart Marketplace] 주문은 확인되었으며 성공적으로 [!DNL Channel Manager], [상거래 주문 관리](https://docs.magento.com/user-guide/sales/orders-workspace.html) 주문 처리
 
-채널 관리자는 업데이트를 [!DNL Walmart Marketplace] 상거래 주문 상태 및 배송 정보가 [!DNL Walmart Marketplace].
+채널 관리자는 업데이트를 [!DNL Walmart Marketplace] 주문 상태 및 배송 정보를 [!DNL Commerce] 에서 추적한 데이터와 일치합니다. [!DNL Walmart Marketplace].
 
 * **주문 선적**&quot;월마트는 모든 배송에 대한 추적 번호가 필요합니다. 일부 품목이 재고가 없는 경우 부분 선적을 생성하여 현재 사용 가능한 품목을 발송할 수 있습니다. 출하를 실행한 후 주문 갱신은 [!DNL Walmart Marketplace]. 그리고 나서, 월마트는 고객에게 주문 상태와 배송 세부 사항을 알려준다.
 
 * **주문 취소**-취소 시 [!DNL Walmart Marketplace] 주문, 월마트는 고객에게 발송되는 주문 취소 공지에 포함된 취소 사유가 필요합니다. 취소 사유는에 표시됩니다 [!DNL Commerce] 주문 결제 정보. 취소를 실행하면 재고 갱신은 [!DNL Walmart Marketplace]. 그리고 나서, 월마트는 고객에게 주문 상태와 배송 세부 사항을 알려준다.
 
-   창고에서 전체 주문을 취소하셔야 합니다 상거래에 의해 부분 취소를 허용하지 않습니다.
+   창고에서 전체 주문을 취소하셔야 합니다 [!DNL Commerce] 부분 취소를 허용하지 않습니다.
 
 상거래 주문이 처리되고 [!DNL Channel Manager] 선적, 부분 선적 및 취소 업데이트를 성공적으로 동기화합니다. [!DNL Walmart Marketplace]로 설정되면 주문 처리가 완료됩니다.
 
@@ -58,7 +58,7 @@ ht-degree: 0%
 
 1. 보려면 [!DNL Walmart Marketplace] 주문, * 선택[!UICONTROL *Orders]**.
 
-1. 주문 테이블에서 주문 세부 사항 페이지를 열고 **상거래 주문 번호** 취소하시려면
+1. Orders 테이블에서 [주문 세부 사항 페이지](manage-orders.md#view-order-detail) 다음을 선택하여 **상거래 주문 번호** 취소하시려면
 
    ![전자 상거래 주문 세부 사항 보기[!DNL Walmart Marketplace]주문](assets/order-detail-with-external-order-id.png)
 

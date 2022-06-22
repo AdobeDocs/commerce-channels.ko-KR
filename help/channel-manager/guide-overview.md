@@ -1,12 +1,12 @@
 ---
 title: '`[!DNL Channel Manager] 안내서 개요'''
-description: 에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자용
+description: '''에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다.'''
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 개요
 
-이 안내서는 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다. 여기에는 다음에 대한 자세한 정보가 포함되어 있습니다 [!DNL Channel Manager] 설치, 온보딩, 구성 및 관리 이 안내서에서는 코어 상거래 구성 및 기능에 대한 기본적인 이해를 가정합니다.
+이 안내서는 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다. 여기에는 다음에 대한 자세한 정보가 포함되어 있습니다 [!DNL Channel Manager] 설치, 온보딩, 구성 및 관리 이 안내서에서는 코어에 대한 기본적인 이해를 가정합니다 [!DNL Commerce] 구성 및 기능입니다.
 
 [!DNL Channel Manager] 관리자에게는 두 가지 영역이 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 이 안내서에서는 다음 주제를 다룹니다.
 
-* 모두 [!DNL Channel Manager]- 상거래 관리자에서 완료된 특정 작업.
+* 모두 [!DNL Channel Manager]-에서 완료된 특정 작업 [!DNL Commerce] 관리자.
 * 모두 [!DNL Channel Manager]-명령줄에서 완료된 특정 작업
 
 관리에 대한 자세한 내용은 [!DNL Commerce] 플랫폼, 프로젝트, 웹 사이트의 경우 Adobe Commerce 및 Magento Open Source 사용 및 개발자 안내서를 참조하십시오.

@@ -1,10 +1,10 @@
 ---
-title: '"[!DNL Walmart] 요구 사항"'
-description: '"필요한 항목이 있는지 확인합니다[!DNL Walmart Marketplace]Channel Manager 와 통합할 정보 및 리소스 "'
+title: '`[!DNL Walmart] 요구 사항'
+description: '''필요한 항목이 있는지 확인합니다. [!DNL Walmart Marketplace]Channel Manager와 통합할 정보 및 리소스'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 4f0c40d7bcd05f7c8708d0d339cc29d920d646d5
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 * Adobe Commerce 또는 Magento Open Source을 연결할 API 키 [!DNL Walmart Marketplace]
 
-   다음 [!DNL Walmart Marketplace] API 키를 사용하면 두 API 간에 통합할 수 있습니다 [!DNL Channel Manager] Adobe Commerce 또는 Magento Open Source 및 Walmart Marketplace용 Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
+   다음 [!DNL Walmart Marketplace] API 키를 사용하면 두 API 간에 통합할 수 있습니다 [!DNL Channel Manager] Adobe [!DNL Commerce] Magento Open Source과 월마트 마켓플레이스 중 어느 것을 선택하시겠습니까? Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
 
 ## 설정 [!DNL Walmart Seller] account
 
@@ -62,5 +62,5 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격, 주문 업데이트가 자동으로 동기화됩니다. 제품 및 주문 데이터를 업데이트하는 다른 통합을 비활성화하고 상거래 업데이트를 동기화할 준비가 될 때까지 채널 관리자를 live Mart Marketplace에 연결하지 마십시오 [!DNL Walmart Marketplace].
+>후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격 및 주문 업데이트가 자동으로 동기화됩니다. 연결 안 함 [!DNL Channel Manager] 제품 및 주문 데이터를 업데이트하는 다른 통합을 비활성화해야 할 때까지 live Mart Marketplace에 연결할 수 있습니다. 다른 통합이 구성된 경우 의 품목 수량 및 가격을 확인하십시오. [!DNL Commerce] 의 수량 일치 [!DNL Walmart Marketplace] 라이브 스토어에 연결하기 전에
 

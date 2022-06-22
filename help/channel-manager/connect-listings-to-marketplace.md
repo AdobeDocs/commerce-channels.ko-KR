@@ -1,10 +1,10 @@
 ---
 title: Walmart에 목록 연결
-description: 전자 상거래 제품에 대한 목록 연결 [!DNL Walmart Marketplace]판매를 시작하려고요
+description: '''연결 목록 [!DNL Commerce] 다음으로 제품 [!DNL Walmart Marketplace]''판매를 시작하다'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: 418bb6a91817f49f3c3ae39a8d26370bfeb39099
+source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 - [!DNL Walmart Marketplace] 는 UPC 및 GTIN과 같은 제품 식별자를 사용하여 제품을 기존 제품에 일치시킵니다 [!DNL Walmart Marketplace] 목록.
 
-- 일치하는 제품의 경우 Walmart Marketplace에서 제품을 연결할 때 Commerce 제품 오퍼를 포함하도록 업데이트를 나열합니다 [!DNL Channel Manager].
+- 일치하는 제품의 경우 다음을 포함하도록 업데이트를 표시하는 Walmart Marketplace [!DNL Commerce] 제품 오퍼를 [!DNL Channel Manager].
 
 - 일반적으로 가격이 가장 낮은 제품 오퍼는 [!DNL Walmart Marketplace] 목록에 추가되지만, 검토와 같은 다른 요소들도 배치에 영향을 줍니다.
 
 ## 제품 일치
 
-제품과 일치하면 채널 관리자가 제품 데이터를에 보냅니다 [!DNL Walmart Marketplace] 매핑된 Commerce 제품 속성과 일치하는 속성 값으로 기존 목록을 검색하려면 다음을 수행하십시오. 일치 기준은 [속성 매핑 구성](map-catalog-attributes.md) 저장소 채널에 사용할 수 있습니다.
+제품과 일치하면 채널 관리자가 제품 데이터를에 보냅니다 [!DNL Walmart Marketplace] 매핑된 속성과 일치하는 속성 값으로 기존 목록을 검색하려면 [!DNL Commerce] 제품 속성입니다. 일치 기준은 [속성 매핑 구성](map-catalog-attributes.md) 저장소 채널에 사용할 수 있습니다.
 
 일치하는 항목이 있으면 기존 제품 목록이 업데이트되어 오퍼를 추가합니다.
 
@@ -81,7 +81,7 @@ Walmart Marketplace 오류 코드에 대한 자세한 내용은 [Walmart Seller 
 
 ## 새 제품 목록 업로드
 
-Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드하십시오. Commerce 인스턴스에서 내보낸 제품 카탈로그 데이터를 사용하여 Walmart 템플릿을 채웁니다.
+Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카테고리 Excel 템플릿을 사용하여 제품 목록을 벌크로 업로드하십시오. 에서 내보낸 제품 카탈로그 데이터를 사용하여 Walmart 템플릿을 채웁니다 [!DNL Commerce] 인스턴스.
 
 새 제품 목록을 보려면 제품 카탈로그를 확인하여 Walmart Marketplace에서 판매하려는 제품에 Walmart Marketplace 제품 목록에 필요한 특성이 있는지 확인하십시오.
 
@@ -113,7 +113,7 @@ Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카�
 
 - 을(를) 충족하는지 확인합니다. [월마트 요구 사항](walmart-requirements.md).
 
-- Commerce 제품 카탈로그에서 Walmart Marketplace에 나열된 제품에 대한 카탈로그 구성에 모든 필수 특성이 있으며 Walmart Marketplace 콘텐츠 지침을 충족하는지 확인합니다.
+- 사용자 [!DNL Commerce] 제품 카탈로그에서 Walmart Marketplace에 나열할 제품에 대한 카탈로그 구성에 모든 필수 특성이 있으며 Walmart Marketplace 콘텐츠 지침을 충족하는지 확인합니다.
 
 - 내보내기 작업을 완료하기 위해 크론 작업이 실행 중인지 확인합니다.
 
@@ -135,16 +135,16 @@ Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카�
 
    - 템플릿에 제품 목록에 필요한 및 권장 속성이 포함되어 있는지 확인합니다.
 
-1. 에서 [!DNL Commerce] 관리자는 Adobe Commerce 사이트에서 내보낼 제품 데이터를 선택합니다.
+1. 에서 [!DNL Commerce] 관리자, Adobe에서 내보낼 제품 데이터를 선택합니다 [!DNL Commerce] 사이트.
 
    - 관리자에서 을(를) 선택합니다. [!UICONTROL **시스템** > 데이터 전송 > **내보내기**].
 
    - 설정 [!UICONTROL Export] 페이지의 [!UICONTROL Entity Type] 필드, 선택 [!UICONTROL **제품**].
 
    - 에서 [!UICONTROL Entity Attributes] 테이블에서 제품 데이터 내보내기에 대한 선택 기준을 구성합니다.
-   ![에서 제품 데이터 페이지 내보내기 [!UICONTROL Commerce Admin]](assets/walmart-seller-account-full-setup-download.png)
+   ![에서 제품 데이터 페이지 내보내기 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   필터를 사용하여 판매하는 제품 카테고리에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 및 권장 속성을 포함해야 합니다( [데이터 내보내기](https://docs.magento.com/user-guide/system/data-export.html) ( Adobe Commerce 사용 안내서에서)를 참조하십시오.
+   필터를 사용하여 판매하는 제품 카테고리에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 및 권장 속성을 포함해야 합니다( [데이터 내보내기](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 자세한 지침은 사용 안내서)
 
    내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란.
 

@@ -1,27 +1,27 @@
 ---
-title: 영업 채널을 [!DNL Walmart Marketplace]
-description: 판매 채널을 구성하고 Walmart Marketplace에 연결합니다.
+title: '''연결 [!DNL Channel Manager] to [!DNL Walmart Marketplace]`'
+description: '"전자 상거래 저장소 보기를 [!DNL Walmart Marketplace] Walmart Marketplace 판매에 대한 상거래 제품 목록, 재고, 가격 및 주문을 관리하는 판매 채널을 만들 수 있습니다."'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 07e1faf90676b404e3f5ee28ddc13d81ea82a5a5
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 영업 채널을 [!DNL Walmart Marketplace]
+# Connect [!DNL Channel Manager] to [!DNL Walmart Marketplace]
 
-에 채널 관리자를 설치한 후 [!DNL Commerce] 인스턴스, 연결 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace].
+에 채널 관리자를 설치한 후 [!DNL Commerce] 예를 들어, 채널 관리자에서 영업 채널을 만들고 연결할 자격 증명을 구성합니다 [!DNL Channel Manager] to [!DNL Walmart Marketplace].
 
->[!NOTE]
->
->채널 관리자를 사용하려면 Walmart 계정과 상거래 스토어 보기 간에 일대일 연결이 필요합니다. 동일한 스토어 보기를 여러 Walmart 계정에 연결할 수 없습니다.
-
-1. [영업 채널 만들기](#create-the-sales-channel) 제품 목록에 대해 상거래 저장소를 선택하여 기본 설정을 지정합니다.
+1. [영업 채널 만들기](#create-the-sales-channel) 다음을 선택하여 [!DNL Commerce] 제품 목록을 저장합니다.
 
 1. [채널을 [!DNL Walmart Marketplace] 추가 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
 1. [영업 채널 설정 완료](#complete-store-setup) 목록, 재고, 가격 및 주문을 관리하려면 [!DNL Walmart Marketplace] 상품.
+
+>[!NOTE]
+>
+>채널 관리자를 사용하려면 Walmart 계정과 [!DNL Commerce] 저장소 보기. 동일한 스토어 보기를 여러 Walmart 계정에 연결할 수 없습니다.
 
 ## 영업 채널 만들기
 
@@ -37,15 +37,15 @@ ht-degree: 0%
 
    - 선택 **[!UICONTROL Add Credentials]**.
 
-   - 을(를) 선택합니다 [!DNL Commerce] 마켓플레이스에 연결하려면 보기를 저장합니다.
+   - 을(를) 선택합니다 [!DNL Commerce] 마켓플레이스에서 판매할 제품을 제공하는 스토어 보기.
 
-      ![상거래 및 연결 구성 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![다음 사이 연결 구성 [!DNL Commerce] 및 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
 
    - 고유 항목 입력 **[!UICONTROL store name]**.
 
-   - 을(를) 선택합니다 **[!UICONTROL Adobe Commerce site]** 제품 목록
+   - 을(를) 선택합니다 **[!UICONTROL Adobe [!DNL Commerce] site]** 제품 목록 및 주문 처리.
 
-   - 추가 **[!UICONTROL email address]** 와 관련된 서비스 알림을 수신하려면 [!DNL Channel Manager].
+   - 와 관련된 알림을 수신하려면 [!DNL Channel Manager], 추가 **[!UICONTROL email address]**.
 
 1. 채널을 [!DNL Walmart Marketplace].
 

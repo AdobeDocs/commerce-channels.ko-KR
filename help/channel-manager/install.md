@@ -1,10 +1,10 @@
 ---
-title: 설치 [!DNL Channel Manager]
-description: 채널 관리자 확장을 설치합니다.
+title: '''설치 [!DNL Channel Manager]`'
+description: 설치[!DNL Channel Manager] 확장'
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: f3b4392824e5682cec2f7071445111373188808e
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---

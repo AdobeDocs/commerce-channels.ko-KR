@@ -1,10 +1,10 @@
 ---
 title: 목록 관리
-description: 에 대한 영업 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
+description: 다음에 대한 판매 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 690eeb5d03b23cac11f3c14b04601c514c76e0bd
+source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 * 제품 추가
 * 제품 일치
 * 목록 상태 추적
-* 오류 상태의 제품 목록에 대한 오류 설명
+* 오류 상태의 목록에 대한 오류 설명 검토
 
 ## 제품 목록 보기
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 1. 정렬 순서를 재설정하고 선택 **제품 새로 고침**.
 
-## 채널 관리자에 상거래 제품 추가
+## 추가 [!DNL Commerce] products to Channel Manager
 
 에 대한 제품 컬렉션을 만듭니다 [!DNL Walmart Marketplace] 다음 작업을 완료하여 채널을 지정합니다.
 
@@ -93,7 +93,7 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]**-에 대해 일치하는 제품을 식별합니다 [!DNL Walmart].
 
-   제품 속성 값(예: UPC 코드)이 기존 [!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 오퍼에 추가됩니다 [!DNL Walmart] 목록.
+   제품 속성 값(예: UPC 코드)이 기존 [!DNL Walmart Marketplace] 목록. 제품이 일치하면 상거래 제품 오퍼가 기존 목록에 추가됩니다.
 
    을(를) 확인합니다. [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 대시보드 를 사용하여 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인합니다.
 

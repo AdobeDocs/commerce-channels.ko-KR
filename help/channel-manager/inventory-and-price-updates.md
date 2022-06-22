@@ -1,10 +1,10 @@
 ---
 title: 재고 및 가격 업데이트
-description: '`[!DNL Channel Manager] 상거래 스토어와 가격 업데이트 동기화 [!DNL Walmart Marketplace] Commerce Admin에서 영업 채널 작업을 관리할 수 있습니다.'
+description: '`[!DNL Channel Manager] 동기화 인벤토리 및 가격 업데이트 [!DNL Commerce] 저장 및 [!DNL Walmart Marketplace] 영업 채널 작업을 [!DNL Commerce] 관리자'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 97128dcf45d7672e958c771f88389aba40c6e39e
+source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격 및 주문 업데이트가 자동으로 동기화됩니다. Walmart Marketplace에서 직접 또는 다른 통합을 통해 이미 판매하는 경우 이전 통합을 비활성화하고 Commerce Store의 재고 수준 및 가격이 정확한지 확인하고 의 데이터와 일치하는지 확인하십시오 [!DNL Walmart Marketplace] 연결하기 전에 [!DNL Channel Manager] 를 추가합니다.
+>후 [!DNL Channel Manager] 설치 및 구성되면 모든 재고, 가격 및 주문 업데이트가 자동으로 동기화됩니다. Walmart Marketplace에서 이미 판매하는 경우 제품 및 주문 데이터를 업데이트하는 다른 통합을 비활성화해야 합니다. 그런 다음, [!DNL Commerce] storefront는 정확하며 [!DNL Walmart Marketplace] 연결하기 전에 [!DNL Channel Manager] 를 추가합니다.
 
 
 ## 인벤토리 업데이트
