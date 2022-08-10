@@ -2,16 +2,16 @@
 title: Amazon 및 상거래 카탈로그 정보
 description: Amazon 판매 채널은 Amazon 목록을 상거래 백엔드로 가져와서 제품 및 매출과 계속 동기화합니다.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: 5d30a5282ede2db0d9619eb2263b733328d26426
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
 
 # Amazon 및 [!DNL Commerce] 카탈로그
 
-Adobe Commerce 또는 Magento Open Source 백엔드는 모든 제품 및 관련 설정 및 정보(이미지, 옵션, 가격 등)와 주문 및 배송 구성이 있는 카탈로그를 포함합니다. 사용자 [!DNL Amazon Seller Central] 또한 계정에는 카탈로그 및 주문 구성이 있으며, 이를 통해 매출을 엄격하게 추적합니다 [!DNL Amazon Marketplace].
+Adobe Commerce 또는 Magento Open Source 백엔드는 모든 제품 및 관련 설정 및 정보(이미지, 옵션, 가격 등)와 주문 및 배송 구성이 있는 카탈로그를 포함합니다. 사용자 [!DNL Amazon Seller Central] 또한 계정에는 카탈로그 및 주문 구성이 있으며, 이를 통해 매출을 엄격히 추적합니다 [!DNL Amazon Marketplace].
 
 한 위치를 통해 제품 카탈로그와 매출을 보다 효과적으로 관리 및 검토하기 위해 Amazon 판매 채널은 Amazon 목록을 [!DNL Commerce] 백엔드, 제품 및 판매, 보고서 문제 및 트렌드를 지속적으로 동기화합니다. 여러 버전과의 통합을 지원합니다 [!DNL Amazon Seller Central] 계정, 여러 저장소에 대한 단일 인터페이스를 통해 모든 데이터를 추적합니다.
 
@@ -19,7 +19,7 @@ Adobe Commerce 또는 Magento Open Source 백엔드는 모든 제품 및 관련 
 
 Adobe Commerce 및 Magento Open Source 관리 카탈로그는 제품 사용과 동기화됩니다 [속성](https://docs.magento.com/user-guide/catalog/product-attributes.html){target=&quot;_blank&quot;} 를 사용하여 제품 설정과 데이터를 정의합니다. Amazon은 온보딩을 통해 매핑되는 특성도 사용합니다. 다음 기간 동안 [사전 설정 작업](./amazon-pre-setup-tasks.md) Amazon 판매 채널용의 경우 Amazon 목록을 사용자의 사이트로 가져올 때 올바른 제품 매핑을 보장하기 위해 추가 Amazon 속성(필요한 경우)을 정의합니다 [!DNL Commerce] 카탈로그 이러한 속성에는 UPC, EAN, ISBN 및 ASIN([!DNL Amazon Standard Identification Number]). 온보딩을 통해 Amazon과 제품 간 동기화 [!DNL Commerce] 카탈로그를 구성합니다. 적절한 매핑 [!DNL Commerce] 및 Amazon 제품을 사용하면 제품 정보, 주문 및 인벤토리를 지속적으로 동기화할 수 있습니다.
 
-카탈로그에 대해 작성되거나 구성되지 않은 경우 [!DNL Commerce] [제품 속성](https://docs.magento.com/user-guide/catalog/product-attributes.html)온보딩 전에 {target=&quot;_blank&quot;} 및 제품에 대한 값. Amazon 속성을 가져올 때 검색, 탐색, 가격 규칙 등에 사용할 수 있습니다. 이러한 속성에 대한 자세한 내용은 [Amazon: UPC, EAN, ISBN 및 ASIN이란 무엇입니까?](https://www.amazon.com/gp/seller/asin-upc-isbn-info.html){target=&quot;_blank&quot;}
+카탈로그에 대해 작성되거나 구성되지 않은 경우 [!DNL Commerce] [제품 속성](https://docs.magento.com/user-guide/catalog/product-attributes.html)온보딩 전에 {target=&quot;_blank&quot;} 및 제품에 대한 값. Amazon 속성을 가져올 때 검색, 탐색, 가격 규칙 등에 사용할 수 있습니다. 자세한 내용은 [ASIN, UPC, EAN, ISBN, SKU 및 기타 바코드는 무엇을 의미합니까?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target=&quot;_blank&quot;}
 
 온보딩 후에는 언제든지 제품 속성 및 Amazon 매핑을 관리하고 업데이트할 수 있습니다.
 
