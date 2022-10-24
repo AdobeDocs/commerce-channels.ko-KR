@@ -1,12 +1,12 @@
 ---
 title: 온보드 [!DNL Channel Manager]
-description: '''인스턴스를 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.'''
+description: '인스턴스를 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.'
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. [연결 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace]](connect.md).
 
-1. [저장소 설정 완료](complete-store-setup.md).
+1. [저장소 설정 완료](complete-sales-channel-store-setup.md).
 
 ## 요구 사항
 

@@ -1,10 +1,10 @@
 ---
 title: '''연결 [!DNL Channel Manager] to [!DNL Walmart Marketplace]`'
-description: '"전자 상거래 저장소 보기를 [!DNL Walmart Marketplace] Walmart Marketplace 판매에 대한 상거래 제품 목록, 재고, 가격 및 주문을 관리하는 판매 채널을 만들 수 있습니다."'
+description: "전자 상거래 저장소 보기를 [!DNL Walmart Marketplace] Walmart Marketplace 판매에 대한 상거래 제품 목록, 재고, 가격 및 주문을 관리하는 판매 채널을 만들 수 있습니다."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 1. [채널을 [!DNL Walmart Marketplace] 추가 [!UICONTROL Walmart API credentials]](#connect-the-channel-to-walmart-marketplace).
 
-1. [영업 채널 설정 완료](#complete-store-setup) 목록, 재고, 가격 및 주문을 관리하려면 [!DNL Walmart Marketplace] 상품.
+1. [영업 채널 설정 완료](#complete-sales-channel-store-setup) 목록, 재고, 가격 및 주문을 관리하려면 [!DNL Walmart Marketplace] 상품.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Save Store]** 구성을 적용하고 [!DNL Walmart marketplace].
 
-1. 연결 후 [저장소 설정 완료](complete-store-setup.md) 에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
+1. 연결 후 [저장소 설정 완료](complete-sales-channel-store-setup.md) 에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
 
 ![첫 번째 저장소 설정](assets/channel-manager-setup-first-store.png)
 

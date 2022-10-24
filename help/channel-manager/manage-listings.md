@@ -2,9 +2,9 @@
 title: 목록 관리
 description: 다음에 대한 판매 채널 목록 관리 [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 채널 관리자를 사용하여 저장합니다.
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ ht-degree: 0%
 **컨트롤[!UICONTROL Listings]**
 
 | **제어** | **설명** |
-|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Add Products] | 를 엽니다. [!UICONTROL Admin Product Catalog] 페이지에 추가할 제품을 선택하는 페이지 [!DNL Walmart Marketplace] Walmart Marketplace 목록 요구 사항을 충족하도록 제품 특성을 분류하거나 업데이트합니다. |
-| [!UICONTROL Match products on Walmart] | 초안 상태에서 하나 이상의 제품을 선택한 후 [제품 일치]를 선택합니다 [!DNL Walmart] 기존 [!DNL Walmart Marketplace] 목록. |
+| [!UICONTROL Match products on Walmart] | 에서 하나 이상의 제품을 선택한 후 [!UICONTROL Draft] 상태, 선택 [!UICONTROL Match products on Walmart] 기존 [!DNL Walmart Marketplace] 목록. |
 | [!UICONTROL Refresh products] | 디스플레이를 최신 목록 및 상태로 업데이트합니다. 또한 이 컨트롤은 목록 보기를 기본 정렬 순서로 재설정하고 필터를 제거합니다. |
-| [!UICONTROL Filter by *상태*] | 목록 테이블 위에 있는 상태 카운트 카드 중 하나를 선택하여 특정 상태의 목록만 표시합니다. 를 사용하십시오 *제품 새로 고침* 필터를 제거합니다. |
+| [!UICONTROL Filter by *상태*] | 목록 테이블 위에 있는 상태 카드 중 하나를 선택하여 특정 상태의 목록만 표시합니다. 을(를) 선택하여 필터 제거 **[!UICONTROL Refresh products]**. |
 | [!UICONTROL Sort products] | 열 헤더를 선택하여 나열할 정렬 순서를 변경합니다. |
 
 
@@ -81,7 +81,6 @@ ht-degree: 0%
 | [!UICONTROL Price] | 제품 가격은 [!DNL Commerce] 카탈로그를 저장합니다. 카탈로그 가격 업데이트는 채널 관리자에 동기화된 다음 [!DNL Walmart Marketplace]  따라서 나열된 항목들은 현재 가격을 보여줍니다. |
 | [!UICONTROL Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 에 제품을 성공적으로 추가하면 상태가 업데이트됩니다 [!DNL Channel Manager] 및 를 사용하여 시장에서 제품을 일치시킬 수 있습니다. 작업이 실패하면 목록에 오류 상태가 표시됩니다. 오류를 수정한 후 [!DNL Channel Manager] 작업을 다시 시도하고 상태를 업데이트합니다. |
 | [!UICONTROL Error Description] | 가 있는 제품에 대한 추가 오류 정보를 제공합니다. `[!DNL Error]` 상태. |
-| [!UICONTROL Status Detail] | 다음을 사용하는 제품에 대한 추가 정보를 제공합니다. *오류* 또는 *일치* 상태. |
 
 ### 목록 상태 정보
 

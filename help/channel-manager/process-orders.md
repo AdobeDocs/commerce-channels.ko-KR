@@ -1,10 +1,10 @@
 ---
 title: 주문 처리
-description: '''배송 및 취소 지침 [!DNL Walmart Marketplace] Adobe Commerce 및 Magento Open Source의 주문.'''
+description: '배송 및 취소 지침 [!DNL Walmart Marketplace] Adobe Commerce 및 Magento Open Source의 주문.'
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 958f91f0303b823f164e60e56d8dbe4e8c2380f6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '574'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,9 @@ ht-degree: 0%
 
    창고에서 전체 주문을 취소하셔야 합니다 [!DNL Commerce] 부분 취소를 허용하지 않습니다.
 
-상거래 주문이 처리되고 [!DNL Channel Manager] 선적, 부분 선적 및 취소 업데이트를 성공적으로 동기화합니다. [!DNL Walmart Marketplace]로 설정되면 주문 처리가 완료됩니다.
+* **환불 요청**-월마트마켓플레이스의 반품 요청이 배송된 주문이면 [!UICONTROL Status details] 반환에 대한 링크가 포함되어 있습니다. 반품 및 환불은 [반환](return-refund-orders.md) 대시보드 .
+
+상거래 주문이 처리되고 [!DNL Channel Manager] 선적, 부분 선적 및 취소 업데이트를 성공적으로 동기화합니다. [!DNL Walmart Marketplace]로 설정되면 주문 처리가 완료됩니다. 출하 주문에 대한 반품 요청 및 환불은 [반환](return-refund-orders.md) 대시보드 .
 
 >[!NOTE]
 >
@@ -33,7 +35,7 @@ ht-degree: 0%
 
 1. 판매 채널 저장소에 대한 눈 모양 아이콘을 선택하여 저장소 보기를 엽니다.
 
-1. 보려면 [!DNL Walmart Marketplace] 주문, * 선택[!UICONTROL *Orders]**.
+1. 보려면 [!DNL Walmart Marketplace] 주문, 선택 **[!UICONTROL Orders]**.
 
 1. Orders 테이블에서, **상거래 주문 번호**.
 
@@ -49,6 +51,8 @@ ht-degree: 0%
    * 필요에 따라 나머지 배송 양식을 작성하십시오. 자세한 내용은 [[!DNL Shipping an Order]](https://docs.magento.com/user-guide/sales/order-ship.html) 자세한 지침
 
 1. 출하를 실행한 후, [주문 상태](manage-orders.md#about-order-status) in [!DNL Channel Manager] 업데이트를에 보냈는지 확인하려면 [!DNL Walmart Marketplace].
+
+주문이 출하되면 전체 또는 부분 환불을 처리할 수 있습니다. [!DNL Channel Manager] 에서 받은 반환 요청을 기반으로 주문에 포함된 항목에 대해 [!DNL Walmart Marketplace]. 자세한 내용은 [반품 및 환불 주문](return-refund-orders.md).
 
 ## 주문 취소
 

@@ -2,9 +2,9 @@
 title: 채널 관리자에 제품 추가
 description: '''에 대한 제품 조합 만들기 [!DNL Walmart Marketplace] Channel Manager''에 구성된 영업 채널에 카탈로그의 제품을 추가하여 판매합니다. '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,10 @@ ht-degree: 0%
 
 1. 가져오기 작업이 완료되면, [!DNL Channel Manager] 및 선택 **[!UICONTROL Listings]**.
 
+   처음에는 제품이 *초안* 상태. 선택 **[!UICONTROL Refresh products]** 를 눌러 테이블을 업데이트합니다.
+
+1. 보기를 업데이트하여 채널을 선택하여 채널 관리자에 추가된 새 제품을 표시합니다 **[!UICONTROL Draft]** 상태 카드
+
    ![연결된 영업 채널에 가져온 제품](assets/products-in-marketplace-sales-channel.png)
 
-   처음에는 제품이 *초안* 상태. 선택 **[!UICONTROL Refresh products]** 를 눌러 테이블을 업데이트합니다.
 

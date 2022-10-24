@@ -2,9 +2,9 @@
 title: Walmart에 목록 연결
 description: '''연결 목록 [!DNL Commerce] 다음으로 제품 [!DNL Walmart Marketplace]''판매를 시작하다'''
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: bc2e14714e9b532263c480395da28b31b4c3797c
+source-git-commit: 6f87dc808096fbba12f8e657fff7d005df1ebe92
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1096'
 ht-degree: 0%
 
 ---
@@ -40,8 +40,6 @@ ht-degree: 0%
 1. 선택 **[!UICONTROL Match Products]**.
 
    메시지를 통해 일치를 위해 전송된 제품 수를 나타냅니다.
-
-   ![연결된 영업 채널로 제품 전송](assets/products-submitted-for-matching.png)
 
    선택한 제품의 상태가 [!UICONTROL *처리 중*] 일치 작업이 완료될 때까지. Walmart Marketplace에서 일치 작업을 완료하는 데 최대 30분이 걸릴 수 있습니다.
 
@@ -144,7 +142,7 @@ Walmart Marketplace와 일치하지 않는 제품의 경우 Walmart 제품 카�
    - 에서 [!UICONTROL Entity Attributes] 테이블에서 제품 데이터 내보내기에 대한 선택 기준을 구성합니다.
    ![에서 제품 데이터 페이지 내보내기 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   필터를 사용하여 판매하는 제품 카테고리에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 및 권장 속성을 포함해야 합니다( [데이터 내보내기](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 자세한 지침은 사용 안내서)
+   필터를 사용하여 판매하는 제품 카테고리에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 및 권장 속성을 반드시 포함해야 합니다. (자세한 내용은 [데이터 내보내기](https://docs.magento.com/user-guide/system/data-export.html) Adobe [!DNL Commerce] 자세한 지침은 사용 안내서)
 
    내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란.
 

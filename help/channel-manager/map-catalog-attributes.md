@@ -1,10 +1,10 @@
 ---
 title: 카탈로그 속성 매핑
-description: '''일치하는 [DNL! 기존 제품에 대한 상거래 [!DNL Walmart Marketplace] 목록 및 데이터 동기화 [!DNL Channel Manager] 및 [!DNL Walmart]'''
+description: '일치하는 [DNL! 기존 제품에 대한 상거래 [!DNL Walmart Marketplace] 목록 및 데이터 동기화 [!DNL Channel Manager] 및 [!DNL Walmart]'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -30,14 +30,15 @@ ht-degree: 0%
 
 1. 에서 **[!UICONTROL Listings]** 또는 **[!UICONTROL Orders]** 영업 채널 저장소 페이지에서 **[!UICONTROL Channel Settings]**.
 
-1. 설정 **[!UICONTROL Channel Settings]**, 선택 **[!UICONTROL Shipping Carriers]**.
+1. 설정 **[!UICONTROL Channel Settings]**, 선택 **[!UICONTROL Map Attributes]**.
 
    - 를 찾습니다. [!DNL Walmart Marketplace] 매핑할 속성입니다.
 
    - 에서 해당 속성을 선택합니다 [!DNL Commerce] 카탈로그를 저장합니다.
 
       다음 예는 를 매핑합니다 [!UICONTROL Walmart Marketplace UPC] 속성을 제품 카탈로그의 UPC 속성에 추가합니다.
-   ![제품 일치 기준에 대한 특성 매핑](assets/products-map-attributes-for-match.png)
+
+      ![제품 일치 기준에 대한 특성 매핑](assets/products-map-attributes-for-match.png)
 
    - 선택 **[!UICONTROL Save]**.
 

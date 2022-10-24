@@ -1,10 +1,10 @@
 ---
-title: '''주문 조회 및 추적 [!DNL Channel Manager]`'
-description: '''보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우'''
+title: '''주문 조회 및 관리 [!DNL Channel Manager]`'
+description: '보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
@@ -34,41 +34,102 @@ ht-degree: 0%
 다음 표에서는 Orders에 사용할 수 있는 컨트롤과 열을 설명합니다.
 
 **컨트롤[!UICONTROL Orders]**
-| **제어**                    | **설명**                                                                                                                                                                                                                                                                  | |—|—| | [!UICONTROL Filter orders]     | 다음 중 하나를 선택하여 보기를 정렬합니다 [!UICONTROL Order Status] 카드.                                                                                                                                                                                                           | | 오류 설명 | 오류 상태의 주문에 대한 자세한 정보를 제공합니다.                                                                                                                                                                                                            | | [!UICONTROL View order detail] | 주문 세부 사항을 보려면 [!DNL Commerce] 주문 번호 [!UICONTROL Order] 테이블. 그런 다음 [!DNL Commerce] 주문 옵션을 사용하여 주문을 처리합니다.                                                                                                                    | | [!UICONTROL Channel Settings]  | 채널 구성을 수정하려면 채널 Walmart 연결 자격 증명, 매핑된 속성 또는 배송 식별자를 선택합니다. 설정은 [!DNL Commerce] 주문 번호 [!UICONTROL Order] 테이블. 그런 다음 [!DNL Commerce] 주문 옵션을 사용하여 주문을 처리합니다. |
+
+<table>
+<tr>
+<td><strong>제어</strong></td>
+<td><strong>설명</strong></td>
+</tr>
+<tr>
+<td>[!UICONTROL Filter orders]</td>
+<td>다음 중 하나를 선택하여 보기를 정렬합니다 [!UICONTROL Order Status] 카드.</td>
+</tr>
+<tr>
+<td>상태 세부 정보</td>
+<td>주문 오류 및 반품 요청에 대한 정보를 제공합니다. 주문에 대한 반품 정보 및 환불 상태를 조회하려면 <strong>[!UICONTROL Return requested]</strong> 열 텍스트 [!UICONTROL Returns] 대시보드 .</td>
+</tr>
+<tr>
+<td>[!UICONTROL View order detail]</td>
+<td>주문 상세내역을 조회하려면 [!DNL Commerce] 주문 번호 [!UICONTROL Order] 테이블. 그런 다음 [!DNL Commerce] 주문 옵션을 사용하여 주문을 처리합니다.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Channel Settings]</td>
+<td>채널 구성을 수정하려면 채널 Mart 연결 자격 증명, 매핑된 속성 또는 운송 식별자를 선택합니다. [!DNL Commerce] 주문 번호 [!UICONTROL Order] 테이블. 그런 다음 [!DNL Commerce] 주문 옵션을 사용하여 주문을 처리합니다.</td>
+</tr>
+</table>
 
 
 **열 설명**
 
-| 필드 | 설명 |
-|-----------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [!UICONTROL Walmart Order Number] | 주문에서 주문에 지정된 구매 발주 번호 [!DNL Walmart Marketplace]. 처음에 주문을 로 가져오는 경우 [!DNL Channel Manager], 만 [!DNL Walmart] 주문 번호가 표시됩니다. 이 [!DNL Commerce] 주문이 생성되면 [!DNL Walmart] 주문 번호는 [!UICONTROL External ID] 제품 속성입니다. |
-| [!DNL Commerce] 주문 번호 | 에 지정된 번호 [!DNL Commerce] 주문 [!DNL Walmart Marketplace] 주문. |
-| 항목 | 주문된 항목 수 [!DNL Walmart Marketplace]. |
-| [!UICONTROL Order Value] | 주문 품목의 총 원가. |
-| [!UICONTROL Date Ordered] | 주문이 제출된 날짜입니다 [!DNL Walmart Marketplace]. |
-| [!UICONTROL Ship By Date] | 주문을 발송해야 하는 일자 [!DNL Walmart Marketplace] 요구 사항. |
-| [!UICONTROL Deliver By Date] | 고객이 충족하기 위해 주문을 고객에게 전달해야 하는 일자 [!DNL Walmart Marketplace] 요구 사항(UTC 형식)입니다. |
-| [!UICONTROL Ship Method] | 다음 [[!DNL Walmart Marketplace] 배송 방법](https://sellerhelp.walmart.com/s/guide?article=000007893) 선택된 상태로 표시됩니다. |
-| [!UICONTROL Last Update At] | 주문 데이터가 마지막으로 업데이트된 시간을 나타내는 타임스탬프 [!DNL Channel Manager] UTC 형식입니다. |
-| [!UICONTROL Status] | 에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 임포트된 주문의 초기 상태 [!DNL Walmart Marketplace] is _열기_. 다음과 같은 경우 추가 상태 업데이트가 발생합니다 [!DNL Commerce] 주문은 처리되고 [!DNL Channel Manager] 선적, 부분 선적 및 취소 업데이트를 성공적으로 동기화합니다. [!DNL Walmart Marketplace]. |
-| [!UICONTROL Error Description] | 를 사용하여 주문에 대한 자세한 정보를 제공합니다. _[!UICONTROL Error]_상태. |
+<table>
+<tr>
+<td>필드</td>
+<td>설명</td>
+</tr>
+<tr>
+<td>[!UICONTROL Walmart Order #]</td>
+<td>주문에서 주문에 지정된 구매 발주 번호 [!DNL Walmart Marketplace]. 처음에 주문을 로 가져오는 경우 [!DNL Channel Manager], 만 [!DNL Walmart] 주문 번호가 표시됩니다. 이 [!DNL Commerce] 주문이 생성되면 [!DNL Walmart] 주문 번호는 [!UICONTROL External ID] 제품 속성입니다.</td>
+</tr>
+<tr>
+<td>[!DNL Commerce] 주문 번호</td>
+<td>에 지정된 번호 [!DNL Commerce] 주문 [!DNL Walmart Marketplace] 주문.</td>
+</tr>
+<tr>
+<td>항목</td>
+<td>주문된 항목 수 [!DNL Walmart Marketplace].</td>
+</tr>
+<tr>
+<td>[!UICONTROL Order Value]</td>
+<td>주문 품목의 총 원가.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ordered]</td>
+<td>주문이 제출된 날짜입니다. [!DNL Walmart Marketplace] 로컬 시간대로 변환됩니다.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ship By (timezone)]</td>
+<td>주문을 발송해야 할 일자 [!DNL Walmart Marketplace] 로컬 시간대로 변환된 요구 사항입니다.
+</td>
+</tr>
+<tr>
+<td>[!UICONTROL Deliver By (timezone)]</td>
+<td>주문을 고객에게 전달하여 충족해야 하는 일자 [!DNL Walmart Marketplace] 로컬 시간대로 변환된 요구 사항입니다.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Ship Method]</td>
+<td>다음[!DNL Walmart Marketplace] 운송 방법](https://sellerhelp.walmart.com/s/guide?language=en_US&amp;article=000007893%29이 주문에 대해 선택되었습니다.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Last Update]</td>
+<td>주문 데이터가 마지막으로 업데이트된 시간을 나타내는 타임스탬프 [!DNL Channel Manager] 로컬 시간대로 변환되었습니다.</td>
+</tr>
+<tr>
+<td>[!UICONTROL Status]</td>
+<td>에서 현재 주문 상태를 나타냅니다. [!DNL Commerce] 주문 워크플로우입니다. 임포트된 주문의 초기 상태 [!DNL Walmart Marketplace] is _Open_. 다음과 같은 경우 추가 상태 업데이트가 발생합니다 [!DNL Commerce] 주문은 처리되고 [!DNL Channel Manager] 선적, 부분 선적 및 취소 업데이트를 성공적으로 동기화합니다. [!DNL Walmart Marketplace].</td>
+</tr>
+<tr>
+<td>[!UICONTROL Status Details]</td>
+<td>오류 또는 환불 요청이 있는 주문에 대한 자세한 정보를 제공합니다.</td>
+</tr>
+</table>
 
 ## 주문 상태
 
-
 [!UICONTROL Order Status] 의 현재 상태에 대한 정보를 제공합니다. [!DNL Walmart Marketplace] Adobe Commerce 또는 Magento Open Source에서 관리되는 주문. 주문 상태 업데이트는 [!DNL Channel Manager] 다음 중 하나에서 업데이트된 주문 정보를 받습니다. [!DNL Walmart Marketplace] 또는 [!DNL Commerce] 주문 시스템. 주문에는 다음 상태가 있을 수 있습니다.
 
-- **[!UICONTROL Shipped]**&quot;주문에서 배송된 주문 [!DNL Commerce] 저장. 주문이 배송되면 [!DNL Channel Manager] 에 업데이트를 보냅니다. [!DNL Walmart Marketplace] Walmart에서 운송 상태를 갱신하고 출하에 대한 주문 추적 번호를 제공하기 위해.
+- **[!UICONTROL Shipped]**- 주문에서 출하된 주문 [!DNL Commerce] 저장. 주문이 배송되면 [!DNL Channel Manager] 에 업데이트를 보냅니다. [!DNL Walmart Marketplace] Walmart에서 운송 상태를 갱신하고 출하에 대한 주문 추적 번호를 제공하기 위해. 주문이 배송된 후 Walmart가 반품 승인 양식을 발급할 경우 주문 품목의 일부 또는 전부를 환불받을 수 있습니다. 자세한 내용은 [반환 및 반환](return-refund-orders.md).
 
 - **[!UICONTROL Partially Shipped]**- 일부 품목이 출하됨으로 표시된 주문 및 출하되기를 기다리는 주문. 주문 출하시 [!DNL Channel Manager] 에 업데이트를 보냅니다. [!DNL Walmart Marketplace] 운송 상태를 갱신하려면 _[!DNL Partially Shipped]_Walmart에서 납품에 대한 주문 추적 번호를 제공합니다.
 
-- **[!UICONTROL Canceled]**-주문 취소 [!DNL Commerce] 저장.
+- **[!UICONTROL Canceled]**- 주문에서 취소된 주문 [!DNL Commerce] 저장.
 
    주문 취소가 완료되면 [!DNL Commerce] 반환된 품목을 반영하도록 재고 수량 업데이트. 그럼, [!DNL Channel Manager] 업데이트를에 동기화 [!DNL Walmart Marketplace].
 
+- **[!UICONTROL Return requested]**—Walmart Marketplace에서 출하된 주문 품목에 대한 반품을 요청하는 경우 `Return requested` 링크는 [!UICONTROL Status details] 열. 링크를 선택하면 [!UICONTROL Returns] 대시보드를 사용하여 반품 및 환불 프로세스를 관리할 수 있습니다.
+
 - **[!UICONTROL Error]**- 오류가 있는 주문. 주문 업데이트 작업이 실패할 경우 오류가 발생할 수 있습니다. 예를 들어 다음 경우 오류가 발생합니다 [!DNL Channel Manager] 월마트로부터 새 주문을 받을 수 없습니다. 이러한 매개 변수는 [!DNL Channel Manager] 주문 선적 또는 취소 갱신을 [!DNL Walmart Marketplace]. 작업이 실패하면 주문 페이지에 _오류_ 주문 상태. 자세한 내용은 [주문 오류 수정](process-orders.md#fix-shipping-and-cancellation-errors).
 
-- **[!UICONTROL Error description]**-누락된 정보 또는 잘못된 값, 잘못된 납품 상세내역 또는 주문 취소 실패와 같은 문제로 인해 발생하는 주문 오류에 대한 자세한 정보를 제공합니다. 설명은 오류 발생 여부를 확인하는 데 도움이 됩니다 [!DNL Commerce] 인스턴스 또는 [!DNL Walmart Marketplace].
+- **[!UICONTROL Status details]**-누락된 정보 또는 잘못된 값, 잘못된 배송 세부 정보 또는 주문 취소 실패와 같은 문제로 인해 발생하는 주문 오류에 대한 자세한 정보를 제공합니다. 설명은 오류 발생 여부를 확인하는 데 도움이 됩니다 [!DNL Commerce] 인스턴스 또는 [!DNL Walmart Marketplace].
 
 >[!NOTE]
 >
@@ -82,11 +143,11 @@ ht-degree: 0%
 
 1. 주문 정보를 보려면 *를 선택합니다.[!UICONTROL *Orders]**.
 
-1. 주문에 대한 정보를 확인하고 **[상태](#about-order-status)** 열.
+1. 주문에 대한 정보를 확인하고 **[상태](#order-status)** 열.
 
-## 주문 세부 사항 보기
+## 주문 세부 사항 검토
 
-마켓플레이스에서 주문을 받고 Adobe Commerce 또는 Magento Open Source으로 가져온 후에는 [!DNL Commerce] 주문 ID를 사용하여 Adobe Commerce에서 순서를 봅니다.
+마켓플레이스에서 주문을 받고 판매 채널 저장소로 가져온 후에는 [!DNL Commerce] 주문 ID 를 사용하여 Adobe Commerce에서 주문 세부 사항을 볼 수 있습니다.
 
 From **[!UICONTROL Orders]**&#x200B;에서 을(를) 선택합니다. **[!UICONTROL Commerce Order Number]** 열다 [!DNL Commerce] 주문 세부 사항.
 
@@ -108,4 +169,12 @@ Commerce Store에서 [!DNL Walmart Marketplace] 주문 데이터에 다음과 �
       - [!UICONTROL The item is out of stock.]
       - [!UICONTROL Unavailable carrier or shipping information.]
       - [!UICONTROL Additional information is required by our Credit or Fraud Avoidance department.]
+
+- **주문된 품목**—이 섹션에는 모든 상거래 주문의 주문 항목이 나열됩니다. 다음 [!UICONTROL Qty] 열은 주문 품목의 상태 내역을 제공합니다. 예를 들어, 주문이 송장 발행, 출하 및 환급된 경우, 상태 전환을 볼 수 있습니다.
+
+   ![주문 상세 주문 품목 상태 내역 [!DNL Walmart Marketplace] 주문](assets/order-detail-status-history.png)
+
+품목 송장 및 환불 상세내역을 선택하여 조회 [!UICONTROL Invoice] 및 [!UICONTROL Credit Memo] 탐색 메뉴의 옵션. 또한, [[!UICONTROL Returns]](return-refund-orders.md) 대시보드 를 참조하십시오.
+
+
 
