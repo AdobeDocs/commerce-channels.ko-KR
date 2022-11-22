@@ -2,9 +2,9 @@
 title: '`[!DNL Walmart] 요구 사항'
 description: '''필요한 항목이 있는지 확인합니다. [!DNL Walmart Marketplace]Channel Manager와 통합할 정보 및 리소스'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: fd60c8917e4b4e155fb2897ade6e1d96aff2de9d
+source-git-commit: 618bbd6d6c889d555f0ff74ade3dd84b412e1e59
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] 를 구성하려면 다음 리소스 및 정보가 필요합니다. [!DNL Commerce] 영업 채널 [!DNL Walmart Marketplace.]
 
-* 판매 승인 [!DNL Walmart] 등록된 Marketplace 판매자 계정에 로그인할 자격 증명
+* A [!DNL Walmart] 판매자 계정
 
 * Adobe Commerce 또는 Magento Open Source을 연결할 API 키 [!DNL Walmart Marketplace]
 
@@ -21,8 +21,7 @@ ht-degree: 0%
 
 ## 설정 [!DNL Walmart Seller] account
 
-1. [Walmart Seller 응용 프로그램 제출](https://marketplace-apply.walmart.com/apply?id=0014M00001zivMpQAI).
-1. 승인을 받은 후 [!DNL Walmart], [Walmart Seller 계정 설정](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
+로 이동합니다. [!DNL Walmart Seller Center] 을 설정하려면 [월마트 판매자 계정](https://seller.walmart.com/signup?q=&amp;origin=solution_provider&amp;src=0014M00001zivMp).
 
 ## 생성 [!DNL Walmart Marketplace] 프로덕션 API 키
 
