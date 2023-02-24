@@ -2,14 +2,14 @@
 title: 채널 설정 완료
 description: '을(를) 연결하는 영업 채널을 만든 후 [!DNL Commerce] 보기 저장 대상 [!DNL Walmart Marketplace]를 클릭하여 채널을 열고 채널 구성을 완료합니다. 그런 다음 프로세스를 시작하여 제품 추가, 목록 관리, 재고, 가격 책정 및 주문을 [!DNL Channel Manager]'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 영업 채널 설정 완료
+# Sales Channel 설정 완료
 
 연결 후 [!DNL Commerce] 저장 위치 [!DNL Walmart Marketplace]에서 저장소 설정을 완료합니다 [!DNL Channel Manager] 홈 페이지.
 

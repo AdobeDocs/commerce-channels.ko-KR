@@ -4,9 +4,9 @@ description: '인스턴스를 [!DNL Channel Manager] 몇 가지 온보딩 단계
 role: User
 level: Intermediate
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: 738c48b8b8075e7c8bbf883c58cc8de39bca355c
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '518'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Channel Manager 온보딩 프로세스를 완료하면 Adobe Commerce에서 Walm
 
 - **[Walmart Marketplace 요구 사항](walmart-requirements.md)**-다음을 포함하여 채널 관리자와 통합하기 위한 요구 사항을 충족하는지 확인합니다. [판매자 계정 설정](https://sellerhelp.walmart.com/seller/s/guide?article=000008219) 통합을 활성화하기 위해 API 키를 생성합니다.
 
-- **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 를 사용하려면 [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target=&quot;_blank&quot;}. 에 대한 소유자 또는 관리자 액세스 권한이 있는 계정 ID 및 자격 증명이 필요합니다 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
+- **상거래 계정 정보**- 다운로드 및 설치 [!DNL Channel Manager] 를 사용하려면 [상거래 계정](https://docs.magento.com/user-guide/magento/magento-account.html){target="_blank"}. 에 대한 소유자 또는 관리자 액세스 권한이 있는 계정 ID 및 자격 증명이 필요합니다 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 인스턴스.
 
    - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) 변환 후 [!DNL Commerce] 계정이 있어야 **[!UICONTROL My Account - Magento settings]**.
 
@@ -45,7 +45,7 @@ Channel Manager 온보딩 프로세스를 완료하면 Adobe Commerce에서 Walm
       자세한 내용은 [사용자 액세스 관리](https://devdocs.magento.com/cloud/project/user-admin.html).
 
 
-- **작성기 및 를 사용한 경험[!DNL Commerce CLI]**-참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/)다음 도구를 사용하여 확장을 설치 및 관리하는 방법에 대한 자세한 내용은 target=&quot;_blank&quot;} 를 참조하십시오. [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
+- **작성기 및 를 사용한 경험[!DNL Commerce CLI]**-참조 [일반 CLI 설치](https://devdocs.magento.com/extensions/install/){target="_blank"} 이러한 도구를 사용하여 확장을 설치 및 관리하는 방법에 대한 자세한 정보 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
 
 - **[[!DNL Amazon Sales Channel] 버전 4.4.2 이상](https://experienceleague.adobe.com/docs/commerce-channels/amazon/release-notes.html)**-활성화한 경우 [!DNL Amazon Sales Channel] 에 대해 [!DNL Commerce] 사이트, [!DNL Commerce] 설치하기 전에 플랫폼에는 버전 4.4.2 이상이 설치되어 있습니다. [!DNL Channel Manager].
 

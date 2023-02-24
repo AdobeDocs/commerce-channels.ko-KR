@@ -1,15 +1,15 @@
 ---
-title: '''주문 조회 및 관리 [!DNL Channel Manager]`'
+title: '''주문 조회 및 관리 위치 [!DNL Channel Manager]`'
 description: '보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우'
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: 1180c86ee8f087a2fef84d84171d77fd5b33164b
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
-# 주문 보기 및 추적 [!DNL Channel Manager]
+# 주문 조회 및 추적 위치 [!DNL Channel Manager]
 
 [!DNL Walmart Marketplace] 주문 데이터 [!DNL Commerce] 는 자동으로 동기화됩니다 [!DNL Channel Manager] after [!DNL Walmart] 순서를 처리합니다.
 
@@ -175,6 +175,3 @@ Commerce Store에서 [!DNL Walmart Marketplace] 주문 데이터에 다음과 �
    ![주문 상세 주문 품목 상태 내역 [!DNL Walmart Marketplace] 주문](assets/order-detail-status-history.png)
 
 품목 송장 및 환불 상세내역을 선택하여 조회 [!UICONTROL Invoice] 및 [!UICONTROL Credit Memo] 탐색 메뉴의 옵션. 또한, [[!UICONTROL Returns]](return-refund-orders.md) 대시보드 를 참조하십시오.
-
-
-

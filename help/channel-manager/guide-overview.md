@@ -1,12 +1,12 @@
 ---
 title: '`[!DNL Channel Manager] 안내서 개요'''
-description: '''에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다.'''
+description: '에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다.'
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: 366edd4b4d3946c26c92b1367c7b68c9513edff8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -39,5 +39,5 @@ ht-degree: 0%
 
 다음 리소스에서 Adobe Commerce 및 Magento Open Source에 대한 추가 정보 및 도움말을 확인하십시오.
 
-* [도움말 센터](https://support.magento.com/hc/en-us){target=&quot;_blank&quot;}
-* [지원 티켓](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target=&quot;_blank&quot;}-추가 도움말을 받으려면 티켓을 제출하십시오.
+* [도움말 센터](https://support.magento.com/hc/en-us){target="_blank"}
+* [지원 티켓](https://support.magento.com/hc/en-us/articles/360000913794#submit-ticket){target="_blank"}-추가 도움말을 보려면 티켓을 제출하십시오.

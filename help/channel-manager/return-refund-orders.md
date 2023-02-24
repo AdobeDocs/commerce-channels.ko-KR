@@ -1,9 +1,10 @@
 ---
 title: 반품 및 환불 주문
-description: "보낸 반품 요청에 대해 전체 또는 일부 환불을 실행하는 지침 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우"
-source-git-commit: e9d2f53a955956a2b5086649d9ac18cc982ef4e3
+description: '수신된 반품 요청에 대해 전체 또는 일부 환불을 실행하는 지침 [!DNL Walmart Marketplace] 변환 전: [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source용.'
+exl-id: 45617011-4add-444c-819b-6bb4164d03e4
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -189,5 +190,3 @@ Storfront Admin에서는 영업 채널 저장소를 열고 를 선택하여 채�
 반환 정보를 [!DNL Walmart Marketplace]또는 [!DNL Channel Manager] 상태 업데이트 동기화 [!DNL Commerce] to [!DNL Walmart Marketplace].
 
 반환 업데이트에 대한 동기화 작업이 실패하면 [!DNL Channel Manager] 대시보드를 보여주는 반환 *[!UICONTROL Error]* 반환 항목의 상태입니다. 반품 및 환불 정보가 Walmart Marketplace 계정에 정확하게 반영되도록 하려면 [!DNL Walmart Marketplace] 저장.
-
-

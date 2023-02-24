@@ -2,7 +2,7 @@
 title: 카탈로그 속성 매핑
 description: '일치하는 [DNL! 기존 제품에 대한 상거래 [!DNL Walmart Marketplace] 목록 및 데이터 동기화 [!DNL Channel Manager] 및 [!DNL Walmart]'
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 0%
@@ -41,5 +41,3 @@ ht-degree: 0%
       ![제품 일치 기준에 대한 특성 매핑](assets/products-map-attributes-for-match.png)
 
    - 선택 **[!UICONTROL Save]**.
-
-

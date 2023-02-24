@@ -2,9 +2,9 @@
 title: '''연결 [!DNL Channel Manager] to [!DNL Walmart Marketplace]`'
 description: "전자 상거래 저장소 보기를 [!DNL Walmart Marketplace] Walmart Marketplace 판매에 대한 상거래 제품 목록, 재고, 가격 및 주문을 관리하는 판매 채널을 만들 수 있습니다."
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: 3f6039ad78ff500c31129bee12d65e291e226567
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -77,10 +77,10 @@ ht-degree: 0%
 
 ### 연결 문제 해결
 
-에 연결된 경우 [!DNL Walmart] 실패, 다음을 참조하십시오 [Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/)문제 해결 팁은 {target=&quot;_blank&quot;} 입니다.
+에 연결된 경우 [!DNL Walmart] 실패, 다음을 참조하십시오 [Walmart Marketplace FAQ](https://developer.walmart.com/faq/us/faq-auth/){target="_blank"} 문제 해결 팁입니다.
 
 - 에서 [!DNL Walmart Developer Portal]에서 프로덕션 API 키에 대한 올바른 자격 증명을 복사했는지 확인합니다. [!UICONTROL Adobe Inc.]
 
 - 에 대한 액세스 구성을 확인합니다. [!UICONTROL Walmart Adobe API key] 에는 올바른 권한이 있습니다. 자세한 내용은 [[!DNL Walmart Requirements]](walmart-requirements.md##generate-a-walmart-marketplace-api-key).
 
-- 에서 [!DNL Walmart API] 서비스는 [Walmart API 상태 페이지](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target=&quot;_blank&quot;}.
+- 에서 [!DNL Walmart API] 서비스는 [Walmart API 상태 페이지](https://developer.walmart.com/us/whats-new/new-api-status-information-now-available/){target="_blank"}.

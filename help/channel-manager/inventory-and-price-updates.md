@@ -2,7 +2,7 @@
 title: 재고 및 가격 업데이트
 description: '`[!DNL Channel Manager] 동기화 인벤토리 및 가격 업데이트 [!DNL Commerce] 저장 및 [!DNL Walmart Marketplace] 영업 채널 작업을 [!DNL Commerce] 관리자'''
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: 8146be1c94ffb1c8abd0d28e53d3476fd78f2c62
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 필요에 따라 가격을 검토하고 업데이트합니다.
 1. **[!UICONTROL Save]** 변경 사항입니다.
 
-의 제품 가격 구성 관리에 대한 도움말입니다. [!DNL Commerce]를 참조하십시오. [가격 관리](https://docs.magento.com/user-guide/catalog/pricing.html){target=&quot;_blank&quot;}.
+의 제품 가격 구성 관리에 대한 도움말입니다. [!DNL Commerce]를 참조하십시오. [가격 관리](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.

@@ -2,7 +2,7 @@
 title: Walmart Marketplace 연결 관리
 description: '''API 자격 증명을 업데이트하여 [DNL! Commerce] 저장소 보기 및 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 제품 목록 및 제품 목록 간 재고, 가격, 주문 및 배송 데이터 동기화 [!DNL Commerce] 그리고 월마트가'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: 2e55243dd920471b32e534563a39cc7be85375f8
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%

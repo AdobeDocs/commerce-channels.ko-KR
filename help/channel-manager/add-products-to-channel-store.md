@@ -2,7 +2,7 @@
 title: 채널 관리자에 제품 추가
 description: '''에 대한 제품 조합 만들기 [!DNL Walmart Marketplace] Channel Manager''에 구성된 영업 채널에 카탈로그의 제품을 추가하여 판매합니다. '
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: bc9badeed0f8b5dd6a4fad2633c06c917f7d9d90
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%

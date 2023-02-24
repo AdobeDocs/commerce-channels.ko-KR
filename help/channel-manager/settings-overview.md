@@ -1,10 +1,10 @@
 ---
 title: 설정 개요
-description: '''에 대해 알아보기 [!DNL Channel Manager settings] 인증을 구성하고 제품 카탈로그 속성 및 운송 회사를 매핑하기 위해 [!DNL Commerce] 그리고 [!DNL Walmart Marketplace]'''
+description: '에 대해 알아보기 [!DNL Channel Manager settings] 인증을 구성하고 제품 카탈로그 속성 및 운송 회사를 매핑하기 위해 [!DNL Commerce] 그리고 [!DNL Walmart Marketplace]'
 exl-id: 305b3580-bfe2-4fc2-9dc8-fb41f5eaf959
-source-git-commit: 638ba8c595652e66aa5f15f5207855c6d2b872d7
+source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '169'
 ht-degree: 0%
 
 ---
