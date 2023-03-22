@@ -1,14 +1,15 @@
 ---
-title: '[!DNLChannel Manager] 릴리스 노트'
-description: "에 대한 최신 릴리스 정보 [!DNL Channel Manager] Adobe Commerce"
-source-git-commit: 501a76a126f090805f95e64078ec2c73de003aa4
+title: '`[!DNL Channel Manager] 릴리스 노트'''
+description: 에 대한 최신 릴리스 정보 [!DNL Channel Manager] Adobe Commerce에서 가져옵니다.
+exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
+source-git-commit: 9cc1b79089771ef9a58d22379197b210d31e1670
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 2%
+source-wordcount: '156'
+ht-degree: 1%
 
 ---
 
-# [!DNL Channel Manager] 릴리스 정보
+# [!DNL Channel Manager] 릴리스 노트
 
 이러한 릴리스 노트는 [!DNL Channel Manager] 다음을 포함합니다.
 
