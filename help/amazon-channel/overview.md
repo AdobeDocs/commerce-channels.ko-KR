@@ -1,18 +1,18 @@
 ---
-title: '"[!DNL Amazon Sales Channel] 사용 안내서"'
-description: '"[!DNL Channel manager] Adobe Commerce용 은 판매자가 의 제품을 원활하게 판매할 수 있도록 Amazon 판매 채널 확장을 제공합니다 [!DNL Amazon Marketplace]."'
+title: "[!DNL Amazon Sales Channel] 사용 안내서"
+description: "[!DNL Amazon Sales Channel] 상인이 [!DNL Amazon Marketplace]."
 redirect_from: /sales-channels/amazon/amazon-sales-channel.html
 exl-id: a4a6f446-7029-4c92-bce3-5b857cc33056
-source-git-commit: 71a59d85334127cb494b79e3079b6d4eba68990d
+source-git-commit: 74e58c95479b624ad9993d613776b4d33c492080
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
 
 # [!DNL Amazon Sales Channel] 사용 안내서
 
-[!DNL Channel manager] Adobe Commerce용 Amazon 판매 채널 확장을 제공하여 상인이 Amazon Marketplace에서 제품을 원활하게 판매할 수 있도록 합니다.
+[!DNL Amazon Sales Channel] 상인이 [!DNL Amazon Marketplace].
 
 Adobe Commerce 또는 Magento Open Source 머천트로서 [!DNL Amazon Sales Channel] 는 매장들을 세계에서 가장 큰 글로벌 인터넷 쇼핑 대상에 통합할 수 있도록 확장되었습니다. 이 확장 프로그램을 통해 Amazon 매출을 수행할 수 있습니다 [!DNL Commerce] 사용 [!DNL Amazon Seller Central] 카탈로그 및 주문 데이터의 자동화 및 동기화를 모두 제공하며 계정을 구성합니다. 모든 Amazon 목록을 완벽하게 관리하고, 단순 또는 지능형 가격 규칙을 구현하며, 단일 보고서를 통해 주문 및 인벤토리를 유지 관리할 수 있습니다 [!DNL Commerce] 대시보드 .
 
@@ -37,5 +37,5 @@ Adobe Commerce 또는 Magento Open Source 머천트로서 [!DNL Amazon Sales Cha
 
 ## 추가 Adobe Commerce 설명서
 
-- [Adobe Commerce 사용 안내서](https://docs.magento.com/user-guide/){target=&quot;_blank&quot;}
-- [Adobe Commerce 개발자 안내서](https://devdocs.magento.com/){target=&quot;_blank&quot;}
+- [Adobe Commerce 사용 안내서](https://docs.magento.com/user-guide/){target="_blank"}
+- [Adobe Commerce 개발자 안내서](https://devdocs.magento.com/){target="_blank"}
