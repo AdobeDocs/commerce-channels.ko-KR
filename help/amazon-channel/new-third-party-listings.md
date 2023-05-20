@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - **[!UICONTROL Create New Catalog Product(s)]**: Amazon 목록의 정보를 사용하여 [!DNL Commerce] 카탈로그. 이 프로세스는 Amazon 목록을 새 카탈로그 제품에 자동으로 일치시킵니다. 다음을 참조하십시오 [카탈로그 제품 만들기 및 할당](./creating-assigning-catalog-products.md).
 
-- **[!UICONTROL Attempt Automatic Match]**: 선택한 목록의 자동 일치를 현재 목록을 기반으로 카탈로그에 시도하도록 선택합니다 [카탈로그 검색](./catalog-search.md) 목록 설정의 옵션입니다. 다음을 수정하는 경우: _[!UICONTROL Catalog Search]_옵션을 사용하면 이 작업을 통해 일치 프로세스를 다시 시도할 수 있습니다.
+- **[!UICONTROL Attempt Automatic Match]**: 선택한 목록의 자동 일치를 현재 목록을 기반으로 카탈로그에 시도하도록 선택합니다 [카탈로그 검색](./catalog-search.md) 목록 설정의 옵션입니다. 다음을 수정하는 경우: _[!UICONTROL Catalog Search]_옵션, 이 작업을 사용하면 일치 프로세스를 다시 시도할 수 있습니다.
 
 아래 _[!UICONTROL Select]_:
 
