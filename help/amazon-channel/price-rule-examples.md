@@ -1,10 +1,10 @@
 ---
-title: 가격 규칙 예
+title: Amazon 판매 채널 - 가격 규칙 예
 description: Amazon 목록의 가격 책정 규칙을 디자인하는 데 도움이 되도록 일반적인 시나리오를 기반으로 이러한 예제를 검토하십시오.
 exl-id: 4d9717ba-4ad6-468d-b4ca-99f8620b60b4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '925'
 ht-degree: 2%
 
 ---
@@ -231,7 +231,7 @@ VAT 이후 최종 가격: $12.50 x (1.1) = $13.75
 
 이 예에서 가장 경쟁력 있는 가격은 Amazon을 보고 정의됩니다 [경쟁사 최저 가격](./lowest-competitor-pricing.md) 95%의 긍정적인 피드백과 1,000개의 판매자 후기의 최소 피드백 카운트가 포함됩니다.
 
-![가격 조정 예](assets/amazon-price-adjustment-example.png)
+![가격 조정 예](assets/amazon-price-adjustment-example.png){width="600" zoomable="yes"}
 
 이러한 매개변수를 기반으로 이 검색을 실행한 후 경쟁력 있는 가격은 $25로 돌아옵니다.
 

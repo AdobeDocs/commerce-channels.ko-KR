@@ -2,9 +2,9 @@
 title: 재고 및 가격 갱신
 description: '[!DNL Channel Manager] 다음 기간 동안 재고 및 가격 업데이트 동기화: [!DNL Commerce] 저장 및 [!DNL Walmart Marketplace] 를 통해 판매 채널 작업을 관리할 수 있습니다. [!DNL Commerce] 관리자'
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '354'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 에서 제품 재고 수준이 변경되는 경우 [!DNL Commerce], [!DNL Channel Manager] 에 대한 업데이트 동기화 [!DNL Walmart Marketplace]. 재고 업데이트가 판매 채널 전반에서 로 동기화되는 데 최대 10분이 걸릴 수 있습니다. [!DNL Walmart marketplace].
 
-* **제품 카탈로그의 재고 수량 업데이트**- 다음과 같은 경우 [!DNL Commerce] 다음 이유로 재고 수량이 변경됨: [수동 재고 수량 변경](https://docs.magento.com/user-guide/catalog/inventory-product-quantity.html), 환불 또는 취소 [!DNL Channel Manager] 연결된 채널에 변경 내용을 동기화합니다. [!DNL Walmart Marketplace].
+* **제품 카탈로그의 재고 수량 업데이트**- 다음과 같은 경우 [!DNL Commerce] 다음 이유로 재고 수량이 변경됨: [수동 재고 수량 변경](https://experienceleague.adobe.com/docs/commerce-admin/inventory/quantities/quantities-assign-per-product.html), 환불 또는 취소 [!DNL Channel Manager] 연결된 채널에 변경 내용을 동기화합니다. [!DNL Walmart Marketplace].
 
 * **재고 수량을 줄여 반영합니다. [!DNL Walmart Marketplace] 주문 수**- 다음 이후 [!DNL Walmart Marketplace] 동기화 순서 [!DNL Channel Manager], [!DNL Channel Manager] 업데이트를 (으)로 전송합니다. [!DNL Commerce] 시스템 주문. [!DNL Commerce] 주문에 따라 재고 수량을 조정합니다. 그런 다음 업데이트된 수량이에 동기화됩니다. [!DNL Walmart Marketplace]. 동기화 작업이 완료될 때까지 판매 채널 목록에서 다른 수량을 볼 수 있습니다. [!DNL Walmart].
 
@@ -42,4 +42,4 @@ ht-degree: 0%
 1. 필요에 따라 가격을 검토하고 업데이트합니다.
 1. **[!UICONTROL Save]** 거스름돈
 
-에서 제품 가격 구성 관리에 대한 도움말 [!DNL Commerce], 참조 [가격 관리](https://docs.magento.com/user-guide/catalog/pricing.html){target="_blank"}.
+에서 제품 가격 구성 관리에 대한 도움말 [!DNL Commerce], 참조 [가격 관리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html).

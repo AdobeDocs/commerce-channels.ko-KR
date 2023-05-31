@@ -1,11 +1,11 @@
 ---
-title: 제품 목록 조건
+title: Amazon 판매 채널 - 제품 목록 조건
 description: 제품 목록 조건 설정을 사용하여 상거래 제품을 "신규" 또는 "재생"과 같은 Amazon 제품 조건에 매핑합니다.
 redirect_from: /sales-channels/asc/ob-product-listing-condition.html
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '529'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Amazon의 경우 정의된 조건을 가지려면 제품 목록이 필요합니�
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![제품 목록 조건](assets/amazon-product-listing-condition.png)
+![제품 목록 조건](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |---|---|

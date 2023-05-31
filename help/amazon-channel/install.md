@@ -1,19 +1,19 @@
 ---
-title: 확장 설치
+title: "설치 [!DNL Amazon Sales Channel] 확장"
 description: 을(를) 통합하려면 [!DNL Commerce] 카탈로그 [!DNL Amazon Seller Accounts] 다음을 통해 판매 [!DNL Amazon Marketplace], Amazon Sales Channel 확장 기능을 다운로드하여 설치합니다.
 exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# 확장 설치
+# 설치 [!DNL Amazon Sales Channel] 확장
 
 >[!IMPORTANT]
 >
->전용 [!DNL Amazon Sales Channel] 확장 4.0 이상 버전은 Adobe Commerce 및 Magento Open Source 2.4.x 버전에서 지원됩니다. 2.3.x 버전을 실행 중인 경우 [호환 가능한 Amazon sales channel 릴리스](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html){target="_blank"}. For more information about version compatibility, see the [Availability](https://devdocs.magento.com/release/availability.html){target="_blank"} 페이지를 참조하십시오.
+>전용 [!DNL Amazon Sales Channel] 확장 4.0 이상 버전은 Adobe Commerce 및 Magento Open Source 2.4.x 버전에서 지원됩니다. 2.3.x 버전을 실행 중인 경우 [호환 가능한 Amazon sales channel 릴리스](https://docs.magento.com/user-guide/v2.3/sales-channels/amazon/amazon-sales-channel.html). 버전 호환성에 대한 자세한 내용은 [사용 가능](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 페이지를 참조하십시오.
 
 다음 [!UICONTROL Amazon Sales Channel] 확장 프로그램은 상거래 카탈로그를 통합할 기능을 설치 및 추가합니다. [!DNL Amazon Seller Accounts] 을 통해 판매 [!DNL Amazon Marketplace]. 추가 정보를 검토하려면 [Amazon Sales Channel](https://marketplace.magento.com/magento-module-amazon.html) 페이지 위치 [!DNL Commerce Marketplace] 및 [릴리스 정보](release-notes.md).
 
@@ -25,9 +25,9 @@ ht-degree: 0%
 
 ## 설치
 
-이 프로세스에 작성기를 사용하는 방법에 대한 자세한 내용은 [확장 설치](https://devdocs.magento.com/extensions/install/){target="_blank"} 개발자 설명서의 지침.
+이 프로세스에 작성기를 사용하는 방법에 대한 자세한 내용은 [확장 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 개발자 설명서의 지침.
 
-1. 에 로그인합니다 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. 에 로그인합니다 [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. 다음을 클릭합니다. **[!UICONTROL Marketplace]** 탭을 클릭한 다음 **[!UICONTROL My Purchases]**.
 
@@ -47,12 +47,12 @@ ht-degree: 0%
    composer require magento/services-connector:~1.0.3
    ```
 
-   - 다음을 입력하십시오. [인증 키](https://devdocs.magento.com/guides/v2.4/install-gde/prereq/connect-auth.html){target="_blank"}. 공개 키는 사용자 이름이고 개인 키는 암호입니다.
+   - 다음을 입력하십시오. [인증 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 공개 키는 사용자 이름이고 개인 키는 암호입니다.
 
    - Composer에서 프로젝트 종속성 업데이트를 마치고 오류가 없는지 확인할 때까지 기다립니다.
 
 
-1. [확장 확인](https://devdocs.magento.com/extensions/install/#verify-the-extension){target="_blank"}.
+1. [확장 확인](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 
 ## Amazon 판매 채널 API 키 추가
 
@@ -80,7 +80,7 @@ Amazon 판매 채널을 구성하기 위한 다음과 같은 옵션이 있습니
 
 ## 확장 업데이트
 
-1. 에 로그인합니다 [Commerce Marketplace](https://marketplace.magento.com/customer/account/){target="_blank"}.
+1. 에 로그인합니다 [Commerce Marketplace](https://marketplace.magento.com/customer/account/).
 
 1. 다음을 클릭합니다. **[!UICONTROL Marketplace]** 탭을 클릭한 다음 **[!UICONTROL My Purchases]**.
 
@@ -90,4 +90,4 @@ Amazon 판매 채널을 구성하기 위한 다음과 같은 옵션이 있습니
 
 1. 구성 요소 이름 및 버전에 대해 **[!UICONTROL Technical Details]**.
 
-1. 다음을 완료합니다. [확장 업그레이드 지침](https://devdocs.magento.com/extensions/install/#upgrade-an-extension){target="_blank"} 개발자 설명서에서 참조하십시오.
+1. 다음을 완료합니다. [확장 업그레이드 지침](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 다음에서 _설치 안내서_.

@@ -1,15 +1,15 @@
 ---
-title: Amazon 판매 채널에 대한 우수 사례 및 제한 사항
+title: 에 대한 우수 사례 및 제한 사항 [!DNL Amazon sales channel]
 description: Adobe Commerce 및 Magento Open Source용 Amazon 판매 채널을 사용할 때의 모범 사례와 제한 사항을 검토하십시오.
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon Sales Channel 우수 사례 및 제한 사항
+# 에 대한 우수 사례 및 제한 사항 [!DNL Amazon sales channel]
 
 모범 사례는 다음과 같습니다.
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 - Amazon 판매 채널은 목록 가격을 자동으로 조정하도록 가격책정 규칙을 설정할 수 있습니다. 자동화된 가격 보호 장치에는 다음이 포함됩니다. [최저 가격](./floor-price.md) 및 [선택적 최고 가격](./optional-ceiling-price.md) 의 기능 [지능형 가격 조정 규칙](./intelligent-repricing-rules.md). 이러한 안전 장치를 사용하면 목록 가격이 비용 또는 정의된 가격 이상으로 내려가지 않도록 할 수 있습니다.
 
-- Amazon 판매 채널과 Amazon 간의 데이터 동기화는 [[!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"} 설정. 다음 사이에 조절 기능 내장 [!DNL Commerce] 및 Amazon은 원활하고 효율적인 데이터 전송을 보장하지만, eCommerce 트래픽 시간(예: 블랙 프라이데이) 동안 Amazon의 시스템을 업데이트하는 데 평소보다 시간이 오래 걸릴 수 있습니다. 설정 [!DNL Commerce] 크론은 5분에 한 번씩 뛰어야 한다.
+- Amazon 판매 채널과 Amazon 간의 데이터 동기화는 [[!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 설정. 다음 사이에 조절 기능 내장 [!DNL Commerce] 및 Amazon은 원활하고 효율적인 데이터 전송을 보장하지만, eCommerce 트래픽 시간(예: 블랙 프라이데이) 동안 Amazon의 시스템을 업데이트하는 데 평소보다 시간이 오래 걸릴 수 있습니다. 설정 [!DNL Commerce] 크론은 5분에 한 번씩 뛰어야 한다.
 
 - Amazon sales channel 은 Amazon 주문 정보를 가져옵니다. Amazon 판매 채널에서 Amazon 주문을 관리하려면 [주문 설정](./order-settings.md) 을(를) 가져오고 해당 을(를) 생성하도록 정의합니다. [!DNL Commerce] 각 Amazon 주문에 대해 주문합니다. 정의되지 않은 경우 Amazon 주문 정보만 볼 수 있습니다. Amazon을 통한 판매에 대한 모든 세금은 여전히 다음을 통해 관리 및 송금됩니다. [!DNL Amazon Seller Central] 계정입니다. 일부 주에서는 Amazon에서 세금을 자동으로 징수하여 송금하도록 규정하고 있다. 다른 주의 경우 판매자는 수동으로 세금을 계산하거나 자동으로 세금을 계산할 수 있는 옵션이 있습니다. 다음을 참조하십시오 [Amazon: 세금 정책](https://sellercentral.amazon.com/gp/help/external/help.html?itemID=200405820&amp;language=en_US/){target="_blank"}. 에 로그인해야 할 수도 있습니다. [!DNL Amazon Seller Central] Amazon 세금 정책 설명서를 볼 계정.
 

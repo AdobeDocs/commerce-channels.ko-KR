@@ -1,19 +1,19 @@
 ---
-title: 경쟁력 있는 가격 분석
+title: 경쟁업체 가격 분석 보고서
 description: 경쟁 가격 분석 에는 각 Buy Box 가격과 가장 낮은 경쟁업체 가격 값이 있는 시장별 Amazon 목록이 표시됩니다.
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
 
-# 경쟁력 있는 가격 분석
+# 경쟁업체 가격 분석 보고서
 
 Competitive Price Analysis 보고서는 각 제품과 함께 각 마켓플레이스당 Amazon 목록을 보여 줍니다 [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [가장 낮은 경쟁자](./lowest-competitor-pricing.md) 가격 값. 로그에 사용할 수 있는 작업이 없습니다. 리뷰 전용 기능입니다.
 
-![경쟁업체 가격 분석 보고서](assets/amazon-competitive-price-analysis.png)
+![경쟁업체 가격 분석 보고서](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## 기본 열
 

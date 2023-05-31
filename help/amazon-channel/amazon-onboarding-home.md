@@ -1,16 +1,16 @@
 ---
-title: 온보드 Amazon Sales Channel
+title: "온보드 [!DNL Amazon Sales Channel]"
 description: 사전 설정 작업, 온보딩 단계 및 Amazon이 Adobe Commerce 및 Magento Open Source에서 Amazon Sales Channel과 작동하는 방식에 대해 알아봅니다.
 redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
 
-# 온보드 Amazon Sales Channel
+# 온보드 [!DNL Amazon Sales Channel]
 
 이 섹션에서는 사전 설정 작업, 온보딩을 위한 단계 및 Amazon이 Adobe Commerce 및 Magento Open Source에서 Amazon 판매 채널과 작동하는 방식에 대한 몇 가지 주요 개념에 대해 설명합니다.
 

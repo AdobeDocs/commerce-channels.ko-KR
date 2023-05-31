@@ -1,15 +1,15 @@
 ---
-title: Buy Box 경쟁업체 가격
+title: "[!DNL Buy Box] 경쟁업체 Amazon 목록 가격"
 description: Amazon Sales Channel은 [!UICONTROL Buy Box Competitor Pricing] Amazon에서 경쟁업체의 가격 포지셔닝 방법을 이해하는 데 도움이 되는 탭입니다.
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
-# [!DNL Buy Box] 경쟁업체 가격 책정
+# [!DNL Buy Box] Amazon 목록의 경쟁업체 가격
 
 다음 [!DNL Buy Box] 는 Amazon이 일반적으로 가장 좋은 가격으로 제품을 나열된 판매자에게 FBA/Prime 배송, 가용성 및 판매자 성과와 같은 다른 요인과 함께 수여합니다.
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [지능형 가격 조정 규칙](./intelligent-repricing-rules.md) 를 기반으로 가격을 조정하도록 구성할 수 있습니다. [!DNL Amazon Buy Box] 가격.
 
-![Buy Box 경쟁업체 가격 세부 정보](assets/amazon-listing-details-buy-box.png)
+![Buy Box 경쟁업체 가격 세부 정보](assets/amazon-listing-details-buy-box.png){width="600" zoomable="yes"}
 
 ## 액세스 [!DNL Buy Box] 경쟁업체 가격 세부 정보
 

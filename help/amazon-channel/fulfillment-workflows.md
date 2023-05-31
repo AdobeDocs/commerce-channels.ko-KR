@@ -1,15 +1,15 @@
 ---
-title: Amazon Fulfillment 워크플로
+title: Amazon 이행 워크플로우
 description: Amazon 목록의 주문에 대한 이행은 주문 실행에서 배송까지의 특정 순서를 따릅니다.
 exl-id: 30dd9f97-9193-4c98-bded-e5d8d35b0d05
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 2%
 
 ---
 
-# Amazon Fulfillment 워크플로
+# Amazon 이행 워크플로우
 
 ## 예: 판매자가 이행함
 

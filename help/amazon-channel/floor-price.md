@@ -2,9 +2,9 @@
 title: '지능형 가격 조정 규칙: 현장 가격'
 description: 현장 가격 설정을 사용하여 지능형 가격 책정 규칙의 최저 가격을 결정하여 Amazon 목록을 관리할 수 있습니다.
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 1. 대상 **[!UICONTROL Floor Price Source]**, 가격 소스 속성을 선택합니다.
 
-   다음을 선택합니다. [!DNL Commerce] [제품 속성](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 그것은 당신의 상대적인 층 제한을 나타냅니다. 예를 들어, Amazon 목록 가격이 항목의 비용 아래로 내려가지 않도록 하려면 *비용* 특성.
+   다음을 선택합니다. [!DNL Commerce] [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 그것은 당신의 상대적인 층 제한을 나타냅니다. 예를 들어, Amazon 목록 가격이 항목의 비용 아래로 내려가지 않도록 하려면 *비용* 특성.
 
 1. 대상 **[!UICONTROL Floor Price Action]**&#x200B;옵션을 선택합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 0%
 
 이 사례에서 바닥 가격은 물건의 원가보다 3% 높게 책정된다.
 
-![지능형 가격 조정 규칙 예 - 현장 가격](assets/ob-intelligent-pricde-rule-floor-price.png)
+![지능형 가격 조정 규칙 예 - 현장 가격](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

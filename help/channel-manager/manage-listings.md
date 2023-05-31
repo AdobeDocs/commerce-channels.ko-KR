@@ -2,7 +2,7 @@
 title: 목록 관리
 description: '다음에 대한 판매 채널 목록 관리: [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 Channel Manager를 사용하여 저장합니다.'
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 개별 목록에 대한 상태는 제품의 위치를 나타냅니다. [!DNL Channel Manager] 워크플로우를 통해 다음 단계를 결정하고 오류를 해결할 수 있습니다.
 
-![연결된 판매 채널의 목록 페이지](assets/listings-dashboard-view.png)
+![연결된 판매 채널의 목록 페이지](assets/listings-dashboard-view.png){width="500" zoomable="yes"}
 
 목록 보기에서 다음 작업을 완료할 수 있습니다.
 

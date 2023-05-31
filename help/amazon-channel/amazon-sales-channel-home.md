@@ -1,15 +1,15 @@
 ---
-title: 홈 페이지
+title: Amazon sales channel 홈 페이지
 description: 에서 Amazon 판매 채널 홈 페이지 사용 [!DNL Commerce] 다음에 액세스할 수 있는 관리자 [!DNL Amazon Marketplace] 목록 및 활동.
 exl-id: 00ce8253-aa91-4824-847d-24b74ed6a8bf
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '124'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---
 
-# 홈 페이지
+# Amazon sales channel 홈 페이지
 
 Amazon 판매 채널에 액세스할 때 Amazon 판매 채널 홈 페이지가 랜딩 페이지입니다.
 

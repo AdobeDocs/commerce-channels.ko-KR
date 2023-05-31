@@ -1,11 +1,11 @@
 ---
-title: 제품 목록 작업
+title: Amazon 판매 채널 - 제품 목록 작업
 description: 제품 목록 작업 설정을 사용하여 상거래 카탈로그와 Amazon의 상호 작용 방식을 정의합니다.
 redirect_from: /sales-channels/asc/ob-product-listing-actions.html
 exl-id: c7d3f22c-05c6-4826-99eb-543bac462cf8
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![제품 목록 작업](assets/amazon-product-listing-actions.png)
+![제품 목록 작업](assets/amazon-product-listing-actions.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

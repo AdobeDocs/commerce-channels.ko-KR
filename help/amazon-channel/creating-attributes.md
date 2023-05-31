@@ -1,10 +1,10 @@
 ---
-title: 속성 만들기 및 편집
+title: Amazon 판매 채널에 대한 속성 만들기 및 편집
 description: Amazon Sales Channel은 현재 Amazon 속성 및 연결된 상거래 속성을 검토하는 데 도움이 되는 속성 보기를 제공합니다.
 exl-id: 3cd5fb7e-68a3-45fd-8f50-72d3cc0244b5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 0%
 
 1. 대상 **[!UICONTROL Comparable on Storefront]**, 다음으로 설정 `Yes` 속성 값을 Amazon의 &quot;비교 기준&quot; 기능에 사용할 수 있는 경우.
 
-1. 다음을 선택합니다. [!DNL Commerce] [범위](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 을 누르고 하나 이상의 [보기 저장]을 선택하여 Amazon 값을으로 가져옵니다.
+1. 다음을 선택합니다. [!DNL Commerce] [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 을 누르고 하나 이상의 [보기 저장]을 선택하여 Amazon 값을으로 가져옵니다.
 
    범위가 로 설정된 경우 `Global`, _[!UICONTROL Store View]_특성을 만든 후에는 변경할 수 없습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 0%
 
 저장한 후 속성을 편집하여 설정을 검토하고 Amazon 및 와(과) 일치하는 항목을 확인할 수 있습니다. [!DNL Commerce] 속성에 대한 값입니다. Amazon 값을 덮어쓸지 여부를 나타낼 수도 있습니다 [!DNL Commerce] 값.
 
-![속성 설정 만들기](assets/amazon-attribute-settings-create.png)
+![속성 설정 만들기](assets/amazon-attribute-settings-create.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |
@@ -75,8 +75,8 @@ ht-degree: 0%
 | [!UICONTROL Use for Promo Rule Conditions] | 전환 대상 `Yes` 이관 조건 내에서 매개 변수에 속성을 사용할 수 있도록 허용하십시오. |
 | [!UICONTROL Used in Search] | 제품 검색에 속성 및 값을 사용할 수 있는지 여부를 나타냅니다. |
 | [!UICONTROL Comparable on Storefront] | Amazon의 &quot;비교 기준&quot; 기능에서 속성 값을 사용할 수 있는지 여부를 나타냅니다. |
-| [!UICONTROL Magento Product Attribute Scope] | 다음을 나타냅니다. [범위](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 속성용. 옵션: 글로벌/스토어 보기<br>로 설정된 경우 `Global`속성을 만든 후에는 저장소 보기를 편집할 수 없습니다. |
-| [!UICONTROL Store Views (to import values into to)] | 범위가 로 설정된 경우에만 표시됩니다. `Store View`. 다음을 선택합니다. [스토어 뷰](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon 속성 값이 동기화되는 대상. 선택 중 `All Store Views (Global)` 모든 항목의 값을 업데이트합니다. [!DNL Commerce] 보기를 저장합니다. |
+| [!UICONTROL Magento Product Attribute Scope] | 다음을 나타냅니다. [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 속성용. 옵션: 글로벌/스토어 보기<br>로 설정된 경우 `Global`속성을 만든 후에는 저장소 보기를 편집할 수 없습니다. |
+| [!UICONTROL Store Views (to import values into to)] | 범위가 로 설정된 경우에만 표시됩니다. `Store View`. 다음을 선택합니다. [스토어 뷰](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon 속성 값이 동기화되는 대상. 선택 중 `All Store Views (Global)` 모든 항목의 값을 업데이트합니다. [!DNL Commerce] 보기를 저장합니다. |
 
 ## 속성 편집 {#edit-an-attribute}
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save Attribute Settings]**.
 
-![속성 설정 편집](assets/amazon-attribute-settings-edit.png)
+![속성 설정 편집](assets/amazon-attribute-settings-edit.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |
@@ -114,5 +114,5 @@ ht-degree: 0%
 | [!UICONTROL Select Magento Product Attribute] | 선택한 항목을 나타냅니다. [!DNL Commerce] 나열된 Amazon 속성 이름에 연결할 속성입니다. 연결된 [!DNL Commerce] 속성, 드롭다운 목록에서 다른 속성을 선택합니다. 값은 구성에 따라 동기화됩니다. |
 | [!UICONTROL Amazon Attribute Name] | 에 정의된 대로 Amazon 속성의 이름을 표시합니다. [!DNL Amazon Seller Central]. 선택한 항목 [!DNL Commerce] 이 Amazon 속성에 대한 속성 링크입니다. 다음을 통해 이 값을 편집할 수 없음 [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Amazon 속성 값이 기존 값을 덮어쓰는지 여부를 나타냅니다. [!DNL Commerce] 값, 이 값을 가진 모든 제품에 영향 [!DNL Commerce] 특성.<ul><li>**기존 Magento 값을 덮어쓰지 않음** - (기본값) 다음을 유지합니다. [!DNL Commerce] 값, 다른 값 유지 [!DNL Commerce] 및 Amazon 스토어.</li><li>**기존 Magento 값 덮어쓰기** - 다음을 통해 Amazon 값을 저장합니다. [!DNL Commerce] 의 값 [!DNL Commerce] 제품 카탈로그.</li></ul> |
-| [!UICONTROL Magento Product Attribute Scope] | 속성을 로 만든 경우 속성을 편집할 때 나타나지 않습니다. `Global` 범위. 다음을 나타냅니다. [!DNL Commerce] [범위](https://docs.magento.com/user-guide/configuration/scope.html){target="_blank"} 이(가) 을(를) 만들고 (으)로 설정됨 `Store View`. |
-| [!UICONTROL Store Views (to import values into to)] | 다음 항목 선택 [!DNL Commerce] [스토어 뷰](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} Amazon 속성 값을 동기화할 대상. 선택 중 `All Store Views (Global)` 는 모든 스토어 조회수에 걸쳐 값을 업데이트합니다. |
+| [!UICONTROL Magento Product Attribute Scope] | 속성을 로 만든 경우 속성을 편집할 때 나타나지 않습니다. `Global` 범위. 다음을 나타냅니다. [!DNL Commerce] [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 이(가) 을(를) 만들고 (으)로 설정됨 `Store View`. |
+| [!UICONTROL Store Views (to import values into to)] | 다음 항목 선택 [!DNL Commerce] [스토어 뷰](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon 속성 값을 동기화할 대상. 선택 중 `All Store Views (Global)` 는 모든 스토어 조회수에 걸쳐 값을 업데이트합니다. |

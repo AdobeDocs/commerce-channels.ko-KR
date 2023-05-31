@@ -1,15 +1,15 @@
 ---
-title: 새 타사 목록
+title: 새로운 타사 Amazon 목록
 description: 상거래 카탈로그의 제품에 새 Amazon 목록을 일치시켜 관리합니다.
 exl-id: ace9d334-d1d1-4f4b-88c8-60a9e7d1d17c
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 0%
 
 ---
 
-# 새 타사 목록
+# 새로운 타사 Amazon 목록
 
 다음 _[!UICONTROL New Third Party]_탭에는 의 제품과 일치하지 않는 기존 Amazon 목록이 표시됩니다. [!DNL Commerce] 카탈로그. 수량, 가격, 처리 시간 등에 대해 목록 관리를 사용하려면 각 Amazon 목록을 의 제품에 일치(할당)해야 합니다. [!DNL Commerce] 카탈로그. 의 제품에 목록을 할당하는 몇 가지 옵션이 있습니다. [!DNL Commerce] 카탈로그.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 >
 >목록이 처리 중인 경우 탭 위에 목록 수를 나타내는 메시지가 표시됩니다.
 
-![새 타사 목록](assets/amazon-listings-new-third-party.png)
+![새 타사 목록](assets/amazon-listings-new-third-party.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

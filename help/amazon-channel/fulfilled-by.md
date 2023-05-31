@@ -1,16 +1,16 @@
 ---
-title: 이행한 사람
+title: Amazon 목록에 대한 이행자 설정
 description: 이행자 설정을 사용하여 Amazon 목록의 주문이 이행(출하)되는 방법을 결정합니다.
 redirect_from: /sales-channels/asc/ob-fulfilled-by.html
 exl-id: 240c2198-e23d-40e7-be39-b9a4f78565d2
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '627'
 ht-degree: 0%
 
 ---
 
-# 이행한 사람
+# Amazon 목록에 대한 이행자 설정
 
 _[!UICONTROL Fulfilled By]_설정은 스토어 목록 설정의 일부입니다. 목록 설정은 [대시보드 저장](./amazon-store-dashboard.md).
 
@@ -46,12 +46,12 @@ _[!UICONTROL Fulfilled By]_설정은 스토어 목록 설정의 일부입니다.
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![이행한 사람 설정](assets/amazon-fulfilled-by.png)
+![이행한 사람 설정](assets/amazon-fulfilled-by.png){width="500" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Product Fulfilled By] | 옵션:<ul><li>**[!UICONTROL Fulfilled by Merchant]** - (FBM) 주문을 이행할 경우 선택합니다. 주문이 이루어지면, 재고는 [!DNL Commerce] 카탈로그. 새 제품이 생성되면 이행된 머천트의 이행 방법이 지정됩니다.</li><li>**[!UICONTROL Fulfilled by Amazon]** - (FBA) Amazon이 주문을 이행하는지 여부를 선택합니다. 이 이행 방법을 사용하면 제품 재고가 [!DNL Commerce] 카탈로그(주문이 있을 경우). 제품이 만들어지면 _[!UICONTROL Fulfilled by Amazon (FBA)]_이행 유형으로 사용됩니다. 내 제품에서 FBA 이행 대상이 되는지 확인합니다. [!DNL Amazon Seller Central] 계정입니다. 또한 FBA 인벤토리는 다음을 통해 직접 관리됩니다. [!DNL Amazon Seller Central] 계정입니다. 이 이행 방법을 사용하면 수량 업데이트가 [!DNL Commerce] 카탈로그에는에 설명된 일부 마케팅 도구를 사용할 수 없습니다. [재고 / 수량 설정](./stock-quantity.md).</li><li>**[!UICONTROL Assign Fulfilled By Using Magento Product Attribute]** - 기존 항목이 있는 경우 선택 [!DNL Commerce] 판매자가 이행했는지 또는 Amazon이 이행했는지를 결정하는 속성입니다. 선택하면, **[!UICONTROL Fulfilled by Attribute]** 을(를) 활성화합니다.</li></ul> |
-| [!UICONTROL Fulfilled By Attribute] | 다음을 선택합니다. [!DNL Commerce] 이행 방법을 결정하는 데 사용되는 속성입니다.<br><br>예를 들어 속성이 _이행한 사람_ 속성 값을 다음과 같이 선택합니다. _[!UICONTROL Fulfilled By Merchant]_또는_[!UICONTROL Fulfilled By Amazon (FBA)]_&#x200B;를 입력하면 시스템은 해당 값을 새 제품에 대한 이행 유형으로 사용합니다. 판매자로서, 귀하는 귀하의 제품이 귀하의 제품 내에서 FBA 이행에 적합한지 확인해야 합니다 [!DNL Amazon Seller Central] 계정입니다. 또한 FBA 재고는 Amazon 판매자 계정을 통해 직접 관리됩니다.<br><br>옵션은 Amazon 제품에 대해 설정한 속성에 따라 다릅니다. |
+| [!UICONTROL Fulfilled By Attribute] | 다음을 선택합니다. [!DNL Commerce] 이행 방법을 결정하는 데 사용되는 속성입니다.<br><br>예를 들어 속성이 _이행한 사람_ 속성 값을 다음과 같이 선택합니다. `Fulfilled By Merchant` 또는 `Fulfilled By Amazon (FBA)`를 입력하면 시스템은 해당 값을 새 제품에 대한 이행 유형으로 사용합니다. 판매자로서, 귀하는 귀하의 제품이 귀하의 제품 내에서 FBA 이행에 적합한지 확인해야 합니다 [!DNL Amazon Seller Central] 계정입니다. 또한 FBA 재고는 Amazon 판매자 계정을 통해 직접 관리됩니다.<br><br>옵션은 Amazon 제품에 대해 설정한 속성에 따라 다릅니다. |
 
 **빠른 액세스** - [!UICONTROL Listing Settings] 섹션
 

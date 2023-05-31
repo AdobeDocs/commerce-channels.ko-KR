@@ -2,9 +2,9 @@
 title: 목록을 Walmart에 연결
 description: '다음에 대한 목록 연결: [!DNL Commerce] 제품 대상 [!DNL Walmart Marketplace]판매를 시작합니다.'
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 1. 출처: **[!UICONTROL Listings]**&#x200B;에 있는 일치 제품 선택 *[!UICONTROL Draft]* 상태.
 
-   ![목록에서 제품을 선택하고 일치시키기 위해 전송](assets/products-in-marketplace-sales-channel.png)
+   ![목록에서 제품을 선택하고 일치시키기 위해 전송](assets/products-in-marketplace-sales-channel.png){width="500" zoomable="yes"}
 
 1. 선택 **[!UICONTROL Match Products]**.
 
@@ -115,9 +115,9 @@ Walmart Marketplace에 일치하는 항목이 없는 제품의 경우 Walmart �
 
 - 내보내기 작업을 완료하기 위해 cron 작업이 실행 중인지 확인하십시오.
 
-   - 온-프레미스 인스턴스의 경우 [cron 구성 및 실행](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-cron.html).
+   - 온-프레미스 인스턴스의 경우 [cron 구성 및 실행](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/configure-cron-jobs.html).
 
-   - Adobe 클라우드 인프라의 경우 다음을 참조하십시오. [cron 작업 설정](https://devdocs.magento.com/cloud/configure/setup-cron-jobs.html).
+   - Adobe 클라우드 인프라의 경우 다음을 참조하십시오. [cron 작업 설정](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/configure/app/properties/crons-property.html).
 
 ### 업로드할 제품 데이터 파일 만들기
 
@@ -125,11 +125,11 @@ Walmart Marketplace에 일치하는 항목이 없는 제품의 경우 Walmart �
 
    - Product Catalog Items 페이지에서 **[!UICONTROL Add Items]**. 그런 다음 을 선택합니다. **[!UICONTROL Add items in bulk]**.
 
-      ![Walmart Marketplace 항목 구성에서 일괄 옵션 항목 추가](assets/walmart-seller-account-add-items-bulk.png)
+      ![Walmart Marketplace 항목 구성에서 일괄 옵션 항목 추가](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - 다운로드 페이지에서 를 선택합니다. **[!UICONTROL Full Setup]**. 그런 다음 항목 카테고리를 선택하고 카테고리 템플릿을 다운로드합니다.
 
-      ![Walmart Marketplace 항목 구성에서 카테고리 템플릿 옵션 다운로드](assets/walmart-seller-account-full-setup-download.png)
+      ![Walmart Marketplace 항목 구성에서 카테고리 템플릿 옵션 다운로드](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 템플릿에 제품 목록에 대한 필수 속성과 권장 속성이 포함되어 있는지 확인합니다.
 
@@ -140,15 +140,14 @@ Walmart Marketplace에 일치하는 항목이 없는 제품의 경우 Walmart �
    - 다음에서 [!UICONTROL Export] 페이지의 [!UICONTROL Entity Type] 필드, 선택 [!UICONTROL **제품**].
 
    - 다음에서 [!UICONTROL Entity Attributes] 표에서 제품 데이터 내보내기에 대한 선택 기준을 구성합니다.
-   ![에서 제품 데이터 내보내기 페이지 [!UICONTROL [!DNL Commerce] Admin]](assets/walmart-seller-account-full-setup-download.png)
 
-   필터를 사용하여 판매하는 제품 범주에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 특성과 권장 특성을 포함해야 합니다. (참조: [데이터 내보내기](https://docs.magento.com/user-guide/system/data-export.html) Adobe 내 [!DNL Commerce] 자세한 지침은 사용 안내서 를 참조하십시오.)
+      필터를 사용하여 판매하는 제품 범주에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 특성과 권장 특성을 포함해야 합니다. (참조: [데이터 내보내기](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe 내 [!DNL Commerce] 자세한 지침은 사용 안내서 를 참조하십시오.)
 
-   내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란입니다.
+      내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란입니다.
 
 1. 속성 테이블의 끝으로 스크롤하여 을 선택합니다. [!UICONTROL **계속**] 데이터 내보내기를 시작합니다.
 
-   CSV 내보내기 파일은 cron 작업을 사용하여 메시지 대기열을 통해 처리되고 `var/export/folder`. (참조: [메시지 대기열 관리](https://devdocs.magento.com/guides/v2.4/config-guide/mq/manage-message-queues.html) 다음에서 *Commerce 개발자 안내서*.)
+   CSV 내보내기 파일은 cron 작업을 사용하여 메시지 대기열을 통해 처리되고 `var/export/folder`. (참조: [메시지 대기열 관리](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/message-queues/manage-message-queues.html) 다음에서 *구성 안내서*.)
 
 1. Walmart Marketplace 제품 범주에 대한 Excel 템플릿을 열고 Excel 매크로 기능을 사용하여 내보낸 제품 데이터를 Excel 템플릿에 병합합니다.
 

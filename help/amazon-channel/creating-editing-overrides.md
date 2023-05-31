@@ -1,10 +1,10 @@
 ---
-title: 재정의 만들기 및 편집
+title: Amazon 판매 채널 재정의 만들기 및 편집
 description: Amazon Sales Channel 재정의를 사용하여 단일 Amazon 목록 또는 여러 목록에 변경 사항을 적용합니다.
 exl-id: 3a254883-b88c-4c94-b4d5-8d7754b9afd2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '899'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 1. 다음에서 _[!UICONTROL Action]_열, 클릭&#x200B;**[!UICONTROL Select]**>**[!UICONTROL Create Override]**제품 목록 무시 페이지를 엽니다.
 
-   ![Amazon 목록 재정의 만들기](assets/amazon-select-create-override.png)
+   ![Amazon 목록 재정의 만들기](assets/amazon-select-create-override.png){width="220"}
 
 1. 올바른 목록이 표시되는지 확인하려면 다음을 확인하십시오. _[!UICONTROL Listing Details]_.
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 
 다음 예제는 새 가격을 정의하는 재정의를 보여 줍니다. `$55`, 다음의 새로운 처리 시간 `1 day`, 의 새로운 조건 `Used; Like New`및 새 판매자 노트 텍스트입니다.
 
-![Amazon 목록 재정의 예](assets/amazon-overrides-edit.png)
+![Amazon 목록 재정의 예](assets/amazon-overrides-edit.png){width="600" zoomable="yes"}
 
 ## 단일 목록에 대한 재정의 편집 또는 제거 {#edit-override-single-listing}
 
@@ -52,7 +52,7 @@ ht-degree: 0%
 
    다음 _[!UICONTROL Product Listing Overrides]_페이지가 열립니다.
 
-   ![Amazon 목록 재정의 선택](assets/amazon-select-edit-overrides.png)
+   ![Amazon 목록 재정의 선택](assets/amazon-select-edit-overrides.png){width="125"}
 
 1. 올바른 목록을 재정의하려면 다음을 확인하십시오. _[!UICONTROL Listing Details]_.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 에 피기백 _재정의 만들기_ 예. 다음 예제는 새 가격을 정의하는 이전에 만든 재정의에 대한 편집을 보여 줍니다. `$50`는 처리 시간 재정의를 제거하고 이전 조건 및 판매자 노트 재정의를 유지합니다.
 
-![무시 편집 또는 제거](assets/amazon-overrides-edit-2.png)
+![무시 편집 또는 제거](assets/amazon-overrides-edit-2.png){width="600" zoomable="yes"}
 __
 
 ## 여러 목록의 재정의 편집 또는 제거 {#edit-override-multiple-listings}
@@ -92,7 +92,7 @@ __
 
    다음 _[!UICONTROL Product Listing Overrides]_페이지가 열립니다.
 
-   ![Amazon 목록 재정의 선택](assets/amazon-actions-edit-listing-overrides.png)
+   ![Amazon 목록 재정의 선택](assets/amazon-actions-edit-listing-overrides.png){width="200"}
 
 1. 을(를) 편집하려면 _[!UICONTROL Override]_설정에서 변경할 유형(가격, 처리 시간, 조건, 판매자 노트)의 섹션을 정의합니다.
 

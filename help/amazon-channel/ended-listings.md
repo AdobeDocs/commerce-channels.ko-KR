@@ -1,15 +1,15 @@
 ---
-title: 종료된 목록
+title: 종료된 Amazon 목록
 description: Amazon Sales Channel은 종료된 Amazon 마켓플레이스 목록을 검토할 수 있는 종료 탭을 제공합니다. 이 목록은 선택한 경우 다시 게시할 수 있습니다.
 exl-id: 15107f08-4231-44b5-9390-44b5b709e3a5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '399'
 ht-degree: 0%
 
 ---
 
-# 종료된 목록
+# 종료된 Amazon 목록
 
 다음 _[!UICONTROL Ended]_탭에는 에서 수동으로 종료(제거)된 모든 Amazon 제품이 표시됩니다. [!DNL Amazon Seller Central] 계정입니다. 이러한 제품은 모든 목록 요구 사항을 충족하며 언제든지 다시 게시할 수 있으며 추가 정보가 필요하지 않습니다. 제품이_[!UICONTROL Ineligible]_ 탭에서 다음을 수정할 수 있습니다. [목록 설정](./listing-settings.md) 따라서 제품이 목록 자격을 충족합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 0%
 
 게시 목록에 대해서는 다음을 참조하십시오. [Amazon 목록 수동 게시](./publish-listings-manually.md).
 
-![종료된 Amazon 목록](assets/amazon-ended-listings.png)
+![종료된 Amazon 목록](assets/amazon-ended-listings.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

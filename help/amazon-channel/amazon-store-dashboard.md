@@ -2,7 +2,7 @@
 title: Amazon 스토어 대시보드
 description: Amazon 스토어 대시보드를 사용하여 Commerce 관리자의 Amazon 스토어에 대한 활동을 봅니다.
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 에 액세스할 수도 있습니다. [스토어 설정](./ob-store-review.md), [목록 관리](./managing-product-listings.md), 판매 데이터 및 최근 주문 정보를 볼 수 있습니다.
 
-![Amazon 스토어 대시보드](assets/amazon-store-dashboard.png)
+![Amazon 스토어 대시보드](assets/amazon-store-dashboard.png){width="600" zoomable="yes"}
 
 스토어 대시보드의 헤더에는 스토어 카드에 표시된 것과 동일한 기본 스토어 정보가 표시됩니다.
 

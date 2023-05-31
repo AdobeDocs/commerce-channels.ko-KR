@@ -1,10 +1,10 @@
 ---
-title: 작업 영역 컨트롤
+title: Amazon 판매 채널 - 작업 영역 제어
 description: Amazon Sales Channel은 목록을 찾고 정보를 보고 작업을 쉽게 적용할 수 있는 작업 영역 컨트롤을 제공합니다.
 exl-id: 4f76b1d0-ae58-435b-bd6d-50155a023421
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '754'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Amazon 판매 채널 [홈 페이지](./amazon-sales-channel-home.md) 에는 필터, 기본 보기, 열, 내보내기 등 몇 가지 일반적인 작업 영역 컨트롤이 있습니다. 모든 페이지에 동일한 제어 옵션이 있는 것은 아닙니다.
 
-![Amazon Sales Channel 작업 공간 제어 예](assets/amazon-workspace-controls.png)
+![Amazon Sales Channel 작업 공간 제어 예](assets/amazon-workspace-controls.png){width="600" zoomable="yes"}
 
 ## 작업
 
@@ -21,7 +21,7 @@ Amazon 판매 채널 [홈 페이지](./amazon-sales-channel-home.md) 에는 필�
 
 예를 들어 선택기가 _[!UICONTROL Attributes]_페이지, 여기에는_[!UICONTROL Re-import Product Attribute Values]_ 작업. 이 작업을 선택하면 해당하는 Ping이 수행됩니다. [!DNL Amazon Seller Central] 계정 및 새로 고침 [!DNL Commerce] 왼쪽 열에서 선택한 각 Amazon 스토어 항목에 대한 데이터입니다.
 
-![작업 메뉴 예](assets/amazon-sales-channel-home-actions-option.png)
+![작업 메뉴 예](assets/amazon-sales-channel-home-actions-option.png){width="500"}
 
 ## 필터
 
@@ -37,11 +37,11 @@ Amazon 판매 채널 [홈 페이지](./amazon-sales-channel-home.md) 에는 필�
 
 필터링 옵션이 설정되면 **[!UICONTROL Apply Filters]** 나열된 데이터를 필터링합니다. Cancel을 클릭하여 적용하지 않고 Filters 컨트롤을 종료합니다.
 
-![필터 컨트롤 예](assets/workspace-controls-filters.png)
+![필터 컨트롤 예](assets/workspace-controls-filters.png){width="600" zoomable="yes"}
 
 데이터에 필터를 적용한 후 **[!UICONTROL Active Filters]** 정보가 표시됩니다. 다음을 클릭할 수 있습니다 ![필터 지우기 아이콘](assets/x-icon-clear-filters.png) 아이콘을 클릭하여 특정 필터 옵션을 지우거나 **[!UICONTROL Clear All]** 적용된 모든 필터를 지웁니다.
 
-![활성 필터 예](assets/applied-filters-line.png)
+![활성 필터 예](assets/applied-filters-line.png){width="700"}
 
 ## 보기
 
@@ -72,7 +72,7 @@ View 컨트롤은 페이지의 기본 열을 기반으로 하므로 기본 보�
 - 페이지에 데이터 열을 추가하려면 확인란을 선택합니다.
 - 페이지에서 데이터 열을 제거하려면 확인란을 선택하지 마십시오.
 
-![열 컨트롤 예](assets/workspace-controls-columns.png)
+![열 컨트롤 예](assets/workspace-controls-columns.png){width="400"}
 
 확인란 변경 사항이 즉시 표시됩니다. 변경한 후 페이지를 종료하면 페이지가 기본 열 표시로 돌아갑니다. 정기적으로 변경하는 경우 열 변경 내용을 View 컨트롤에 사용자 지정 보기로 저장할 수 있습니다. 그런 다음 열을 수동으로 추가하거나 제거할 필요 없이 View 컨트롤에서 전환할 수 있습니다.
 
@@ -89,4 +89,4 @@ View 컨트롤은 페이지의 기본 열을 기반으로 하므로 기본 보�
 
 생성된 데이터 파일은 다운로드를 위해 지정된 폴더에 자동으로 저장됩니다.
 
-![내보내기 제어](assets/workspace-controls-export.png)
+![내보내기 제어](assets/workspace-controls-export.png){width="250"}

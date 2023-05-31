@@ -2,7 +2,7 @@
 title: Channel Manager에 제품 추가
 description: '제품 분류 만들기 [!DNL Walmart Marketplace] 카탈로그의 제품을 Channel Manager에 구성된 판매 채널에 추가하여 판매'
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -41,13 +41,13 @@ ht-degree: 0%
 
 1. 연결된 판매 채널 스토어에서 **제품 추가** 제품 카탈로그를 엽니다.
 
-   ![판매 채널 스토어에 제품 추가](assets/add-initial-products-to-connected-channel.png)
+   ![판매 채널 스토어에 제품 추가](assets/add-initial-products-to-connected-channel.png){width="600" zoomable="yes"}
 
    카탈로그가 새 탭에서 열립니다.
 
 1. 카탈로그 제품 그리드에서 판매할 제품을 선택합니다 [!DNL Walmart Marketplace].
 
-   ![판매 채널 스토어로 제품 보내기](assets/select-products-from-catalog.png)
+   ![판매 채널 스토어로 제품 보내기](assets/select-products-from-catalog.png){width="600" zoomable="yes"}
 
 1. 활성화 **[!UICONTROL Connect to Channel Manager]** 선택한 항목에 대한 속성입니다.
 
@@ -61,9 +61,9 @@ ht-degree: 0%
 
       확인 메시지가 표시됩니다.
 
-      ![카탈로그에서 판매 채널로 제품 가져오기 확인 메시지](assets/product-import-from-catalog-confirmation.png)
+      ![카탈로그에서 판매 채널로 제품 가져오기 확인 메시지](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      업데이트가 예약되어 있다는 메시지가 나타나면 [큐:consumers:시작](https://devdocs.magento.com/guides/v2.4/config-guide/cli/config-cli-subcommands-queue.html) [!DNL CLI] 즉시 업데이트를 처리하는 명령입니다.
+      업데이트가 예약되어 있다는 메시지가 나타나면 [큐:consumers:시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 즉시 업데이트를 처리하는 명령입니다.
 
       ```bash
       $ bin/magento queue:consumers:start product_action_attribute.update
@@ -75,6 +75,6 @@ ht-degree: 0%
 
 1. 보기를 업데이트하여 Channel Manager에 추가된 새 제품을 표시합니다. **[!UICONTROL Draft]** 상태 카드입니다.
 
-   ![연결된 판매 채널로 가져온 제품](assets/products-in-marketplace-sales-channel.png)
+   ![연결된 판매 채널로 가져온 제품](assets/products-in-marketplace-sales-channel.png){width="400" zoomable="yes"}
 
 

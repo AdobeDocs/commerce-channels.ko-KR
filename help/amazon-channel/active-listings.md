@@ -1,15 +1,15 @@
 ---
-title: 활성 목록
+title: 활성 Amazon 목록
 description: Amazon 판매 채널에서는 활성 Amazon 목록을 모니터링하고 Adobe Commerce 카탈로그의 제품에 일치하는 활성 탭을 제공합니다.
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
 
-# 활성 목록
+# 활성 Amazon 목록
 
 다음 _[!UICONTROL Active]_탭은에서 활성 상태인 Amazon 목록을 표시합니다. [!DNL Amazon Marketplace] 및 이(가) 의 제품과 일치합니다. [!DNL Commerce] 카탈로그.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 >
 >목록이 처리 중인 경우 탭 위의 메시지에 목록 수가 표시됩니다.
 
-![활성 목록](assets/amazon-active-listings.png)
+![활성 목록](assets/amazon-active-listings.png){width="700" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

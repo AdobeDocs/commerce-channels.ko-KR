@@ -1,15 +1,15 @@
 ---
-title: 통합 설정 저장
+title: Amazon 판매 채널 - [!UICONTROL Store Integration Settings]
 description: Amazon 판매 채널 온보딩 프로세스를 완료한 후 다음을 통해 스토어 통합 설정을 검토하고 구성합니다 [!UICONTROL Amazon Store] 대시보드
 exl-id: 58fc8e62-ce66-497f-8f55-f70aafa8d791
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# 통합 설정 저장
+# [!UICONTROL Store Integration Settings]
 
 저장소를 통합한 후 다음을 통해 저장소 통합 설정을 검토하고 구성합니다. [!UICONTROL Amazon Store] 대시보드입니다. 이 설정은에 대해 표시됩니다. *비활성* 및 *활성* 상점. 여기에서 Amazon 스토어의 이름과 스토어 통합 중에 스토어와 연결한 이메일 주소를 변경할 수 있습니다.
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 >
 >다음 _[!UICONTROL Amazon Marketplace Country]_설정 정의 기간 [스토어 통합](./store-integration.md) 업데이트할 수 없습니다. 국가 설정을 편집하려면 저장소(아래)를 삭제해야 합니다_[!UICONTROL Action]_ (스토어 카드에서) 및 다른 국가의 스토어를 추가합니다.
 
-![통합 설정 저장](assets/amazon-store-settings.png)
+![통합 설정 저장](assets/amazon-store-settings.png){width="600" zoomable="yes"}

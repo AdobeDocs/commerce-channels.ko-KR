@@ -4,9 +4,9 @@ description: '설치 및 사용 방법 알아보기 [!DNL Channel Manager] Adobe
 role: User
 level: Intermediate
 exl-id: 91265973-d2ad-4925-aa10-260d7e186f20
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Channel Manager] Adobe Commerce 또는 Magento Open Source 제품 카탈로그를 와 통합하여 판매자가 매출을 증가시키고, 신규 고객에게 도달하며, 판매 운영을 간소화하고, 시간을 절약할 수 있도록 지원합니다. [!DNL Walmart Marketplace].
 
-![[!DNL Channel Manager] 확장 관리자 보기](assets/channel-manager-home.png)
+![[!DNL Channel Manager] 확장 관리자 보기](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 [!DNL Channel Manager] 은 을 판매하려는 Adobe Commerce 또는 Magento Open Source 판매자를 지원합니다. [!DNL Walmart Marketplace] 를 확장하여 [!DNL Commerce] 관리자. 포함 [!DNL Channel Manager] 설치, 저장소 관리자 및 운영 담당자가 관리할 수 있음 [!DNL Walmart Marketplace] 상거래 환경에서 매출, 재고, 제품 가격 책정 과정이 원활하게 이루어집니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 
 * **취소**- Adobe Commerce에서 주문이 취소되는 경우 [!DNL Channel Manager] 업데이트된 주문 정보를 마켓플레이스에 전송하여 해당 마켓플레이스 주문에 대한 작업을 복제합니다. 주문 취소가 완료되면 [!DNL Commerce] 반품된 품목을 반영하는 재고 수량 갱신 및 재고 갱신은 자동으로 다음과 동기화됩니다. [!DNL Walmart Marketplace].
 
-* **반환 및 환불**—Walmart Marketplace에서 Adobe Commerce 또는 Magento Open Source 판매 채널을 통해 주문한 품목의 반품을 요청할 때, [!DNL Channel Manager] 반환 요청을 복제하기 위해 반환 요청 정보를 Commerce 판매 채널 스토어에 보냅니다. 그런 다음 다음을 사용하여 환불을 처리할 수 있습니다. [!DNL Commerce] [환불 워크플로우](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow), 오프라인 메서드. 환불이 완료된 후, [!DNL Channel Manager] 시장 판매자 계정의 반환 상태를 업데이트하여 환불을 반영할 수 있도록 업데이트를 Walmart에 동기화합니다.
+* **반환 및 환불**—Walmart Marketplace에서 Adobe Commerce 또는 Magento Open Source 판매 채널을 통해 주문한 품목의 반품을 요청할 때, [!DNL Channel Manager] 반환 요청을 복제하기 위해 반환 요청 정보를 Commerce 판매 채널 스토어에 보냅니다. 그런 다음 다음을 사용하여 환불을 처리할 수 있습니다. [!DNL Commerce] [환불 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html#refund-workflow), 오프라인 메서드. 환불이 완료된 후, [!DNL Channel Manager] 시장 판매자 계정의 반환 상태를 업데이트하여 환불을 반영할 수 있도록 업데이트를 Walmart에 동기화합니다.
 
 ## 다음에 대한 예상 지연 시간: [!DNL Channel Manager] 작업
 

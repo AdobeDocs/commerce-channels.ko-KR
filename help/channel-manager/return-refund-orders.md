@@ -2,9 +2,9 @@
 title: 반품 및 환불 주문
 description: '다음에서 수신된 반품 요청에 대한 전체 또는 부분 환불 발급 지침 [!DNL Walmart Marketplace] 출처: [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source.'
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1184'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Commerce 측에서 반환 요청은 다음 워크플로우를 시작합니다.
 
 1. Channel Manager는 수신 상태의 해당 반환 요청을 만들고 반환 ID 번호( )를 추가합니다.[!UICONTROL RMA #]) 로 이동합니다. [!UICONTROL Returns] 대시보드입니다. 다음에서 [!DNL Orders] 대시보드, 반품 업데이트와 연관된 주문에 대한 상태 세부 정보 [!UICONTROL Return requested] 반환을 보고 처리하는 링크입니다.
 
-1. 상인은 다음 내용에 따라 대변 메모를 생성하여 반품과 관련된 환불을 처리합니다. [Adobe Commerce 환불 워크플로우](https://docs.magento.com/user-guide/sales/credit-memos.html#refund-workflow). 모든 환불은 오프라인 방식으로 진행됩니다.
+1. 상인은 다음 내용에 따라 대변 메모를 생성하여 반품과 관련된 환불을 처리합니다. [Adobe Commerce 환불 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/credit-memos/credit-memos.html). 모든 환불은 오프라인 방식으로 진행됩니다.
 
 1. [!DNL Channel Manager] Adobe Commerce에서 환불 완료를 반영하도록 반환 상태를 업데이트할 수 있도록 반환 업데이트를 Walmart marketplace에 보냅니다.
 
 Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Channel Manager로부터 반환을 보고 처리할 수 있습니다 **[!UICONTROL Returns]**.
 
-![채널 관리자는에서 받은 반환 요청에 대한 반환을 처리하기 위해 대시보드를 반환합니다. [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png)
+![채널 관리자는에서 받은 반환 요청에 대한 반환을 처리하기 위해 대시보드를 반환합니다. [!DNL Walmart Marketplace]](assets/returns-dashboard-view.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
 ## 재방문 시나리오
 
-다음 시나리오에서는에서 다양한 유형의 반품 요청에 대해 환불을 발행하는 방법을 설명합니다 [!DNL Channel Manager].
+다음 시나리오에서는에서 다양한 유형의 재방문 요청에 대해 환불을 발행하는 방법을 설명합니다 [!DNL Channel Manager].
 
 * **전액 반환**—Walmart Marketplace 반품 요청이 주문의 모든 품목에 대한 것이면 대변 메모 수량을 업데이트하여 모든 품목을 환불합니다.
 
@@ -148,7 +148,7 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
    * 다음에서 [!UICONTROL Status Details] 열에서 선택 **[!UICONTROL Create credit memo]** 에서 주문 세부 사항 페이지를 열려면 [!DNL Commerce].
 
-      주문이 송장 발행되지 않은 경우 주문 세부 사항 페이지에 주문 세부 사항을 생성하라는 오류 메시지가 표시됩니다. 선택 **[!UICONTROL Create invoice]**. 그런 다음, [송장 생성 및 저장](https://docs.magento.com/user-guide/sales/invoices.html).
+      주문이 송장 발행되지 않은 경우 주문 세부 사항 페이지에 주문 세부 사항을 생성하라는 오류 메시지가 표시됩니다. 선택 **[!UICONTROL Create invoice]**. 그런 다음, [송장 생성 및 저장](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 주문 세부 사항 페이지에서 **[!UICONTROL Credit Memo]**.
 
@@ -179,7 +179,7 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
 1. 다음을 선택하여 반품에 대한 환불 세부 정보 보기 **[!UICONTROL View credit memo]**.
 
-   ![다음에 대한 반품 항목을 환불하기 위한 대변 메모 [!DNL Walmart Marketplace] 주문](assets/refund-credit-memo-for-marketplace-order.png)
+   ![다음에 대한 반품 항목을 환불하기 위한 대변 메모 [!DNL Walmart Marketplace] 주문](assets/refund-credit-memo-for-marketplace-order.png){width="600" zoomable="yes"}
 
 >[!NOTE]
 >

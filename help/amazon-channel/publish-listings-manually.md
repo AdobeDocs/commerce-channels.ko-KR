@@ -2,7 +2,7 @@
 title: Amazon 목록 수동 게시
 description: 필요한 경우 Commerce 관리자에서 종료된 Amazon 목록을 수동으로 게시할 수 있습니다.
 exl-id: ca3f674e-d93a-44a6-8c06-b417694a0f1e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '150'
 ht-degree: 0%

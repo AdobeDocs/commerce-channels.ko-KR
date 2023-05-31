@@ -1,10 +1,10 @@
 ---
-title: 표준 가격 규칙 작업
+title: Amazon 판매 채널 - 표준 가격 규칙 작업
 description: 표준 가격 규칙 작업을 사용하여 상거래 카탈로그 가격(또는 가격 출처)에 따라 Amazon 목록 가격을 높이거나 낮춥니다.
 exl-id: 91df6ef3-852b-478b-8b01-51dd437dd4f9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 1. 확장 _[!UICONTROL Price Adjustment]_섹션에 있는 마지막 항목이 될 필요가 없습니다.
 
-1. 대상 **[!UICONTROL Price Action]**&#x200B;을(를) 클릭하고 변경할 방법을 결정하십시오. *[!UICONTROL Magento Price Source]* (에 정의됨) [목록 가격](./listing-price.md)) 값을 반환합니다.
+1. 대상 **[!UICONTROL Price Action]**&#x200B;을(를) 클릭하고 변경할 방법을 결정합니다. *[!UICONTROL Magento Price Source]* (에 정의됨) [목록 가격](./listing-price.md)) 값을 반환합니다.
 
    - `Decrease By` - Amazon에 나열하기 전에 값을 줄일 시기를 선택하십시오.
 
@@ -46,7 +46,7 @@ ht-degree: 0%
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save pricing rule]**.
 
-![표준 가격 규칙](assets/ob-price-rule-action-standard-example.png)
+![표준 가격 규칙](assets/ob-price-rule-action-standard-example.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |---|---|

@@ -2,9 +2,9 @@
 title: 운송 회사 매핑
 description: '''일치하는 [DNL!에 대한 속성 매핑'' 기존 Commerce] 제품 [!DNL Walmart Marketplace] 다음 기간 동안 데이터 목록 및 동기화 [!DNL Channel Manager] 및 [!DNL Walmart].'''
 exl-id: 98c8d3f6-f129-43c6-920c-d9c36b0e4a40
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '150'
+source-wordcount: '154'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 1. 리뷰 [적시 납품을 위한 운송회사 방법 및 배송 모범 사례](https://sellerhelp.walmart.com/s/guide?article=000009473) 대상 [!DNL Walmart Marketplace].
 
-1. 확인 [[!UICONTROL Shipping Carrier]](https://docs.magento.com/user-guide/shipping/carriers.html) 및 [[!UICONTROL Shipping Settings]](https://docs.magento.com/user-guide/configuration/sales/shipping-settings.html) 의 구성 [!DNL Commerce] 을(를) 저장하여 의 구성을 최적화했는지 확인 [!DNL Walmart Marketplace sales].
+1. 확인 [[!UICONTROL Shipping Carrier]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/delivery/shipping-carriers/carriers.html) 및 [[!UICONTROL Shipping Settings]](https://experienceleague.adobe.com/docs/commerce-admin/config/sales/shipping-settings.html) 의 구성 [!DNL Commerce] 을(를) 저장하여 의 구성을 최적화했는지 확인 [!DNL Walmart Marketplace sales].
 
 ## 운송 회사 매핑
 
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 1. 날짜 **[!UICONTROL Channel Settings]**, 선택 **[!UICONTROL Shipping Carriers]**.
 
-   ![운송 회사 매핑](assets/map-shipping-carriers.png)
+   ![운송 회사 매핑](assets/map-shipping-carriers.png){width="600" zoomable="yes"}
 
 1. 각 [!DNL Walmart] 기본 캐리어가 나열되면 [!DNL Commerce] 통신사를 사용할 수 있는 경우 드롭다운의 통신사 이름.
 

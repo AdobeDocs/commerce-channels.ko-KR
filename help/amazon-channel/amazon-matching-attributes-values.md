@@ -2,9 +2,9 @@
 title: Amazon 속성 매핑 보기
 description: Commerce와 Amazon 간에 올바르게 동기화하려면 연결된 Commerce 특성의 값을 확인하십시오.
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '349'
+source-wordcount: '348'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,12 @@ Amazon 속성을 매핑할 때 [!DNL Commerce] Amazon 판매 채널이 모든 Am
 
 1. 다음을 클릭합니다. **[!UICONTROL Matching Attribute Values]** 탭.
 
-   해당하는 항목이 있는 목록 [!DNL Commerce] 카탈로그 제품에 연결된 값이 표시됨 _Magento 제품 SKU_ 열. 링크를 클릭하면 해당 카탈로그 제품 세부 사항 페이지가 열립니다. 제품 세부 사항 페이지의 Amazon 속성 변경 사항이 Amazon 판매 채널에 다시 동기화되지 않습니다.
+   해당하는 항목이 있는 목록 [!DNL Commerce] 카탈로그 제품에 연결된 값이 표시됨 _[!UICONTROL Magento Product SKU]_열. 링크를 클릭하면 해당 카탈로그 제품 세부 사항 페이지가 열립니다. 제품 세부 사항 페이지의 Amazon 속성 변경 사항이 Amazon 판매 채널에 다시 동기화되지 않습니다.
 
 >[!TIP]
 >목록 매핑을 편집하거나 카탈로그 제품에 할당하려면 다음을 참조하십시오. [필수 정보 업데이트](./amazon-manually-update-incomplete-listing.md).
 
-![속성 값 보기](assets/amazon-managing-attribute-values.png)
+![속성 값 보기](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

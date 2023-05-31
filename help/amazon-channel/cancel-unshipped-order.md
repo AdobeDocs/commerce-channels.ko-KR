@@ -1,15 +1,15 @@
 ---
-title: 미출하 주문 취소
+title: 배송되지 않은 Amazon 주문 취소
 description: Amazon을 통해 보류 중이거나 부분적으로 배송된(미배송) 주문을 취소합니다. [!DNL Seller Central] 계정입니다.
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '191'
 ht-degree: 0%
 
 ---
 
-# 미출하 주문 취소
+# 배송되지 않은 Amazon 주문 취소
 
 Amazon 주문이 다음에 있는 경우에만 취소할 수 있습니다. `Unshipped` 상태. 주문이 보류 중이거나 부분적으로 출하(미출하)된 경우 주문을 통해서만 취소할 수 있습니다. [!DNL Amazon Seller Central] 계정입니다. 제품이 배송된 경우 반품과 교환도 다음 위치에서 처리되어야 합니다. [!DNL Amazon Seller Central] 계정.
 
@@ -17,7 +17,7 @@ Amazon 주문이 다음에 있는 경우에만 취소할 수 있습니다. `Unsh
 >
 >주문 취소 이외의 작업의 경우:
 >
->- 다음을 보유한 경우: [주문 가져오기](./order-settings.md) 활성화됨, 주문은 [[!DNL Commerce] 주문 워크플로우](https://docs.magento.com/user-guide/sales/orders.html){target="_blank"}.
+>- 다음을 보유한 경우: [주문 가져오기](./order-settings.md) 활성화됨, 주문은 [[!DNL Commerce] 주문 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [주문 가져오기](./order-settings.md) 이(가) 비활성화되어 있음에서 주문을 관리해야 합니다. [!DNL Amazon Seller Central].
 
 

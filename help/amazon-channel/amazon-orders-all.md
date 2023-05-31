@@ -2,7 +2,7 @@
 title: Amazon 주문 보기
 description: Adobe Commerce 또는 Magento Open Source 관리자에서 Amazon Marketplace 주문을 봅니다.
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -32,7 +32,7 @@ _[!UICONTROL All Orders]_[보기]는 주문 검색에 대한 필터링 옵션을
 
 에서 가장 최근 주문을 볼 수 있습니다. _[!UICONTROL Recent Orders]_의 섹션 [대시보드 저장](./amazon-store-dashboard.md).
 
-![최근 주문](assets/amazon-recent-orders-imported.png)
+![최근 주문](assets/amazon-recent-orders-imported.png){width="600" zoomable="yes"}
 
 ### 최근 Amazon 주문 보기
 
@@ -54,7 +54,7 @@ _[!UICONTROL All Orders]_[보기]는 주문 검색에 대한 필터링 옵션을
 - [!UICONTROL Total (range)]
 - [!UICONTROL Status]
 
-![Amazon 주문](assets/amazon-orders-list-all.png)
+![Amazon 주문](assets/amazon-orders-list-all.png){width="600" zoomable="yes"}
 
 ### 모든 Amazon 주문 보기
 
@@ -72,7 +72,7 @@ _[!UICONTROL All Orders]_[보기]는 주문 검색에 대한 필터링 옵션을
 
 의 주문 목록에 필터를 적용할 수 있습니다. _[!UICONTROL Filter by]_섹션. 선택 후 클릭&#x200B;**[!UICONTROL Apply filters]**. 적용된 필터가 주문 그리드 위에 나타납니다.
 
-![Amazon 주문 보기 필터](assets/amazon-orders-filter-view.png)
+![Amazon 주문 보기 필터](assets/amazon-orders-filter-view.png){width="600" zoomable="yes"}
 
 ### 적용된 필터 변경
 

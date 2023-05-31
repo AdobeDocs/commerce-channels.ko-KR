@@ -1,10 +1,10 @@
 ---
-title: 제품 만들기 및 할당
+title: Amazon 판매 채널을 위한 제품 만들기 및 할당
 description: Amazon Sales Channel은 [!UICONTROL New Third Party] 탭에서 Amazon 목록이 있는 일치하는 상거래 카탈로그 제품을 만들고 할당할 수 있습니다.
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -59,11 +59,11 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 대상 **[!UICONTROL Website Ids]**&#x200B;을(를) 통해 제품과 연결할 웹 사이트(상점)를 선택합니다.
 
-      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 설정.
+      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
 
    - 대상 **[!UICONTROL Attribute Set Id]** (필수) 옵션을 선택합니다.
 
-      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 을(를) 구성했습니다.
+      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
 
    - 대상 **[!UICONTROL Visibility]**, 새 제품에 대한 옵션을 선택합니다.
 
@@ -71,7 +71,7 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 대상 **[!UICONTROL Assign Tax Class]**&#x200B;제품에 대한 옵션을 선택합니다.
 
-      이 목록에 표시되는 옵션은 [세금 등급](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 을(를) 구성했습니다.
+      이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
@@ -104,11 +104,11 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 대상 **[!UICONTROL Website Ids]**&#x200B;을(를) 통해 제품과 연결할 웹 사이트(상점)를 선택합니다.
 
-      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 설정.
+      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
 
    - 대상 **[!UICONTROL Attribute Set Id]** (필수) 옵션을 선택합니다.
 
-      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"} 을(를) 구성했습니다.
+      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
 
    - 대상 **[!UICONTROL Visibility]**, 새 제품에 대한 옵션을 선택합니다.
 
@@ -116,19 +116,19 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 대상 **[!UICONTROL Assign Tax Class]**&#x200B;제품에 대한 옵션을 선택합니다.
 
-      이 목록에 표시되는 옵션은 [세금 등급](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"} 을(를) 구성했습니다.
+      이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
 카탈로그 제품이 [!DNL Commerce] 카탈로그와 이 카탈로그가 생성된 Amazon 목록에 지정됩니다. 이제 목록이 해당 Amazon 목록과 일치하면 목록에서 제거됩니다. [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 탭을에 표시 [_[!UICONTROL Active]_](./active-listings.md) 탭.
 
-![상거래 카탈로그 제품 만들기](assets/amazon-magento-catalog-product.png)
+![상거래 카탈로그 제품 만들기](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |
 | [!UICONTROL Enable Product(s)] | (필수) 활성화된 경우 제품이 [!DNL Commerce] 가게 앞이야 비활성화된 경우 제품이에 표시되지 않습니다. [!DNL Commerce] 가게 앞이야 |
-| [!UICONTROL Categories] | 새 제품에 대한 범주 이름을 입력하거나 아래쪽 화살표를 클릭하여 선택 사항을 표시하는 범주를 선택할 수 있습니다. 옵션은 다음에 따라 다릅니다. [카테고리](https://docs.magento.com/user-guide/catalog/category-create.html){target="_blank"} 구성. |
-| [!UICONTROL Website Ids] | (필수) 제품을 연결할 웹 사이트(상점)를 선택합니다. 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://docs.magento.com/user-guide/stores/websites-stores-views.html){target="_blank"} 설정 |
-| 속성 집합 Id | 속성 세트를 선택합니다. 옵션은 구성된 항목에 따라 다릅니다 [!DNL Commerce] [속성 집합](https://docs.magento.com/user-guide/stores/attribute-sets.html){target="_blank"}. |
+| [!UICONTROL Categories] | 새 제품에 대한 범주 이름을 입력하거나 아래쪽 화살표를 클릭하여 선택 사항을 표시하는 범주를 선택할 수 있습니다. 옵션은 다음에 따라 다릅니다. [카테고리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 구성. |
+| [!UICONTROL Website Ids] | (필수) 제품을 연결할 웹 사이트(상점)를 선택합니다. 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정 |
+| 속성 집합 Id | 속성 세트를 선택합니다. 옵션은 구성된 항목에 따라 다릅니다 [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html). |
 | [!UICONTROL Visibility] | 옵션:<ul><li>**[!UICONTROL Not Visible Individually]** - 제품이 다음에 표시되지 않음 [!DNL Commerce] storefront(변형 제품에 가장 일반적으로 사용됨).</li><li>**[!UICONTROL Catalog]** - 웹 사이트 내에서 연결된 카테고리를 통해 제품에 액세스할 수 있습니다.</li><li>**검색** - 검색 도구를 통해서만 제품을 찾을 수 있습니다.</li><li>**[!UICONTROL Catalog and Search]** - 범주 구조를 통해 검색 도구를 사용하여 제품에 액세스할 수 있습니다.</li></ul> |
-| [!UICONTROL Assign Tax Class] | 신규 제품에 세금 분류를 지정합니다. 옵션은 구성된 항목에 따라 다릅니다 [세금 등급](https://docs.magento.com/user-guide/tax/tax-class.html){target="_blank"}. |
+| [!UICONTROL Assign Tax Class] | 신규 제품에 세금 분류를 지정합니다. 옵션은 구성된 항목에 따라 다릅니다 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html). |

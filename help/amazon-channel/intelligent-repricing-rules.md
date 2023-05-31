@@ -2,7 +2,7 @@
 title: '지능형 가격 조정 규칙: 규칙 유형 선택'
 description: 인텔리전트 가격 조정 규칙을 만들어 경쟁사 가격 책정에 따라 Amazon 목록 가격을 결정합니다.
 exl-id: 2690323a-a076-484b-a437-adadb08094f5
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 0%
@@ -55,7 +55,7 @@ ht-degree: 0%
 >
 >이러한 경쟁업체 가격 책정 및 피드백 옵션을 사용하여 피드백이 좋지 않고 더 낮은 품질의 제품을 판매하는 경쟁업체에 대한 가격을 책정하는 것을 방지할 수 있습니다.
 
-![지능형 가격 조정 규칙 - 규칙 유형 선택](assets/ob-intelligent-price-rule-type.png)
+![지능형 가격 조정 규칙 - 규칙 유형 선택](assets/ob-intelligent-price-rule-type.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

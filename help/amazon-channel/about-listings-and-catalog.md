@@ -1,10 +1,10 @@
 ---
-title: Amazon 및 상거래 카탈로그 정보
+title: Amazon 및 상거래 카탈로그
 description: Amazon 판매 채널은 Amazon 목록을 Commerce 백엔드로 가져오고 제품 및 판매와 계속 동기화합니다.
 exl-id: 659c9830-0a1d-4a0d-bb9c-afb609c0fbba
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ Adobe Commerce 또는 Magento Open Source 백엔드에는 모든 제품 및 관�
 
 ## 제품 속성
 
-Adobe Commerce 및 Magento Open Source 카탈로그 관리제품 사용과 동기화 [속성](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} 제품 설정 및 데이터를 정의합니다. Amazon은 온보딩을 통해 매핑될 속성을 사용하기도 합니다. 다음 기간 동안 [사전 설정 작업](./amazon-pre-setup-tasks.md) Amazon sales channel의 경우 Amazon 목록을 로 가져올 때 추가 Amazon 속성(필요한 경우)을 정의하여 올바른 제품 매핑을 보장합니다 [!DNL Commerce] 카탈로그. 이러한 속성에는 UPC, EAN, ISBN 및 ASIN([!DNL Amazon Standard Identification Number]). 온보딩을 통해 제품은 Amazon과 간에 동기화됩니다. [!DNL Commerce] 속성을 사용한 카탈로그. 의 적절한 매핑 [!DNL Commerce] 및 Amazon 제품은 제품 정보, 주문 및 재고를 지속적으로 동기화합니다.
+Adobe Commerce 및 Magento Open Source 카탈로그 관리제품 사용과 동기화 [속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 제품 설정 및 데이터를 정의합니다. Amazon은 온보딩을 통해 매핑될 속성을 사용하기도 합니다. 다음 기간 동안 [사전 설정 작업](./amazon-pre-setup-tasks.md) Amazon sales channel의 경우 Amazon 목록을 로 가져올 때 추가 Amazon 속성(필요한 경우)을 정의하여 올바른 제품 매핑을 보장합니다 [!DNL Commerce] 카탈로그. 이러한 속성에는 UPC, EAN, ISBN 및 ASIN([!DNL Amazon Standard Identification Number]). 온보딩을 통해 제품은 Amazon과 간에 동기화됩니다. [!DNL Commerce] 속성을 사용한 카탈로그. 의 적절한 매핑 [!DNL Commerce] 및 Amazon 제품은 제품 정보, 주문 및 재고를 지속적으로 동기화합니다.
 
-카탈로그에 대해 이러한 속성을 만들거나 구성하지 않은 경우 [!DNL Commerce] [제품 속성](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"} and values to your products before onboarding. When an Amazon attribute is imported, it can be used for search, navigation, price rules, and much more. See [What Do ASIN, UPC, EAN, ISBN, SKU and Other Barcodes Mean?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
+카탈로그에 대해 이러한 속성을 만들거나 구성하지 않은 경우 [!DNL Commerce] [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 및 온보딩 전 제품에 대한 값. Amazon 속성을 가져오면 검색, 탐색, 가격 규칙 등에 사용할 수 있습니다. 다음을 참조하십시오 [ASIN, UPC, EAN, ISBN, SKU 및 기타 바코드는 무엇을 의미합니까?](https://sellerskills.com/multi-channel-operations/what-asin-upc-ean-isbn-sku-and-other-barcodes-mean/#what-is-isbn-number){target="_blank"}
 
 온보딩 후 언제든지 제품 속성 및 Amazon 매핑을 관리하고 업데이트할 수 있습니다.
 
@@ -45,4 +45,4 @@ Amazon 목록은 을 통해 판매하는 모든 제품에 대한 제품 페이�
 
 Adobe Commerce과 Magento Open Source은 제품 및 주문 데이터를 [!DNL Amazon Seller Central] 계정 및 [!DNL Commerce] 백엔드. 지속적인 업데이트는 다음을 통해 단일 소스를 제공합니다. [!DNL Commerce] 재고 관리 및 유지, 주문 이행, 판매 추적, 업무 부담 및 중복을 줄이기 위해 보고는 최신 데이터를 캡처하여 트렌드를 추적하고 두 시스템 간에 포착된 통신 문제를 해결합니다.
 
-모든 동기화는 [cron job](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}에서 5분마다 업데이트하도록 설정 [사전 설정 작업](./amazon-pre-setup-tasks.md).
+모든 동기화는 [cron job](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html)에서 5분마다 업데이트하도록 설정 [사전 설정 작업](./amazon-pre-setup-tasks.md).

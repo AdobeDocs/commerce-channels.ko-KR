@@ -1,23 +1,23 @@
 ---
-title: 통신 오류 로그
+title: Amazon 통신 오류 로그
 description: 통신 오류 로그에는 Amazon과 간의 모든 통신 오류가 표시됩니다. [!DNL Commerce].
 exl-id: 0d9f54ba-0fb7-4cd8-a18e-3335f37097a4
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 0%
 
 ---
 
-# 통신 오류 로그
+# Amazon 통신 오류 로그
 
-통신 오류 로그에는 Amazon과 관련하여 보고된 모든 통신 오류가 표시됩니다. 정보에는 영향을 받는 Amazon 판매 채널 스토어, 오류 코드 및 간단한 설명, 오류 날짜 및 시간이 포함됩니다.
+다음 [!UICONTROL Communication Errors] 로그에는 Amazon과 관련하여 보고된 모든 통신 오류가 표시됩니다. 정보에는 영향을 받는 Amazon 판매 채널 스토어, 오류 코드 및 간단한 설명, 오류 날짜 및 시간이 포함됩니다.
 
 로그에 사용할 수 있는 작업이 없습니다. 리뷰 전용 기능입니다.
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 
-![통신 오류 로그](assets/amazon-comm-errors-log.png)
+![통신 오류 로그](assets/amazon-comm-errors-log.png){width="600" zoomable="yes"}
 
 ## 기본 열
 

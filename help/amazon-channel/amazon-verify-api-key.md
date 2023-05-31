@@ -2,9 +2,9 @@
 title: Amazon API 키 추가 또는 확인
 description: 상거래 구성에서 검증된 Amazon API 키를 사용하면 스토어를 Amazon 판매자 계정과 통합할 수 있습니다.
 exl-id: 2257b64d-309d-4efd-ba79-6e0cdeed63cb
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Amazon 판매 채널에 액세스할 때마다 API 키의 유효성을 검사합
 
    Amazon 판매 채널에 처음 액세스하거나 API 키를 업데이트해야 하는 경우 프로세스를 안내하는 메시지가 표시됩니다.
 
-   ![Amazon API 키 프롬프트 가져오기 및 추가](assets/amazon-api-verification-prompt.png)
+   ![Amazon API 키 프롬프트 가져오기 및 추가](assets/amazon-api-verification-prompt.png){width="500"}
 
 1. 클릭 **[!UICONTROL Sign in]** 에 액세스 [!DNL Commerce] 웹 계정입니다.
 
@@ -39,9 +39,9 @@ Amazon 판매 채널에 액세스할 때마다 API 키의 유효성을 검사합
 
 1. 필요한 경우 의 API 키를 보고 생성할 수 있습니다. _[!UICONTROL API Portal]_의 탭 [!DNL Commerce] 계정입니다.
 
-   API 키를 만들려면 다음과 같은 설명을 입력합니다 `Amazon Sales Channel` 및 클릭 **[!UICONTROL Add New]**. 새 키가 생성되고 사용자가 입력한 이름으로 표시됩니다. 클릭 **[!UICONTROL Copy]** 새 키를 복사합니다.
+   API 키를 만들려면 다음과 같은 설명을 입력합니다 `Amazon Sales Channel` 및 클릭 **[!UICONTROL Add New]**. 새 키가 생성되고 입력한 이름으로 표시됩니다. 클릭 **[!UICONTROL Copy]** 새 키를 복사합니다.
 
-   ![API 키 생성 또는 복사](assets/amazon-add-api-key.png)
+   ![API 키 생성 또는 복사](assets/amazon-add-api-key.png){width="500" zoomable="yes"}
 
 1. 생성 및 복사된 새 키를 사용하여 _[!UICONTROL Amazon Sales Channel]_브라우저의 탭입니다.
 
@@ -53,7 +53,7 @@ Amazon 판매 채널에 액세스할 때마다 API 키의 유효성을 검사합
 
 1. 클릭 **[!UICONTROL Save Config]**. 이제 Amazon 판매 채널로 돌아갈 수 있습니다.
 
-   ![스토어 구성에서 API 키 추가](assets/config-magento-services-api-screen.png)
+   ![스토어 구성에서 API 키 추가](assets/config-magento-services-api-screen.png){width="600" zoomable="yes"}
 
 1. 다음에서 _[!UICONTROL Admin]_사이드바, 이동&#x200B;**[!UICONTROL Marketing]**>_[!UICONTROL Channels]_ > **[!UICONTROL Amazon Sales Channel]**.
 

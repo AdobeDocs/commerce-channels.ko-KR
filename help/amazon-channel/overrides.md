@@ -1,15 +1,15 @@
 ---
-title: 재정의
+title: Amazon 판매 채널 - [!UICONTROL Overrides]
 description: Amazon Sales Channel은 Amazon 목록에서 재정의를 적용하는 방법을 식별하고 관리하는 데 도움이 되는 재정의 탭을 제공합니다.
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '898'
+source-wordcount: '899'
 ht-degree: 0%
 
 ---
 
-# 재정의
+# [!UICONTROL Overrides]
 
 다음 _[!UICONTROL Overrides]_탭에는 재정의를 적용한 Amazon 목록이 표시됩니다. 재정의는 정의된 값을 목록으로 설정하는 데 사용할 수 있는 목록별 설정입니다. 목록에 적용되는 재정의는 목록이 적격한 다른 정의된 목록 설정이나 규칙에 관계없이 목록에 대한 설정을 정의합니다. 재정의가 목록에 적용되면 목록에 목록이 나타납니다._[!UICONTROL Overrides]_ 탭. 재정의에 정의된 값이 목록의 해당 열에 나타납니다. 적용할 수 있는 재정의는 가격, 처리 시간, 조건 및 판매자 노트의 네 가지가 있습니다.
 
@@ -36,7 +36,7 @@ ht-degree: 0%
 >
 >목록이 처리 중인 경우 탭 위의 메시지에 목록 수가 표시됩니다.
 
-![탭 무시](assets/amazon-overrides.png)
+![탭 무시](assets/amazon-overrides.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

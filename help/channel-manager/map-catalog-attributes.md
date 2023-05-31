@@ -2,9 +2,9 @@
 title: 카탈로그 속성 매핑
 description: '''일치하는 [DNL!에 대한 속성 매핑'' 기존 Commerce] 제품 [!DNL Walmart Marketplace] 다음 기간 동안 데이터 목록 및 동기화 [!DNL Channel Manager] 및 [!DNL Walmart].'''
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '217'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 | ISSN | 국제 표준 일련 번호 | 모든 매체 인쇄 및 전자 인쇄에 게재되는 모든 종류의 잡지, 잡지, 신문 및 정기 간행물을 식별하기 위해 사용되는 8자리 일련 번호 | 숫자 8개 |
 | UPC | 범용 제품 코드 | 표준 소매 추적 코드 | 12자리 |
 
-카탈로그에 일치하는 속성이 없으면 [기존 카탈로그 속성 추가 또는 변환](https://docs.magento.com/user-guide/catalog/product-attributes.html).
+카탈로그에 일치하는 속성이 없으면 [기존 카탈로그 속성 추가 또는 변환](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ## 고유 식별자 매핑
 
@@ -38,6 +38,6 @@ ht-degree: 0%
 
       다음 예제는 [!UICONTROL Walmart Marketplace UPC] 제품 카탈로그의 UPC 속성에 대한 속성입니다.
 
-      ![제품 일치 기준에 대한 속성 매핑](assets/products-map-attributes-for-match.png)
+      ![제품 일치 기준에 대한 속성 매핑](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 선택 **[!UICONTROL Save]**.

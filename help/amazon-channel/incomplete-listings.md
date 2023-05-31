@@ -1,15 +1,15 @@
 ---
-title: 불완전한 목록
+title: 불완전한 Amazon 목록
 description: Amazon 판매 채널은 [!UICONTROL Incomplete] 탭에서 불완전한 Amazon 목록의 자격 요구 사항을 식별하고 충족합니다.
 exl-id: f943c9cc-fa1d-4f3e-a3de-3a8d00f87890
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '606'
 ht-degree: 0%
 
 ---
 
-# 불완전한 목록
+# 불완전한 Amazon 목록
 
 다음 _[!UICONTROL Incomplete]_탭에 다음 항목이 나열됩니다. [!DNL Commerce] Amazon 자격 요구 사항을 충족하는 카탈로그 제품(에 정의됨) [규칙 나열](./listing-rules.md))에 있지만 Amazon에 필요한 정보(예: Amazon ASIN 또는 정의된 제품 조건)가 없습니다.
 
@@ -41,7 +41,7 @@ ht-degree: 0%
 >
 >목록을 처리 중인 경우 탭 위의 메시지에 목록 수가 표시됩니다.
 
-![불완전한 Amazon 목록](assets/amazon-incomplete-listings.png)
+![불완전한 Amazon 목록](assets/amazon-incomplete-listings.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

@@ -1,19 +1,19 @@
 ---
-title: 가격 범위
+title: Amazon 판매 채널 - 가격 범위
 description: 여러 웹 사이트 또는 전 세계에 따라 가격을 관리하려면 Commerce 가격 범위를 사용하십시오.
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '179'
 ht-degree: 0%
 
 ---
 
 # 가격 범위
 
-[!DNL Commerce] 는에 대한 구성을 제공합니다. [가격 범위](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} to be set to `Global` or `Website`. If pricing is set to `Global`, there is a single price source for all websites. If pricing is set to `Website`, your websites can vary their pricing across and also have a fallback default pricing value. See [Catalog Price](https://docs.magento.com/user-guide/configuration/catalog/catalog.html#price){target="_blank"} ( 핵심 Commerce 사용 안내서) 아래에 그룹화됩니다.
+[!DNL Commerce] 는에 대한 구성을 제공합니다. [가격 범위](https://experienceleague.adobe.com/docs/commerce-admin/config/catalog/catalog.html#price) 로 설정 `Global` 또는 `Website`. 가격이 다음으로 설정된 경우 `Global`, 모든 웹 사이트에 대한 단일 가격 소스가 있습니다. 가격이 다음으로 설정된 경우 `Website`, 웹 사이트의 가격이 서로 다를 수 있으며 기본 대체 가격 값이 있습니다(참조). [가격 범위](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/catalog-price-scope.html)).
 
-카탈로그 가격 범위를에서 변경하면 `Global` 끝 `Website`, 모든 가격 유형 속성도 다음으로 변경됩니다. `Website`. 다음을 참조하십시오 [웹 사이트 추가](https://docs.magento.com/user-guide/stores/stores-all-create-website.html){target="_blank"}.
+카탈로그 가격 범위를에서 변경하면 `Global` 끝 `Website`, 모든 가격 유형 속성도 다음으로 변경됩니다. `Website`. 다음을 참조하십시오 [웹 사이트 추가](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/stores.html#add-websites).
 
 웹 사이트 가격을 선택하면 두 가지 가격 소스가 있습니다.
 

@@ -1,17 +1,17 @@
 ---
-title: 스토어 통합
+title: 와(과) 통합 저장 [!DNL Amazon Seller Account]
 description: 온보딩 프로세스를 시작하기 전에 Amazon Sales Channel 저장소를 생성(추가)하고 Amazon 판매자 계정에 연결해야 합니다.
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
 
-# 스토어 통합
+# 와(과) 통합 저장 [!DNL Amazon Seller Account]
 
-Amazon 판매 채널을 시작하려면 Amazon 판매 채널 저장소를 생성(추가)하고 Amazon 판매자 계정에 연결해야 합니다. 이 두 단계는 [!DNL Commerce] 및 Amazon 계정을 사용하여 데이터를 공유하고 제품을 동기화하는 등의 작업을 수행할 수 있습니다.
+Amazon 판매 채널을 시작하려면 Amazon 판매 채널 스토어를 생성(추가)하고 여기에 연결해야 합니다. [!DNL Amazon Seller Account]. 이 두 단계는 [!DNL Commerce] 및 Amazon 계정을 사용하여 데이터를 공유하고 제품을 동기화하는 등의 작업을 수행할 수 있습니다.
 
 _에 대한 기본 로그인 자격 증명이 필요합니다. [!DNL Amazon Seller Central] 계정(판매자 계정을 만드는 데 사용되는 이메일 또는 전화)을 사용하여 스토어를 연결합니다._
 
@@ -29,7 +29,7 @@ _에 대한 기본 로그인 자격 증명이 필요합니다. [!DNL Amazon Sell
 
    다음 _[!UICONTROL Add Amazon sales channel]_페이지가 열립니다.
 
-   ![Amazon 판매 채널 스토어 추가](assets/amazon-store-integration.png)
+   ![Amazon 판매 채널 스토어 추가](assets/amazon-store-integration.png){width="500" zoomable="yes"}
 
 1. 대상 **[!UICONTROL Magento Website to use for Amazon Listing]**, 중에서 선택 [!DNL Commerce] 이 Amazon sales channel 스토어에 연결할 웹 사이트입니다.
 
@@ -84,7 +84,7 @@ _에 대한 기본 로그인 자격 증명이 필요합니다. [!DNL Amazon Sell
 
    스토어 대시보드를 보려면 **[!UICONTROL View Store]** 가게 카드에서요.
 
-![새로운 스토어 카드가 있는 Amazon sales channel home](assets/asc-dashboard-after-2fa.png)
+![새로운 스토어 카드가 있는 Amazon sales channel home](assets/asc-dashboard-after-2fa.png){width="600" zoomable="yes"}
 
 이제 새 Amazon 판매 채널 스토어가 [!DNL Amazon Seller Central] 계정입니다.
 

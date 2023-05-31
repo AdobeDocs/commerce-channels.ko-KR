@@ -1,16 +1,16 @@
 ---
-title: 카탈로그 검색
+title: Amazon 목록에 대한 카탈로그 검색
 description: 적격한 Commerce 카탈로그 제품을 Amazon 목록에 매핑하는 데 도움이 되는 속성 일치를 설정하려면 카탈로그 검색 설정을 업데이트합니다.
 redirect_from: /sales-channels/asc/ob-catalog-search.html
 exl-id: 9fcaa924-cba3-498f-8e21-1a1f91b1ad04
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
 
-# 카탈로그 검색
+# Amazon 목록에 대한 카탈로그 검색
 
 _카탈로그 검색_ 설정은 스토어 목록 설정의 일부입니다. 목록 설정은 [대시보드 저장](./amazon-store-dashboard.md).
 
@@ -60,7 +60,7 @@ _카탈로그 검색_ 설정은 스토어 목록 설정의 일부입니다. 목�
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![카탈로그 검색](assets/amazon-catalog-search.png)
+![카탈로그 검색](assets/amazon-catalog-search.png){width="500" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

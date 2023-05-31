@@ -1,15 +1,15 @@
 ---
-title: 사전 설정 작업
+title: 사전 설정 작업 [!DNL Amazon sales channel]
 description: Amazon Sales Channel에서 Adobe Commerce 또는 Magento Open Source 저장소를 통합하기 전에 완료해야 하는 필수 작업을 검토하십시오.
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '910'
 ht-degree: 0%
 
 ---
 
-# 사전 설정 작업
+# 사전 설정 작업 [!DNL Amazon sales channel]
 
 다음 이전 [스토어 통합](./store-integration.md), 다음을 확인해야 합니다. [!DNL Amazon Seller Central] 계정 및 사용자 [!DNL Commerce] 계정을 통합할 준비가 되었습니다. 를 성공적으로 통합하려면 몇 가지 필수 사전 설정 작업이 있습니다.
 
@@ -17,11 +17,11 @@ Amazon 판매 채널에서 첫 번째 Amazon 스토어를 설정하면 설정 �
 
 ## 1. 백그라운드 작업 활성화 [!DNL Commerce]
 
-모든 제품 및 데이터 동기화 대상 [!DNL Commerce] 및 Amazon은 [cron job](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}. 목록 추가 또는 업데이트와 같은 작업을 완료하고 주문을 받으면 cron 작업이 [!DNL Commerce] 백엔드 및 사용자 [!DNL Amazon Seller Central] 계정입니다.
+모든 제품 및 데이터 동기화 대상 [!DNL Commerce] 및 Amazon은 [cron job](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html). 목록 추가 또는 업데이트와 같은 작업을 완료하고 주문을 받으면 cron 작업이 [!DNL Commerce] 백엔드 및 사용자 [!DNL Amazon Seller Central] 계정입니다.
 
-- [사용 [!DNL Commerce] cron](https://docs.magento.com/user-guide/system/cron.html){target="_blank"}.
+- [사용 [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html).
 
-- 성능을 최대화하려면 [set [!DNL Commerce] cron](https://docs.magento.com/user-guide/configuration/advanced/system.html){target="_blank"} 5분마다 한 번씩 실행합니다.
+- 성능을 최대화하려면 [set [!DNL Commerce] cron](https://experienceleague.adobe.com/docs/commerce-admin/config/advanced/system.html) 5분마다 한 번씩 실행합니다.
 
 ## 2. 다음을 만듭니다. [!DNL Amazon Seller Central] account
 
@@ -57,7 +57,7 @@ Amazon 판매 채널에는 [!DNL Professional Seller] 다음에 대한 계정 [!
 
 ## 6. 통화 및 전환 구성(필요한 경우)
 
-Amazon 스토어에서 를 위해 구성된 것과 다른 통화를 사용하는 경우 [!DNL Commerce] 저장, [통화 활성화](https://docs.magento.com/user-guide/configuration/general/currency-setup.html){target="_blank"} and set the [currency conversion rate](https://docs.magento.com/user-guide/stores/currency-update.html){target="_blank"}.
+Amazon 스토어에서 를 위해 구성된 것과 다른 통화를 사용하는 경우 [!DNL Commerce] 저장, [통화 활성화](https://experienceleague.adobe.com/docs/commerce-admin/config/general/currency-setup.html) 및 설정 [통화 전환율](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/currency/currency-update.html).
 
 ## 7. 제품 조건 속성 만들기(필요한 경우)
 
@@ -65,7 +65,7 @@ Amazon 목록에 둘 이상의 제품 조건이 포함된 경우(예: _신규_, 
 
 ## 8. 구성 [!DNL Amazon Seller Central] 배송 방법
 
-Amazon 주문 이행을 위해 제공하려는 배송 방법을 설정하려면 다음을 참조하십시오. [설정 및 배송 설정][10] (으)로 [!DNL Amazon Seller Central] 계정입니다.
+Amazon 주문 이행을 위해 제공하려는 배송 방법을 설정하려면 다음을 참조하십시오. _설정 및 배송 설정_ (으)로 [!DNL Amazon Seller Central] 계정입니다.
 
 ## 추가 구성
 
@@ -73,10 +73,10 @@ Amazon 계정이 설정되고 활성화되면 몇 가지 옵션이 있습니다 
 
 ### 제외하려는 제품을 검토하고 기록합니다
 
-일부 제품이 Amazon에 나열되지 않도록 할 수 있습니다. Amazon sales channel 에는 Amazon에 게시할 수 있는 제품을 결정하는 데 사용되는 목록 규칙 엔진이 있습니다. [규칙 나열](./listing-rules.md) 에 게시(또는 게시 안 함)할 제품 하위 집합을 선택할 수 있습니다. [!DNL Amazon Seller Central] 범주 선택 또는 하나 이상의 제품 속성 정의와 같은 계정. 좋아요 [!DNL Commerce] [카탈로그](https://docs.magento.com/user-guide/marketing/price-rules-catalog.html){target="_blank"} or [shopping cart](https://docs.magento.com/user-guide/marketing/price-rules-cart.html){target="_blank"} price rules, product attributes used for Amazon listing eligibility must have **[!UICONTROL Use for Promo Rule Conditions]** set to `Yes`. See the **[!UICONTROL Use for Promo Rule Conditions]** in [Product Attributes](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+일부 제품이 Amazon에 나열되지 않도록 할 수 있습니다. Amazon sales channel 에는 Amazon에 게시할 수 있는 제품을 결정하는 데 사용되는 목록 규칙 엔진이 있습니다. [규칙 나열](./listing-rules.md) 에 게시(또는 게시 안 함)할 제품 하위 집합을 선택할 수 있습니다. [!DNL Amazon Seller Central] 범주 선택 또는 하나 이상의 제품 속성 정의와 같은 계정. 좋아요 [!DNL Commerce] [카탈로그](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog.html) 또는 [장바구니](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart.html) Amazon 목록 적격성에 사용되는 가격 규칙, 제품 속성은 다음을 포함해야 합니다. **[!UICONTROL Use for Promo Rule Conditions]** 을 로 설정 `Yes`. 다음을 참조하십시오. **[!UICONTROL Use for Promo Rule Conditions]** 위치: [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
 ### 설정 [!DNL Amazon Seller Central] 비활성 지역
 
-통합 중에 오류 없는 데이터 전환을 용이하게 하려면 Amazon 영역을 로 설정하는 것이 좋습니다. `Inactive` 설정 > 계정 정보 > 휴가 설정의 상태. 을(를) 참조하십시오 [Amazon: 휴가에 대한 상태 나열][11]. 설정이 완료되면 상태를 다시 다음으로 변경 `Active` Amazon.
+통합 중에 오류 없는 데이터 전환을 용이하게 하려면 Amazon 영역을 로 설정하는 것이 좋습니다. `Inactive` 설정 > 계정 정보 > 휴가 설정의 상태. 설정이 완료되면 상태를 다시 다음으로 변경 `Active` Amazon.
 
 ![다음 아이콘](assets/btn-next.png) [**계속 만들기 [!DNL Commerce] 속성**](./ob-creating-magento-attributes.md)

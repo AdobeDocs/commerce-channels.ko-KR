@@ -1,15 +1,15 @@
 ---
-title: 작업별 제품 목록 관리
+title: 작업별 Amazon 제품 목록 관리
 description: Amazon 목록을 관리할 때 개별 또는 여러 목록에 작업을 적용할 수 있습니다.
 exl-id: 1cbf16fb-15eb-484b-bea7-28017a0d0c60
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
-# 작업별 제품 목록 관리
+# 작업별 Amazon 제품 목록 관리
 
 다음 _[!UICONTROL Product Listings]_페이지에는 모든 목록의 상태를 보고 제품을 Amazon 목록에 일치시킬 수 있는 몇 가지 탭이 있습니다.
 

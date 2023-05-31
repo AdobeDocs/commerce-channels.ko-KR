@@ -1,15 +1,15 @@
 ---
-title: 목록 세부 정보 보기
+title: Amazon 목록 세부 정보 보기
 description: Amazon 목록 및 개별 SKU/제품 변경에 대한 경쟁 지표를 이해하려면 제품 목록 세부 사항 페이지 를 검토하십시오.
 exl-id: faece1b1-b4fb-4506-bf77-576ae445ed28
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
-# 목록 세부 정보 보기
+# Amazon 목록 세부 정보 보기
 
 다음 _[!UICONTROL Product Listing Details]_이 페이지에는 개별 SKU/제품에 대한 변경 사항을 보여 주는 목록 활동 로그를 포함하여 활성 제품 목록에 대한 추가 정보가 표시됩니다. 이 정보는 제품 및 개별 SKU/제품 변경 사항에 대한 경쟁 지표를 이해하는 데 도움이 됩니다. 이 페이지에 대한 추가 정보는 다음과 같습니다.
 
@@ -28,7 +28,7 @@ Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [
 - _[!UICONTROL Catalog (Magento) SKU]_
 - _[!UICONTROL Amazon Seller SKU]_
 
-![목록 세부 정보](assets/amazon-product-listing-details.png)
+![목록 세부 정보](assets/amazon-product-listing-details.png){width="600" zoomable="yes"}
 
 ## 활동 로그 나열 {#listing-activity-log}
 
@@ -40,7 +40,7 @@ Amazon 목록에 대한 모든 최근 활동을 표시합니다. 표시되는 �
 - 설명: 발생한 목록 작업 유형과 관련된 추가 세부 정보를 제공합니다.
 - 실행 날짜: 작업이 발생한 날짜 및 시간을 식별합니다.
 
-![제품 목록 세부 사항 - 활동 로그 나열](assets/amazon-listing-activity-log.png)
+![제품 목록 세부 사항 - 활동 로그 나열](assets/amazon-listing-activity-log.png){width="600" zoomable="yes"}
 __
 
 ## Buy Box 경쟁업체 가격 {#buy-box-competitor-pricing}
@@ -55,7 +55,7 @@ __
 - 도착 가격: 리스팅 가격과 리스팅에 대한 운송 가격을 식별합니다.
 - 마지막 업데이트: Amazon에서 가격 정보가 업데이트된 날짜와 시간을 식별합니다.
 
-![제품 목록 세부 정보: Buy Box 경쟁업체 가격](assets/amazon-listing-details-buy-box-2.png)
+![제품 목록 세부 정보: Buy Box 경쟁업체 가격](assets/amazon-listing-details-buy-box-2.png){width="600" zoomable="yes"}
 
 ## 경쟁사 최저 가격 {#lowest-competitor-pricing}
 
@@ -71,4 +71,4 @@ __
 - 피드백 수: 최저가 판매자의 Amazon 피드백 수를 식별합니다.
 - 마지막 업데이트: Amazon에서 가격 정보가 업데이트된 날짜와 시간을 식별합니다.
 
-![제품 목록 세부 정보 - 경쟁업체 최저 가격](assets/amazon-listing-details-lowest-comp.png)
+![제품 목록 세부 정보 - 경쟁업체 최저 가격](assets/amazon-listing-details-lowest-comp.png){width="600" zoomable="yes"}

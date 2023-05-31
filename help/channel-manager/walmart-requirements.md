@@ -2,7 +2,7 @@
 title: '''[!DNL Walmart] 요구 사항'
 description: '필요한 항목이 있는지 확인합니다. [!DNL Walmart Marketplace]Channel Manager와 통합할 정보 및 리소스'
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -57,7 +57,7 @@ ht-degree: 0%
 
 * 라이브가 아닌 스토어의 경우 제품 오퍼가 스테이징되어 고객에게 표시되지 않습니다. 다음의 경우 [!DNL Walmart Marketplace] 스토어가 라이브로 전환되면 스테이징된 목록이 자동으로 라이브 스토어에 푸시됩니다.
 
-![[!DNL Walmart Seller Central] 스테이징된 제품](assets/walmart-seller-central-staged.png)
+![[!DNL Walmart Seller Central] 스테이징된 제품](assets/walmart-seller-central-staged.png){width="600" zoomable="yes"}
 
 >[!IMPORTANT]
 >

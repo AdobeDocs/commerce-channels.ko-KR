@@ -1,15 +1,15 @@
 ---
-title: 로그 및 저장소 보고서
+title: Amazon 목록에 대한 로그 및 보고서 저장
 description: 로그 및 저장소 보고서를 사용하여 Adobe Commerce 또는 Magento Open Source 저장소 및 Amazon Marketplace 목록에서 발생하는 상황을 확인할 수 있습니다.
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
 
-# 로그 및 저장소 보고서
+# Amazon 목록에 대한 로그 및 보고서 저장
 
 Amazon 판매 채널 확장에는 Amazon 목록 및 주문에 영향을 주는 변경 사항을 볼 수 있는 몇 가지 중요한 로그 및 스토어 보고서가 포함되어 있습니다. 이러한 보고서를 사용하여 스토어에서 일어나는 일을 확인하고 다양한 목록 상태를 이해할 수 있습니다.
 
@@ -29,4 +29,4 @@ Amazon 판매 채널 확장에는 Amazon 목록 및 주문에 영향을 주는 �
 
 >[!TIP]
 >
->문제 해결이 필요할 때 로그 파일에서 추가 정보를 확인할 수도 있습니다. 다음을 참조하십시오 [판매 채널 관리자 설정](./sales-channel-settings.md). Amazon 판매 채널 동기화 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 에서 볼 수 있는 파일 [개발자 모드](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}.
+>문제 해결이 필요할 때 로그 파일에서 추가 정보를 확인할 수도 있습니다. 다음을 참조하십시오 [판매 채널 관리자 설정](./sales-channel-settings.md). Amazon 판매 채널 동기화 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 에서 볼 수 있는 파일 [개발자 모드](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).

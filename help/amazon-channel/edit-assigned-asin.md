@@ -2,7 +2,7 @@
 title: 할당된 ASIN 편집
 description: Amazon 목록 중 하나와 일치하지 않는 경우 Commerce 제품에 대한 ASIN 값을 변경합니다.
 exl-id: 2aaeb700-96ac-4a15-9379-f74728d2dcbe
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '158'
 ht-degree: 0%
@@ -20,7 +20,7 @@ ht-degree: 0%
 - 업데이트된 ASIN에 대한 목록을 만듭니다.
 - Amazon 판매 채널의 목록 정보 업데이트
 
-지정된 ASIN을 편집하려면
+**_지정된 ASIN을 편집하려면_**
 
 1. 다음에서 목록 보기: _[!UICONTROL Product Listings]_페이지 (_[!UICONTROL Inactive]_, _[!UICONTROL Active]_, 또는_[!UICONTROL Ineligible]_ 탭).
 
@@ -32,4 +32,4 @@ ht-degree: 0%
 
 1. 변경 사항을 저장하려면 를 클릭합니다. **[!UICONTROL Save Listing Update]**.
 
-![할당된 ASIN 편집](assets/amazon-assigned-asin-edit.png)
+![할당된 ASIN 편집](assets/amazon-assigned-asin-edit.png){width="600" zoomable="yes"}

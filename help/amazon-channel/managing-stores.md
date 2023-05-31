@@ -1,19 +1,19 @@
 ---
-title: Amazon 스토어 보기
+title: "[!UICONTROL Amazon Stores] view"
 description: 각 Amazon 스토어에 대한 기본 통계를 빠르게 검토하고 관리 옵션에 액세스하려면 Amazon 스토어 보기로 이동합니다.
 exl-id: 1376cd84-da81-4d3b-a5be-218aa802eed6
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
-# Amazon 스토어 보기
+# [!UICONTROL Amazon Stores] 보기
 
 Amazon 판매 채널 홈 페이지를 볼 때 _Amazon 스토어_ 기본적으로 보기가 열립니다.
 
-![Amazon 스토어 보기](assets/amazon-sales-channel-home-tabs.png)
+![Amazon 스토어 보기](assets/amazon-sales-channel-home-tabs.png){width="600" zoomable="yes"}
 
 다음 _[!UICONTROL Amazon Stores]_보기는 몇 가지 기본 통계 및 관리 옵션과 함께 각 Amazon 스토어에 대한 &quot;스토어 카드&quot;를 표시합니다. 각 카드에 표시된 요약 정보에는 각 저장소 상태, 만든 날짜, 마지막 업데이트 날짜, 주의가 필요한 목록(예: 미완료 목록) 및 할당된 항목이 포함됩니다. [!DNL Commerce] 웹 사이트입니다.
 

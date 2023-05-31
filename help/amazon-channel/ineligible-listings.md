@@ -1,15 +1,15 @@
 ---
-title: 부적격 목록
+title: 부적격 Amazon 목록
 description: Amazon 판매 채널은 [!UICONTROL Ineligible] 항목을 관리하는 데 도움이 되는 탭은 현재 목록 규칙에 따라 목록으로 사용할 수 없습니다.
 exl-id: ae63898d-ff5c-43eb-b759-5bc80829d4d4
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# 부적격 목록
+# 부적격 Amazon 목록
 
 다음 _[!UICONTROL Ineligible]_탭에는 현재 Amazon에 게시되어 있지만 현재 목록 규칙에 따라 목록으로 사용할 수 없는 모든 제품 목록이 표시됩니다. 이전 제품이 적격이었고 목록 규칙이 수정되어 현재 부적격으로 된 경우, 제품과 연관된 수량은 0으로 떨어지고 제품은 로 표시됩니다._&#x200B;부적당해&#x200B;_. 그러나 여전히 다음 페이지에 있습니다. [!DNL Amazon Seller Account].
 
@@ -40,7 +40,7 @@ ht-degree: 0%
 >[!NOTE]
 >목록이 처리 중인 경우 탭 위의 메시지에 목록 수가 표시됩니다.
 
-![부적격 Amazon 목록](assets/amazon-ineligible-listings.png)
+![부적격 Amazon 목록](assets/amazon-ineligible-listings.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

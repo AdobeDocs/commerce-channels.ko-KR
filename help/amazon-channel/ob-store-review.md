@@ -1,15 +1,15 @@
 ---
-title: 스토어 설정
+title: Amazon 판매 채널에 대한 스토어 설정 검토
 description: Amazon 판매 채널 온보딩 프로세스를 완료한 후 다음을 검토하고 업데이트합니다. [!DNL Commerce] 스토어 설정.
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '135'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
 
-# 스토어 설정
+# Amazon 판매 채널에 대한 스토어 설정 검토
 
 Amazon 판매 채널 스토어를 만들고 통합한 후 스토어 기본 설정을 검토하여 제품, 목록, 가격 및 기타 설정이 올바른지 확인하십시오.
 
@@ -27,4 +27,4 @@ Amazon 판매 채널 스토어를 만들고 통합한 후 스토어 기본 설�
    - **[!UICONTROL Logs]** - [변경 내용 나열](./listing-changes-log.md) 및 [통신 오류](./communication-errors-log.md).
    - [**[!UICONTROL Store integration setting]s **](./store-integration-settings.md)- 에서 이메일 및 Amazon 판매 채널 스토어 이름 설정을 검토합니다. [!DNL Commerce] 관리자.
 
-![대시보드 저장](assets/ob-store-review.png)
+![대시보드 저장](assets/ob-store-review.png){width="600" zoomable="yes"}

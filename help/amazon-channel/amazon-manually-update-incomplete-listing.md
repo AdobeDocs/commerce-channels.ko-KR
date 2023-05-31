@@ -1,10 +1,10 @@
 ---
-title: 필수 정보 업데이트(불완전한 목록)
+title: Amazon 필수 정보 업데이트
 description: Amazon 판매 채널은 Amazon에 필요한 정보가 누락된 상거래 카탈로그 제품을 모니터링하는 미완료 탭을 제공합니다.
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 이제 목록이 카탈로그와 일치하고 크론 및 목록 설정에 따라 목록이 업데이트되고 Amazon에 게시됩니다. 또한 에서도 제거됩니다. _[!UICONTROL Incomplete]_탭.
 
-![목록 일치 없음에 대해 ASIN 수동 할당](assets/amazon-listing-update-assign-asin.png)
+![목록 일치 없음에 대해 ASIN 수동 할당](assets/amazon-listing-update-assign-asin.png){width="600" zoomable="yes"}
 
 ## 필수 정보 업데이트(일치하는 항목이 여러 개 있음) {#update-required-info-multiple-matches-found}
 
@@ -45,7 +45,7 @@ ht-degree: 0%
 
 1. 제품 일치를 저장하려면 **[!UICONTROL Save Listing Update]**.
 
-![가능한 여러 일치 항목에서 수동으로 ASIN 선택](assets/amazon-listing-update-multiple-matches.png)
+![가능한 여러 일치 항목에서 수동으로 ASIN 선택](assets/amazon-listing-update-multiple-matches.png){width="600" zoomable="yes"}
 
 ## 필수 정보 업데이트(변형 있음) {#update-required-info-has-variants}
 
@@ -63,8 +63,6 @@ ht-degree: 0%
 
 1. 제품 일치를 저장하려면 **[!UICONTROL Save Listing Update]**.
 
-![가능한 변형 일치에서 ASIN 수동 선택](assets/amazon-listing-update-multiple-matches.png)
-
 ## 필수 정보 업데이트(조건 누락) {#update-required-info-missing-condition}
 
 1. 에서 목록 보기 _[!UICONTROL Incomplete]_의 탭 [목록 관리](./managing-product-listings.md).
@@ -79,4 +77,4 @@ ht-degree: 0%
 
 1. 제품 일치를 저장하려면 **[!UICONTROL Save Listing Update]** .
 
-![누락된 조건 수동 업데이트](assets/amazon-update-listing-missing-condition.png)
+![누락된 조건 수동 업데이트](assets/amazon-update-listing-missing-condition.png){width="600" zoomable="yes"}

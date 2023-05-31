@@ -1,15 +1,15 @@
 ---
-title: 비활성 목록
+title: 비활성 Amazon 목록
 description: Amazon 판매 채널은 [!UICONTROL Inactive] 현재 비활성 상태를 모니터링하는 탭 [!DNL Amazon Marketplace] 목록.
 exl-id: 1d20e75f-3346-48cb-83f7-a9e7acb26a96
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
 
-# 비활성 목록
+# 비활성 Amazon 목록
 
 다음 _[!UICONTROL Inactive]_탭에는 Amazon에 게시되었지만 에서는 활성화되지 않은 제품이 표시됩니다. [!DNL Amazon Marketplace]. 몇 가지 다른 이유로 인해 목록이 비활성화될 수 있습니다. 예를 들어, 특정 브랜드를 나열할 자격이 없을 수 있습니다. 비활성 목록은 Amazon의 목록 표준 및 [!DNL Amazon Seller Central] 계정 권한.
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 >
 >목록이 처리 중인 경우 탭 위에 목록 수를 나타내는 메시지가 나타납니다.
 
-![비활성 Amazon 목록](assets/amazon-inactive-listings.png)
+![비활성 Amazon 목록](assets/amazon-inactive-listings.png){width="600" zoomable="yes"}
 
 Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [작업 영역 컨트롤](./workspace-controls.md) 을 사용하면 표시되는 데이터를 사용자 정의할 수 있습니다.
 

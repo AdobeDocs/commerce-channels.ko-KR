@@ -1,10 +1,10 @@
 ---
-title: '예: 조건 정의'
+title: '예: Amazon 목록 규칙 조건 정의'
 description: 목록 규칙을 생성할 때 Amazon Marketplace에 나열할 상거래 카탈로그 제품을 식별하는 조건을 정의합니다.
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: 15b9468d090b6ee79fd91c729f2481296e98c93a
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 >
 >Amazon 시스템과 직접 통신하는 복잡한 백엔드 프로세스 세트가 있습니다. 나열하려는 항목의 수와 Amazon 시스템의 사용 빈도에 따라(예: 블랙 프라이데이) Amazon에 항목이 나열되는 데 시간이 걸릴 수 있습니다.
 
-의 조건 섹션을 참조하십시오. [장바구니 가격 규칙 생성](https://docs.magento.com/user-guide/marketing/price-rules-catalog-create.html){target="_blank"}.
+의 조건 섹션을 참조하십시오. [장바구니 가격 규칙 생성](https://experienceleague.adobe.com/docs/commerce-admin/marketing/promotions/catalog-rules/price-rules-catalog-create.html).
 
 ## 조건 정의
 
@@ -31,9 +31,9 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->특정 제품 속성에 따라 조건을 정의하려면 다음을 설정합니다. **[!UICONTROL Use for Promo Rule Conditions]** 속성에 대해 를 로 설정 `Yes`. 다음에서 이 설정에 액세스할 수 있습니다. [Storefront 속성](https://docs.magento.com/user-guide/catalog/product-attributes-add.html){target="_blank"} 속성용 페이지입니다.
+>특정 제품 속성에 따라 조건을 정의하려면 다음을 설정합니다. **[!UICONTROL Use for Promo Rule Conditions]** 속성에 대해 를 로 설정 `Yes`. 다음에서 이 설정에 액세스할 수 있습니다. [Storefront 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes-add.html) 속성용 페이지입니다.
 
-![조건 - 라인 1](assets/ob-listing-rule-conditions-start.png)
+![조건 - 라인 1](assets/ob-listing-rule-conditions-start.png){width="500"}
 
 이 예제의 규칙은 이 포함된 모든 카탈로그 제품에 대해 Amazon 자격 조건을 설정하는 규칙을 정의합니다. _AMAZON FBA_ 속성이 로 설정됨 `Yes`.
 
@@ -51,13 +51,13 @@ ht-degree: 0%
 
    - **[!UICONTROL Conditions Combination]** - 다른 집합 만들기를 허용하도록 선택합니다. `All/Any` 및 `True/False` 기존 집합 내의 조건.
 
-      ![조건 조합](assets/ob-conditions-combinations.png)
+      ![조건 조합](assets/ob-conditions-combinations.png){width="500"}
 
-   - **[!UICONTROL Product Attribute]** - 제품 속성은 속성 설정에 따라 다릅니다. 속성이 목록에 나타나도록 하려면 이관 규칙 조건에서 사용되도록 구성해야 합니다. 다음을 참조하십시오. _프로모션 규칙 조건에 사용_ 위치: [제품 속성](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"}.
+   - **[!UICONTROL Product Attribute]** - 제품 속성은 속성 설정에 따라 다릅니다. 속성이 목록에 나타나도록 하려면 이관 규칙 조건에서 사용되도록 구성해야 합니다. 다음을 참조하십시오. _프로모션 규칙 조건에 사용_ 위치: [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
       아래 목록에서 **[!UICONTROL Product Attribute]**&#x200B;를 클릭하고 조건의 기반으로 사용할 속성을 선택합니다. 이 예제에서 선택한 조건은 입니다. `Amazon FBA`.
 
-      ![조건 라인 2, 파트 2](assets/ob-condition-attribute-dropdown.png)
+      ![조건 라인 2, 파트 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
       선택한 조건이 문에 나타나고 그 뒤에 굵은 링크가 두 개 더 나타납니다. 옵션은 선택하는 제품 속성에 따라 다릅니다.
 
@@ -73,7 +73,7 @@ ht-degree: 0%
 
          선택한 항목이 문에 표시되어 조건을 완료합니다.
 
-         ![조건 라인 2, 파트 3](assets/ob-listing-rule-condition-is.png)
+         ![조건 라인 2, 파트 3](assets/ob-listing-rule-condition-is.png){width="500"}
    이 조건은 완료되었습니다. 명시된 바와 같이, 이 조건은 귀하의 모든 제품을 의미합니다 [!DNL Commerce] Amazon FBA 속성이 값으로 설정된 카탈로그 `Yes` 지역 및 스토어의 Amazon에 나열할 수 있습니다. 조건 라인을 더 추가하여 적격 제품의 범위를 더 좁힐 수 있습니다.
 
 1. 문에 다른 조건 라인을 추가하려면 1단계로 돌아가서 원하는 조건이 모두 완료될 때까지 프로세스를 반복합니다.

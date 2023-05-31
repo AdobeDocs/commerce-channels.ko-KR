@@ -1,19 +1,19 @@
 ---
-title: 속성
+title: Amazon 목록 속성
 description: Amazon Sales Channel은 [!UICONTROL Attributes] 탭에서는 Amazon 및 Commerce 특성 목록과 제품 일치를 위해 특성이 매핑되는 방법을 모니터링할 수 있습니다.
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: 2c753ec5f6f4cd509e61b4875e09e9a1a2577ee7
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
 
-# 속성
+# Amazon 목록 속성
 
 다음 _[!UICONTROL Attributes]_보기는 Amazon 및 [!DNL Commerce] 속성. 이 목록은 제품 일치를 위해 매핑된 속성도 나타냅니다. 자세한 내용은 [속성 관리](./managing-attributes.md).
 
-![속성 보기](assets/amazon-attributes-view.png)
+![속성 보기](assets/amazon-attributes-view.png){width="600" zoomable="yes"}
 
 다음에서 _[!UICONTROL Attributes]_테이블에서 속성 설정을 보고 검토합니다. [만들기 또는 편집](./creating-attributes.md) 속성.
 

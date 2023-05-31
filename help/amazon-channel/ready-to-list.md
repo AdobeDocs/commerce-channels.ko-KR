@@ -1,8 +1,8 @@
 ---
-title: 나열 준비 완료
+title: Amazon 판매 채널 - [!UICONTROL Ready to List]
 description: Amazon 판매 채널에서는 자격 조건을 충족하지만 자동으로 나열되지 않는 상거래 제품을 검토할 수 있도록 목록 준비 탭을 제공합니다.
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '435'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 >[!NOTE]
 >목록이 처리 중인 경우 탭 위의 메시지에 목록 수가 표시됩니다.
 
-![나열 준비 완료](assets/amazon-ready-to-list.png)
+![나열 준비 완료](assets/amazon-ready-to-list.png){width="600" zoomable="yes"}
 
 ## 기본 열
 

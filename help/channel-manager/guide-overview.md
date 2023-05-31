@@ -1,18 +1,18 @@
 ---
-title: '[!DNL Channel Manager] 안내서 개요'
+title: '[!DNL Channel Manager] 가이드'
 description: '다음에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자용 '
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
 exl-id: 0703741b-77e0-47b0-917f-b25d14afa7ae
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
 
 
-# 개요
+# 채널 관리자 안내서
 
 이 안내서는 Adobe Commerce 및 Magento Open Source 관리자를 위한 것입니다. 여기에는 다음에 대한 자세한 정보가 포함됩니다. [!DNL Channel Manager] 설치, 온보딩, 구성 및 관리 이 안내서에서는 핵에 대한 기본적인 이해를 전제로 합니다 [!DNL Commerce] 구성 및 기능.
 
@@ -30,10 +30,14 @@ ht-degree: 0%
 
 ## 추가 설명서
 
-| 안내서 | 설명 |
-|----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------|
-| [Adobe Commerce 2.4 사용 안내서](https://docs.magento.com/user-guide) | Adobe Commerce 및 Magento Open Source 모두를 위한 판매자 중심 설명서 |
-| [Adobe Commerce 2.4 개발자 안내서](https://devdocs.magento.com) | Adobe Commerce 또는 Magento Open Source 빌드 및 사용자 지정에 사용되는 개발자 중심의 설명서 |
+
+| 설명서 리소스 | 설명 |
+|----------------------- | ----------- |
+| [Adobe Commerce 2.4 Merchant 설명서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce 및 Magento Open Source 모두를 위한 판매자 중심 설명서 |
+| [Adobe Commerce 설명서를 위한 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 서비스 컬렉션을 지원하는 설명서입니다. |
+| [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |
+| [Adobe Commerce 2.4 운영 안내서](https://experienceleague.adobe.com/docs/commerce-operations/operational-guides/home.html) | Adobe Commerce 및 Magento Open Source 플랫폼에 배포된 프로젝트를 개발, 배포 및 유지 관리하기 위한 개념, 프로세스, 도구 및 모범 사례에 대한 시스템 설명서입니다. |
+| [Adobe Commerce 2.4 개발자 설명서](https://developer.adobe.com/commerce/docs) | Adobe Commerce 또는 Magento Open Source을 빌드하고 사용자 지정하는 데 사용되는 개발자 중심의 설명서 |
 
 ## 지원
 

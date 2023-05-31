@@ -1,15 +1,15 @@
 ---
-title: 속성 관리
+title: Amazon 목록의 속성 관리
 description: Amazon 속성에 대한 Commerce 제품 속성 매핑을 관리하여 시스템 간에 정확한 제품 정보를 제공할 수 있습니다.
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
 
-# 속성 관리
+# Amazon 목록의 속성 관리
 
 Amazon 및 [!DNL Commerce] 둘 다 제품을 정의하는 데 사용되는 제품 속성 시스템(속성)을 사용합니다. 속성은 제품에 대한 설명, 콘텐츠, 이미지, 가격 및 다양한 데이터를 정의합니다.
 
@@ -23,7 +23,7 @@ Amazon sales channel을 사용하면 필요에 따라 다음과 같이 속성에
 
 에 대한 자세한 내용 [!DNL Commerce] 및 Amazon 속성 세트와 값은 다음을 참조하십시오.
 
-- [속성 관리 기본 사항](https://docs.magento.com/user-guide/catalog/product-attributes.html){target="_blank"}
+- [속성 관리 기본 사항](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html)
 - [속성 만들기](./creating-attributes.md#create-an-attribute)
 - [기존 속성 편집](./creating-attributes.md#edit-an-attribute)
 - [속성 매핑 보기](./amazon-matching-attributes-values.md)

@@ -1,15 +1,15 @@
 ---
-title: '온보딩: 목록 규칙 만들기'
+title: Amazon 목록 규칙 만들기
 description: Amazon 판매 채널 온보딩 프로세스를 완료하는 동안 다음에 대한 Amazon 목록을 생성하기 위한 초기 목록 규칙을 만듭니다. [!DNL Commerce] 제품.
 exl-id: b318823e-a726-4a59-b117-9838562c7d8b
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: '391'
 ht-degree: 0%
 
 ---
 
-# 온보딩: 목록 규칙 만들기
+# Amazon 목록 규칙 만들기
 
 목록 규칙은 온보딩 중에 정의할 수 있지만, 언제든지 수정할 수도 있습니다. 온보딩 후 다음에 액세스할 수 있습니다 [규칙 나열](./listing-rules.md) 스토어에서 [대시보드](./amazon-store-dashboard.md).
 
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 목록 미리 보기에서 목록을 검토합니다.
 
-   ![목록 미리 보기](assets/amazon-ob-listing-preview.png)
+   ![목록 미리 보기](assets/amazon-ob-listing-preview.png){width="600" zoomable="yes"}
 
    - **[!UICONTROL Ineligible Listings]** - 이 탭에 나열된 제품은 현재 목록 규칙 설정을 기반으로 하는 Amazon 목록에 적합하지 않습니다.
 

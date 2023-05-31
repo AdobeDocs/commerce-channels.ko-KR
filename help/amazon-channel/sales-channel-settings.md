@@ -1,15 +1,15 @@
 ---
-title: Sales Channel 설정
+title: 판매 채널 설정
 description: Amazon 판매 채널 기능에 대한 로깅, 크론 소스 및 동기화를 관리하려면 Commerce 구성을 업데이트합니다.
 exl-id: 69f83774-41de-4fde-a357-f100d1bcd9f0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
 
-# Sales Channel 설정
+# 판매 채널 설정
 
 다음의 경우 [!DNL Amazon Sales Channel] 확장 프로그램이 설치되고, Amazon 판매 채널에 대한 관리자에서 기본값이 설정됩니다. 이러한 설정은 Amazon 스토어에 대한 구성 설정에서 수정할 수 있습니다. 이러한 설정에는 다음이 포함됩니다.
 
@@ -33,11 +33,11 @@ ht-degree: 0%
 
 1. 대상 **[!UICONTROL Background Tasks (CRON) Source]**, 선택 `Magento CRON`.
 
-   이 옵션을 사용하면 Amazon 판매 채널에서 다음을 사용할 수 있습니다 [!DNL Commerce] [크론](https://docs.magento.com/user-guide/system/cron.html) 과의 통신 및 데이터 동기화 간격을 결정하는 설정 [!DNL Amazon Seller Central].
+   이 옵션을 사용하면 Amazon 판매 채널에서 다음을 사용할 수 있습니다 [!DNL Commerce] [크론](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/cron.html) 과의 통신 및 데이터 동기화 간격을 결정하는 설정 [!DNL Amazon Seller Central].
 
 1. 대상 **[!UICONTROL Enable Debug Logging]**, 선택 `Enabled` 문제 해결이 필요할 때 추가 동기화 데이터를 수집하기 위해
 
-   Amazon 판매 채널 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 에서 볼 수 있는 파일 [개발자 모드](https://docs.magento.com/user-guide/magento/installation-modes.html){target="_blank"}. 로깅은 다음과 같아야 합니다. `Enabled` 문제 해결 도중 및 다음 작업 수행 `Disabled` 문제 해결이 완료되면.
+   Amazon 판매 채널 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 에서 볼 수 있는 파일 [개발자 모드](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes). 로깅은 다음과 같아야 합니다. `Enabled` 문제 해결 도중 및 다음 작업 수행 `Disabled` 문제 해결이 완료되면.
 
 1. 대상 **[!UICONTROL Read-Only Mode]**, 선택 `Enabled` 나가는 모든 상태 변경 API 요청을 차단합니다.
 
@@ -51,4 +51,4 @@ ht-degree: 0%
 
 1. 클릭 **[!UICONTROL Save Config]**.
 
-![Sales Channel 구성 설정](assets/config-sales-channel-global-settings.png)
+![Sales Channel 구성 설정](assets/config-sales-channel-global-settings.png){width="600" zoomable="yes"}

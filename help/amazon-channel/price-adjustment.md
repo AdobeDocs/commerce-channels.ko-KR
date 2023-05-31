@@ -1,15 +1,15 @@
 ---
-title: 가격 조정
+title: Amazon 판매 채널 - [!UICONTROL Price Adjustment]
 description: Amazon 경쟁업체 가격 출처를 식별한 경우 가격 조정을 구성하여 가격 계산을 정의합니다.
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
 
-# 가격 조정
+# [!UICONTROL Price Adjustment]
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ ht-degree: 0%
 
    - 날짜 **[!UICONTROL Apply]** 이(가) (으)로 설정됨 `Apply as fixed amount`고정 금액에 대한 숫자 값을 입력합니다(예: enter `25` $25 고정 조정).
 
-![지능형 가격 조정 규칙 - 가격 조정](assets/amazon-price-adjustment.png)
+![지능형 가격 조정 규칙 - 가격 조정](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |---|---|

@@ -1,18 +1,18 @@
 ---
-title: (B2B) 영업가격
+title: "[!DNL (B2B) Business Price] for Amazon listings"
 description: 다음을 나열할 수 있습니다. [!DNL Commerce] Amazon에서 비즈니스를 활성화하여 Amazon 비즈니스(B2B) 사이트에 제품을 저장합니다 [!DNL Seller Central] 계정입니다.
 redirect_from: /sales-channels/asc/ob-business-pricing.html
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: 632157839130461869345724bdfc03b306a4f613
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
 
-# (B2B) 영업가격
+# [!DNL (B2B) Business Price] Amazon 목록
 
-(B2B) 비즈니스 가격 설정은 스토어 목록 설정의 일부입니다. 목록 설정은 [대시보드 저장](./amazon-store-dashboard.md).
+(B2B) 비즈니스 가격 설정은 스토어 목록 설정의 일부입니다. 목록 설정은 [Amazon 스토어 대시보드](./amazon-store-dashboard.md).
 
 [!DNL Amazon Business] 은(는) Amazon 등록 비즈니스 계정에만 해당하는 마켓플레이스이며 미국, 프랑스, 독일 및 영국에서만 사용할 수 있습니다. 마켓플레이스에서 B2B 비즈니스 가격을 허용하는 경우 목록 설정 내에서 편집할 수 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 에 제품을 나열하려면 [!DNL Amazon Business (B2B)] 사이트, 먼저 [!DNL Amazon Seller Central] 계정입니다. B2B 기능에 대한 자세한 내용은 [Amazon: B2B Central](https://sellercentral.amazon.com/gp/help/G202161480/){target="_blank"} (판매자 중앙 로그인 필요).
 
-## (B2B) 비즈니스 가격 설정 구성
+## 구성 [!DNL (B2B) Business Price] 설정
 
 1. 클릭 **[!UICONTROL Listing Settings]** 스토어 대시보드에서 을(를) 클릭합니다.
 
@@ -44,7 +44,7 @@ ht-degree: 0%
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![Amazon Business Pricing(B2B)](assets/amazon-business-pricing.png)
+![Amazon Business Pricing(B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | 필드 | 설명 |
 |--- |--- |

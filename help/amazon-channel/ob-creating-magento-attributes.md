@@ -1,17 +1,17 @@
 ---
-title: 만들기 [!DNL Commerce] Amazon용 속성
+title: Amazon에 대한 상거래 특성 만들기
 description: Amazon 판매 채널 온보딩 프로세스를 완료하기 전에 필요한 사항이 있는지 확인하십시오 [!UICONTROL Commerce] 제품 특성입니다.
 exl-id: eebad794-c171-40a3-aa24-d5509e2b5797
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '526'
 ht-degree: 0%
 
 ---
 
-# 만들기 [!DNL Commerce] Amazon용 속성
+# Amazon에 대한 상거래 특성 만들기
 
-온보딩 전 [!DNL Amazon Seller Central] 계정, 를 추가하는 것이 좋습니다. [!DNL Commerce] [제품 속성](https://docs.magento.com/user-guide/stores/attributes-product.html){target="_blank"} 을 클릭하여 제품 목록을 매핑하십시오. 온보딩을 완료한 후 다음을 통해 제품 속성을 관리할 수 있습니다. [속성](./managing-attributes.md) 의 탭 [Amazon sales channel 홈](./amazon-sales-channel-home.md) 페이지를 가리키도록 업데이트하는 중입니다.
+온보딩 전 [!DNL Amazon Seller Central] 계정, 를 추가하는 것이 좋습니다. [!DNL Commerce] [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 을 클릭하여 제품 목록을 매핑하십시오. 온보딩을 완료한 후 다음을 통해 제품 속성을 관리할 수 있습니다. [속성](./managing-attributes.md) 의 탭 [Amazon sales channel 홈](./amazon-sales-channel-home.md) 페이지를 가리키도록 업데이트하는 중입니다.
 
 이 지침은 만드는 방법을 자세히 설명합니다. [!DNL Commerce] Amazon ASIN 및 Amazon 조건에 대한 속성. Amazon EAN, Amazon ISBN 및 Amazon UPC를 비롯한 추가 속성을 만드는 것이 좋습니다. Amazon 목록 가격을 가격책정 규칙의 가격 출처로 사용하려면 Amazon 가격 속성을 생성할 수도 있습니다. 이러한 속성은 온보딩 중에 목록 및 가격 설정을 구성할 때 사용됩니다. 또한 Amazon 목록을 만들고 을 업데이트하고 동기화할 때 이러한 특성을 사용합니다. [!DNL Commerce] Amazon 목록이 포함된 카탈로그.
 
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 1. 클릭 **[!UICONTROL Save Attribute]**.
 
-![Amazon ASIN 속성](assets/creating-asin-attribute.png)
+![Amazon ASIN 속성](assets/creating-asin-attribute.png){width="600" zoomable="yes"}
 
 ## Amazon Condition 제품 속성 만들기
 
@@ -116,6 +116,6 @@ ht-degree: 0%
 
 1. 클릭 **[!UICONTROL Save Attribute]**.
 
-![Amazon 조건 속성](assets/creating-amazon-condition-attribute.png)
+![Amazon 조건 속성](assets/creating-amazon-condition-attribute.png){width="600" zoomable="yes"}
 
 ![다음 아이콘](assets/btn-next.png) [**API 키 추가 또는 확인 계속**](./amazon-verify-api-key.md)

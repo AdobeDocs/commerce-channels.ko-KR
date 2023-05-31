@@ -2,7 +2,7 @@
 title: 채널 설정 완료
 description: '를 연결하는 판매 채널을 만든 후 [!DNL Commerce] 보기 저장 위치 [!DNL Walmart Marketplace]을 클릭하고 채널을 연 다음 채널 구성을 완료합니다. 그런 다음 다음 제품 추가, 목록, 재고, 가격책정 및 주문을 관리하는 프로세스를 시작합니다. [!DNL Channel Manager].'
 exl-id: 12127e3b-55c1-4db6-98b2-6dc8bdaae139
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 1. [관리자]에서 을 선택합니다**[!UICONTROL Marketing** > **채널 관리자**].
 
-   ![채널 관리자 스토어 관리](assets/channel-manager-setup-first-store.png)
+   ![채널 관리자 스토어 관리](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 1. 스토어의 눈 아이콘을 선택하여 판매 채널 스토어를 엽니다.
 

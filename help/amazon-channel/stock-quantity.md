@@ -1,16 +1,15 @@
 ---
-title: 재고/수량
+title: Amazon 판매 채널 - [!UICONTROL Stock/Quantity]
 description: Commerce 스토어의 제품 수량 세부 정보의 동기화를 제어하려면 [!DNL Amazon Seller Central] 계정, 재고/수량 설정을 갱신합니다.
-redirect_from: /sales-channels/asc/ob-stock-quantity.html
 exl-id: a8b7ab6c-393c-43c6-b5ef-68845177edff
-source-git-commit: b63e2cfb9c7ba7cc169a6eec954abe782d112c6f
+source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '768'
 ht-degree: 0%
 
 ---
 
-# 재고/수량
+# [!UICONTROL Stock/Quantity]
 
 *[!UICONTROL Stock/Quantity]* 설정은 스토어 목록 설정의 일부입니다. 목록 설정은 [대시보드 저장](./amazon-store-dashboard.md).
 
@@ -42,7 +41,7 @@ ht-degree: 0%
 
 1. 완료되면 다음을 클릭하십시오. **[!UICONTROL Save listing settings]**.
 
-![재고/수량 설정](assets/amazon-stock-quantity.png)
+![재고/수량 설정](assets/amazon-stock-quantity.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
 |---|---|
@@ -67,10 +66,10 @@ ht-degree: 0%
 
 예를 들어, *[!UICONTROL Maximum Listed Quantity]* 다음으로: `12`, 제품에 가 있더라도 Amazon 목록에는 수량이 12로 표시됩니다. [!DNL Commerce] 수량 80:
 
-![최대 목록 수량 예 1](assets/amazon-max-listed-quantity.png)
+![최대 목록 수량 예 1](assets/amazon-max-listed-quantity.png){width="300"}
 
 다음을 설정하는 경우 *[!UICONTROL Maximum Listed Quantity]* 다음으로: `1`, 모든 적격 제품이 수량으로 나열됩니다. `1`. 품목이 판매되면 시스템은 [!DNL Commerce] 제품 및 추가 재고가 있는 경우 수량이 인 Amazon에 품목을 재판매합니다. `1`.
 
 이 옵션은 일반적으로 1개 수량으로 주문하는 제품에 유용할 수 있습니다. 또한 Amazon 목록을 볼 때 쇼핑객의 긴급도가 증가합니다.
 
-![최대 목록 수량 예 2](assets/amazon-max-listed-quantity-1.png)
+![최대 목록 수량 예 2](assets/amazon-max-listed-quantity-1.png){width="300"}

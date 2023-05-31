@@ -2,7 +2,7 @@
 title: '연결 [!DNL Channel Manager] 끝 [!DNL Walmart Marketplace]'
 description: '"상거래 스토어 보기를 다음으로 연결" [!DNL Walmart Marketplace] Walmart Marketplace 판매에 대한 상거래 제품 목록, 재고, 가격 및 주문을 관리할 수 있는 판매 채널을 만듭니다."'
 exl-id: 8c78c582-7b57-4f73-894e-134ba0ba3640
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 1. 다음에서 **[!UICONTROL Marketplaces available to connect]** 섹션, 선택 **[!UICONTROL Get Started]**.
 
-   ![새로 연결 [!DNL Walmart] 저장 위치: [!DNL Channel Manager]](assets/channel-manager-home.png)
+   ![새로 연결 [!DNL Walmart] 저장 위치: [!DNL Channel Manager]](assets/channel-manager-home.png){width="700" zoomable="yes"}
 
 1. 필요한 경우 다음을 설정하십시오. [!DNL Walmart Marketplace Seller] 계정입니다.
 
@@ -39,7 +39,7 @@ ht-degree: 0%
 
    - 다음 항목 선택 [!DNL Commerce] 마켓플레이스에서 판매하려는 제품을 제공하는 스토어 보기.
 
-      ![다음 간 연결 구성 [!DNL Commerce] 및 [!DNL Walmart Marketplace] 출처: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png)
+      ![다음 간 연결 구성 [!DNL Commerce] 및 [!DNL Walmart Marketplace] 출처: [!DNL Channel Manager]](assets/configure-commerce-to-marketplace-connection.png){width="500" zoomable="yes"}
 
    - 고유 항목 입력 **[!UICONTROL store name]**.
 
@@ -55,11 +55,11 @@ ht-degree: 0%
 
       개발자 포털에서 지역(미국 및 캐나다)을 선택한 다음 로그인합니다.
 
-      ![[!DNL Walmart Marketplace] 계정 로그인](assets/walmart-marketplace-login-page.png)
+      ![[!DNL Walmart Marketplace] 계정 로그인](assets/walmart-marketplace-login-page.png){width="600"}
 
    - API 키 양식에서 을(를) 복사하여 저장합니다. **[!UICONTROL Client ID]** 및 **[!UICONTROL Client Secret]** 값: [!UICONTROL Adobe Inc Production API key] 안전한 장소로.
 
-      ![[!DNL Walmart Marketplace API key] 구성 페이지](assets/walmart-api-key-management-form.png)
+      ![[!DNL Walmart Marketplace API key] 구성 페이지](assets/walmart-api-key-management-form.png){width="600" zoomable="yes"}
 
       >[!NOTE]
       >
@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 연결에 성공하면 [스토어 설정 완료](complete-sales-channel-store-setup.md) 다음에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
 
-![첫 번째 스토어 설정](assets/channel-manager-setup-first-store.png)
+![첫 번째 스토어 설정](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
 ### 연결 문제 해결
 

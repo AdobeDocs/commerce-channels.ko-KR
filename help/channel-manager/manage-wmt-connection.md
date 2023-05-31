@@ -2,7 +2,7 @@
 title: Walmart Marketplace 연결 관리
 description: '''API 자격 증명을 업데이트하여 [DNL! Commerce] 스토어 보기 및 [!DNL Walmart Marketplace]. The connection is required to connect [!DNL Commerce] 제품 목록 작성 및 재고, 가격, 주문 및 다음 기간 동안의 배송 데이터 동기화 [!DNL Commerce] 월마트도요'
 exl-id: 817b1b58-a57e-4c8d-b08f-1ce3bec15bc3
-source-git-commit: aeeaca20cb54528f77e457d54a194d6603c08654
+source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 1. 자격 증명을 수정하려면 을 선택합니다 **[!UICONTROL Change Credentials]**
 
-   ![연결을 승인하도록 Walmart API 자격 증명 업데이트](assets/update-connection-credentials.png)
+   ![연결을 승인하도록 Walmart API 자격 증명 업데이트](assets/update-connection-credentials.png){width="700" zoomable="yes"}
 
 1. 다음을 입력합니다. **[!UICONTROL Walmart Client ID]** 및 **[!UICONTROL Walmart Client Secret]**.
 
