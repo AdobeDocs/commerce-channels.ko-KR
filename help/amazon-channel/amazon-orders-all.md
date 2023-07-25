@@ -1,8 +1,9 @@
 ---
 title: Amazon 주문 보기
 description: Adobe Commerce 또는 Magento Open Source 관리자에서 Amazon Marketplace 주문을 봅니다.
+feature: Sales Channels, Orders
 exl-id: d7811604-8e15-4d1a-a0e7-9fa61c61ef5d
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 0%
@@ -91,11 +92,10 @@ _[!UICONTROL All Orders]_[보기]는 주문 검색에 대한 필터링 옵션을
 >- 보기 창의 너비에 따라 열에 텍스트가 겹칠 수 있습니다. 줄 바꿈할 텍스트의 열을 확장하려면 창 보기를 넓힙니다.
 >- 필터링 기준 _[!UICONTROL Total]_, 정수로 필터링합니다. 소수를 입력하면 결과에 오류가 발생할 수 있습니다.
 
-
 ### 기본 열
 
 | 열 | 설명 |
-|---|---|
+|----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Filter by] | 다음에서만 사용 가능 _[!UICONTROL All Orders]_보기.<br>다음을 기준으로 주문 목록 범위를 좁힙니다.<ul><li>`Purchase Date (range)`</li><li>`Order Number`</li><li>`Buyer's Name`</li><li>`Total (range)`</li><li>`Status`</li></ul> |
 | [!UICONTROL Purchase Date] | Amazon에서 받은 구매 날짜. |
 | [!UICONTROL Order Number] | Amazon에서 생성 및 수신한 주문 번호. Amazon 주문 세부 사항 화면을 보려면 링크를 클릭합니다. |

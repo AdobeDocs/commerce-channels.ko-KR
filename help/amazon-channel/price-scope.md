@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널 - 가격 범위
 description: 여러 웹 사이트 또는 전 세계에 따라 가격을 관리하려면 Commerce 가격 범위를 사용하십시오.
+feature: Sales Channels, Price Rules
 exl-id: 24a1eac1-d579-4063-a33c-71969bc2b4b9
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '179'
 ht-degree: 0%

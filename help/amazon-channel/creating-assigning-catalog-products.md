@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널을 위한 제품 만들기 및 할당
 description: Amazon Sales Channel은 [!UICONTROL New Third Party] 탭에서 Amazon 목록이 있는 일치하는 상거래 카탈로그 제품을 만들고 할당할 수 있습니다.
+feature: Sales Channels, Products, Configuration
 exl-id: de000e80-7546-44d2-905e-28664b24f028
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1094'
 ht-degree: 0%
@@ -51,27 +52,27 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 설정 **[!UICONTROL Enable Product(s)]** 전환 대상 `Yes` 또는 `No` (필수).
 
-      |예|제품을 사용할 수 있도록 하려면 선택합니다. [!DNL Commerce] 상점 판매.| |아니요|제품을 사용할 수 없게 하려면 선택합니다. [!DNL Commerce] 상점 판매.|
+     |예|제품을 사용할 수 있도록 하려면 선택합니다. [!DNL Commerce] 상점 판매.| |아니요|제품을 사용할 수 없게 하려면 선택합니다. [!DNL Commerce] 상점 판매.|
 
    - 대상 **[!UICONTROL Categories]**, 제품에 대한 카테고리를 할당합니다(선택 사항).
 
-      제품의 카테고리를 선택하려면 아래쪽 화살표를 클릭하고 카테고리 확인란을 선택합니다. 클릭 **[!UICONTROL Done]** 완료 시.
+     제품의 카테고리를 선택하려면 아래쪽 화살표를 클릭하고 카테고리 확인란을 선택합니다. 클릭 **[!UICONTROL Done]** 완료 시.
 
    - 대상 **[!UICONTROL Website Ids]**&#x200B;을(를) 통해 제품과 연결할 웹 사이트(상점)를 선택합니다.
 
-      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
+     이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
 
    - 대상 **[!UICONTROL Attribute Set Id]** (필수) 옵션을 선택합니다.
 
-      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
+     `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
 
    - 대상 **[!UICONTROL Visibility]**, 새 제품에 대한 옵션을 선택합니다.
 
-      |**[!UICONTROL Not Visible Individually]** (기본값)|다른 제품의 변형으로 사용할 수 있는 제품이지만 해당 제품은 상점 목록에 포함되어 있지 않습니다.| |**[!UICONTROL Catalog]**|제품이 카탈로그 목록에 표시됩니다.| |**[!UICONTROL Search]**|제품을 검색 작업에 사용할 수 있습니다.| |**[!UICONTROL Catalog and Search]**|제품이 카탈로그 목록에 포함되어 있으며 검색 작업에 사용할 수 있습니다.|
+     |**[!UICONTROL Not Visible Individually]** (기본값)|다른 제품의 변형으로 사용할 수 있는 제품이지만 해당 제품은 상점 목록에 포함되어 있지 않습니다.| |**[!UICONTROL Catalog]**|제품이 카탈로그 목록에 표시됩니다.| |**[!UICONTROL Search]**|제품을 검색 작업에 사용할 수 있습니다.| |**[!UICONTROL Catalog and Search]**|제품이 카탈로그 목록에 포함되어 있으며 검색 작업에 사용할 수 있습니다.|
 
    - 대상 **[!UICONTROL Assign Tax Class]**&#x200B;제품에 대한 옵션을 선택합니다.
 
-      이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
+     이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
@@ -96,27 +97,27 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 설정 **[!UICONTROL Enable Product(s)]** 전환 대상 `Yes` 또는 `No` (필수).
 
-      |예|제품을 사용할 수 있도록 하려면 선택합니다. [!DNL Commerce] 상점 판매.| |아니요|제품을 사용할 수 없게 하려면 선택합니다. [!DNL Commerce] 상점 판매.|
+     |예|제품을 사용할 수 있도록 하려면 선택합니다. [!DNL Commerce] 상점 판매.| |아니요|제품을 사용할 수 없게 하려면 선택합니다. [!DNL Commerce] 상점 판매.|
 
    - 대상 **[!UICONTROL Categories]**, 제품에 대한 카테고리를 할당합니다(선택 사항).
 
-      제품의 카테고리를 선택하려면 아래쪽 화살표를 클릭하고 카테고리 확인란을 선택합니다. 클릭 **완료** 완료 시.
+     제품의 카테고리를 선택하려면 아래쪽 화살표를 클릭하고 카테고리 확인란을 선택합니다. 클릭 **완료** 완료 시.
 
    - 대상 **[!UICONTROL Website Ids]**&#x200B;을(를) 통해 제품과 연결할 웹 사이트(상점)를 선택합니다.
 
-      이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
+     이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정.
 
    - 대상 **[!UICONTROL Attribute Set Id]** (필수) 옵션을 선택합니다.
 
-      `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
+     `Default` 는 기본 선택 항목입니다. 이 목록의 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [속성 집합](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/create/attribute-sets.html) 을(를) 구성했습니다.
 
    - 대상 **[!UICONTROL Visibility]**, 새 제품에 대한 옵션을 선택합니다.
 
-      |**[!UICONTROL Not Visible Individually]** (기본값)|다른 제품의 변형으로 사용할 수 있는 제품이지만 해당 제품은 상점 목록에 포함되어 있지 않습니다.| |**[!UICONTROL Catalog]**|제품이 카탈로그 목록에 표시됩니다.| |**[!UICONTROL Search]**|제품을 검색 작업에 사용할 수 있습니다.| |**[!UICONTROL Catalog and Search]**|제품이 카탈로그 목록에 포함되어 있으며 검색 작업에 사용할 수 있습니다.|
+     |**[!UICONTROL Not Visible Individually]** (기본값)|다른 제품의 변형으로 사용할 수 있는 제품이지만 해당 제품은 상점 목록에 포함되어 있지 않습니다.| |**[!UICONTROL Catalog]**|제품이 카탈로그 목록에 표시됩니다.| |**[!UICONTROL Search]**|제품을 검색 작업에 사용할 수 있습니다.| |**[!UICONTROL Catalog and Search]**|제품이 카탈로그 목록에 포함되어 있으며 검색 작업에 사용할 수 있습니다.|
 
    - 대상 **[!UICONTROL Assign Tax Class]**&#x200B;제품에 대한 옵션을 선택합니다.
 
-      이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
+     이 목록에 표시되는 옵션은 [세금 등급](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/site-store/taxes/tax-class.html) 을(를) 구성했습니다.
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
@@ -125,7 +126,7 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 ![상거래 카탈로그 제품 만들기](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Product(s)] | (필수) 활성화된 경우 제품이 [!DNL Commerce] 가게 앞이야 비활성화된 경우 제품이에 표시되지 않습니다. [!DNL Commerce] 가게 앞이야 |
 | [!UICONTROL Categories] | 새 제품에 대한 범주 이름을 입력하거나 아래쪽 화살표를 클릭하여 선택 사항을 표시하는 범주를 선택할 수 있습니다. 옵션은 다음에 따라 다릅니다. [카테고리](https://experienceleague.adobe.com/docs/commerce-admin/catalog/categories/create/category-create.html) 구성. |
 | [!UICONTROL Website Ids] | (필수) 제품을 연결할 웹 사이트(상점)를 선택합니다. 옵션은 다음에 따라 다릅니다. [!DNL Commerce] [구성 저장](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 설정 |

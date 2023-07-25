@@ -1,8 +1,10 @@
 ---
 title: '''[!DNL Walmart] 요구 사항'
 description: '필요한 항목이 있는지 확인합니다. [!DNL Walmart Marketplace]Channel Manager와 통합할 정보 및 리소스'
+role: Leader, Admin, Developer
+feature: Sales Channels, Install, User Account, Tools and External Services
 exl-id: c4f247e8-280a-4595-a6c8-cf8b732d7aab
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -17,7 +19,7 @@ ht-degree: 0%
 
 * Adobe Commerce 또는 Magento Open Source을 연결할 API 키 [!DNL Walmart Marketplace]
 
-   다음 [!DNL Walmart Marketplace] API 키를 통해 [!DNL Channel Manager] Adobe [!DNL Commerce] 아니면 Magento Open Source과 월마트 마켓을 Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
+  다음 [!DNL Walmart Marketplace] API 키를 통해 [!DNL Channel Manager] Adobe [!DNL Commerce] 아니면 Magento Open Source과 월마트 마켓을 Channel Manager 온보딩 프로세스를 시작하기 전에 Seller Central에서 API 키를 설정합니다.
 
 ## 설정 [!DNL Walmart Seller] account
 

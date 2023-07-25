@@ -1,8 +1,9 @@
 ---
 title: 주문 처리
 description: 배송 및 취소 지침 [!DNL Walmart Marketplace] Adobe Commerce 및 Magento Open Source의 주문.'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 2fdcb348-5c02-464f-a114-16ec657bed6b
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '571'
 ht-degree: 0%
@@ -19,7 +20,7 @@ ht-degree: 0%
 
 * **주문 취소**-다음을 취소할 때 [!DNL Walmart Marketplace] 주문, 월마트는 고객에게 보낸 주문 취소 통지에 포함된 취소 사유를 요구합니다. 취소 사유도 [!DNL Commerce] 주문 결제 정보. 취소를 실행하면 재고 갱신이 [!DNL Walmart Marketplace]. 그러면 월마트는 고객에게 주문 현황 및 배송 내역을 알립니다.
 
-   매점에서 전체 주문을 취소해야 합니다. [!DNL Commerce] 은(는) 부분 취소를 허용하지 않습니다.
+  매점에서 전체 주문을 취소해야 합니다. [!DNL Commerce] 은(는) 부분 취소를 허용하지 않습니다.
 
 * **환불 요청**-배송된 주문에 대해 Walmart Marketplace 반품이 요청되면 [!UICONTROL Status details] 에는 반환에 대한 링크가 포함되어 있습니다. 반품 및 환불은 다음 위치에서 관리됩니다. [반환](return-refund-orders.md) 대시보드입니다.
 
@@ -45,7 +46,7 @@ ht-degree: 0%
 
    * 운송 회사를 선택하고 다음을 선택하여 추적 번호를 추가합니다. **[!UICONTROL Add tracking number]**.
 
-      ![다음에 대한 상거래 주문 세부 사항 보기 [!DNL Walmart Marketplace] 주문](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
+     ![다음에 대한 상거래 주문 세부 사항 보기 [!DNL Walmart Marketplace] 주문](assets/order-shipment-add-tracking-number.png){width="600" zoomable="yes"}
 
    * 필요에 따라 나머지 선적 양식을 작성하십시오. 다음을 참조하십시오 [[!DNL Shipping an Order]](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/order-ship.html) 자세한 지침은 을 참조하십시오.
 
@@ -70,10 +71,10 @@ ht-degree: 0%
    * 선택 **취소** 주문 세부 사항 메뉴에서
 
    * 다음에서 [!UICONTROL Cancel Order] 양식을 선택하고 **[!UICONTROL Cancellation reason]**.
+
    ![다음에 대한 상거래 주문 세부 사항 보기 [!DNL Walmart Marketplace] 주문](assets/cancel-order-reason-selector.png){width="600" zoomable="yes"}
 
    * 선택 **[!UICONTROL Cancel Order]**.
-
 
 1. 취소를 제출한 후 [주문 상태](manage-orders.md#about-order-status) 위치: [!DNL Channel Manager] 업데이트가 (으)로 전송되었는지 확인 [!DNL Walmart Marketplace].
 

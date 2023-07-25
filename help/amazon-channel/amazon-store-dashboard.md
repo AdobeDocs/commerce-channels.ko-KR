@@ -1,8 +1,9 @@
 ---
 title: Amazon 스토어 대시보드
 description: Amazon 스토어 대시보드를 사용하여 Commerce 관리자의 Amazon 스토어에 대한 활동을 봅니다.
+feature: Sales Channels, Orders, Storefront
 exl-id: b86220c6-8350-474e-8faa-988a9a575ac4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 0%
@@ -47,10 +48,10 @@ ht-degree: 0%
 
 - **[!UICONTROL Store Listings]** - 지난 7일 또는 30일 동안의 스토어 판매에 대한 그래픽 표시를 라이프타임 판매 데이터와 함께 표시합니다.
 
-   이 섹션에는 다음에 대한 목록 카운트 또한 표시됩니다. [활성 목록](./active-listings.md), [비활성 목록](./inactive-listings.md), 진행 중인 목록 및 해당 목록에 대한 링크 포함 _[!UICONTROL Product Listings]_페이지를 가리키도록 업데이트하는 중입니다. 다음을 클릭할 수도 있습니다.**[!UICONTROL Manage Listings]**을(를) 열려면_[!UICONTROL Product Listings]_ 페이지를 가리키도록 업데이트하는 중입니다. 다음을 참조하십시오 [Amazon 목록 관리](./managing-product-listings.md).
+  이 섹션에는 다음에 대한 목록 카운트 또한 표시됩니다. [활성 목록](./active-listings.md), [비활성 목록](./inactive-listings.md), 진행 중인 목록 및 해당 목록에 대한 링크 포함 _[!UICONTROL Product Listings]_페이지를 가리키도록 업데이트하는 중입니다. 다음을 클릭할 수도 있습니다.**[!UICONTROL Manage Listings]**을(를) 열려면_[!UICONTROL Product Listings]_ 페이지를 가리키도록 업데이트하는 중입니다. 다음을 참조하십시오 [Amazon 목록 관리](./managing-product-listings.md).
 
 - **[!UICONTROL Recent Orders]** - 가장 최근 Amazon 주문에 대한 정보를 표시합니다. 나열된 정보는 Amazon에서 받은 정보를 기반으로 합니다. 이 테이블은 다음으로 업데이트되지 않습니다. [!DNL Commerce] 주문 정보, 다음과 같은 경우에도 [주문 가져오기](./order-settings.md) 이(가) 활성화되었습니다. 모든 Amazon 주문을 보려면 **모든 주문**.
 
-   다음을 참조하십시오 [Amazon 주문 보기](./amazon-orders-all.md) 열 설명을 보려면 다음을 참조하십시오 [주문 관리](./managing-orders.md) 추가 정보.
+  다음을 참조하십시오 [Amazon 주문 보기](./amazon-orders-all.md) 열 설명을 보려면 다음을 참조하십시오 [주문 관리](./managing-orders.md) 추가 정보.
 
 - **[!UICONTROL Seller Central links]** - 중요 링크를 제공합니다. [!DNL Amazon Seller Central] 정보.

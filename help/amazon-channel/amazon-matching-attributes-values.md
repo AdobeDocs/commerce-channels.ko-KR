@@ -1,8 +1,9 @@
 ---
 title: Amazon 속성 매핑 보기
 description: Commerce와 Amazon 간에 올바르게 동기화하려면 연결된 Commerce 특성의 값을 확인하십시오.
+feature: Sales Channels, Products, Configuration
 exl-id: 11a1fb25-6aa8-43d3-b5d8-772bbe1a5d53
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 0%
@@ -31,7 +32,7 @@ Amazon 속성을 매핑할 때 [!DNL Commerce] Amazon 판매 채널이 모든 Am
 ![속성 값 보기](assets/amazon-managing-attribute-values.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|--- |--- |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Region] | 에 정의된 영업 활동의 지역 **[!DNL Amazon Marketplace]국가** 스토어 통합 도중. |
 | [!UICONTROL Magento Product SKU] | 다음을 나타냅니다. [!DNL Commerce] Amazon 스토어와 동기화된 제품. 값은 이 할당한 제품 ID입니다. [!DNL Commerce] 카탈로그의 제품에 연결됩니다. 에서 제품을 열려면 [!DNL Commerce]링크를 클릭합니다. |
 | [!UICONTROL ASIN] | Amazon에서 제품 식별을 위해 제품에 할당한 10자의 영숫자 고유 식별자인 Amazon ASIN(표준 식별 번호)을 나타냅니다. |

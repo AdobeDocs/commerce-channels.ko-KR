@@ -1,8 +1,9 @@
 ---
 title: 배송되지 않은 Amazon 주문 취소
 description: Amazon을 통해 보류 중이거나 부분적으로 배송된(미배송) 주문을 취소합니다. [!DNL Seller Central] 계정입니다.
+feature: Sales Channels, Orders, Shipping/Delivery
 exl-id: a6df09b7-7f62-47e5-a2d3-1761802255d0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 0%
@@ -19,7 +20,6 @@ Amazon 주문이 다음에 있는 경우에만 취소할 수 있습니다. `Unsh
 >
 >- 다음을 보유한 경우: [주문 가져오기](./order-settings.md) 활성화됨, 주문은 [[!DNL Commerce] 주문 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).
 >- If [주문 가져오기](./order-settings.md) 이(가) 비활성화되어 있음에서 주문을 관리해야 합니다. [!DNL Amazon Seller Central].
-
 
 ## 다음 위치에서 주문 취소 `Unshipped` 상태
 

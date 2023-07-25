@@ -1,8 +1,9 @@
 ---
 title: '지능형 가격 조정 규칙: 현장 가격'
 description: 현장 가격 설정을 사용하여 지능형 가격 책정 규칙의 최저 가격을 결정하여 Amazon 목록을 관리할 수 있습니다.
+feature: Sales Channels, Price Rules
 exl-id: e00cac95-eef8-4d4d-b578-287a91f54bdf
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -50,7 +51,7 @@ ht-degree: 0%
 ![지능형 가격 조정 규칙 예 - 현장 가격](assets/ob-intelligent-pricde-rule-floor-price.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|--- |--- |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Floor Price Source] | 다음을 선택합니다. [!DNL Commerce] 상대 층(최저 가격) 제한을 나타내는 속성입니다. 예를 들어, Amazon 목록 가격이 항목의 비용 아래로 내려가지 않도록 하려면 `Cost` 특성. |
 | [!UICONTROL Floor Price Action] | 가격책정 조정 조치를 선택합니다. 옵션:<ul><li>**[!UICONTROL Decrease By]** - 정의할 시기를 선택합니다. _[!UICONTROL Floor Price Source]_Amazon에 나열하기 전에 규칙에 대해 더 낮은 수준의 가격을 만들어 조정해야 할 값입니다.</li><li>**[!UICONTROL Increase By]** - 정의할 시기를 선택합니다. _[!UICONTROL Floor Price Source]_Amazon에 나열하기 전에 규칙에 대해 더 높은 가격을 만들어 조정할 값입니다.</li><li>**[!UICONTROL Match]** - 정의된 가격보다 낮게 목록 가격을 변동시키지 않으려면 선택합니다. _[!UICONTROL Floor Price Source]_값. 이 옵션을 선택하면_[!UICONTROL Apply]_ 및 _[!UICONTROL Floor Adjustment Amount]_필드가 비활성화되었습니다.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - 다음을 기준으로 한 백분율 조정 _[!UICONTROL Floor Price Source]_값. |

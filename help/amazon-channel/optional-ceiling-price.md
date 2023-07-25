@@ -1,8 +1,9 @@
 ---
 title: '지능형 가격 조정 규칙: 선택적 한도 가격'
 description: 선택적인 최고 가격 설정을 사용하여 Amazon 목록을 관리하는 지능적인 가격 책정 규칙으로부터 가장 높은 제품 가격을 보호합니다.
+feature: Sales Channels, Price Rules
 exl-id: edc40e6b-e71f-41a3-8d5f-8bb73ada42a3
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: b2e608a633b760672044653a22be757ecffc9540
 workflow-type: tm+mt
 source-wordcount: '387'
 ht-degree: 0%
@@ -46,7 +47,7 @@ ht-degree: 0%
 ![지능형 가격 조정 규칙 - 선택적 한도 가격](assets/ob-intelligent-price-rule-ceiling.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|---|---|
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Ceiling Price Source] | 다음을 선택합니다. [!DNL Commerce] [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html) 이는 사용자의 상대적 한도 제한을 나타냅니다. 예를 들어 제품 목록 가격이 항목의 MSRP를 넘지 않도록 하려면 `Manufacturer's Suggested Retail Price` 특성. |
 | [!UICONTROL Ceiling Price Action] | 가격책정 조정 조치를 선택합니다. 옵션:<ul><li>**[!UICONTROL Decrease By]** - 정의할 시기를 선택합니다. _[!UICONTROL Ceiling Price Source]_Amazon에 나열하기 전에 규칙에 대해 더 낮은 상한 가격을 만들어 하향 조정할 값입니다.</li><li>**[!UICONTROL Increase By]** - 정의할 시기를 선택합니다. _[!UICONTROL Ceiling Price Source]_Amazon에 나열하기 전에 규칙에 대해 더 높은 상한 가격을 만들어 상향 조정될 값입니다.</li><li>**[!UICONTROL Match]** - 정의된 가격보다 높게 목록 가격을 변동시키지 않으려면 선택합니다. _[!UICONTROL Ceiling Price Source]_값. 로 설정된 경우 `Match`,_[!UICONTROL Apply]_ 및 _[!UICONTROL Ceiling Adjustment Amount]_필드가 비활성화되었습니다.</li></ul> |
 | [!UICONTROL Apply] | **[!UICONTROL Apply as percentage]** - 다음을 기준으로 한 백분율 조정 _[!UICONTROL Ceiling Price Source]_값. |

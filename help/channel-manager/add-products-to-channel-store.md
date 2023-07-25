@@ -1,8 +1,9 @@
 ---
 title: Channel Manager에 제품 추가
 description: '제품 분류 만들기 [!DNL Walmart Marketplace] 카탈로그의 제품을 Channel Manager에 구성된 판매 채널에 추가하여 판매'
+feature: Sales Channels, Merchandising, Products
 exl-id: 00932df7-bdc7-42a1-b269-88dffcc918bc
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 0%
@@ -59,15 +60,15 @@ ht-degree: 0%
 
    - 선택 **[!UICONTROL Save]**.
 
-      확인 메시지가 표시됩니다.
+     확인 메시지가 표시됩니다.
 
-      ![카탈로그에서 판매 채널로 제품 가져오기 확인 메시지](assets/product-import-from-catalog-confirmation.png){width="400"}
+     ![카탈로그에서 판매 채널로 제품 가져오기 확인 메시지](assets/product-import-from-catalog-confirmation.png){width="400"}
 
-      업데이트가 예약되어 있다는 메시지가 나타나면 [큐:consumers:시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 즉시 업데이트를 처리하는 명령입니다.
+     업데이트가 예약되어 있다는 메시지가 나타나면 [큐:consumers:시작](https://experienceleague.adobe.com/docs/commerce-operations/configuration-guide/cli/start-message-queues.html) [!DNL CLI] 즉시 업데이트를 처리하는 명령입니다.
 
-      ```bash
-      $ bin/magento queue:consumers:start product_action_attribute.update
-      ```
+     ```bash
+     $ bin/magento queue:consumers:start product_action_attribute.update
+     ```
 
 1. 가져오기 작업이 완료되면 로 돌아가 추가한 제품을 확인합니다. [!DNL Channel Manager] 및 선택 **[!UICONTROL Listings]**.
 

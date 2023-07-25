@@ -1,8 +1,9 @@
 ---
 title: 카탈로그 속성 매핑
 description: '''일치하는 [DNL!에 대한 속성 매핑'' 기존 Commerce] 제품 [!DNL Walmart Marketplace] 다음 기간 동안 데이터 목록 및 동기화 [!DNL Channel Manager] 및 [!DNL Walmart].'''
+feature: Sales Channels, Merchandising, Products
 exl-id: 6678d81f-d167-460d-b656-d082d56f670c
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 0%
@@ -36,8 +37,8 @@ ht-degree: 0%
 
    - 에서 해당 속성을 선택합니다. [!DNL Commerce] 카탈로그 저장.
 
-      다음 예제는 [!UICONTROL Walmart Marketplace UPC] 제품 카탈로그의 UPC 속성에 대한 속성입니다.
+     다음 예제는 [!UICONTROL Walmart Marketplace UPC] 제품 카탈로그의 UPC 속성에 대한 속성입니다.
 
-      ![제품 일치 기준에 대한 속성 매핑](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
+     ![제품 일치 기준에 대한 속성 매핑](assets/products-map-attributes-for-match.png){width="600" zoomable="yes"}
 
    - 선택 **[!UICONTROL Save]**.

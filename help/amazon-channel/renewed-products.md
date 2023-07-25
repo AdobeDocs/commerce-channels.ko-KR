@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널 - 갱신된 제품
 description: 판매자 중앙 계정이 갱신된 프로그램에 등록되어 있는 경우, Amazon Sales Channel에서 갱신된 목록을 관리할 수 있습니다.
+feature: Sales Channels, Products
 exl-id: 1f828893-ca56-4457-bf8f-8e2d056515e8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 0%

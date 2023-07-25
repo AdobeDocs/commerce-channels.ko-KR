@@ -1,9 +1,11 @@
 ---
 title: "[!DNL (B2B) Business Price] for Amazon listings"
 description: 다음을 나열할 수 있습니다. [!DNL Commerce] Amazon에서 비즈니스를 활성화하여 Amazon 비즈니스(B2B) 사이트에 제품을 저장합니다 [!DNL Seller Central] 계정입니다.
-redirect_from: /sales-channels/asc/ob-business-pricing.html
+role: Admin
+level: Intermediate
+feature: Sales Channels, Configuration, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 12a6cb2d-7a22-4b6d-9e94-ce91d564f42f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -47,7 +49,7 @@ ht-degree: 0%
 ![Amazon Business Pricing(B2B)](assets/amazon-business-pricing.png){width="500" zoomable="yes"}
 
 | 필드 | 설명 |
-|--- |--- |
+|----------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Enable Business Pricing] | 옵션: <ul><li>**[!UICONTROL Disabled]** - (기본값) Business To Business Sales를 사용하지 않으려면 선택합니다. 이 옵션을 선택하면 이 섹션의 다른 모든 필드가 비활성화됩니다.</li><li>**[!UICONTROL Enabled]** - Business to Business Sales를 활성화하고자 할 때 선택합니다. 이 옵션을 선택하면 모든 가격 책정 규칙이 적용된 후 비즈니스 가격이 장부 가격과 동일하게 설정됩니다. 활성화된 경우 비즈니스 가격은 웹 사이트 가격 범위를 따릅니다. 비즈니스 가격은 $1보다 작을 수 없습니다.</li></ul> |
 | [!UICONTROL Enable Tiered Pricing] | (필수) 옵션: <ul><li>**[!UICONTROL Disabled]** - (기본값) 모든 주문 수량에 대해 동일한 목록 가격을 원하는 경우 선택합니다. 선택 시 모두 _[!UICONTROL Pricing Level]_이 섹션의 필드는 비활성화되어 있습니다.</li><li>**[!UICONTROL Enabled]** - 주문 수량에 따라 조정되는 가격책정을 사용할지 선택합니다. 이 옵션을 선택하면 _[!UICONTROL Pricing Level]_필드가 활성화되어 있습니다.</li></ul> |
 | [!UICONTROL Pricing Level One-Five (qty/discount)] | 계층형 가격책정이 활성화되면 비즈니스 목록에 대한 계층 가격책정을 설정하는 최대 5개의 수량/할인 설정을 정의할 수 있습니다. 각 행에 적용할 수량 임계값 및 할인 퍼센트를 입력합니다. 예를 들어, `5` 첫 번째 행의 첫 번째 필드에서 `5` 두 번째 필드에서는 다른 사업자가 5개 이상 물량을 구매할 경우 5% 할인이 적용된다. |

@@ -1,8 +1,9 @@
 ---
 title: "설치 [!DNL Amazon Sales Channel] 확장"
 description: 을(를) 통합하려면 [!DNL Commerce] 카탈로그 [!DNL Amazon Seller Accounts] 다음을 통해 판매 [!DNL Amazon Marketplace], Amazon Sales Channel 확장 기능을 다운로드하여 설치합니다.
-exl-id: ebf22e28-b6a2-420b-80ca-2d750839286c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+role: Admin, Developer
+feature: Sales Channels, Install, Integration, Tools and External Services
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -50,7 +51,6 @@ ht-degree: 0%
    - 다음을 입력하십시오. [인증 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html). 공개 키는 사용자 이름이고 개인 키는 암호입니다.
 
    - Composer에서 프로젝트 종속성 업데이트를 마치고 오류가 없는지 확인할 때까지 기다립니다.
-
 
 1. [확장 확인](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html).
 

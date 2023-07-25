@@ -1,8 +1,10 @@
 ---
 title: 와(과) 통합 저장 [!DNL Amazon Seller Account]
 description: 온보딩 프로세스를 시작하기 전에 Amazon Sales Channel 저장소를 생성(추가)하고 Amazon 판매자 계정에 연결해야 합니다.
+role: Admin, Developer
+feature: Sales Channels, Configuration, Integration, Tools and External Services
 exl-id: ea79e91d-7d92-4992-a921-7ac7632a0519
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 0%
@@ -54,11 +56,11 @@ _에 대한 기본 로그인 자격 증명이 필요합니다. [!DNL Amazon Sell
 
    - 대상 **[!UICONTROL Product ID on the Amazon market]**&#x200B;에 매핑할 Amazon 속성을 선택합니다. [!DNL Commerce] 속성이 아래에서 선택되었습니다.
 
-      이 ID는 의 해당 제품을 올바르게 일치시키는 데 도움이 됩니다. [!DNL Commerce] 카탈로그.
+     이 ID는 의 해당 제품을 올바르게 일치시키는 데 도움이 됩니다. [!DNL Commerce] 카탈로그.
 
    - 대상 **[!UICONTROL Map a Magento attribute]**, 을(를) 선택합니다. [!DNL Commerce] 위에서 선택한 Amazon 속성에 매핑할 제품 속성
 
-      [속성 매핑](./ob-creating-magento-attributes.md) 는 Amazon 목록이 의 해당 제품과 올바르게 일치하는지 확인하는 데 도움이 됩니다. [!DNL Commerce] 카탈로그.
+     [속성 매핑](./ob-creating-magento-attributes.md) 는 Amazon 목록이 의 해당 제품과 올바르게 일치하는지 확인하는 데 도움이 됩니다. [!DNL Commerce] 카탈로그.
 
 1. 클릭 **[!UICONTROL Connect]**.
 

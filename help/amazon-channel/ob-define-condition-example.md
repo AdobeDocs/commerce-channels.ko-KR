@@ -1,8 +1,9 @@
 ---
 title: '예: Amazon 목록 규칙 조건 정의'
 description: 목록 규칙을 생성할 때 Amazon Marketplace에 나열할 상거래 카탈로그 제품을 식별하는 조건을 정의합니다.
+feature: Sales Channels, Products, Configuration
 exl-id: 8a48acfc-d31b-4919-bef7-8c300f0f9d94
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 0%
@@ -51,17 +52,17 @@ ht-degree: 0%
 
    - **[!UICONTROL Conditions Combination]** - 다른 집합 만들기를 허용하도록 선택합니다. `All/Any` 및 `True/False` 기존 집합 내의 조건.
 
-      ![조건 조합](assets/ob-conditions-combinations.png){width="500"}
+     ![조건 조합](assets/ob-conditions-combinations.png){width="500"}
 
    - **[!UICONTROL Product Attribute]** - 제품 속성은 속성 설정에 따라 다릅니다. 속성이 목록에 나타나도록 하려면 이관 규칙 조건에서 사용되도록 구성해야 합니다. 다음을 참조하십시오. _프로모션 규칙 조건에 사용_ 위치: [제품 속성](https://experienceleague.adobe.com/docs/commerce-admin/catalog/product-attributes/product-attributes.html).
 
-      아래 목록에서 **[!UICONTROL Product Attribute]**&#x200B;를 클릭하고 조건의 기반으로 사용할 속성을 선택합니다. 이 예제에서 선택한 조건은 입니다. `Amazon FBA`.
+     아래 목록에서 **[!UICONTROL Product Attribute]**&#x200B;를 클릭하고 조건의 기반으로 사용할 속성을 선택합니다. 이 예제에서 선택한 조건은 입니다. `Amazon FBA`.
 
-      ![조건 라인 2, 파트 2](assets/ob-condition-attribute-dropdown.png){width="350"}
+     ![조건 라인 2, 파트 2](assets/ob-condition-attribute-dropdown.png){width="350"}
 
-      선택한 조건이 문에 나타나고 그 뒤에 굵은 링크가 두 개 더 나타납니다. 옵션은 선택하는 제품 속성에 따라 다릅니다.
+     선택한 조건이 문에 나타나고 그 뒤에 굵은 링크가 두 개 더 나타납니다. 옵션은 선택하는 제품 속성에 따라 다릅니다.
 
-      속성을 설정한 후에는 변경할 수 없습니다. 속성을 변경하려면 줄을 삭제하고 새 속성을 추가해야 합니다. 삭제( )를 클릭하여 조건 라인을 삭제할 수 있습니다.![삭제 아이콘](assets/btn-del-red.png)) 아이콘의 라인 끝입니다.
+     속성을 설정한 후에는 변경할 수 없습니다. 속성을 변경하려면 줄을 삭제하고 새 속성을 추가해야 합니다. 삭제( )를 클릭하여 조건 라인을 삭제할 수 있습니다.![삭제 아이콘](assets/btn-del-red.png)) 아이콘의 라인 끝입니다.
 
       1. 클릭 **[!UICONTROL is]** 및 충족시킬 제품에 대한 조건을 설명하는 비교 연산자를 선택합니다.
 
@@ -74,6 +75,7 @@ ht-degree: 0%
          선택한 항목이 문에 표시되어 조건을 완료합니다.
 
          ![조건 라인 2, 파트 3](assets/ob-listing-rule-condition-is.png){width="500"}
+
    이 조건은 완료되었습니다. 명시된 바와 같이, 이 조건은 귀하의 모든 제품을 의미합니다 [!DNL Commerce] Amazon FBA 속성이 값으로 설정된 카탈로그 `Yes` 지역 및 스토어의 Amazon에 나열할 수 있습니다. 조건 라인을 더 추가하여 적격 제품의 범위를 더 좁힐 수 있습니다.
 
 1. 문에 다른 조건 라인을 추가하려면 1단계로 돌아가서 원하는 조건이 모두 완료될 때까지 프로세스를 반복합니다.

@@ -1,8 +1,9 @@
 ---
 title: Amazon 목록 속성
 description: Amazon Sales Channel은 [!UICONTROL Attributes] 탭에서는 Amazon 및 Commerce 특성 목록과 제품 일치를 위해 특성이 매핑되는 방법을 모니터링할 수 있습니다.
+feature: Sales Channels, Products, Configuration
 exl-id: fc08cd6e-eef9-4e71-82b1-5443e14800ce
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 0%
@@ -29,10 +30,10 @@ ht-degree: 0%
 
    - 또는 비활성화 [설정 편집](./creating-attributes.md#edit-an-attribute) 또는 속성의 속성 값 일치에서 **[!UICONTROL Edit]**.
 
-      속성 편집에는 제품 일치를 위한 속성 매핑 변경이 포함됩니다.
+     속성 편집에는 제품 일치를 위한 속성 매핑 변경이 포함됩니다.
 
 | 필드 | 설명 |
-|--- |--- |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Country] | 에 정의된 영업 활동 국가  **[!DNL Amazon Marketplace]국가** 다음 기간 동안 [스토어 통합](./store-integration.md). |
 | [!UICONTROL ID] | 일반 속성 값 생성자 [!DNL Commerce] 속성이 만들어지는 경우. |
 | [!UICONTROL Amazon Attribute Name] | Amazon에서 가져온 특성의 이름입니다. |

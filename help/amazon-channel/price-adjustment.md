@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널 - [!UICONTROL Price Adjustment]
 description: Amazon 경쟁업체 가격 출처를 식별한 경우 가격 조정을 구성하여 가격 계산을 정의합니다.
+feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 0%
@@ -52,7 +53,7 @@ ht-degree: 0%
 ![지능형 가격 조정 규칙 - 가격 조정](assets/amazon-price-adjustment.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|---|---|
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Price Action] | 가격책정 조정 조치를 선택합니다. 옵션:<br>**[!UICONTROL Decrease By]**- 정의할 시기를 선택합니다. _[!UICONTROL Magento Price Source]_다음에 정의됨: [목록 가격](./listing-price.md) Amazon에 등록하기 전에 규칙의 가격을 낮추어 조정해야 합니다.<br>**[!UICONTROL Increase By]**- 정의할 시기를 선택합니다._[!UICONTROL Magento Price Source]_ 다음에 정의됨: [목록 가격](./listing-price.md) Amazon에 나열하기 전에 규칙에 대해 더 높은 가격을 만들어 조정을 해야 합니다.<br>**[!UICONTROL Match Competitor Price]**- (지능형 가격 조정 규칙만 해당) Amazon 목록 가격을 다음과 일치하도록 변경할 시기를 선택합니다. [가장 낮은 경쟁자](./lowest-competitor-pricing.md) 가격, 경쟁업체 피드백 및 차이 매개 변수를 기반으로 합니다. 이 옵션을 선택하면 _적용_ 및 _조정 금액_ 필드가 제거됩니다. |
 | [!UICONTROL Apply] | 옵션:<br>**[!UICONTROL Apply as percentage]**- 정의할 시기를 선택합니다. _[!UICONTROL Magento Price Source]_다음에 정의됨: [목록 가격](./listing-price.md) 백분율로 조정되었습니다.<br>**[!UICONTROL Apply as fixed amount]**- 정의할 시기를 선택합니다._[!UICONTROL Magento Price Source]_ 다음에 정의됨: [목록 가격](./listing-price.md) 고정 금액으로 조정됩니다. |
 | [!UICONTROL Adjustment Amount] | 필수.<br>다음을 선택한 경우 `Apply as percentage` 대상 **[!UICONTROL Apply]**, 백분율 값을 입력합니다(예: enter `25` 25% 조정).<br>다음을 선택한 경우 `Apply as fixed amount` 대상 **[!UICONTROL Apply]**&#x200B;고정 금액에 대한 숫자 값을 입력합니다(예: enter `25` $25 고정 조정). |

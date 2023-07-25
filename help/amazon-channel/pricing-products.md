@@ -1,9 +1,9 @@
 ---
 title: Amazon 가격 관리
 description: 가격책정 규칙을 사용하여 Amazon 목록의 가격을 COmmerce 스토어와 다르게 설정할 수 있습니다.
-redirect_from: /sales-channels/asc/ob-pricing-rules.html
+feature: Sales Channels, Price Rules
 exl-id: 5c990206-ac72-4ef5-9ed0-ff8d816096eb
-source-git-commit: 077d680da3c98ef9a48958eb548a9d5c1612f74e
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '863'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Amazon 판매 채널을 사용하면 가격 책정 규칙을 설정하여 정의
 - [표준 가격 규칙](./standard-price-rules.md)
 - [지능형 가격 조정 규칙](./intelligent-repricing-rules.md)
 
-   >[!IMPORTANT]
-   >
-   >Amazon 지역이 로 설정된 경우 지능형 가격 조정 규칙이 제대로 작동하지 않습니다. `Inactive` 상태(온보딩 중). 가격 계산은 배송 요금에 따라 달라지며 지역은 다음 범위에 속해야 합니다. `Active` Amazon에서 동기화할 배송 요금의 상태입니다.
-   >
-   >Amazon 계정에서 지역 상태를 업데이트하려면 설정 > 계정 정보 > 휴가 설정으로 이동합니다. 을(를) 참조하십시오 [Amazon: 휴가에 대한 상태 나열](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (판매자 Central 로그인 필요).
+  >[!IMPORTANT]
+  >
+  >Amazon 지역이 로 설정된 경우 지능형 가격 조정 규칙이 제대로 작동하지 않습니다. `Inactive` 상태(온보딩 중). 가격 계산은 배송 요금에 따라 달라지며 지역은 다음 범위에 속해야 합니다. `Active` Amazon에서 동기화할 배송 요금의 상태입니다.
+  >
+  >Amazon 계정에서 지역 상태를 업데이트하려면 설정 > 계정 정보 > 휴가 설정으로 이동합니다. 을(를) 참조하십시오 [Amazon: 휴가에 대한 상태 나열](https://sellercentral.amazon.com/gp/help/help.html?itemID=200135620) (판매자 Central 로그인 필요).
 
 이 기능을 사용하면 다음과 유사한 방식으로 Amazon 가격을 조작할 수 있습니다. [!DNL Commerce] [카탈로그 가격 규칙](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/pricing/pricing-advanced.html). 특정 제품, 특정 카테고리 내의 제품 또는 특정 속성이 있는 제품의 가격을 변경할 수 있는 복잡한 규칙을 만들 수 있습니다.
 
@@ -58,7 +58,7 @@ Amazon 목록에 대한 가격 책정 규칙을 추가할 수 있습니다. 가�
 ## 기본 열
 
 | 열 | 설명 |
-|---|---|
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Name] | 에 설정된 가격책정 규칙의 이름 [가격책정 규칙 일반 설정](./pricing-rule-general-settings.md) |
 | [!UICONTROL Rule Type] | 에 설정된 규칙 유형 [가격책정 규칙 작업](./pricing-rule-actions.md) (표준 가격 규칙 또는 지능형 가격 조정 규칙) |
 | [!UICONTROL Is Active] | 에 설정된 대로 규칙이 활성화되는지 여부 [가격책정 규칙 일반 설정](./pricing-rule-general-settings.md) |

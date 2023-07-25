@@ -1,8 +1,9 @@
 ---
 title: 목록 관리
 description: '다음에 대한 판매 채널 목록 관리: [!DNL Commerce] Adobe Commerce 및 Magento Open Source용 Channel Manager를 사용하여 저장합니다.'
+feature: Sales Channels, Merchandising, Products
 exl-id: 70999552-9ba7-4b10-a8ee-ee99bc4fe837
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -92,9 +93,9 @@ ht-degree: 0%
 
 * **[!UICONTROL Match]**-에서 성공적으로 일치된 제품 식별 [!DNL Walmart].
 
-   제품 속성 값(예: UPC 코드)이 기존 의 UPC 값과 일치하면 일치가 발생합니다 [!DNL Walmart Marketplace] 나열 중. 제품이 일치하면 Commerce 제품 오퍼가 기존 목록에 추가됩니다.
+  제품 속성 값(예: UPC 코드)이 기존 의 UPC 값과 일치하면 일치가 발생합니다 [!DNL Walmart Marketplace] 나열 중. 제품이 일치하면 Commerce 제품 오퍼가 기존 목록에 추가됩니다.
 
-   다음 확인: [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인하는 대시보드.
+  다음 확인: [[!UICONTROL Walmart Marketplace Seller Account Items]](https://seller.walmart.com/items-and-inventory/manage-items) 업데이트된 제품 목록을 검토하고 제품 세부 사항, 가격 및 재고 수량을 확인하는 대시보드.
 
 * **[!UICONTROL Match - Match in Stage]**- 일치하는 제품 식별 [!DNL Walmart] 다음 시간까지 연결할 수 없습니다. [!DNL Walmart Marketplace] 스토어가 라이브 상태입니다. 이 상태의 제품은 [!DNL Walmart Marketplace] 스토어가 활성화되었습니다.
 
@@ -102,4 +103,4 @@ ht-degree: 0%
 
 * **[!UICONTROL Error description]**- 목록 오류에 대한 자세한 정보를 제공합니다.
 
-   오류를 해결한 후 일치하는 제품을 다시 제출합니다. 다음을 참조하십시오 [제품 일치 오류 문제 해결](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).
+  오류를 해결한 후 일치하는 제품을 다시 제출합니다. 다음을 참조하십시오 [제품 일치 오류 문제 해결](connect-listings-to-marketplace.md#troubleshoot-product-match-errors).

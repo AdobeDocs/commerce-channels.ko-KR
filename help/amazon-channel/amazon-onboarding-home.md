@@ -1,9 +1,10 @@
 ---
 title: "온보드 [!DNL Amazon Sales Channel]"
 description: 사전 설정 작업, 온보딩 단계 및 Amazon이 Adobe Commerce 및 Magento Open Source에서 Amazon Sales Channel과 작동하는 방식에 대해 알아봅니다.
-redirect_from: /sales-channels/amazon/amazon-onboarding-home.html
+role: Leader, Admin, User
+feature: Sales Channels, Integration, Tools and External Services
 exl-id: 99b64083-36e6-442e-9d20-4676e78ec3ae
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 6321f17c0e6f9e86bb3f5755dc7710fa68d68b0d
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 0%
@@ -24,7 +25,7 @@ ht-degree: 0%
 >Amazon 판매 채널 설정은 Amazon 목록에 영향을 줍니다. 초기 목록, 가격 및 제품 설정이 기본값으로 설정됩니다. 다음을 수정할 수 있습니다. [스토어 설정](./ob-store-review.md) (목록, 가격 책정, 주문 및 보고) 스토어가 [!DNL Amazon Seller Central] 계정입니다.
 
 | 단계 | 수행 항목 |
-|--- |--- |
+|---------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [사전 설정 작업](./amazon-pre-setup-tasks.md) | 온보딩하기 전에 활성 상태의 가 승인되었는지 확인해야 합니다 [!DNL Amazon Seller Central] 계정입니다. 또한 몇 가지 [!DNL Commerce] 온보딩 전에 완료해야 하는 요구 사항 및 권장 사항. |
 | [Amazon API 키 확인](./amazon-verify-api-key.md) | Amazon 판매 채널에 액세스할 때 [!DNL Commerce] 스토어 구성에 추가한 Amazon API 키를 자동으로 확인하고 확인합니다. API 키가 추가되지 않았거나 유효하지 않은 경우 [Amazon API 키 추가 또는 업데이트](./amazon-verify-api-key.md). |
 | [스토어 통합](./store-integration.md) | 이 단계에는 Amazon 판매 채널 스토어를 만든 다음 사이트에 연결하는 작업이 포함되어 있습니다. [!DNL Amazon Seller Central] 계정입니다. 에 대한 기본 로그인 자격 증명이 필요합니다. [!DNL Amazon Seller Central] 이 단계의 계정(판매자 계정을 만드는 데 사용되는 이메일 또는 전화)입니다. |

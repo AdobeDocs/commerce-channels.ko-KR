@@ -1,8 +1,9 @@
 ---
 title: 상태/탭별 Amazon 제품 목록 관리
 description: Amazon 목록을 관리할 때 상태에 따라 목록에 작업을 적용할 수 있습니다.
+feature: Sales Channels, Products
 exl-id: 33effdd8-baa9-4fc5-8c7e-313175eb7e9c
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 ![제품 목록 탭](assets/amazon-product-listings-tabs.png){width="600" zoomable="yes"}
 
 | 탭 | 설명 | 작업 |
-|--- |--- |--- |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [[!UICONTROL Incomplete]](./incomplete-listings.md) | 다음을 표시합니다. [!DNL Commerce] 정의된 목록 설정을 충족하지만 목록에 대해 Amazon에 필요한 정보가 없는 카탈로그 제품.<br><br>If _[!UICONTROL Automatic List Action]_이(가) (으)로 설정됨 `Automatically List Eligible Products` (으)로 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 설정, 이 항목은&#x200B;**[!UICONTROL In Progress Listings]**. | [!UICONTROL Reattempt auto match to Amazon Listing]<br>[[!UICONTROL Update Required Info]](./amazon-manually-update-incomplete-listing.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL New Third Party]](./new-third-party-listings.md) | 의 제품과 일치하지 않는 기존 Amazon 목록(Amazon에서 받은 정보 기반)을 표시합니다. [!DNL Commerce] 카탈로그. | [[!UICONTROL Create New Catalog Product(s)]](./creating-assigning-catalog-products.md)<br>자동 일치 시도<br>[[!UICONTROL Assign Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL Create New Catalog Product]](./creating-assigning-catalog-products.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |
 | [[!UICONTROL Ready to List]](./ready-to-list.md) | Amazon 목록을 만들 준비가 되었지만 새 목록을 자동으로 게시하지 않도록 스토어가 설정된 카탈로그 제품을 표시합니다. 이 탭은 새 목록을 수동으로 게시하는 데 사용됩니다.<br><br>If _[!UICONTROL Automatic List Action]_이(가) (으)로 설정됨 `Do Not Automatically List Eligible Products` (으)로 [_[!UICONTROL Product Listing Actions]_](./product-listing-actions.md) 설정, 이 항목은&#x200B;**[!UICONTROL In Progress Listings]**. | [[!UICONTROL Publish Product to Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL Publish On Amazon]](./publish-listings-manually.md)<br>[[!UICONTROL View Details]](./product-listing-details.md) |

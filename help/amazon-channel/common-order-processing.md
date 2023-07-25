@@ -1,8 +1,9 @@
 ---
 title: 일반적인 Amazon 주문 처리 작업
 description: 해당 항목 사용 [!DNL Commerce] 주문 활동 및 처리를 관리하기 위해 Amazon 주문에 대해 생성된 주문 [!UICONTROL Commerce] 관리자.
+feature: Sales Channels, Orders
 exl-id: a44f36f0-db18-4de5-9c5b-cc68f4793008
-source-git-commit: 6d221c2c2e9a37a42e9d660aceb3c525fedc511d
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 0%

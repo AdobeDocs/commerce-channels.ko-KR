@@ -1,8 +1,10 @@
 ---
 title: 에 대한 우수 사례 및 제한 사항 [!DNL Amazon sales channel]
 description: Adobe Commerce 및 Magento Open Source용 Amazon 판매 채널을 사용할 때의 모범 사례와 제한 사항을 검토하십시오.
+role: Leader, Admin, User
+feature: Sales Channels, Best Practices
 exl-id: 7f7faae1-7aa7-413c-b534-1039e6a35173
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 0%
@@ -23,10 +25,9 @@ ht-degree: 0%
 
 - 영국 지역의 경우 다음에 등록하는 것이 좋습니다. [Amazon VAT 계산 서비스](https://sell.amazon.co.uk/learn/vat-resources/){target="_blank"} Amazon 판매 채널을 온보딩하기 전에
 
-
-   >[!NOTE]
-   >
-   >Amazon에서 VAT 계산 서비스 계정을 확인하고 활성화하는 데 10~14일이 걸릴 수 있습니다.
+  >[!NOTE]
+  >
+  >Amazon에서 VAT 계산 서비스 계정을 확인하고 활성화하는 데 10~14일이 걸릴 수 있습니다.
 
 제한 사항은 다음과 같습니다.
 

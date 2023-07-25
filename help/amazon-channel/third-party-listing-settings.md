@@ -1,9 +1,9 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Third-party Listings]
+title: AMAZON SALES CHANNEL - [!UICONTROL Third-party Listings]
 description: 서드파티 목록 설정 업데이트에서는 상거래 카탈로그가 기존 Amazon Seller Central 목록에서 제품을 가져오는지 여부를 결정합니다.
-redirect_from: /sales-channels/asc/ob-third-party-listings.html
+feature: Sales Channels, Products
 exl-id: bc82775a-6f29-49b5-a80b-20e171eaf8f4
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '518'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Amazon 목록을 가져오려면 [!DNL Commerce] Amazon 판매자 SKU 및 Amazon
    - `Import Listing` - (기본값) Amazon 목록의 제품 정보를 로 가져올 시기를 선택합니다. [!DNL Commerce] 제품 카탈로그. 이 옵션은 기본값이며 권장됩니다.
 
    - `Do Not Import Listing` - 수동으로 수행하려는 경우 선택 [새 제품 만들기 및 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) (으)로 [!DNL Commerce] Amazon 목록 카탈로그.
+
    >[!NOTE]
    >다음 옵션 필드는 로 설정된 경우에만 활성화됩니다. `Import Listing`.
 
@@ -48,7 +49,7 @@ Amazon 목록을 가져오려면 [!DNL Commerce] Amazon 판매자 SKU 및 Amazon
 ![서드파티 목록](assets/amazon-third-party-listings.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|---|---|
+|--------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Import Third Party Listings] | 필수. 옵션:<ul><li>**[!UICONTROL Import Listing]** - (기본값) Amazon 목록의 제품 정보를 로 가져올 시기를 선택합니다. [!DNL Commerce] 제품 카탈로그. </li><li>**[!UICONTROL Do Not Import Listing]** - 수동으로 수행하려는 경우 선택 [새 제품 만들기 및 할당](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html) (으)로 [!DNL Commerce] Amazon 목록 카탈로그.</li></ul> |
 | [!UICONTROL Attribute That Contains Amazon Seller SKU] | 로 설정된 경우에만 활성화됨 `Import Listing`.<br>다음을 선택합니다. [!DNL Commerce] Amazon 판매자 SKU의 Amazon 속성과 일치하는 속성. 이 속성이 없는 경우 다음을 참조하십시오 [Amazon 일치를 위한 Amazon 제품 속성 만들기](./ob-creating-magento-attributes.md). 필요한 경우 다음을 검토합니다. [!DNL Commerce] [속성](./managing-attributes.md) 이 Amazon 데이터와 일치하는 속성을 만들거나 편집합니다. |
 | [!UICONTROL Attribute That Contains Amazon ASIN] | 로 설정된 경우에만 활성화됨 `Import Listing`.<br>다음을 선택합니다. [!DNL Commerce] Amazon ASIN의 Amazon 속성과 일치하는 속성. 이 속성이 없는 경우 다음을 참조하십시오 [Amazon 일치를 위한 Amazon 제품 속성 만들기](./ob-creating-magento-attributes.md). 필요한 경우 다음을 검토합니다. [!DNL Commerce] [속성](./managing-attributes.md) 이 Amazon 데이터와 일치하는 속성을 만들거나 편집합니다. |

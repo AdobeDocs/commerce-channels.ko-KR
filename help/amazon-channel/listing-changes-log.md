@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널 - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel은 Amazon 판매자 계정의 영향을 받는 변경 사항을 모니터링하는 데 도움이 되는 목록 변경 로그 를 제공합니다.
+feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 0%
@@ -22,7 +23,7 @@ Amazon 판매 채널 홈 페이지는 몇 가지 공통점을 공유합니다. [
 ## 기본 열
 
 | 열 | 설명 |
-|--- |--- |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Amazon Store Name] | Amazon 스토어를 설정할 때 정의된 스토어 이름. 을(를) 참조하십시오 [스토어 통합](./store-integration.md). |
 | [!UICONTROL Seller SKU] | 제품, 옵션, 가격 및 제조업체를 식별하기 위해 Amazon이 제품에 할당한 SKU(Stock Keeping Unit). |
 | [!UICONTROL Listing Action] | 목록에 적용된 변경 유형. |

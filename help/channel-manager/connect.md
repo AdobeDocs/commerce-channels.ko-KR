@@ -1,10 +1,11 @@
 ---
 title: '연결 대상 [!DNL Commerce] 서비스'
 description: '채널 관리자 연결 대상: [!DNL Commerce] 를 사용하여 데이터 동기화 및 [!DNL Commerce] 인스턴스, 채널 관리자 및 기타 지원 서비스.'
-role: User
+role: Admin, Developer
 level: Intermediate
+feature: Sales Channels, Install, Integration
 exl-id: 97da2142-ecef-44dc-91d8-5dc55c713d31
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 0%
@@ -22,7 +23,7 @@ ht-degree: 0%
 
 - **상거래 계정**-에 소프트웨어 설치 [!DNL Commerce] 인스턴스에 대한 소유자 또는 관리자 액세스 권한이 있는 계정이 있어야 합니다. [!DNL Commerce] 플랫폼.
 
-   계정 소유자 및 수퍼 사용자는 [!DNL Commerce] 인스턴스 또는 를 사용하는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
+  계정 소유자 및 수퍼 사용자는 [!DNL Commerce] 인스턴스 또는 를 사용하는 명령줄에서 [!DNL Commerce] CLI 명령 `admin:user:create`.
 
 - **Adobe Commerce 프로덕션 API 키**-이 [key](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/integration-services/saas.html#genapikey) 채널 관리자에 필요한 서비스에 대한 API 액세스를 활성화합니다. 이 키에는 공개 및 비공개 자격 증명이 필요합니다.
 

@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널 - [!UICONTROL Listing Rules]
 description: 목록 규칙 사용에 따라 Amazon 마켓플레이스 목록으로 게시되는 상거래 카탈로그 제품이 결정됩니다.
+feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 0%
@@ -38,7 +39,7 @@ ht-degree: 0%
 다음을 참조하십시오 [예: 조건 정의](./ob-define-condition-example.md).
 
 | 필드 | 설명 |
-|---|---|
+|-------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Websites] | 사용 가능한 옵션은 [웹 사이트](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) 을(를) (으)로 설정했습니다. [!DNL Commerce] 구성. Amazon에 나열된 적격 제품에 대한 웹 사이트를 선택합니다. 각 웹 사이트에는 Amazon 판매 채널에서 생성한 고유한 Amazon 스토어가 필요하므로 하나의 웹 사이트만 선택할 수 있습니다. |
 | [!UICONTROL Conditions] | 을(를) 정의하는 데 사용됨 [!DNL Commerce] Amazon 지역 내 제품 적격성에 대한 속성. 다음을 참조하십시오 [예: 조건 정의](./ob-define-condition-example.md). |
 
@@ -67,7 +68,7 @@ Amazon 목록이 규칙 및 정의된 조건과 비교됩니다. 그런 다음 �
 
 - **[!UICONTROL Ineligible Listings]** - 나열된 제품은 현재 나열 규칙 및 조건에 따라 Amazon을 나열할 수 없습니다.
 
-   부적격 제품은 Amazon에 게시되지 않습니다. 부적격 제품이 이미 Amazon에 나열되어 있고 Amazon 목록을 다음에 일치시키는 경우 [!DNL Commerce] 카탈로그 제품, Amazon 목록 수량이 다음으로 변경됨: `0` 제품을 판매하지 않도록 합니다. 목록을 수동으로 제거하려면 다음을 참조하십시오 [Amazon 목록 종료](./end-listings-manually.md). Amazon 요구 사항이 적용되지 않는 제품은 여기에 나열되지 않습니다. 이러한 제품은 다음 목록에 있습니다. [비활성 목록 탭](./inactive-listings.md).
+  부적격 제품은 Amazon에 게시되지 않습니다. 부적격 제품이 이미 Amazon에 나열되어 있고 Amazon 목록을 다음에 일치시키는 경우 [!DNL Commerce] 카탈로그 제품, Amazon 목록 수량이 다음으로 변경됨: `0` 제품을 판매하지 않도록 합니다. 목록을 수동으로 제거하려면 다음을 참조하십시오 [Amazon 목록 종료](./end-listings-manually.md). Amazon 요구 사항이 적용되지 않는 제품은 여기에 나열되지 않습니다. 이러한 제품은 다음 목록에 있습니다. [비활성 목록 탭](./inactive-listings.md).
 
 - **[!UICONTROL Eligible Listings]** - 나열된 제품은 현재 목록 규칙 및 조건에 따라 Amazon을 나열할 수 있으며 Amazon 요구 사항도 준수할 수 있습니다. 이 목록에는 가져오는 기존 Amazon 목록이 포함되어 있습니다(있는 경우). **서드파티 목록 가져오기** 을 로 설정 `Import Listing` 위치: [목록 설정](./third-party-listing-settings.md)).
 
@@ -94,7 +95,7 @@ Amazon 목록이 규칙 및 정의된 조건과 비교됩니다. 그런 다음 �
 ### 미리 보기 레코드 나열
 
 | 필드 | 설명 |
-|--- |--- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Product ID] | 에 할당된 고유한 순차적 번호 [!DNL Commerce] 카탈로그 제품(추가될 때). |
 | [!UICONTROL Thumbnail] | 기본 제품 이미지의 썸네일을 표시합니다. |
 | [!UICONTROL Name] | 에서 관리되는 제품 이름 [!DNL Commerce] [제품 격자](https://experienceleague.adobe.com/docs/commerce-admin/catalog/products/products-list.html). |

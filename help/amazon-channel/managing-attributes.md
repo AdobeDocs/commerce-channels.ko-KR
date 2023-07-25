@@ -1,8 +1,9 @@
 ---
 title: Amazon 목록의 속성 관리
 description: Amazon 속성에 대한 Commerce 제품 속성 매핑을 관리하여 시스템 간에 정확한 제품 정보를 제공할 수 있습니다.
+feature: Sales Channels, Products, Configuration
 exl-id: 6f9ded2d-292e-4b7e-8c10-48f478a4383e
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 0%

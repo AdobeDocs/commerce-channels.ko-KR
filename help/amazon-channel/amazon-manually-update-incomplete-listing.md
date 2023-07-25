@@ -1,8 +1,9 @@
 ---
 title: Amazon 필수 정보 업데이트
 description: Amazon 판매 채널은 Amazon에 필요한 정보가 누락된 상거래 카탈로그 제품을 모니터링하는 미완료 탭을 제공합니다.
+feature: Sales Channels, Merchandising, Catalogs, Products
 exl-id: f278cd50-8f04-452e-b9c2-c87820f9faf2
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 0%

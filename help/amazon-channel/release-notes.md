@@ -1,8 +1,9 @@
 ---
 title: '''[!DNL Amazon Sales Channel] 릴리스 정보'
 description: 모든 항목에 대한 자세한 내용은 릴리스 정보 를 참조하십시오 [!DNL Amazon Sales Channel] 릴리스.
+feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '1933'
 ht-degree: 0%
@@ -16,6 +17,7 @@ ht-degree: 0%
 > [!DNL Amazon sales channel] 는 cloud infrastructure 버전 2.3.x 및 2.4.x에서 Magento Open Source, Adobe Commerce 및 Adobe Commerce이 있는 인스턴스에 설치할 수 있습니다. 확장 프로그램은 Adobe Commerce 2.1, Magento Open Source 2.2 또는 Magento 1에서 더 이상 지원되지 않습니다.
 > <br>다음에 대한 지원을 사용할 수 있습니다. [!DNL Amazon sales channel]  Adobe Commerce 2.3.x 버전에서만 버전 4.0.0 및 4.1.0을 사용할 수 있습니다.
 > <br>[!DNL Amazon sales channel] 버전 4.2.0+는 Adobe Commerce 2.3.x 버전과 호환되지만 Adobe Commerce 2.4.x 버전에서만 지원할 수 있습니다.
+>
 
 이 릴리스 노트는 의 초기 릴리스에 대해 설명합니다. [!DNL Amazon sales channel] 및 포함:
 

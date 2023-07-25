@@ -1,8 +1,10 @@
 ---
 title: 재고 및 가격 갱신
 description: '[!DNL Channel Manager] 다음 기간 동안 재고 및 가격 업데이트 동기화: [!DNL Commerce] 저장 및 [!DNL Walmart Marketplace] 를 통해 판매 채널 작업을 관리할 수 있습니다. [!DNL Commerce] 관리자'
+feature: Sales Channels, Merchandising, Inventory, Tools and External Services
+role: Leader, Admin, User
 exl-id: 4dd9fa4a-b12f-4795-a7b2-84ea0fc26aa5
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 0%

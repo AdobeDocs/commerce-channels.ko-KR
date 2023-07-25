@@ -9,7 +9,7 @@ feature-set: Commerce
 git-repo: https://github.com/AdobeDocs/commerce-channels.ko-KR
 role: User
 index: true
-source-git-commit: da94226111c658048824453bb8f448b0f1e4c3b8
+source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 다음 `metadata.md` 파일에는 사용 안내서로 전달되는 저장소 수준 메타데이터가 포함되어 있습니다. `TOC.md` 저장소에 있는 파일입니다. 모든 사용 안내서의 metadata.md 콘텐츠를 변경하려면 다음 중 하나를 수행합니다 `TOC.md` 파일.
 
 | 메타데이터 | 기능 |
-|--- |--- |
+|---------------------|---------------------------------------------------------------------------------|
 | solution-title | 문서 헤더에서 링크로 사용됨 |
 | solution-hub-url | helpx 허브 페이지를 엽니다. |
 | solution-icon | 솔루션 제목 옆에 솔루션 아이콘을 표시합니다. 아직 구현되지 않음 |
@@ -34,6 +34,6 @@ ht-degree: 0%
 TOC.md 파일에서
 
 | 메타데이터 | 기능 |
-|--- |--- |
+|------------------|--------------------------------|
 | user-guide-title | 문서 헤더에서 링크로 사용됨 |
 | user-guide-url | helpx 허브 페이지를 엽니다. |

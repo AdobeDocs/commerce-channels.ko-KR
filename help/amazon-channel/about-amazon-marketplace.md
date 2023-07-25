@@ -1,8 +1,10 @@
 ---
 title: "정보 [!DNL Amazon Marketplace]"
 description: 제품 카탈로그를 Amazon Marketplace의 목록으로 활용하여 Adobe Commerce 또는 Magento Open Source 스토어의 범위를 확장합니다.
+role: Leader, Admin, User
+feature: Sales Channels, Tools and External Services
 exl-id: d4943d40-773e-4635-aca4-ae40f8ada7bd
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 0%

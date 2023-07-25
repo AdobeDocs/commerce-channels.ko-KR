@@ -1,8 +1,9 @@
 ---
 title: '주문 보기 및 관리 [!DNL Channel Manager]'
 description: '보기 및 관리 [!DNL Walmart Marketplace] 주문 [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source의 경우'
+feature: Sales Channels, Orders
 exl-id: c2779c72-4793-445c-858a-867ea8389662
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1025'
 ht-degree: 0%
@@ -123,7 +124,7 @@ Storefront 관리자로부터 주문 데이터를 볼 수 있습니다. [!DNL Ch
 
 - **[!UICONTROL Canceled]**- 다음에서 취소된 주문 [!DNL Commerce] 저장.
 
-   주문 취소가 완료되면 [!DNL Commerce] 반품된 품목을 반영하도록 재고 수량이 업데이트됩니다. 그런 다음, [!DNL Channel Manager] 업데이트를 로 동기화합니다. [!DNL Walmart Marketplace].
+  주문 취소가 완료되면 [!DNL Commerce] 반품된 품목을 반영하도록 재고 수량이 업데이트됩니다. 그런 다음, [!DNL Channel Manager] 업데이트를 로 동기화합니다. [!DNL Walmart Marketplace].
 
 - **[!UICONTROL Return requested]**—Walmart Marketplace에서 배송된 주문 품목의 반품을 요청하는 경우 `Return requested` 에 링크가 표시됩니다. [!UICONTROL Status details] 열. 링크를 선택하면 [!UICONTROL Returns] 대시보드를 사용하여 반품을 조회하고 환불 프로세스를 관리합니다.
 
@@ -172,6 +173,6 @@ Commerce 상점 첫 화면의 [!DNL Walmart Marketplace] 주문 데이터에 다
 
 - **주문한 항목**- 이 섹션에는 모든 상거래 주문에 대한 주문 항목이 나열됩니다. 다음 [!UICONTROL Qty] 열은 주문 항목에 대한 상태 기록을 제공합니다. 예를 들어 주문의 송장이 발행되고, 배송되고, 환불된 경우 상태 전환을 볼 수 있습니다.
 
-   ![주문 상세내역 주문 품목 상태 내역 [!DNL Walmart Marketplace] 주문 수](assets/order-detail-status-history.png){width="600" zoomable="yes"}
+  ![주문 상세내역 주문 품목 상태 내역 [!DNL Walmart Marketplace] 주문 수](assets/order-detail-status-history.png){width="600" zoomable="yes"}
 
 다음을 선택하여 품목 송장 및 환불 상세내역 조회 [!UICONTROL Invoice] 및 [!UICONTROL Credit Memo] 탐색 메뉴의 옵션을 선택합니다. 다음에서 직접 대변 메모에 액세스할 수도 있습니다. [[!UICONTROL Returns]](return-refund-orders.md) 판매 채널 스토어의 대시보드입니다.

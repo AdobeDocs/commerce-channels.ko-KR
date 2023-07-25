@@ -1,8 +1,11 @@
 ---
 title: "[!DNL Buy Box] 경쟁업체 Amazon 목록 가격"
 description: Amazon Sales Channel은 [!UICONTROL Buy Box Competitor Pricing] Amazon에서 경쟁업체의 가격 포지셔닝 방법을 이해하는 데 도움이 되는 탭입니다.
+role: Admin
+level: Intermediate
+feature: Sales Channels, B2B, Tools and External Services, Merchandising, Integration
 exl-id: 2d03565a-5246-435a-8da8-55b7e67c4ad8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 0%
@@ -34,7 +37,7 @@ ht-degree: 0%
    목록을 보유하는 판매자와 가격을 표시합니다. [[!DNL Buy Box]](./buy-box-competitor-pricing.md) Amazon에서
 
 | 열 | 설명 |
-|--- |--- |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL ASIN] | 항목을 식별하는 10개의 문자 및/또는 숫자로 구성된 고유 블록입니다.<br><br>책의 경우 ASIN은 ISBN 번호와 동일하지만 다른 모든 제품의 경우 항목이 카탈로그에 업로드되면 새 ASIN이 만들어집니다. 제품 세부 사항 페이지에서 항목의 ASIN을 항목과 관련된 추가 세부 사항(예: 크기, 페이지 수 또는 디스크 수)과 함께 찾을 수 있습니다. |
 | [!UICONTROL Is Seller] | 판매자가 목록에 대한 Buy Box 위치를 획득했는지 보여 줍니다. |
 | [!UICONTROL Condition] | 다음 [조건](./product-listing-condition.md) 제품. |

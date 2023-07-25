@@ -1,8 +1,9 @@
 ---
 title: Amazon 주문 세부 사항
 description: Adobe Commerce 또는 Magento Open Source 관리자에서 Amazon Marketplace 주문에 대한 세부 사항을 봅니다.
+feature: Sales Channels, Orders
 exl-id: a85bb6b3-817d-4859-a815-41777f4b8667
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 0%
@@ -35,7 +36,6 @@ ht-degree: 0%
 > - `RecipientName`
 > - `CustomizedURL`
 > - `GiftMessageText`
-
 
 ### 주문 및 배송 세부 사항 탭
 

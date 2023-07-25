@@ -1,8 +1,9 @@
 ---
 title: Amazon 판매 채널에 대한 스토어 설정 검토
 description: Amazon 판매 채널 온보딩 프로세스를 완료한 후 다음을 검토하고 업데이트합니다. [!DNL Commerce] 스토어 설정.
+feature: Sales Channels, Configuration
 exl-id: 7f1ea19b-f473-4a8e-9a91-b06d6b733664
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%

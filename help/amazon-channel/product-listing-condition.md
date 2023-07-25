@@ -1,9 +1,9 @@
 ---
 title: Amazon 판매 채널 - 제품 목록 조건
 description: 제품 목록 조건 설정을 사용하여 상거래 제품을 "신규" 또는 "재생"과 같은 Amazon 제품 조건에 매핑합니다.
-redirect_from: /sales-channels/asc/ob-product-listing-condition.html
+feature: Sales Channels, Products, Merchandising
 exl-id: f37ce3cf-7bfc-4dee-931e-a603008a71b8
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 0%
@@ -60,7 +60,7 @@ Amazon의 경우 정의된 조건을 가지려면 제품 목록이 필요합니�
 ![제품 목록 조건](assets/amazon-product-listing-condition.png){width="600" zoomable="yes"}
 
 | 필드 | 설명 |
-|---|---|
+|------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Listing Product Condition] | 제품 목록의 상태. 옵션: `New` / `Refurbished` / `Used: Like New` / `Used: Very Good` / `Used: Good` / `Used: Acceptable` / `Collectible: Like New` / `Collectible: Very Good` / `Collectible: Good` / `Collectible: Acceptable` / `Assign Condition Using Product Attribute`<br><br>단일 제품 조건을 판매하는 경우 표준 Amazon 조건 중 하나를 선택하십시오. 다음의 경우 [!DNL Commerce] 카탈로그에 다양한 조건의 제품이 포함되어 있습니다. `Assign Condition Using Product Attribute`. |
 | [!UICONTROL Condition Attribute] | 다음 [!DNL Commerce] 제품에 대한 조건을 정의하는 속성입니다. Amazon 조건 속성에 매핑하기 위해 만든 Magneto 속성을 선택합니다. 다음에서 [사전 설정 작업 예](./ob-creating-magento-attributes.md) 이름을 로 지정할 것을 권장합니다. `Amazon Condition`. 선택하면 표준 Amazon 조건을 매핑하기 위한 추가 필드가 표시됩니다. |
 | [!UICONTROL Additional Condition fields] | 각 표준 Amazon 조건에 대해 해당 조건을 선택합니다. 옵션은 다음을 수행할 때 추가한 조건 레이블입니다. [이(가) Amazon 조건 속성을 만들었습니다.](./ob-creating-magento-attributes.md).<br><br>에 제품이 있는 경우 `Used` 또는 `Collectible` 조건은 구분하지만 더 이상 구분하지 않습니다. 매핑할 수 있습니다. `Used` 또는 `Collectible` Amazon 조건 및 다른 조건은 비워 둡니다. 이 메서드는 모두 매핑합니다. `Used` 또는 `Collectible` 단일 Amazon 사용 또는 수집 가능 조건에 대한 조건. |

@@ -3,8 +3,11 @@ title: '[!DNL Amazon Sales Channel] 가이드'
 description: 다음에 대한 포괄적인 정보 [!DNL Amazon sales channel] Adobe Commerce 및 Magento Open Source 관리자(설치 및 온보딩 포함)
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
+role: Leader, Admin, User
+level: Intermediate
+recommendations: noCatalog
 exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
-source-git-commit: 901d856067cd9d236727edc8bde354820791c411
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 0%
@@ -27,7 +30,7 @@ ht-degree: 0%
 >이 안내서에서는 Adobe Commerce 및 Magento Open Source의 핵심 기능을 다루지 않습니다.
 
 | 영역 | 설명 |
-|----|----|
+|-------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Amazon 판매 채널 소개](./overview.md) | Amazon 영업 채널 기본 사항, 주요 기능, 모범 사례 등에 대해 자세히 알아보십시오. |
 | [Amazon 판매 채널 온보드](./amazon-onboarding-home.md) | Amazon 스토어를 신속하게 만들고 와 통합 [!DNL Amazon Seller Central]. Amazon 판매 채널을 가동하여 판매를 시작하십시오. |
 | [Amazon sales channel 홈](./amazon-sales-channel-home.md) | Amazon 판매 채널 홈 페이지와 사용 가능한 옵션 및 작업에 대해 자세히 알아보십시오. Amazon 스토어에 대한 요약 정보를 보고 스토어 세부 정보 및 설정에 액세스할 수 있습니다. |
@@ -40,7 +43,7 @@ ht-degree: 0%
 ## 추가 설명서
 
 | 설명서 리소스 | 설명 |
-|----------------------- | ----------- |
+|---------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Adobe Commerce 2.4 Merchant 설명서](https://experienceleague.adobe.com/docs/commerce-admin/user-guides/home.html) | Adobe Commerce 및 Magento Open Source 모두를 위한 판매자 중심 설명서 |
 | [Adobe Commerce 설명서를 위한 서비스](https://experienceleague.adobe.com/docs/commerce-merchant-services/user-guides/home.html) | 판매자가 비즈니스의 주요 구성 요소를 스토어와 통합하는 데 도움이 되는 서비스 컬렉션을 지원하는 설명서입니다. |
 | [클라우드 인프라의 Commerce 안내서](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/overview.html) | 관리되고 자동화된 호스팅 클라우드 플랫폼에서의 Adobe Commerce 배포에 대한 단계별 절차. |

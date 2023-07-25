@@ -1,8 +1,9 @@
 ---
 title: Amazon 주문 관리
 description: 주문 설정에서 주문 가져오기를 활성화하여 Commerce 관리자의 Amazon 주문을 보다 쉽게 관리할 수 있습니다.
+feature: Sales Channels, Orders
 exl-id: 018a8936-2f03-4a2d-b9af-6b72729ca709
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
@@ -30,7 +31,7 @@ Amazon 주문 관리 방법은 주문에서 주문 가져오기의 활성화 여
 주문이 Amazon에 접수되고 [주문 가져오기](./order-settings.md) 이(가) 활성화되면 다음 프로세스가 시작됩니다.
 
 | 변경 | 작업 |
-|---|---|
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 주문이 Amazon에 접수됩니다. | <ul><li>Amazon이 주문 상태를 다음으로 설정 `Pending`.</li><li>주문 정보가 (으)로 전송됨 [!DNL Commerce].</li><li>주문이 다음에 추가됨 [_Amazon 주문_ 표](./amazon-orders-all.md) 포함 `Pending` 상태.</li></ul> |
 | Amazon이 주문 상태를 다음으로 변경 `Unshipped`. | <ul><li>상태 변경 사항이 (으)로 전송됨 [!DNL Commerce].</li><li>다음에서 [_Amazon 주문_ 표](./amazon-orders-all.md), 주문 상태가 다음으로 변경됨 `Unshipped`.</li><li>다음에서 [[!DNL Commerce] 주문 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), 해당 [!DNL Commerce] 주문은 `Processing` 상태.</li></ul> |
 | 위치 [[!DNL Commerce] 주문 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html), [!DNL Commerce] 주문이 처리되고 상태가 다음으로 변경됨 `Shipped`. | <ul><li>다음에서 [_Amazon 주문_ 표](./amazon-orders-all.md), 주문 상태가 다음으로 변경됨 `Shipped`.</li><li>다음 cron 작업에서 주문 상태가 다음으로 변경됩니다. `Complete` 다음에서 [[!DNL Commerce] 주문 워크플로우](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html).</li></ul> |
@@ -40,7 +41,7 @@ Amazon 주문 관리 방법은 주문에서 주문 가져오기의 활성화 여
 해당 항목이 생성되지 않게 하는 몇 가지 시나리오가 있습니다 [!DNL Commerce] 주문. [!DNL Commerce] 다음 문제가 발생할 때 수신되는 주문에 대해서는 주문이 생성되지 않습니다.
 
 | 시나리오 | 솔루션 |
-|---|---|
+|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 항목이 다음에 존재하지 않음 [!DNL Commerce] 카탈로그. | [제품 만들기](./creating-assigning-catalog-products.md) (으)로 [!DNL Commerce] 카탈로그 및 [수동 일치](./creating-assigning-catalog-products.md) 제품에 적용합니다. |
 | 카탈로그의 항목이 비활성화되었습니다. | 다음을 확인하십시오. [제품 상태](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) 이(가) 활성화되었습니다. |
 | 주문한 상품이 품절입니다. | 업데이트 또는 구성 [제품 옵션](https://experienceleague.adobe.com/docs/commerce-admin/inventory/configuration/product-options.html) 수량 및 출처의 경우. |

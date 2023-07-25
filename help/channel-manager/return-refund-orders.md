@@ -1,8 +1,9 @@
 ---
 title: 반품 및 환불 주문
 description: '다음에서 수신된 반품 요청에 대한 전체 또는 부분 환불 발급 지침 [!DNL Walmart Marketplace] 출처: [!DNL Channel Manager] Adobe Commerce 및 Magento Open Source.'
+feature: Sales Channels, Orders, Shipping/Delivery, Customer Service
 exl-id: 45617011-4add-444c-819b-6bb4164d03e4
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1184'
 ht-degree: 0%
@@ -116,7 +117,7 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
 ## 재방문 시나리오
 
-다음 시나리오에서는에서 다양한 유형의 재방문 요청에 대해 환불을 발행하는 방법을 설명합니다 [!DNL Channel Manager].
+다음 시나리오에서는에서 다양한 유형의 반품 요청에 대해 환불을 발행하는 방법을 설명합니다 [!DNL Channel Manager].
 
 * **전액 반환**—Walmart Marketplace 반품 요청이 주문의 모든 품목에 대한 것이면 대변 메모 수량을 업데이트하여 모든 품목을 환불합니다.
 
@@ -138,7 +139,7 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
    * 다음을 선택하여 결과를 검토할 수 있습니다. **[!UICONTROL Returns]** 탭.
 
-      다음에서 반환 정보에 액세스할 수도 있습니다. [!UICONTROL Orders] 페이지를 가리키도록 업데이트하는 중입니다. 다음을 찾습니다. [!UICONTROL Shipped] 반품 요청이 있는 주문. 그런 다음 `Return requested` 링크 [!UICONTROL Status Details] 열을 사용하여 요청을 보고 처리합니다.
+     다음에서 반환 정보에 액세스할 수도 있습니다. [!UICONTROL Orders] 페이지를 가리키도록 업데이트하는 중입니다. 다음을 찾습니다. [!UICONTROL Shipped] 반품 요청이 있는 주문. 그런 다음 `Return requested` 링크 [!UICONTROL Status Details] 열을 사용하여 요청을 보고 처리합니다.
 
 1. 반환 테이블에서 *[!UICONTROL Received]* 상태.
 
@@ -148,13 +149,13 @@ Storefront 관리자는 판매 채널 스토어를 열고 를 선택하여 Chann
 
    * 다음에서 [!UICONTROL Status Details] 열에서 선택 **[!UICONTROL Create credit memo]** 에서 주문 세부 사항 페이지를 열려면 [!DNL Commerce].
 
-      주문이 송장 발행되지 않은 경우 주문 세부 사항 페이지에 주문 세부 사항을 생성하라는 오류 메시지가 표시됩니다. 선택 **[!UICONTROL Create invoice]**. 그런 다음, [송장 생성 및 저장](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
+     주문이 송장 발행되지 않은 경우 주문 세부 사항 페이지에 주문 세부 사항을 생성하라는 오류 메시지가 표시됩니다. 선택 **[!UICONTROL Create invoice]**. 그런 다음, [송장 생성 및 저장](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/invoices.html).
 
    * 주문 세부 사항 페이지에서 **[!UICONTROL Credit Memo]**.
 
    * 위치 [!UICONTROL Items to Refund] 의 섹션 [!UICONTROL Credit Memo], 업데이트 **[!UICONTROL Qty to refund]** 및 **[!UICONTROL Return to Stock]** 반환 요청에 포함된 항목에 대한 정보입니다.
 
-      반환 요청에 나열된 항목만 반환해야 합니다.
+     반환 요청에 나열된 항목만 반환해야 합니다.
 
    * 댓글을 추가하려면 **[!UICONTROL Credit Memo Comments]**
 

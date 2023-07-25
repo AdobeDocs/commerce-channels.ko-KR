@@ -1,10 +1,11 @@
 ---
 title: 온보드 [!DNL Channel Manager]
 description: '인스턴스를 [!DNL Channel Manager] 몇 가지 온보딩 단계를 완료하여 서비스를 제공합니다.'
-role: User
 level: Intermediate
+role: Leader, Admin, Developer
+feature: Sales Channels, Install
 exl-id: 7c4ccd9e-ae32-4511-8d1e-baa690604612
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
@@ -28,22 +29,21 @@ Channel Manager 사용 요구 사항을 검토하고 필요한 계정 정보와 
 
    - **이미지 ID**-[로그인](https://account.magento.com/customer/account/login/) (으)로 [!DNL Commerce] ID를 가져올 계정 **[!UICONTROL My Account - Magento settings]**.
 
-      ![[!DNL MAGEID] 날짜 [!DNL Commerce] 계정 설정](assets/mageid-my-commerce-account.png){width="250"}
+     ![[!DNL MAGEID] 날짜 [!DNL Commerce] 계정 설정](assets/mageid-my-commerce-account.png){width="250"}
 
    - **액세스 키-** 다운로드할 인증 키 가져오기 [!DNL Commerce] 의 확장 [!DNL Commerce] 작성기 저장소 `([!DNL repo.magento.com]`).
 
-      ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
+     ![[!UICONTROL Commerce Marketplace access keys]](assets/commerce-marketplace-access-keys.png){width="400"}
 
-      Adobe Commerce 및 Magento Open Source 프로젝트에서 소유자는 을 설정할 수 있습니다 [공유 액세스](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 신뢰할 수 있는 직원 및 서비스 공급자가 소유자 또는 라이선스 소유자 계정의 자격 증명을 사용하여 확장을 다운로드할 수 있도록 합니다.
+     Adobe Commerce 및 Magento Open Source 프로젝트에서 소유자는 을 설정할 수 있습니다 [공유 액세스](https://experienceleague.adobe.com/docs/commerce-admin/start/commerce-account/commerce-account-share.html) 신뢰할 수 있는 직원 및 서비스 공급자가 소유자 또는 라이선스 소유자 계정의 자격 증명을 사용하여 확장을 다운로드할 수 있도록 합니다.
 
-      대상 [!DNL Adobe Commerce] 클라우드 인프라 프로젝트의 소프트웨어 설치 관리자는에 대한 다음 액세스 권한이 있어야 합니다. [!DNL Commerce] 인스턴스:
+     대상 [!DNL Adobe Commerce] 클라우드 인프라 프로젝트의 소프트웨어 설치 관리자는에 대한 다음 액세스 권한이 있어야 합니다. [!DNL Commerce] 인스턴스:
 
       - 클라우드 프로젝트에 대한 수퍼 유저 액세스
       - 특정 환경에 대한 관리자 액세스
       - an [!DNL Adobe Commerce] 작성기 저장소에 액세스할 수 있는 권한이 있는 계정
 
-      다음을 참조하십시오 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 다음에서 *클라우드 인프라의 Commerce 안내서*.
-
+     다음을 참조하십시오 [사용자 액세스 관리](https://experienceleague.adobe.com/docs/commerce-cloud-service/user-guide/project/user-access.html) 다음에서 *클라우드 인프라의 Commerce 안내서*.
 
 - **작성기 및 를 사용한 경험[!DNL Commerce CLI]**-참조 [확장 설치](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/tutorials/extensions.html) 다음에서 *설치 안내서* 에서 이러한 도구를 사용하여 확장을 설치하고 관리하는 방법에 대한 자세한 내용 [!DNL Adobe Commerce] 또는 [!DNL Magento Open Source] 플랫폼.
 
@@ -51,9 +51,9 @@ Channel Manager 사용 요구 사항을 검토하고 필요한 계정 정보와 
 
 - **[!DNL Inventory Management]Adobe Commerce 및 Magento Open Source 확장**
 
-   재고 및 주문 관리에 Channel Manager를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장 기능이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce에 기본적으로 설치되고 활성화됩니다. [!DNL Magento Open Source] 2.3.x 이상
+  재고 및 주문 관리에 Channel Manager를 사용할 계획이라면 Adobe Commerce 및 Magento Open Source 인스턴스에 Inventory management 확장 기능이 설치 및 활성화되어 있어야 합니다. 일반적으로 이 확장은 Adobe Commerce에 기본적으로 설치되고 활성화됩니다. [!DNL Magento Open Source] 2.3.x 이상
 
-   Commerce를 2.2.x에서 업그레이드했거나 Inventory management을 사용하지 않도록 설정한 경우 필요한 모듈을 포함하도록 설치를 업데이트합니다. 다음을 참조하십시오 [Inventory management 설치](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 다음에서 *Inventory management 안내서*.
+  Commerce를 2.2.x에서 업그레이드했거나 Inventory management을 사용하지 않도록 설정한 경우 필요한 모듈을 포함하도록 설치를 업데이트합니다. 다음을 참조하십시오 [Inventory management 설치](https://experienceleague.adobe.com/docs/commerce-admin/inventory/get-started/install-update.html) 다음에서 *Inventory management 안내서*.
 
 ### 시스템 요구 사항
 

@@ -1,8 +1,10 @@
 ---
 title: Amazon 목록에 대한 기본 스토어 설정
 description: 기본 상거래 설정을 수정하여 스토어에 대한 Amazon Sales Channel을 사용자 지정합니다.
+role: Admin
+feature: Sales Channels, Integration, Configuration
 exl-id: 368e5e8e-2bf9-4f9c-86c6-6d375f8a8720
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '468'
 ht-degree: 0%
@@ -32,7 +34,7 @@ ht-degree: 0%
 ## 몇 가지 중요한 기본 설정
 
 | 설정 | 기본값 | 설명 | 위치 |
-|--- |--- |--- |--- |
+|----------------------------------------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | [!UICONTROL Import Amazon Orders] | `Enabled` | 해당 항목 만들기 [!DNL Commerce] Amazon에서 새 주문을 받을 때 주문하기 때문에 [[!DNL Commerce] 주문 수](https://experienceleague.adobe.com/docs/commerce-admin/stores-sales/order-management/orders/orders.html) 워크플로입니다. 날짜 `Disabled`, Amazon orders는 검토를 위해 주문 정보를 가져오지만 주문은 [!DNL Amazon Seller Central] 계정입니다. | [주문 설정](./order-settings.md) |
 | [!UICONTROL Customer Creation] | `No Customer Creation (guest)` | Amazon 주문의 고객 데이터를 [!DNL Commerce] 데이터베이스. 가져온 Amazon 주문은 게스트 체크아웃으로 처리됩니다. 을(를) 빌드하려면 [!DNL Commerce] 고객 데이터베이스입니다. 이 설정을 다음으로 변경해야 합니다. `Build New Customer Account`. | [주문 설정](./order-settings.md) |
 | [!UICONTROL Automatic List Action] | `Automatically List Eligible Products` | [!DNL Commerce] Amazon의 자격 요구 사항을 충족하는 카탈로그 제품을 사용하여 Amazon에 자동으로 게시하고 Amazon 목록을 만듭니다. 제품을 수동으로 검토하고 게시하려면 이 설정을 로 변경해야 합니다. `Do Not Automatically List Eligible Products`. 수동 게시를 기다리는 제품이 [_나열 준비 완료_](./ready-to-list.md) 탭. | [제품 목록 작업](./product-listing-actions.md) |

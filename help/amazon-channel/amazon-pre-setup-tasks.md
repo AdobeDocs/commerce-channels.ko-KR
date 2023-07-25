@@ -1,8 +1,10 @@
 ---
 title: 사전 설정 작업 [!DNL Amazon sales channel]
 description: Amazon Sales Channel에서 Adobe Commerce 또는 Magento Open Source 저장소를 통합하기 전에 완료해야 하는 필수 작업을 검토하십시오.
+role: Admin, Developer
+feature: Sales Channels, Install, Configuration
 exl-id: eb9d9136-925f-4b20-9d65-b166173f434b
-source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
+source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
 workflow-type: tm+mt
 source-wordcount: '910'
 ht-degree: 0%

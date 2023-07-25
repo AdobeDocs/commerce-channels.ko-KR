@@ -1,8 +1,9 @@
 ---
 title: 목록을 Walmart에 연결
 description: '다음에 대한 목록 연결: [!DNL Commerce] 제품 대상 [!DNL Walmart Marketplace]판매를 시작합니다.'
+feature: Sales Channels, Integration, Products, Tools and External Services
 exl-id: 78078b14-ebdd-415d-9486-66b0150167aa
-source-git-commit: a3ae579c0eda0c27bf8eab9d0ac12919eaad494b
+source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 0%
@@ -125,11 +126,11 @@ Walmart Marketplace에 일치하는 항목이 없는 제품의 경우 Walmart �
 
    - Product Catalog Items 페이지에서 **[!UICONTROL Add Items]**. 그런 다음 을 선택합니다. **[!UICONTROL Add items in bulk]**.
 
-      ![Walmart Marketplace 항목 구성에서 일괄 옵션 항목 추가](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
+     ![Walmart Marketplace 항목 구성에서 일괄 옵션 항목 추가](assets/walmart-seller-account-add-items-bulk.png){width="600" zoomable="yes"}
 
    - 다운로드 페이지에서 를 선택합니다. **[!UICONTROL Full Setup]**. 그런 다음 항목 카테고리를 선택하고 카테고리 템플릿을 다운로드합니다.
 
-      ![Walmart Marketplace 항목 구성에서 카테고리 템플릿 옵션 다운로드](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
+     ![Walmart Marketplace 항목 구성에서 카테고리 템플릿 옵션 다운로드](assets/walmart-seller-account-full-setup-download.png){width="600" zoomable="yes"}
 
    - 템플릿에 제품 목록에 대한 필수 속성과 권장 속성이 포함되어 있는지 확인합니다.
 
@@ -141,9 +142,9 @@ Walmart Marketplace에 일치하는 항목이 없는 제품의 경우 Walmart �
 
    - 다음에서 [!UICONTROL Entity Attributes] 표에서 제품 데이터 내보내기에 대한 선택 기준을 구성합니다.
 
-      필터를 사용하여 판매하는 제품 범주에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 특성과 권장 특성을 포함해야 합니다. (참조: [데이터 내보내기](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe 내 [!DNL Commerce] 자세한 지침은 사용 안내서 를 참조하십시오.)
+     필터를 사용하여 판매하는 제품 범주에 적용되는 속성 값을 선택하고 구성합니다. Walmart의 필수 특성과 권장 특성을 포함해야 합니다. (참조: [데이터 내보내기](https://experienceleague.adobe.com/docs/commerce-admin/systems/data-transfer/data-export.html) Adobe 내 [!DNL Commerce] 자세한 지침은 사용 안내서 를 참조하십시오.)
 
-      내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란입니다.
+     내보내기에서 속성을 생략하려면 [!UICONTROL **제외**] 행의 시작 부분에 있는 확인란입니다.
 
 1. 속성 테이블의 끝으로 스크롤하여 을 선택합니다. [!UICONTROL **계속**] 데이터 내보내기를 시작합니다.
 
