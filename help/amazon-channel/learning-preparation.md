@@ -1,11 +1,11 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Learning and Preparation]
+title: Amazon Sales Channel - [!UICONTROL Learning and Preparation]
 description: Amazon Sales Channel은 학습 및 준비 보기 탭을 제공하여 설정 작업 및 정보 리소스 목록에 쉽게 액세스할 수 있습니다.
 exl-id: 0b31132b-9106-4492-8be7-e784ff436a6d
 source-git-commit: df26834c81b5e26ad0ea8c94c14292eb7c24bae8
 workflow-type: tm+mt
 source-wordcount: '59'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 

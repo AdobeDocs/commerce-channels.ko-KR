@@ -1,5 +1,5 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Overrides]
+title: Amazon Sales Channel - [!UICONTROL Overrides]
 description: Amazon Sales Channel은 Amazon 목록에서 재정의를 적용하는 방법을 식별하고 관리하는 데 도움이 되는 재정의 탭을 제공합니다.
 feature: Sales Channels, Price Rules
 exl-id: e31bbbf9-b20d-42fd-a419-93d596e40be2

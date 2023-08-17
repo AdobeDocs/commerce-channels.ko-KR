@@ -1,5 +1,5 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Listing Rules]
+title: Amazon Sales Channel - [!UICONTROL Listing Rules]
 description: 목록 규칙 사용에 따라 Amazon 마켓플레이스 목록으로 게시되는 상거래 카탈로그 제품이 결정됩니다.
 feature: Sales Channels, Products
 exl-id: b28a625b-64cf-4119-98bb-f1ea33043c8f

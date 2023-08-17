@@ -1,5 +1,5 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Listing Price]
+title: Amazon Sales Channel - [!UICONTROL Listing Price]
 description: 목록 가격 설정을 사용하여 Amazon 목록의 가격 출처와 기본(기본값) 가격 값을 결정합니다.
 feature: Sales Channels, Products, Price Rules
 redirect_from: sales-channels/asc/ob-listing-price.html

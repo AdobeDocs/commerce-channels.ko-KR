@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Channel Manager] 가이드'
+title: '[!DNL Channel Manager] 안내서'
 description: '다음에 대한 포괄적인 정보 [!DNL Channel Manager] 설치 및 온보딩을 포함하여 Adobe Commerce 및 Magento Open Source 관리자용 '
 seo-title: Adobe Commerce Channel Manager Guide
 seo-description: Describes how to use [!DNL Channel Manager] with Adobe Commerce or Magento Open Source.
@@ -8,7 +8,7 @@ recommendations: noCatalog
 source-git-commit: 850aece134084e108b324a964d7d834042c7ddfd
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

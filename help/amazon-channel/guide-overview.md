@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Amazon Sales Channel] 가이드'
+title: '[!DNL Amazon Sales Channel] 안내서'
 description: 다음에 대한 포괄적인 정보 [!DNL Amazon sales channel] Adobe Commerce 및 Magento Open Source 관리자(설치 및 온보딩 포함)
 seo-title: Adobe Commerce Amazon Sales Channel Guide
 seo-description: Describes how to use [!DNL Amazon sales channel] with Adobe Commerce or Magento Open Source.
@@ -10,7 +10,7 @@ exl-id: ad3e2353-313b-4c40-800a-b1ef5f0d8235
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

@@ -76,7 +76,7 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
-카탈로그 제품이 [!DNL Commerce] 카탈로그와 이 카탈로그가 생성된 Amazon 목록에 지정됩니다. 이제 목록이 기존 Amazon 목록과 일치하면 목록에서 제거됩니다. _[!UICONTROL New Third Party]_탭을에 표시_[!UICONTROL Active]_ 탭.
+카탈로그 제품이 [!DNL Commerce] 카탈로그와 생성된 Amazon 목록에 할당됩니다. 이제 목록이 기존 Amazon 목록과 일치하면 목록에서 제거됩니다. _[!UICONTROL New Third Party]_탭을에 표시_[!UICONTROL Active]_ 탭.
 
 ## Amazon 목록 정보를 사용하여 여러 카탈로그 제품 만들기
 
@@ -121,7 +121,7 @@ Amazon 목록에서 카탈로그 제품을 만들 때:
 
    - 완료되면 다음을 클릭하십시오. **[!UICONTROL Create Catalog Products]**.
 
-카탈로그 제품이 [!DNL Commerce] 카탈로그와 이 카탈로그가 생성된 Amazon 목록에 지정됩니다. 이제 목록이 해당 Amazon 목록과 일치하면 목록에서 제거됩니다. [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 탭을에 표시 [_[!UICONTROL Active]_](./active-listings.md) 탭.
+카탈로그 제품이 [!DNL Commerce] 카탈로그와 생성된 Amazon 목록에 할당됩니다. 이제 목록이 해당 Amazon 목록과 일치하면 목록에서 제거됩니다. [_[!UICONTROL New Third Party]_](./new-third-party-listings.md) 탭을에 표시 [_[!UICONTROL Active]_](./active-listings.md) 탭.
 
 ![상거래 카탈로그 제품 만들기](assets/amazon-magento-catalog-product.png){width="600" zoomable="yes"}
 

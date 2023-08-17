@@ -37,7 +37,7 @@ ht-degree: 0%
 
      부적격 제품은 Amazon에 게시되지 않습니다. 부적격 제품이 이미 Amazon에 나열되어 있고 Amazon 목록을 다음에 일치시키는 경우 [!DNL Commerce] 카탈로그 제품, Amazon 목록 수량이 다음으로 변경됨: `0` 제품을 판매하지 않도록 합니다. Amazon에서 목록을 수동으로 제거하려면 [Amazon 목록 종료](./end-listings-manually.md). Amazon 요구 사항이 적용되지 않는 제품은 여기에 나열되지 않습니다. 이러한 제품은 다음 목록에 있습니다. [[!UICONTROL Inactive Listings] 탭](./inactive-listings.md).
 
-     을(를) 변경하려면 `Ineligible` 에 나열 `Eligible` 목록을 작성하려면 이 프로세스를 반복하고 목록 규칙을 수정합니다.
+     을(를) 변경하려면 `Ineligible` 에 나열 `Eligible` 목록을 만들려면 이 프로세스를 반복하고 목록 규칙을 수정합니다.
 
    - **[!UICONTROL Eligible Listings]** - 이 탭에 나열된 제품은 현재 목록 규칙 설정을 기반으로 Amazon을 나열할 수 있으며 Amazon 요구 사항에 따라 사용할 수 있습니다. 이 탭에는 가져온 기존 Amazon 목록이 포함되어 있습니다(있는 경우). **[!UICONTROL Import Third Party Listings]** 을 로 설정 `Import Listing` (으)로 [목록 설정](./listing-settings.md)).
 

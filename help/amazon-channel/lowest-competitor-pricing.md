@@ -1,12 +1,12 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Lowest Competitor Pricing]
+title: Amazon Sales Channel - [!UICONTROL Lowest Competitor Pricing]
 description: 다음 [!UICONTROL Amazon Sales Channel] 다음을 제공합니다. [!UICONTROL Lowest Competitor Pricing] Amazon에서 경쟁업체의 가격 포지셔닝 방법을 이해하는 데 도움이 되는 탭입니다.
 feature: Sales Channels, Price Rules
 exl-id: 7784d36a-1286-4f92-9f67-b0fef04ad112
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '251'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 

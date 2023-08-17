@@ -1,12 +1,12 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Listing Changes Log]
+title: Amazon Sales Channel - [!UICONTROL Listing Changes Log]
 description: Amazon Sales Channel은 Amazon 판매자 계정의 영향을 받는 변경 사항을 모니터링하는 데 도움이 되는 목록 변경 로그 를 제공합니다.
 feature: Sales Channels, Logs
 exl-id: 9c4db5ac-cbfb-4584-b216-4aead2a28189
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
 source-wordcount: '186'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 

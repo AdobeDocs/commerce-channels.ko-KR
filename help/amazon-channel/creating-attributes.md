@@ -68,7 +68,7 @@ ht-degree: 0%
 |-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 이 속성이 라이브 상태이고 Amazon과 간에 활성 동기화되는지 여부를 나타냅니다. [!DNL Commerce]. 다음으로 설정 `Yes` Amazon 및 [!DNL Commerce] 선택한 속성에 대해 동기화 상태를 유지합니다. |
 | Magento 제품 속성 선택 | 나열된 Amazon 속성 이름에 연결할 선택한 속성을 나타냅니다. 속성을 만들 때 다음을 선택합니다. `Create New Magento Attribute`. |
-| [!UICONTROL Amazon Attribute Name] | 선택한 Amazon 속성의 이름을 표시합니다. 선택한 속성은 이 Amazon 속성에 연결됩니다. 다음을 통해 이 값을 편집할 수 없음 [!DNL Commerce]. |
+| [!UICONTROL Amazon Attribute Name] | 선택한 Amazon 속성의 이름을 표시합니다. 선택한 속성은 이 Amazon 속성에 연결됩니다. 다음을 통해 이 값을 편집할 수 없음: [!DNL Commerce]. |
 | [!UICONTROL Magento Product Attribute Name] | 속성 이름 또는 &quot;label&quot;을 나타냅니다. |
 | [!UICONTROL Magento Product Attribute Code] | 속성 코드를 나타냅니다. 모두 공백 없이 소문자로 표시됩니다. |
 | [!UICONTROL Attribute Set Ids] | 속성을 지정할 속성 세트를 나타냅니다. 속성은 파란색, 녹색, 노란색 및 빨간색 속성이 있는 색상 집합과 같은 속성 집합의 일부인 경향이 있습니다. |
@@ -113,7 +113,7 @@ ht-degree: 0%
 |-----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [!UICONTROL Is Active] | 이 속성이 라이브 상태이고 Amazon과 간에 활성 동기화되는지 여부를 나타냅니다. [!DNL Commerce]. 다음으로 설정 `Yes` Amazon 및 [!DNL Commerce] 선택한 속성에 대해 동기화 상태를 유지합니다. |
 | [!UICONTROL Select Magento Product Attribute] | 선택한 항목을 나타냅니다. [!DNL Commerce] 나열된 Amazon 속성 이름에 연결할 속성입니다. 연결된 [!DNL Commerce] 속성, 드롭다운 목록에서 다른 속성을 선택합니다. 값은 구성에 따라 동기화됩니다. |
-| [!UICONTROL Amazon Attribute Name] | 에 정의된 대로 Amazon 속성의 이름을 표시합니다. [!DNL Amazon Seller Central]. 선택한 항목 [!DNL Commerce] 이 Amazon 속성에 대한 속성 링크입니다. 다음을 통해 이 값을 편집할 수 없음 [!DNL Commerce]. |
+| [!UICONTROL Amazon Attribute Name] | 에 정의된 대로 Amazon 속성의 이름을 표시합니다. [!DNL Amazon Seller Central]. 선택한 항목 [!DNL Commerce] 이 Amazon 속성에 대한 속성 링크입니다. 다음을 통해 이 값을 편집할 수 없음: [!DNL Commerce]. |
 | [!UICONTROL Overwrite Existing Value] | Amazon 속성 값이 기존 값을 덮어쓰는지 여부를 나타냅니다. [!DNL Commerce] 값, 이 값을 가진 모든 제품에 영향 [!DNL Commerce] 특성.<ul><li>**기존 Magento 값을 덮어쓰지 않음** - (기본값) 다음을 유지합니다. [!DNL Commerce] 값, 다른 값 유지 [!DNL Commerce] 및 Amazon 스토어.</li><li>**기존 Magento 값 덮어쓰기** - 다음을 통해 Amazon 값을 저장합니다. [!DNL Commerce] 의 값 [!DNL Commerce] 제품 카탈로그.</li></ul> |
 | [!UICONTROL Magento Product Attribute Scope] | 속성을 로 만든 경우 속성을 편집할 때 나타나지 않습니다. `Global` 범위. 다음을 나타냅니다. [!DNL Commerce] [범위](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html#scope-settings) 이(가) 을(를) 만들고 (으)로 설정됨 `Store View`. |
 | [!UICONTROL Store Views (to import values into to)] | 다음 항목 선택 [!DNL Commerce] [스토어 뷰](https://experienceleague.adobe.com/docs/commerce-admin/start/setup/websites-stores-views.html) Amazon 속성 값을 동기화할 대상. 선택 중 `All Store Views (Global)` 는 모든 스토어 조회수에 걸쳐 값을 업데이트합니다. |

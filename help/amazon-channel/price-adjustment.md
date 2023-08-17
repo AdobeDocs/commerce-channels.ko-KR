@@ -1,5 +1,5 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Price Adjustment]
+title: Amazon Sales Channel - [!UICONTROL Price Adjustment]
 description: Amazon 경쟁업체 가격 출처를 식별한 경우 가격 조정을 구성하여 가격 계산을 정의합니다.
 feature: Sales Channels, Price Rules
 exl-id: 60569b37-2a6d-40ef-bcec-2c3a132a07e0

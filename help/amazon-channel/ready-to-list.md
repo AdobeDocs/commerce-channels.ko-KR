@@ -1,5 +1,5 @@
 ---
-title: Amazon 판매 채널 - [!UICONTROL Ready to List]
+title: Amazon Sales Channel - [!UICONTROL Ready to List]
 description: Amazon 판매 채널에서는 자격 조건을 충족하지만 자동으로 나열되지 않는 상거래 제품을 검토할 수 있도록 목록 준비 탭을 제공합니다.
 feature: Sales Channels, Products, Merchandising
 exl-id: f62017fb-964f-43f0-b76b-8f39f447466a

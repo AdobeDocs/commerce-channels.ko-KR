@@ -73,7 +73,7 @@ ht-degree: 0%
 
 1. 선택 **[!UICONTROL Save Store]** 구성을 적용하고 [!DNL Walmart marketplace].
 
-1. 연결에 성공하면 [스토어 설정 완료](complete-sales-channel-store-setup.md) 다음에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
+1. 성공적으로 연결한 후 [스토어 설정 완료](complete-sales-channel-store-setup.md) 다음에서 **[!UICONTROL Channel Manager]** 페이지를 저장합니다.
 
 ![첫 번째 스토어 설정](assets/channel-manager-setup-first-store.png){width="500" zoomable="yes"}
 
