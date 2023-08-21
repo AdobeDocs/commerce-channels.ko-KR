@@ -1,9 +1,9 @@
 ---
 title: 활성 Amazon 목록
 description: Amazon 판매 채널에서는 활성 Amazon 목록을 모니터링하고 Adobe Commerce 카탈로그의 제품에 일치하는 활성 탭을 제공합니다.
-feature: Sales Channels, Products, Merchandising, Catalogs
+feature: Sales Channels, Products, Merchandising, Catalog Management
 exl-id: c9105abc-74d6-442b-8d7a-e5aaea8872e4
-source-git-commit: 801d4eee9e84b5c5f8b53397fbe8023ad54281e6
+source-git-commit: 8c72b7db5472a573bd8c26acafdf7a3400875477
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 0%
