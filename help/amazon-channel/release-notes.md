@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] 릴리스 정보'
 description: 모든 항목에 대한 자세한 내용은 릴리스 정보 를 참조하십시오 [!DNL Amazon Sales Channel] 릴리스.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
+source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
 workflow-type: tm+mt
-source-wordcount: '1933'
+source-wordcount: '2006'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,21 @@ ht-degree: 0%
 ![알려진 문제](../assets/bug.svg) 알려진 문제
 
 다음을 참조하십시오 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 버전 관리, 지원 및 호환성.
+
+## v4.5.0
+
+*2023년 8월 30일*
+
+[!BADGE 호환성]{type=Informative tooltip="호환성"}
+
+![신규](../assets/new.svg) 향상된 인증 보안을 위해 MAGI에서 변경되는 Adobe.IO API 게이트웨이를 추가했습니다. `ServicesId` 는 다른 자격 증명과 유사한 Adobe.IO 자격 증명을 관리할 새 UI를 제공합니다 [Adobe Commerce 서비스](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
+
+>[!NOTE]
+>
+>판매자는 다음을 확인해야 합니다. [비공개 및 공개 API 키](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html) 프로덕션용으로 업데이트되었습니다.
+
+
+![해결된 문제](../assets/fix.svg) 구성 설정 문제를 식별하고 주문 생성 플로우를 수정했습니다.
 
 ## v4.4.4
 
