@@ -3,10 +3,10 @@ title: '[!DNL Channel Manager] 릴리스 정보'
 description: 의 최신 릴리스 정보 [!DNL Channel Manager] Adobe Commerce에서.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: 8a1f95cdb8817cfcc6ffa96b584c66e680a1c282
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 4%
+source-wordcount: '196'
+ht-degree: 3%
 
 ---
 
@@ -18,12 +18,15 @@ ht-degree: 4%
 ![해결된 문제](../assets/fix.svg) 수정 사항 및 향상된 기능
 ![알려진 문제](../assets/bug.svg) 알려진 문제
 
+다음을 참조하십시오 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 릴리스 일정 및 지원에 대해 알아봅니다.
+
+다음을 참조하십시오 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 이 확장을 지원하는 Adobe Commerce 버전을 알아봅니다.
 
 ## v2.0.0
 
 *2023년 3월 20일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg)<!--CHAN-5893--> 채널 관리자는 이제 Adobe Commerce 버전 2.4.6과 호환됩니다.
 
@@ -31,7 +34,7 @@ ht-degree: 4%
 
 *2022년 11월 23일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg)<!--CHAN-5204--> **반환 및 환불**—이제 Adobe Commerce 및 Magento Open Source Channel Manager 스토어를 통해 배송된 주문에 대한 Walmart Marketplace 반품 및 환불 프로세스를 처리할 수 있습니다. 반품 및 환불에 대한 정보와 업데이트는 월마트와 Adobe Commerce 간에 동기화되므로 현재 데이터는 두 곳에서 모두 사용할 수 있습니다. [!DNL Commerce] 상점 앞에 및 [!DNL Walmart Marketplace]. 다음을 참조하십시오 [반품 및 환불 주문](return-refund-orders.md).
 
@@ -41,7 +44,7 @@ ht-degree: 4%
 
 *2022년 1월 14일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg) Channel Manager 의 초기 릴리즈를 통한 일반 공급
 

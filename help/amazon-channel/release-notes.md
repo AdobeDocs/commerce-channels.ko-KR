@@ -3,9 +3,9 @@ title: '''[!DNL Amazon Sales Channel] 릴리스 정보'
 description: 모든 항목에 대한 자세한 내용은 릴리스 정보 를 참조하십시오 [!DNL Amazon Sales Channel] 릴리스.
 feature: Sales Channels, Release Notes
 exl-id: 792782e0-9097-42f7-9fc0-509ece02e407
-source-git-commit: fd9423ba7030ce15f47fdead6854487bc0c29f11
+source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
 workflow-type: tm+mt
-source-wordcount: '2006'
+source-wordcount: '2024'
 ht-degree: 0%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 0%
 
 다음을 참조하십시오 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 버전 관리, 지원 및 호환성.
 
+다음을 참조하십시오 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 이 확장을 지원하는 Adobe Commerce 버전을 알아봅니다.
+
 ## v4.5.0
 
 *2023년 8월 30일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg) 향상된 인증 보안을 위해 MAGI에서 변경되는 Adobe.IO API 게이트웨이를 추가했습니다. `ServicesId` 는 다른 자격 증명과 유사한 Adobe.IO 자격 증명을 관리할 새 UI를 제공합니다 [Adobe Commerce 서비스](https://experienceleague.adobe.com/docs/commerce-admin/config/services/saas.html).
 
@@ -46,7 +48,7 @@ ht-degree: 0%
 
 *2023년 3월 7일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![해결된 문제](../assets/fix.svg) Adobe Commerce 2.4.6 및 PHP 8.2에 대한 지원이 추가되었습니다.
 
@@ -70,7 +72,7 @@ ht-degree: 0%
 
 *2023년 3월 7일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) Adobe Commerce 2.4.4에 대한 지원이 추가되었습니다.
 
@@ -78,7 +80,7 @@ ht-degree: 0%
 
 *2021년 11월 11일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) 다른 업데이트된 확장을 지원하도록 종속성이 업데이트되었습니다.
 ![수정](../assets/fix.svg) PHP 8.1에 대한 지원이 추가되었습니다.
@@ -87,7 +89,7 @@ ht-degree: 0%
 
 *2021년 11월 11일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) Adobe Commerce에서 를 수신하는 방식이 변경되었습니다. _사용자 이름_ Amazon의 필드. 이전에는 주문 생성 도중 오류가 발생했습니다. _사용자 이름_ 필드에 특수 문자가 포함되어 있습니다. 이제 Adobe Commerce에서 _사용자 이름_ 데이터를 참조하고 특수 문자를 필터링하여 순서를 성공적으로 만들 수 있습니다.
 
@@ -95,7 +97,7 @@ ht-degree: 0%
 
 *2021년 4월 9일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg) 읽기 전용 모드에 대한 지원을 구성에 추가했습니다. 다음을 참조하십시오 [판매 채널 설정](sales-channel-settings.md).
 
@@ -113,7 +115,7 @@ ht-degree: 0%
 
 *2021년 3월 3일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) <!--CHAN-xxxx-->다음 _주문 세부 사항_ 기능이 다시 설계되었으며 더 이상 을 사용하지 않습니다. _주문 가져오기_ 설정. 이제 주문 세부 사항이 모든 주문에 대한 Amazon Sales Channel 인터페이스에 표시됩니다.
 
@@ -129,7 +131,7 @@ ht-degree: 0%
 
 *2021년 3월 3일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 이전 버전이 있다면 [!DNL Amazon sales channel] 버전이 설치되어 Adobe Commerce을 버전 2.4.0으로 업데이트하려고 하면 Adobe Commerce 업데이트를 완료하기 전에 확장을 업데이트하라는 메시지가 표시됩니다.
 
@@ -159,7 +161,7 @@ ht-degree: 0%
 
 *2020년 5월 7일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg) <!--4247, 4230-->상거래 주문 요구 사항에 맞게 주문 가져오기 프로세스를 변경했습니다. 이러한 변경 사항은 Commerce에서 가져온 주문에 대한 해당 주문을 생성하지 못하는 문제를 해결합니다. 다음을 참조하십시오 [주문 관리](managing-orders.md) 주문 차단기 및 솔루션에 대한 정보입니다.
 
@@ -189,7 +191,7 @@ ht-degree: 0%
 
 *2020년 3월 25일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 >[!IMPORTANT]
 >
@@ -207,7 +209,7 @@ ht-degree: 0%
 
 *2019년 11월 11일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![수정](../assets/fix.svg) **숫자 필드 설정**: <!--CHAN-3779-->숫자 기반 값이 필요한 필드가 숫자만 수락하도록 업데이트되었습니다. 예: 가격책정 규칙 설정 > 조정 금액 필드
 
@@ -219,7 +221,7 @@ ht-degree: 0%
 
 *2019년 10월 7일*
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 ![신규](../assets/new.svg) **Amazon UK Marketplace 지금 사용 가능**: 사용자는 Commerce 스토어를 만들고 통합할 때 영국 마켓플레이스를 선택할 수 있습니다. 이 영국 업그레이드에는 다음에 대한 추가 지원이 포함되어 있습니다.
 
@@ -237,7 +239,7 @@ ht-degree: 0%
 
 ## v2.0.0
 
-[!BADGE 호환성]{type=Informative tooltip="호환성"}
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
 
 >[!NOTE]
 >
