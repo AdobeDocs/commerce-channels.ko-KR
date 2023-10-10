@@ -3,9 +3,9 @@ title: '[!DNL Channel Manager] 릴리스 정보'
 description: 의 최신 릴리스 정보 [!DNL Channel Manager] Adobe Commerce에서.
 feature: Sales Channels, Release Notes
 exl-id: 8f40ace1-6587-4185-955a-91bc16dee8ce
-source-git-commit: df8bbec23d34b53a0e694c924aca5b1ed41e4d08
+source-git-commit: 003efd3c1044284a7d2c86db5d3eb1abfb3898ea
 workflow-type: tm+mt
-source-wordcount: '196'
+source-wordcount: '218'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,14 @@ ht-degree: 3%
 다음을 참조하십시오 [예정된 릴리스](https://experienceleague.adobe.com/docs/commerce-operations/release/planning/schedule.html) 릴리스 일정 및 지원에 대해 알아봅니다.
 
 다음을 참조하십시오 [제품 가용성](https://experienceleague.adobe.com/docs/commerce-operations/release/product-availability.html) 이 확장을 지원하는 Adobe Commerce 버전을 알아봅니다.
+
+## v2.1.0
+
+*2023년 10월 3일*
+
+[!BADGE 지원됨]{type=Informative tooltip="지원됨"}
+
+![신규](../assets/new.svg) 채널 관리자는 이제 와 호환됩니다. [Adobe Commerce 버전 2.4.7 베타](https://experienceleague.adobe.com/docs/commerce-operations/release/beta.html) 릴리스.
 
 ## v2.0.0
 
