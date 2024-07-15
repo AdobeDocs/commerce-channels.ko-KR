@@ -5,7 +5,7 @@ feature: Sales Channels, Logs
 exl-id: 4654f718-d15f-4c3b-b984-ac7b9c29e6c4
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -16,18 +16,18 @@ Amazon 판매 채널 확장에는 Amazon 목록 및 주문에 영향을 주는 �
 
 로그 또는 저장소 보고서는 검토 전용 기능이므로 이 보고서에 사용할 수 있는 작업이 없습니다.
 
-다음에서 액세스할 수 있는 로그: [대시보드 저장](./amazon-store-dashboard.md).
+[스토어 대시보드](./amazon-store-dashboard.md)에서 다음 로그에 액세스할 수 있습니다.
 
-- 다음 [변경 로그 나열](./listing-changes-log.md) 은 Amazon 판매 채널 설정의 반영으로 Amazon 판매자 계정에서 발생한 변경 사항을 보여 줍니다.
+- [목록 변경 로그](./listing-changes-log.md)에는 Amazon 판매 채널 설정의 반영으로 Amazon 판매자 계정에서 발생한 변경 내용이 표시됩니다.
 
-- 다음 [통신 오류 로그](./communication-errors-log.md) Amazon에서 보고된 통신 오류를 표시합니다.
+- [통신 오류 로그](./communication-errors-log.md)에 Amazon에서 보고된 통신 오류가 표시됩니다.
 
-다음 저장소별 보고서는 [대시보드 저장](./amazon-store-dashboard.md).
+[스토어 대시보드](./amazon-store-dashboard.md)에서 다음 스토어별 보고서에 액세스할 수 있습니다.
 
-- 다음 [경쟁력 있는 가격 분석](./competitive-price-analysis.md) 보고서에 Amazon이 _착륙 가격_ (목록 가격 + 배송 가격) [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [가장 낮은 경쟁자](./lowest-competitor-pricing.md) 가격.
+- [경쟁업체 가격 분석](./competitive-price-analysis.md) 보고서에 따르면 [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [가장 낮은 경쟁업체](./lowest-competitor-pricing.md) 가격과 관련하여 Amazon _도착 가격_(목록 가격과 배송 가격)이 표시됩니다.
 
-- 다음 [목록 개선 사항](./listing-improvements.md) 보고서는 선택한 스토어에 대해 Amazon에서 제공하는 모든 제안된 목록 개선 사항을 보여줍니다.
+- [목록 개선 사항](./listing-improvements.md) 보고서는 선택한 저장소에 대해 Amazon에서 제공하는 모든 제안된 목록 개선 사항을 보여줍니다.
 
 >[!TIP]
 >
->문제 해결이 필요할 때 로그 파일에서 추가 정보를 확인할 수도 있습니다. 다음을 참조하십시오 [판매 채널 관리자 설정](./sales-channel-settings.md). Amazon 판매 채널 동기화 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 에서 볼 수 있는 파일 [개발자 모드](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes).
+>문제 해결이 필요할 때 로그 파일에서 추가 정보를 확인할 수도 있습니다. [판매 채널 관리자 설정](./sales-channel-settings.md)을 참조하세요. Amazon 판매 채널 동기화 로깅은 `{Commerce Root}/var/log/channel_amazon.log` 파일에 기록되며 [개발자 모드](https://experienceleague.adobe.com/docs/commerce-admin/systems/tools/developer-tools.html#operation-modes)에서 볼 수 있습니다.

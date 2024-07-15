@@ -5,16 +5,16 @@ feature: Sales Channels
 exl-id: 9e1e72f6-6917-4db4-bc32-09569a028b11
 source-git-commit: 7fff4c463551089fb64f2d5bf7bf23f272ce4663
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
 
 # 경쟁업체 가격 분석 보고서
 
-Competitive Price Analysis 보고서는 각 제품과 함께 각 마켓플레이스당 Amazon 목록을 보여 줍니다 [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [가장 낮은 경쟁자](./lowest-competitor-pricing.md) 가격 값. 로그에 사용할 수 있는 작업이 없습니다. 리뷰 전용 기능입니다.
+경쟁업체 가격 분석 보고서는 각 [Buy Box](./buy-box-competitor-pricing.md) 가격 및 [가장 낮은 경쟁업체](./lowest-competitor-pricing.md) 가격 값이 있는 마켓플레이스당 Amazon 목록을 보여줍니다. 로그에 사용할 수 있는 작업이 없습니다. 리뷰 전용 기능입니다.
 
-![경쟁업체 가격 분석 보고서](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
+![경쟁 가격 분석 보고서](assets/amazon-competitive-price-analysis.png){width="600" zoomable="yes"}
 
 ## 기본 열
 
@@ -26,6 +26,6 @@ Competitive Price Analysis 보고서는 각 제품과 함께 각 마켓플레이
 | [!UICONTROL Your Landed Price] | 제품의 목록 가격과 배송 가격을 더한 값입니다. |
 | [!UICONTROL Lowest Landed Price] | Amazon 경쟁사의 최저 지목 가격(장부 가격에 배송 가격을 더한 가격). |
 | [!UICONTROL Condition (lowest price)] | 최저가로 나열된 제품의 상태. |
-| [!UICONTROL Buy Box Landed Price] | 다음의 무역 거래지 가격(장부 가격과 배송 가격) [Buy Box](./buy-box-competitor-pricing.md) 직책 목록. |
+| [!UICONTROL Buy Box Landed Price] | [Buy Box](./buy-box-competitor-pricing.md) 위치 목록의 토지 가격(목록 가격과 배송 가격). |
 | [!UICONTROL Is Seller (Buy Box)] | 목록에 대한 Buy Box 직책을 따냈는지 여부를 나타냅니다(NA는 목록에 대한 Buy Box 가격이 없음을 의미함). |
 | 조건(Buy Box) | Buy Box 위치 목록의 조건. |

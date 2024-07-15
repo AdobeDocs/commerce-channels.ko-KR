@@ -11,26 +11,26 @@ ht-degree: 0%
 
 # Amazon 목록 관리
 
-제품 목록 설정은 다음 작업 후 언제든지 수정할 수 있습니다. [!DNL Commerce] 스토어가 통합되었습니다. 다음에서 목록 설정에 액세스할 수 있습니다. [대시보드 저장](./amazon-store-dashboard.md).
+[!DNL Commerce] 스토어가 통합된 후 언제든지 제품 목록 설정을 수정할 수 있습니다. [스토어 대시보드](./amazon-store-dashboard.md)에서 목록 설정에 액세스할 수 있습니다.
 
-목록 상태별로 제품 목록에 액세스하려면 **[!UICONTROL Manage Listings]** 다음에서 _[!UICONTROL Store Listings]_섹션. 다음[_&#x200B;제품 목록&#x200B;_](./managing-listings-by-tab.md)에 대한 페이지가 열립니다._[!UICONTROL Active]_ 기본적으로 탭입니다.
+목록 상태별로 제품 목록에 액세스하려면 _[!UICONTROL Store Listings]_섹션에서&#x200B;**[!UICONTROL Manage Listings]**을(를) 클릭하십시오. 기본적으로[_&#x200B;제품 목록&#x200B;_](./managing-listings-by-tab.md)페이지가_[!UICONTROL Active]_ 탭으로 열립니다.
 
-다음을 클릭할 수도 있습니다. **[!UICONTROL Active Listings]**, **[!UICONTROL Inactive Listings]**, 및 **[!UICONTROL In Progress Listings]** 다음에서 _[!UICONTROL Store Listings]_섹션에 있는 마지막 항목이 될 필요가 없습니다.
+_[!UICONTROL Store Listings]_섹션에서&#x200B;**[!UICONTROL Active Listings]**,**[!UICONTROL Inactive Listings]**및&#x200B;**[!UICONTROL In Progress Listings]**을(를) 클릭하여 해당 탭에 직접 액세스할 수도 있습니다.
 
 >[!NOTE]
 >
->**[!UICONTROL In Progress Listings]** 다음 중 하나입니다. _나열 준비 완료_ 목록 또는 사용자 _불완전한 목록_, 다음에 따라 [_제품 목록 작업_](./product-listing-actions.md) 설정. 의 탭 설명을 참조하십시오. [상태/탭별 목록 관리](./managing-listings-by-tab.md).
+>**[!UICONTROL In Progress Listings]**&#x200B;은(는) [_제품 목록 작업_](./product-listing-actions.md) 설정에 따라 _나열 준비_ 목록이거나 _불완전한 목록_&#x200B;입니다. [상태별 목록 관리/탭](./managing-listings-by-tab.md)에서 탭 설명을 참조하십시오.
 
-다음을 참조하십시오 [상태/탭별 목록 관리](./managing-listings-by-tab.md) 및 [작업별 목록 관리](./managing-listings-by-action.md).
+[상태별 목록 관리/탭](./managing-listings-by-tab.md) 및 [작업별 목록 관리](./managing-listings-by-action.md)를 참조하십시오.
 
 ## 제품 목록 액세스
 
-1. 다음에서 _관리자_ 사이드바, 이동 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**.
+1. _관리자_ 사이드바에서 **[!UICONTROL Marketing]** > _[!UICONTROL Channels]_>**[!UICONTROL Amazon Sales Channel]**(으)로 이동합니다.
 
-1. 클릭 **[!UICONTROL View Store]** 가게 카드로요.
+1. 저장소 카드에서 **[!UICONTROL View Store]**&#x200B;을(를) 클릭합니다.
 
-1. 스토어 대시보드에서 을(를) 클릭합니다 **[!UICONTROL Manage Listings]** 다음에서 _[!UICONTROL Store Listings]_섹션.
+1. 스토어 대시보드의 _[!UICONTROL Store Listings]_섹션에서&#x200B;**[!UICONTROL Manage Listings]**을(를) 클릭합니다.
 
 1. 해당 상태의 목록을 보려면 탭을 클릭합니다.
 
-   다음 _[!UICONTROL Active]_기본적으로 탭이 표시됩니다.
+   기본적으로 _[!UICONTROL Active]_탭이 표시됩니다.
