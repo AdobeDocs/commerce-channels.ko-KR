@@ -4,7 +4,7 @@ description: '[!DNL Channel Manager] 확장을 설치합니다.'
 role: Admin, Developer
 feature: Sales Channels, Install
 exl-id: cb593ebd-f077-4a79-a661-bedf4cc70f97
-source-git-commit: 4670e9b25a840f86862c9cadaf9e6d3e70330b7d
+source-git-commit: 1e74150e6ac88dbabb2e4bbb2fa2f243072eb03f
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 0%
@@ -72,7 +72,7 @@ Channel Manager 설치 지침은 Adobe Commerce 또는 Magento Open Source이 �
 
      샘플 응답:
 
-     ```terminal
+     ```
      Module is enabled
      ```
 
@@ -154,7 +154,7 @@ Channel Manager 설치 지침은 Adobe Commerce 또는 Magento Open Source이 �
 
 샘플 응답:
 
-```terminal
+```
 Module is enabled
 ```
 
@@ -176,7 +176,7 @@ Module is enabled
 
 작성기 리포지토리에 인증하는 데 사용된 [액세스 키](https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/prerequisites/authentication-keys.html)이(가) 잘못되었거나 [!DNL Channel Manager] 서비스에 등록하는 데 사용된 [!DNL MAGE ID]에 연결되어 있지 않으면 다음 오류가 표시됩니다.
 
-```terminal
+```
 Could not find a matching version of package magento/channel-manager. Check the package spelling, your version constraint and that the package is available in a stability which matches your minimum-stability (stable).
 ```
 
@@ -200,7 +200,7 @@ Could not find a matching version of package magento/channel-manager. Check the 
 
 시스템에 PHP에 충분한 메모리가 할당되지 않은 경우 다음 오류가 표시됩니다.
 
-```terminal
+```
 Fatal error: Allowed memory size of 2146435072 bytes exhausted (tried to allocate 4096 bytes) in phar:///usr/local/bin/composer/src/Composer/DependencyResolver/RuleWatchGraph.php on line 52
 ```
 
